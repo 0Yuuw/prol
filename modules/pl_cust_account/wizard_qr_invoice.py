@@ -806,6 +806,7 @@ class QrInvoiceStart(ModelView):
 class QrInvoiceConfirm(ModelView):
     __name__ = 'pl_cust_account.qr_invoice_confirm'
 
+    qr_filename = fields.Char("Nom du fichier")
     dispose_tva = fields.Boolean("TVA", help="Si coché, la TVA sera retirée.")
 
     party = fields.Many2One('party.party', "Fournisseur")
@@ -1340,6 +1341,7 @@ class QrInvoiceWizard(Wizard):
             "journal": journal.id if journal else None,
             "full_text": p.get("full_text") or "",
             "pdf_data": getattr(self, "_pdf_bytes", None),
+            "qr_filename": (self.start.qr_filename or getattr(self, "_pdf_filename", "") or "").strip(),
         }
 
         # Copy accounting defaults from party if present
