@@ -1,4 +1,9 @@
-<form col="1">
-  <label name="qr_file"/>
-  <field name="qr_file"/>
+<form col="4">
+  <group id="pdf_upload" string="Fichier PDF" col="4" colspan="4">
+    <label name="qr_file"/>
+    <field name="qr_file" colspan="3"/>
+
+    <label name="qr_filename"/>
+    <field name="qr_filename" colspan="3"/>
+  </group>
 </form>
