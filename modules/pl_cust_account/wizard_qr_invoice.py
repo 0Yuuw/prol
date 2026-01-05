@@ -913,8 +913,11 @@ class QrInvoiceWizard(Wizard):
 
             if not data.startswith(b"%PDF-"):
                 raise QrInvoiceError("PDF invalide.")
-            if not filename:
-                filename = self.start.qr_filename or "qr_invoice.pdf"
+            user_filename = (self.start.qr_filename or '').strip()
+            if user_filename:
+                filename = user_filename
+            elif not filename:
+                filename = "qr_invoice.pdf"
 
             self._pdf_bytes = data
             self._pdf_filename = filename
@@ -1195,7 +1198,7 @@ class QrInvoiceWizard(Wizard):
         if pdf_bytes:
             filename = getattr(self, '_pdf_filename', None)
             if not filename:
-                filename = self.start.qr_filename or 'qr_invoice.pdf'
+                filename = (self.start.qr_filename or '').strip() or 'qr_invoice.pdf'
             resource = ('account.invoice', invoice.id)
 
             if 'data' in Attachment._fields:
