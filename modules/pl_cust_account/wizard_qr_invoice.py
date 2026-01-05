@@ -802,6 +802,16 @@ class QrInvoiceStart(ModelView):
     qr_file = fields.Binary("Fichier PDF (facture)", required=True)
     qr_filename = fields.Char("Nom du fichier")
 
+    @fields.depends('qr_file')
+    def on_change_qr_file(self):
+        if self.qr_filename:
+            return
+        data_obj = self.qr_file
+        if isinstance(data_obj, dict):
+            filename = (data_obj.get('filename') or '').strip()
+            if filename:
+                self.qr_filename = filename
+
 
 class QrInvoiceConfirm(ModelView):
     __name__ = 'pl_cust_account.qr_invoice_confirm'
