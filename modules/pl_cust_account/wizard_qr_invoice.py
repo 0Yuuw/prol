@@ -804,8 +804,6 @@ class QrInvoiceStart(ModelView):
 
     @fields.depends('qr_file')
     def on_change_qr_file(self):
-        if 'qr_filename' not in self._fields:
-            return
         if self.qr_filename:
             return
         data_obj = self.qr_file
@@ -931,8 +929,6 @@ class QrInvoiceWizard(Wizard):
                 filename = user_filename
             elif not filename:
                 filename = "qr_invoice.pdf"
-            elif not self.start.qr_filename:
-                self.start.qr_filename = filename
 
             self._pdf_bytes = data
             self._pdf_filename = filename
