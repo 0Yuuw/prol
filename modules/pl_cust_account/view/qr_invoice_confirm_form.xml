@@ -1,4 +1,9 @@
 <form col="6">
+  <group id="pdf_info" string="Fichier PDF" col="6" colspan="6">
+    <label name="qr_filename"/>
+    <field name="qr_filename" colspan="5" readonly="1"/>
+  </group>
+
   <group id="res_qr" string="Résumé QR" col="6" colspan="6">
     <label name="creditor_name"/>
     <field name="creditor_name" colspan="3"/>
