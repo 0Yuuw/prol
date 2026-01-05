@@ -21,67 +21,77 @@
     <field name="supplier_name" colspan="5"/>
   </group>
 
-  <group id="det_qr" string="Détails QR" col="6" colspan="6">
-    <label name="creditor_address"/>
-    <field name="creditor_address" colspan="3"/>
+  <notebook colspan="6">
+    <page name="supplier" string="Facture fournisseur">
+      <group id="ff_qr" col="6" colspan="6">
+        <label name="party"/>
+        <field name="party" colspan="3"/>
 
-    <label name="creditor_zip"/>
-    <field name="creditor_zip"/>
+        <label name="supplier_reference"/>
+        <field name="supplier_reference" colspan="3"/>
 
-    <label name="creditor_city"/>
-    <field name="creditor_city"/>
+        <label name="description"/>
+        <field name="description" colspan="5"/>
 
-    <label name="creditor_country"/>
-    <field name="creditor_country"/>
-  </group>
+        <label name="invoice_date"/>
+        <field name="invoice_date"/>
 
-  <group id="ff_qr" string="Facture fournisseur" col="6" colspan="6">
-    <label name="party"/>
-    <field name="party" colspan="3"/>
+        <label name="date_due"/>
+        <field name="date_due"/>
 
-    <label name="supplier_reference"/>
-    <field name="supplier_reference" colspan="3"/>
+        <label name="currency"/>
+        <field name="currency"/>
 
-    <label name="description"/>
-    <field name="description" colspan="5"/>
+        <label name="total_amount"/>
+        <field name="total_amount"/>
 
-    <label name="invoice_date"/>
-    <field name="invoice_date"/>
+        <label name="journal"/>
+        <field name="journal"/>
+      </group>
+    </page>
 
-    <label name="date_due"/>
-    <field name="date_due"/>
+    <page name="qr_details" string="Détails QR">
+      <group id="det_qr" col="6" colspan="6">
+        <label name="creditor_address"/>
+        <field name="creditor_address" colspan="3"/>
 
-    <label name="currency"/>
-    <field name="currency"/>
+        <label name="creditor_zip"/>
+        <field name="creditor_zip"/>
 
-    <label name="total_amount"/>
-    <field name="total_amount"/>
+        <label name="creditor_city"/>
+        <field name="creditor_city"/>
 
-    <label name="journal"/>
-    <field name="journal"/>
-  </group>
+        <label name="creditor_country"/>
+        <field name="creditor_country"/>
+      </group>
+    </page>
 
-  <group id="compta" string="Comptabilisation" col="6" colspan="6">
-    <label name="default_category_account_expense"/>
-    <field name="default_category_account_expense" colspan="2"/>
+    <page name="accounting" string="Comptabilisation">
+      <group id="compta" col="6" colspan="6">
+        <label name="default_category_account_expense"/>
+        <field name="default_category_account_expense" colspan="2"/>
 
-    <label name="default_tax_expense"/>
-    <field name="default_tax_expense" colspan="2"/>
+        <label name="default_tax_expense"/>
+        <field name="default_tax_expense" colspan="2"/>
 
-    <label name="default_category_account_revenue"/>
-    <field name="default_category_account_revenue" colspan="2"/>
+        <label name="default_category_account_revenue"/>
+        <field name="default_category_account_revenue" colspan="2"/>
 
-    <label name="default_tax_revenue"/>
-    <field name="default_tax_revenue" colspan="2"/>
+        <label name="default_tax_revenue"/>
+        <field name="default_tax_revenue" colspan="2"/>
 
-    <label name="dispose_tva"/>
-    <field name="dispose_tva"/>
-  </group>
+        <label name="dispose_tva"/>
+        <field name="dispose_tva"/>
+      </group>
+    </page>
 
-  <group id="qr" string="QR brut (contenu complet)" col="6" colspan="6">
-    <label name="full_text"/>
-    <field name="full_text" colspan="5" height="6"/>
-  </group>
+    <page name="qr_raw" string="QR brut">
+      <group id="qr" col="6" colspan="6">
+        <label name="full_text"/>
+        <field name="full_text" colspan="5" height="8"/>
+      </group>
+    </page>
+  </notebook>
 
   <field name="pdf_data" invisible="1"/>
 </form>
