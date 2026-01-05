@@ -929,8 +929,6 @@ class QrInvoiceWizard(Wizard):
                 filename = user_filename
             elif not filename:
                 filename = "qr_invoice.pdf"
-            elif not self.start.qr_filename:
-                self.start.qr_filename = filename
 
             self._pdf_bytes = data
             self._pdf_filename = filename
