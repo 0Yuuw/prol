@@ -1201,25 +1201,45 @@ class QrInvoiceWizard(Wizard):
                 filename = (self.start.qr_filename or '').strip() or 'qr_invoice.pdf'
             resource = ('account.invoice', invoice.id)
 
-            if 'data' in Attachment._fields:
-                att_vals = {'name': filename, 'data': pdf_bytes, 'resource': resource}
-                if 'mimetype' in Attachment._fields:
-                    att_vals['mimetype'] = 'application/pdf'
-                Attachment.create([att_vals])
-            else:
-                # legacy filestore path
-                File = pool.get('ir.file')
-                fv = {'name': filename}
-                if 'data' in File._fields:
-                    fv['data'] = pdf_bytes
-                elif 'file' in File._fields:
-                    fv['file'] = pdf_bytes
+            try:
+                if 'data' in Attachment._fields:
+                    att_vals = {
+                        'name': filename,
+                        'data': pdf_bytes,
+                        'resource': resource,
+                    }
+                    if 'mimetype' in Attachment._fields:
+                        att_vals['mimetype'] = 'application/pdf'
+                    Attachment.create([att_vals])
                 else:
-                    raise QrInvoiceError("ir.file sans champ binaire.")
-                if 'mimetype' in File._fields:
-                    fv['mimetype'] = 'application/pdf'
-                f, = File.create([fv])
-                Attachment.create([{'name': filename, 'file': f.id, 'resource': resource}])
+                    # legacy filestore path
+                    File = pool.get('ir.file')
+                    fv = {'name': filename}
+                    if 'data' in File._fields:
+                        fv['data'] = pdf_bytes
+                    elif 'file' in File._fields:
+                        fv['file'] = pdf_bytes
+                    else:
+                        raise QrInvoiceError("ir.file sans champ binaire.")
+                    if 'mimetype' in File._fields:
+                        fv['mimetype'] = 'application/pdf'
+                    f, = File.create([fv])
+                    Attachment.create([{
+                        'name': filename,
+                        'file': f.id,
+                        'resource': resource,
+                    }])
+            except (PermissionError, OSError) as exc:
+                logger.error(
+                    "Erreur d'enregistrement du PDF %r: %s",
+                    filename,
+                    exc,
+                    exc_info=True,
+                )
+                raise QrInvoiceError(
+                    "Impossible d'enregistrer le PDF. "
+                    "Vérifiez les droits d'accès au stockage."
+                ) from exc
         else:
             logger.info("Aucun PDF à attacher (aucune source disponible).")
 
