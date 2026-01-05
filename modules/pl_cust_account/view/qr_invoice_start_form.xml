@@ -1,4 +1,7 @@
-<form col="1">
+<form col="2">
   <label name="qr_file"/>
-  <field name="qr_file"/>
+  <field name="qr_file" colspan="2"/>
+
+  <label name="qr_filename"/>
+  <field name="qr_filename" colspan="2"/>
 </form>

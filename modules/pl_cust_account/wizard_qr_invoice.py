@@ -802,10 +802,23 @@ class QrInvoiceStart(ModelView):
     qr_file = fields.Binary("Fichier PDF (facture)", required=True)
     qr_filename = fields.Char("Nom du fichier")
 
+    @fields.depends('qr_file')
+    def on_change_qr_file(self):
+        if 'qr_filename' not in self._fields:
+            return
+        if self.qr_filename:
+            return
+        data_obj = self.qr_file
+        if isinstance(data_obj, dict):
+            filename = (data_obj.get('filename') or '').strip()
+            if filename:
+                self.qr_filename = filename
+
 
 class QrInvoiceConfirm(ModelView):
     __name__ = 'pl_cust_account.qr_invoice_confirm'
 
+    qr_filename = fields.Char("Nom du fichier")
     dispose_tva = fields.Boolean("TVA", help="Si coché, la TVA sera retirée.")
 
     party = fields.Many2One('party.party', "Fournisseur")
@@ -913,8 +926,14 @@ class QrInvoiceWizard(Wizard):
 
             if not data.startswith(b"%PDF-"):
                 raise QrInvoiceError("PDF invalide.")
-            if not filename:
-                filename = self.start.qr_filename or "qr_invoice.pdf"
+            start_filename = getattr(self.start, 'qr_filename', None)
+            user_filename = (start_filename or '').strip()
+            if user_filename:
+                filename = user_filename
+            elif not filename:
+                filename = "qr_invoice.pdf"
+            elif not start_filename and hasattr(self.start, 'qr_filename'):
+                self.start.qr_filename = filename
 
             self._pdf_bytes = data
             self._pdf_filename = filename
@@ -1195,28 +1214,49 @@ class QrInvoiceWizard(Wizard):
         if pdf_bytes:
             filename = getattr(self, '_pdf_filename', None)
             if not filename:
-                filename = self.start.qr_filename or 'qr_invoice.pdf'
+                start_filename = getattr(self.start, 'qr_filename', None)
+                filename = (start_filename or '').strip() or 'qr_invoice.pdf'
             resource = ('account.invoice', invoice.id)
 
-            if 'data' in Attachment._fields:
-                att_vals = {'name': filename, 'data': pdf_bytes, 'resource': resource}
-                if 'mimetype' in Attachment._fields:
-                    att_vals['mimetype'] = 'application/pdf'
-                Attachment.create([att_vals])
-            else:
-                # legacy filestore path
-                File = pool.get('ir.file')
-                fv = {'name': filename}
-                if 'data' in File._fields:
-                    fv['data'] = pdf_bytes
-                elif 'file' in File._fields:
-                    fv['file'] = pdf_bytes
+            try:
+                if 'data' in Attachment._fields:
+                    att_vals = {
+                        'name': filename,
+                        'data': pdf_bytes,
+                        'resource': resource,
+                    }
+                    if 'mimetype' in Attachment._fields:
+                        att_vals['mimetype'] = 'application/pdf'
+                    Attachment.create([att_vals])
                 else:
-                    raise QrInvoiceError("ir.file sans champ binaire.")
-                if 'mimetype' in File._fields:
-                    fv['mimetype'] = 'application/pdf'
-                f, = File.create([fv])
-                Attachment.create([{'name': filename, 'file': f.id, 'resource': resource}])
+                    # legacy filestore path
+                    File = pool.get('ir.file')
+                    fv = {'name': filename}
+                    if 'data' in File._fields:
+                        fv['data'] = pdf_bytes
+                    elif 'file' in File._fields:
+                        fv['file'] = pdf_bytes
+                    else:
+                        raise QrInvoiceError("ir.file sans champ binaire.")
+                    if 'mimetype' in File._fields:
+                        fv['mimetype'] = 'application/pdf'
+                    f, = File.create([fv])
+                    Attachment.create([{
+                        'name': filename,
+                        'file': f.id,
+                        'resource': resource,
+                    }])
+            except (PermissionError, OSError) as exc:
+                logger.error(
+                    "Erreur d'enregistrement du PDF %r: %s",
+                    filename,
+                    exc,
+                    exc_info=True,
+                )
+                raise QrInvoiceError(
+                    "Impossible d'enregistrer le PDF. "
+                    "Vérifiez les droits d'accès au stockage."
+                ) from exc
         else:
             logger.info("Aucun PDF à attacher (aucune source disponible).")
 
@@ -1317,6 +1357,11 @@ class QrInvoiceWizard(Wizard):
             "journal": journal.id if journal else None,
             "full_text": p.get("full_text") or "",
             "pdf_data": getattr(self, "_pdf_bytes", None),
+            "qr_filename": (
+                getattr(self.start, "qr_filename", None)
+                or getattr(self, "_pdf_filename", "")
+                or ""
+            ).strip(),
         }
 
         # Copy accounting defaults from party if present
