@@ -1,0 +1,287 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.balance_sheet.comparison.context,cumulate:"
+msgid "Cumulate"
+msgstr ""
+
+msgctxt "field:account.balance_sheet.context,cumulate:"
+msgid "Cumulate"
+msgstr ""
+
+msgctxt "field:account.configuration,qr_iban:"
+msgid "QR IBAN"
+msgstr ""
+
+msgctxt "field:account.configuration,qr_label1:"
+msgid "QR Label1"
+msgstr ""
+
+msgctxt "field:account.configuration,qr_label2:"
+msgid "QR Label2"
+msgstr ""
+
+msgctxt "field:account.configuration,qr_label3:"
+msgid "QR Label3"
+msgstr ""
+
+msgctxt "field:account.configuration,qr_label4:"
+msgid "QR Label4"
+msgstr ""
+
+msgctxt "field:account.configuration,qr_label5:"
+msgid "QR Label5"
+msgstr ""
+
+msgctxt "field:account.configuration,qr_ref:"
+msgid "QR Bank Ref"
+msgstr ""
+
+msgctxt "field:account.invoice,as_attachment:"
+msgid "pj"
+msgstr ""
+
+msgctxt "field:account.invoice,buyer:"
+msgid "Buyer"
+msgstr "Acheteur"
+
+msgctxt "field:account.invoice,date_due:"
+msgid "Date Due"
+msgstr "Date d'échéance"
+
+msgctxt "field:account.invoice,date_pay:"
+msgid "Date Pay"
+msgstr "Date de paiement"
+
+msgctxt "field:account.invoice,fourn_num:"
+msgid "Fourn num"
+msgstr ""
+
+msgctxt "field:account.invoice,oeid:"
+msgid "OEid"
+msgstr ""
+
+msgctxt "field:account.invoice,purchase_date:"
+msgid "Purchase date"
+msgstr "Date de commande"
+
+msgctxt "field:account.invoice,purchase_num:"
+msgid "Purchase num"
+msgstr "N° de commande"
+
+msgctxt "field:account.invoice.line,oeid:"
+msgid "OEid"
+msgstr ""
+
+msgctxt "field:account.move,oeid:"
+msgid "OEid"
+msgstr ""
+
+msgctxt "field:account.move,oenumber:"
+msgid "OENumber"
+msgstr ""
+
+msgctxt "field:account.move.line,oeid:"
+msgid "OEid"
+msgstr ""
+
+msgctxt "field:account.move.reconciliation,oeid:"
+msgid "OEid"
+msgstr ""
+
+msgctxt "field:account.tax,oeid:"
+msgid "OEid"
+msgstr ""
+
+msgctxt "field:pl_cust_account.invoicereport_result,file:"
+msgid "File"
+msgstr "Fichier"
+
+msgctxt "field:pl_cust_account.invoicereport_result,name:"
+msgid "File Name"
+msgstr ""
+
+msgctxt "field:pl_cust_account.invoicereport_start,check_date:"
+msgid "Check Date"
+msgstr "Date"
+
+msgctxt "field:pl_cust_account.invoicereport_start,inv_type:"
+msgid "Clients/Fournisseurs"
+msgstr ""
+
+msgctxt "field:pl_cust_account.isaline.import.start,company:"
+msgid "Company"
+msgstr "Sociétés"
+
+msgctxt "field:pl_cust_account.isaline.import.start,file_:"
+msgid "File"
+msgstr "Fichier"
+
+msgctxt "field:pl_cust_account.isaline.import.start,statement:"
+msgid "Statement"
+msgstr "Relevé"
+
+msgctxt "field:pl_cust_account.plbilan_start,date_end:"
+msgid "Fin"
+msgstr ""
+
+msgctxt "field:pl_cust_account.plbilan_start,date_start:"
+msgid "Début"
+msgstr ""
+
+msgctxt "field:pl_cust_account.plbilan_start,res_bilan:"
+msgid "Bilan"
+msgstr ""
+
+msgctxt "field:pl_cust_account.statement.import.start,company:"
+msgid "Company"
+msgstr "Sociétés"
+
+msgctxt "field:pl_cust_account.statement.import.start,file_:"
+msgid "File"
+msgstr "Fichier"
+
+msgctxt "field:pl_cust_account.statement.import.start,statement:"
+msgid "Statement"
+msgstr "Relevé"
+
+msgctxt "model:account.statement.origin.information,string:camt_ammount"
+msgid "Ammount"
+msgstr "Montant"
+
+msgctxt "model:account.statement.origin.information,string:camt_date"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "model:account.statement.origin.information,string:camt_full_line"
+msgid "Info"
+msgstr "Info"
+
+msgctxt "model:account.statement.origin.information,string:camt_reference"
+msgid "Reference"
+msgstr "Référence"
+
+msgctxt "model:ir.action,name:act_plinvoice_in_form"
+msgid "Factures fournisseurs"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_plinvoice_out_form"
+msgid "Factures clients"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_wizard_bilan"
+msgid "Résultats"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_wizard_importisaline"
+msgid "Importer fichier écriture"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_wizard_importstatement"
+msgid "Importer fichier BVR"
+msgstr "Importer un relevé"
+
+msgctxt "model:ir.action,name:act_wizard_invoicereport"
+msgid "Invoice Report"
+msgstr "Rapport de factures"
+
+msgctxt "model:ir.model.button,string:move_draft_button"
+msgid "Draft"
+msgstr "Brouillons"
+
+msgctxt "model:ir.ui.menu,name:menu_compta"
+msgid "Compta"
+msgstr "Compta"
+
+msgctxt "model:ir.ui.menu,name:menu_fc"
+msgid "Factures clients"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_ff"
+msgid "Factures fournisseurs"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_invoicereport"
+msgid "Invoice Report"
+msgstr "Rapport de facture"
+
+msgctxt "model:ir.ui.menu,name:menu_wizbilan"
+msgid "Résultats"
+msgstr ""
+
+msgctxt "model:pl_cust_account.invoicereport_result,name:"
+msgid "InvoicesReportRes"
+msgstr "Rapport de factures"
+
+msgctxt "model:pl_cust_account.invoicereport_start,name:"
+msgid "InvoicesReportStart"
+msgstr "Rapport de factures"
+
+msgctxt "model:pl_cust_account.isaline.import.start,name:"
+msgid "ProLibre Import Isa Line"
+msgstr ""
+
+msgctxt "model:pl_cust_account.plbilan_start,name:"
+msgid "ProLibre Bilan Start"
+msgstr ""
+
+msgctxt "model:pl_cust_account.statement.import.start,name:"
+msgid "ProLibre Statement Import Start"
+msgstr "Importation relevé BVR"
+
+msgctxt "model:res.group,name:group_compta_admin"
+msgid "Compta PL Administration"
+msgstr ""
+
+msgctxt "selection:pl_cust_account.invoicereport_start,inv_type:"
+msgid "In Invoice"
+msgstr "Fournisseurs"
+
+msgctxt "selection:pl_cust_account.invoicereport_start,inv_type:"
+msgid "Out Invoice"
+msgstr "Clients"
+
+msgctxt "view:account.configuration:"
+msgid "Info QR"
+msgstr ""
+
+msgctxt "view:account.invoice:"
+msgid "1"
+msgstr ""
+
+msgctxt "view:account.invoice:"
+msgid "Tot:"
+msgstr ""
+
+msgctxt "wizard_button:pl_cust_account.invoicereport,result,end:"
+msgid "Close"
+msgstr "Fermer"
+
+msgctxt "wizard_button:pl_cust_account.invoicereport,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_account.invoicereport,start,generate_report:"
+msgid "Generate Report"
+msgstr ""
+
+msgctxt "wizard_button:pl_cust_account.isaline.import,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_account.isaline.import,start,parse_file:"
+msgid "Import"
+msgstr "Importer"
+
+msgctxt "wizard_button:pl_cust_account.plbilan,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_account.statement.import,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_account.statement.import,start,parse_camt:"
+msgid "Import"
+msgstr "Importer"

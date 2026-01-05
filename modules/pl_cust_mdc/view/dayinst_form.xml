@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form>
+    <label name="date" />
+    <field name="date" readonly="1"/>
+    <label name="dtype" />
+    <field name="dtype" />
+
+    <label name="nb_max" />
+    <field name="nb_max" />
+    <label name="nb_inst_max" />
+    <field name="nb_inst_max" />
+
+    
+    <label name="tot_day" />
+    <field name="tot_day" />
+    <label name="tot_sieste" />
+    <field name="tot_sieste" />
+    <label name="tot_morning" />
+    <field name="tot_morning" />
+    <label name="tot_afternoon" />
+    <field name="tot_afternoon" />
+    <label name="tot_inst_m" />
+    <field name="tot_inst_m" />
+    <label name="tot_inst_a" />
+    <field name="tot_inst_a" />
+    <!--<label name="booking_to_valid" />
+    <field name="booking_to_valid" />-->
+    
+    <link icon="tryton-shipment-in" name="pl_cust_mdc.act_bookinst_day" empty="show" colspan="4"/>
+    <field name="bookings_inst" colspan="4"/>
+</form>

@@ -1,0 +1,36 @@
+/*.body {
+    background-color: #fccbc5;
+  }
+*/
+
+.navbar-inverse .navbar-brand {
+    color: #823126;
+  }
+
+.navbar-nav {
+    float: left;
+  }
+
+
+/*
+
+.form table.form-container > tbody > tr > td {
+    padding: 3px !important;
+}
+
+.form-separator label {
+    font-weight: bold !important;
+}
+
+.form-separator hr {
+    border-top: 1px solid rgb(192, 190, 190) !important;
+}
+
+input[type=checkbox], input[type=radio] {
+    margin: 0px 0 0 !important;
+    height: 14px !important;
+}
+
+.sortable {
+    padding: 0px !important;
+}*/

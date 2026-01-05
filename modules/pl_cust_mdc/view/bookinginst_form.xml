@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form>
+    <label name="booking_date"/>
+    <field name="booking_date" readonly="1"/>
+    <newline/>
+
+    <label name="day" />
+    <field name="day" />
+    <label name="name" />
+    <field name="name" />
+    <label name="inst_name" />
+    <field name="inst_name" />
+    <label name="inst_address" />
+    <field name="inst_address" />
+    <label name="inst_zip" />
+    <field name="inst_zip" />
+    <label name="inst_prov" />
+    <field name="inst_prov" />
+    <label name="inst_type" />
+    <field name="inst_type" />
+    <label name="inst_rep" />
+    <field name="inst_rep" />
+    <newline/>
+    <label name="inst_email" />
+    <field name="inst_email" widget="email" />
+    <label name="inst_tel" />
+    <field name="inst_tel" />
+    <label name="nb_child" />
+    <field name="nb_child" />
+    <label name="nb_adult" />
+    <field name="nb_adult" />
+    <label name="child_year" />
+    <field name="child_year" />
+    <label name="mad" />
+    <field name="mad" />
+    <label name="sieste" />
+    <field name="sieste" />
+    <label name="piqueNique" />
+    <field name="piqueNique" />
+    <label name="inst_activity" />
+    <field name="inst_activity" />
+    <newline/>
+    <label name="inst_comment" colspan="2" yalign="0.0" xalign="0.0"/>
+    <label name="txt_for_mail" colspan="2" yalign="0.0" xalign="0.0"/>
+    <field name="inst_comment" colspan="2" />
+    <field name="txt_for_mail" colspan="2" />
+    <button colspan="4" name="make_valid" string="Valider" icon="tryton-go-next"/>    
+    <button colspan="4" name="make_no" string="Pas de place" icon="tryton-go-next"/>    
+    <label name="party" />
+    <field name="party" />
+    <label name="invoice" />
+    <field name="invoice" readonly="1"/>
+    <button colspan="4" name="make_invoice" string="Facturer" icon="tryton-go-next"/>
+    <label name="state" />
+    <field name="state" />
+</form>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+
+    <record model="ir.ui.view" id="periodicts_start_view_form">
+      <field name="model">pl_cust_plfolders.periodicts.start</field>
+      <field name="type">form</field>
+      <field name="name">periodicts_start_form</field>
+    </record>
+
+    <record model="ir.action.wizard" id="act_wizard_periodicts">
+      <field name="name">Ajoute du TS périodic</field>
+      <field name="wiz_name">pl_cust_plfolders.periodicts</field>
+    </record>
+    
+    <!--<menuitem parent="pl_cust_plfolders.menu_folders" action="act_wizard_periodicts" id="menu_periodicts" sequence="30"/>-->
+
+    <record model="ir.action-res.group" id="wizard_periodicts_group_admin">
+      <field name="action" ref="act_wizard_periodicts"/>
+      <field name="group" ref="pl_cust_plfolders.group_folder_admin"/>
+    </record>
+
+    <!--<record model="ir.ui.menu-res.group" id="menu_periodicts_group_admin">
+      <field name="menu" ref="menu_periodicts"/>
+      <field name="group" ref="pl_cust_plfolders.group_folder_admin"/>
+    </record>-->
+
+  </data>
+</tryton>

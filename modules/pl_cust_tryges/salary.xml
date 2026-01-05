@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.action.report" id="salary_report">
+            <field name="name">Fiche de salaire</field>
+            <field name="model">pl_cust_salary.salary</field>
+            <field name="report_name">pl_cust_salary.salary_report</field>
+            <field name="report">pl_cust_tryges/salary.fodt</field>
+            <field name="single">1</field>
+        </record>
+        <record model="ir.action.keyword" id="salary_report_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">pl_cust_salary.salary,-1</field>
+            <field name="action" ref="salary_report"/>
+        </record>
+    </data>
+</tryton>

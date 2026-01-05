@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+
+    <record model="ir.ui.view" id="tthours_view_form">
+      <field name="model">pl_cust_timetracking.tthours</field>
+      <field name="type">form</field>
+      <field name="name">tthours_form</field>
+    </record>
+
+    <record model="ir.ui.view" id="tthours_view_tree">
+      <field name="model">pl_cust_timetracking.tthours</field>
+      <field name="type">tree</field>
+      <field name="name">tthours_tree</field>
+    </record>
+
+    <record model="ir.ui.view" id="ttdays_view_form">
+      <field name="model">pl_cust_timetracking.ttdays</field>
+      <field name="type">form</field>
+      <field name="name">ttdays_form</field>
+    </record>
+
+    <record model="ir.ui.view" id="ttdays_view_tree">
+      <field name="model">pl_cust_timetracking.ttdays</field>
+      <field name="type">tree</field>
+      <field name="name">ttdays_tree</field>
+    </record>
+
+    <record model="ir.ui.view" id="ttdaystype_view_form">
+      <field name="model">pl_cust_timetracking.ttdaystype</field>
+      <field name="type">form</field>
+      <field name="name">ttdaystype_form</field>
+    </record>
+
+    <record model="ir.ui.view" id="ttdaystype_view_tree">
+      <field name="model">pl_cust_timetracking.ttdaystype</field>
+      <field name="type">tree</field>
+      <field name="name">ttdaystype_tree</field>
+    </record>
+
+    <record model="ir.ui.view" id="ttweeklydetailhours_view_form">
+      <field name="model">pl_cust_timetracking.ttweeklydetailhours</field>
+      <field name="type">form</field>
+      <field name="name">ttweeklydetailhours_form</field>
+    </record>
+
+    <record model="ir.ui.view" id="ttweeklydetailhours_view_tree">
+      <field name="model">pl_cust_timetracking.ttweeklydetailhours</field>
+      <field name="type">tree</field>
+      <field name="name">ttweeklydetailhours_tree</field>
+    </record>
+
+    <record model="ir.ui.view" id="ttweeklydetail_view_form">
+      <field name="model">pl_cust_timetracking.ttweeklydetail</field>
+      <field name="type">form</field>
+      <field name="name">ttweeklydetail_form</field>
+    </record>
+
+    <record model="ir.ui.view" id="ttweeklydetail_view_tree">
+      <field name="model">pl_cust_timetracking.ttweeklydetail</field>
+      <field name="type">tree</field>
+      <field name="name">ttweeklydetail_tree</field>
+    </record>
+
+    <record model="ir.ui.view" id="tttimetables_view_form">
+      <field name="model">pl_cust_timetracking.tttimetables</field>
+      <field name="type">form</field>
+      <field name="name">tttimetables_form</field>
+    </record>
+
+    <record model="ir.ui.view" id="tttimetables_view_tree">
+      <field name="model">pl_cust_timetracking.tttimetables</field>
+      <field name="type">tree</field>
+      <field name="name">tttimetables_tree</field>
+    </record>
+
+    <record model="ir.action.act_window" id="act_ttweeklydetailhours_form">
+      <field name="name">Weekly Detail Hours</field>
+      <field name="res_model">pl_cust_timetracking.ttweeklydetailhours</field>
+    </record>
+
+    <record model="ir.action.act_window" id="act_ttweeklydetail_form">
+      <field name="name">Weekly Detail</field>
+      <field name="res_model">pl_cust_timetracking.ttweeklydetail</field>
+    </record>
+
+    <record model="ir.action.act_window" id="act_tttimtables_form">
+      <field name="name">Timetables</field>
+      <field name="res_model">pl_cust_timetracking.tttimetables</field>
+    </record>
+
+    <record model="ir.action.act_window" id="act_ttdays_form">
+      <field name="name">Days</field>
+      <field name="res_model">pl_cust_timetracking.ttdays</field>
+    </record>
+    <record model="ir.action.act_window.domain" id="act_ttdays_form_today">
+      <field name="name">Aujourd'hui</field>
+      <field name="sequence" eval="11"/>
+      <field name="domain" eval="[('date', '=', Date())]" pyson="1"/>
+      <field name="count" eval="True"/>
+      <field name="act_window" ref="act_ttdays_form"/>
+    </record>
+    <record model="ir.action.act_window.domain" id="act_ttdays_form_yesterday">
+      <field name="name">Hier</field>
+      <field name="sequence" eval="12"/>
+      <field name="domain" eval="[('date', '=', Date(delta_days=-1))]" pyson="1"/>
+      <field name="count" eval="True"/>
+      <field name="act_window" ref="act_ttdays_form"/>
+    </record>
+    <record model="ir.action.act_window.domain" id="act_ttdays_form_all">
+      <field name="name">Tous</field>
+      <field name="sequence" eval="13"/>
+      <field name="domain" eval="[]" pyson="1"/>
+      <field name="count" eval="False"/>
+      <field name="act_window" ref="act_ttdays_form"/>
+    </record>
+
+    <record model="ir.action.act_window" id="act_ttdaystype_form">
+      <field name="name">Days Type</field>
+      <field name="res_model">pl_cust_timetracking.ttdaystype</field>
+    </record>
+
+    <record model="ir.action.act_window" id="my_act_ttdays_form">
+      <field name="name">My Days</field>
+      <field name="res_model">pl_cust_timetracking.ttdays</field>
+      <field name="domain" eval="[('employee_id', '=', Get(Eval('context', {}), 'employee' , 0))]" pyson="1" />
+    </record>
+    <record model="ir.action.act_window.domain" id="my_act_ttdays_form_today">
+      <field name="name">Aujourd'hui</field>
+      <field name="sequence" eval="11"/>
+      <field name="domain" eval="[('date', '=', Date())]" pyson="1"/>
+      <field name="count" eval="True"/>
+      <field name="act_window" ref="my_act_ttdays_form"/>
+    </record>
+    <record model="ir.action.act_window.domain" id="my_act_ttdays_form_yesterday">
+      <field name="name">Hier</field>
+      <field name="sequence" eval="12"/>
+      <field name="domain" eval="[('date', '=', Date(delta_days=-1))]" pyson="1"/>
+      <field name="count" eval="True"/>
+      <field name="act_window" ref="my_act_ttdays_form"/>
+    </record>
+    <record model="ir.action.act_window.domain" id="my_act_ttdays_form_all">
+      <field name="name">Tous</field>
+      <field name="sequence" eval="13"/>
+      <field name="domain" eval="[]" pyson="1"/>
+      <field name="count" eval="False"/>
+      <field name="act_window" ref="my_act_ttdays_form"/>
+    </record>
+
+    <record model="ir.action.act_window" id="act_tthours_form">
+      <field name="name">Hours</field>
+      <field name="res_model">pl_cust_timetracking.tthours</field>
+    </record>
+
+    <menuitem name="TimeTracking" sequence="1" id="menu_timetracking" icon="tryton-party"/>
+
+    <menuitem action="act_ttweeklydetailhours_form" parent="menu_timetracking" sequence="10" id="menu_ttweeklydetailhours_form"/>
+    <menuitem action="act_ttweeklydetail_form" parent="menu_timetracking" sequence="10" id="menu_ttweeklydetail_form"/>
+    <menuitem action="act_tttimtables_form" parent="menu_timetracking" sequence="10" id="menu_tttimetables_form"/>
+    <menuitem action="act_ttdays_form" parent="menu_timetracking" sequence="10" id="menu_ttdays_form"/>
+    <menuitem action="act_ttdaystype_form" parent="menu_timetracking" sequence="10" id="menu_ttdaystype_form"/>
+    <menuitem action="my_act_ttdays_form" parent="menu_timetracking" sequence="10" id="menu_myttdays_form"/>
+    <menuitem action="act_tthours_form" parent="menu_timetracking" sequence="10" id="menu_tthours_form"/>
+
+    <record model="res.group" id="group_timetracking_admin">
+      <field name="name">TimeTracking Administration</field>
+    </record>
+
+    <record model="res.group" id="group_timetracking_conf">
+      <field name="name">TimeTracking Configuration</field>
+    </record>
+
+    <record model="res.group" id="group_timetracking_user">
+      <field name="name">TimeTracking User</field>
+    </record>
+
+    <record model="ir.ui.menu-res.group" id="menu_menu_ttweeklydetailhours_group_conf">
+      <field name="menu" ref="menu_ttweeklydetailhours_form"/>
+      <field name="group" ref="group_timetracking_conf"/>
+    </record>
+
+    <record model="ir.ui.menu-res.group" id="menu_menu_ttweeklydetail_group_conf">
+      <field name="menu" ref="menu_ttweeklydetail_form"/>
+      <field name="group" ref="group_timetracking_conf"/>
+    </record>
+
+    <record model="ir.ui.menu-res.group" id="menu_menu_tttimtables_group_admin">
+      <field name="menu" ref="menu_tttimetables_form"/>
+      <field name="group" ref="group_timetracking_admin"/>
+    </record>
+
+    <record model="ir.ui.menu-res.group" id="menu_menu_ttdays_group_admin">
+      <field name="menu" ref="menu_ttdays_form"/>
+      <field name="group" ref="res.group_admin"/>
+      <field name="group" ref="group_timetracking_admin"/>
+    </record>
+
+    <record model="ir.ui.menu-res.group" id="menu_menu_ttdaystype_group_conf">
+      <field name="menu" ref="menu_ttdaystype_form"/>
+      <field name="group" ref="res.group_admin"/>
+      <field name="group" ref="group_timetracking_conf"/>
+    </record>
+
+    <record model="ir.ui.menu-res.group" id="menu_menu_tthours_group_conf">
+      <field name="menu" ref="menu_tthours_form"/>
+      <field name="group" ref="group_timetracking_conf"/>
+    </record>
+
+    <record model="ir.model.access" id="access_ttweeklydetailhours_admin">
+      <field name="model">pl_cust_timetracking.ttweeklydetailhours</field>
+      <field name="group" ref="group_timetracking_admin"/>
+      <field name="perm_read" eval="True"/>
+      <field name="perm_write" eval="True"/>
+      <field name="perm_create" eval="True"/>
+      <field name="perm_delete" eval="True"/>
+    </record>
+
+    <record model="ir.model.access" id="access_ttweeklydetailhours_user">
+      <field name="model">pl_cust_timetracking.ttweeklydetailhours</field>
+      <field name="group" ref="group_timetracking_user"/>
+      <field name="perm_read" eval="False"/>
+      <field name="perm_write" eval="False"/>
+      <field name="perm_create" eval="False"/>
+      <field name="perm_delete" eval="False"/>
+    </record>
+
+    <record model="ir.model.access" id="access_ttweeklydetail_admin">
+      <field name="model">pl_cust_timetracking.ttweeklydetail</field>
+      <field name="group" ref="group_timetracking_admin"/>
+      <field name="perm_read" eval="True"/>
+      <field name="perm_write" eval="True"/>
+      <field name="perm_create" eval="True"/>
+      <field name="perm_delete" eval="True"/>
+    </record>
+
+    <record model="ir.model.access" id="access_ttweeklydetail_user">
+      <field name="model">pl_cust_timetracking.ttweeklydetail</field>
+      <field name="group" ref="group_timetracking_user"/>
+      <field name="perm_read" eval="False"/>
+      <field name="perm_write" eval="False"/>
+      <field name="perm_create" eval="False"/>
+      <field name="perm_delete" eval="False"/>
+    </record>
+
+    <record model="ir.model.access" id="access_tttimetables_admin">
+      <field name="model">pl_cust_timetracking.tttimetables</field>
+      <field name="group" ref="group_timetracking_admin"/>
+      <field name="perm_read" eval="True"/>
+      <field name="perm_write" eval="True"/>
+      <field name="perm_create" eval="True"/>
+      <field name="perm_delete" eval="True"/>
+    </record>
+
+    <record model="ir.model.access" id="access_tttimetables_user">
+      <field name="model">pl_cust_timetracking.tttimetables</field>
+      <field name="group" ref="group_timetracking_user"/>
+      <field name="perm_read" eval="True"/>
+      <field name="perm_write" eval="False"/>
+      <field name="perm_create" eval="False"/>
+      <field name="perm_delete" eval="False"/>
+    </record>
+
+    <record model="ir.model.access" id="access_ttdays_admin">
+      <field name="model">pl_cust_timetracking.ttdays</field>
+      <field name="group" ref="group_timetracking_admin"/>
+      <field name="perm_read" eval="True"/>
+      <field name="perm_write" eval="True"/>
+      <field name="perm_create" eval="True"/>
+      <field name="perm_delete" eval="True"/>
+    </record>
+
+    <record model="ir.model.access" id="access_ttdays_user">
+      <field name="model">pl_cust_timetracking.ttdays</field>
+      <field name="group" ref="group_timetracking_user"/>
+      <field name="perm_read" eval="True"/>
+      <field name="perm_write" eval="True"/>
+      <field name="perm_create" eval="True"/>
+      <field name="perm_delete" eval="False"/>
+    </record>
+
+    <record model="ir.model.access" id="access_tthours_admin">
+      <field name="model">pl_cust_timetracking.tthours</field>
+      <field name="group" ref="group_timetracking_admin"/>
+      <field name="perm_read" eval="True"/>
+      <field name="perm_write" eval="True"/>
+      <field name="perm_create" eval="True"/>
+      <field name="perm_delete" eval="True"/>
+    </record>
+
+    <record model="ir.model.access" id="access_tthours_user">
+      <field name="model">pl_cust_timetracking.tthours</field>
+      <field name="group" ref="group_timetracking_user"/>
+      <field name="perm_read" eval="True"/>
+      <field name="perm_write" eval="True"/>
+      <field name="perm_create" eval="True"/>
+      <field name="perm_delete" eval="True"/>
+    </record>
+
+  </data>
+
+  <data noupdate="1">
+
+    <record model="pl_cust_timetracking.ttdaystype" id="ttdaystype_std">
+      <field name="name">Standard</field>
+      <field name="code">std</field>
+    </record>
+
+    <record model="pl_cust_timetracking.ttdaystype" id="ttdaystype_mal">
+      <field name="name">Maladie</field>
+      <field name="code">mal</field>
+    </record>
+
+    <record model="pl_cust_timetracking.ttdaystype" id="ttdaystype_vac">
+      <field name="name">Vacances</field>
+      <field name="code">vac</field>
+    </record>
+
+  </data>
+
+</tryton>

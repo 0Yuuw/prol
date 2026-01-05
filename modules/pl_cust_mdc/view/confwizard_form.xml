@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form col="2">
+    <label name="currency"/>
+    <field name="currency"/>
+    <label name="journal_id"/>
+    <field name="journal_id"/>
+    <label name="journal_pp"/>
+    <field name="journal_pp"/>
+    <label name="payment_term"/>
+    <field name="payment_term"/>
+    <label name="account_deb_id"/>
+    <field name="account_deb_id"/>
+    <label name="product_tva"/>
+    <field name="product_tva"/>
+    <label name="product_notva"/>
+    <field name="product_notva"/>
+    <label name="taxe"/>
+    <field name="taxe"/>
+</form>

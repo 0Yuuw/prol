@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <!-- Report for yearly donations attestation -->
+        <record model="ir.action.report" id="dons_report">
+            <field name="name">Attestation of Donations (Yearly)</field>
+            <field name="report_name">pl_cust_dons.dons_attestation</field>
+            <field name="model">pl_cust_dons.dons</field>
+            <field name="report">pl_cust_dons/report.fodt</field>
+            <field name="template_extension">odt</field>
+        </record>
+
+        <!-- Report for a single donation attestation -->
+        <record model="ir.action.report" id="dons_report_single">
+            <field name="name">Attestation of a Single Donation</field>
+            <field name="report_name">pl_cust_dons.dons_attestation_single</field>
+            <field name="model">pl_cust_dons.dons</field>
+            <field name="report">pl_cust_dons/report.fodt</field>
+            <field name="template_extension">odt</field>
+        </record>
+
+        <!-- Add button for the yearly donation attestation -->
+        <record model="ir.action.keyword" id="dons_report_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">pl_cust_dons.dons,-1</field>
+            <field name="action" ref="dons_report"/>
+        </record>
+
+        <!-- Add button for the single donation attestation -->
+        <record model="ir.action.keyword" id="dons_report_single_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">pl_cust_dons.dons,-1</field>
+            <field name="action" ref="dons_report_single"/>
+        </record>
+
+        <!-- Report for a single donation attestation -->
+        <record model="ir.action.report" id="dons_tanks">
+            <field name="name">Lettre remerciemment</field>
+            <field name="report_name">pl_cust_dons.donsthanks</field>
+            <field name="model">pl_cust_dons.dons</field>
+            <field name="report">pl_cust_dons/thanks.fodt</field>
+            <field name="template_extension">odt</field>
+        </record>
+
+        <!-- Add button for the yearly donation attestation -->
+        <record model="ir.action.keyword" id="dons_tanks_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">pl_cust_dons.dons,-1</field>
+            <field name="action" ref="dons_tanks"/>
+        </record>
+
+    </data>
+</tryton>

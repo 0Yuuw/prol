@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+
+    <record model="ir.ui.view" id="deliverylinetmp_view_form">
+      <field name="model">pl_cust_delivery.deliverylinetmp</field>
+      <field name="type">form</field>
+      <field name="name">deliverylinetmp_form</field>
+    </record>
+    <record model="ir.ui.view" id="deliverylinetmp_view_tree">
+      <field name="model">pl_cust_delivery.deliverylinetmp</field>
+      <field name="type">tree</field>
+      <field name="name">deliverylinetmp_tree</field>
+    </record>
+
+    <record model="ir.ui.view" id="wizard_createdelivery_view_form">
+      <field name="model">pl_cust_delivery.deliverycreate_start</field>
+      <field name="type">form</field>
+      <field name="name">wizcreatedelivery_start_form</field>
+    </record>
+
+    <record model="ir.action.wizard" id="act_wizard_createdelivery">
+      <field name="name">Create Delivery</field>
+      <field name="wiz_name">pl_cust_delivery.deliverycreate</field>
+      <field name="model">pl_cust_plfolders.folders</field>
+    </record>
+        
+  </data>
+</tryton>

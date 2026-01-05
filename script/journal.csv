@@ -1,0 +1,6 @@
+"Nom";"Code";"Type";"Sequence"
+"Vente";"VTE";"revenue";"Journal de compte par défaut"
+"Charges";"CHA";"expense";"Journal de compte par défaut"
+"Liquidités";"LIQ";"cash";"Journal de compte par défaut"
+"Stock";"STO";"general";"Journal de compte par défaut"
+"Opérations diverses PP";"OD";"write-off";"Journal de compte par défaut"

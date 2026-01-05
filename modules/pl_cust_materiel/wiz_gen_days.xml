@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+    <record model="ir.ui.view" id="generate_days_start_view_form">
+      <field name="model">pl_cust_materiel.generate_days_start</field>
+      <field name="type">form</field>
+      <field name="name">gen_days_start_form</field>
+    </record>
+    
+    <record model="ir.action.wizard" id="act_generate_days">
+      <field name="name">Generate Days</field>
+      <field name="wiz_name">pl_cust_materiel.generate_days</field>
+    </record>
+
+    <menuitem action="act_generate_days" parent="pl_cust_materiel.menu_matconf" sequence="20" id="menu_generate_days"/>
+    
+    <record model="ir.ui.menu-res.group" id="menu_generate_days_group_wizard">
+      <field name="menu" ref="menu_generate_days"/>
+      <field name="group" ref="group_mat_wizard"/>
+    </record>
+
+  </data>
+</tryton>

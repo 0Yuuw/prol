@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<data>
+  <xpath expr="//label[@name='invoice']" position="replace"/>
+  <xpath expr="//label[@name='addr_compl']" position="replace"/>
+  <xpath expr="//label[@name='addr_street']" position="replace"/>
+  <xpath expr="//label[@name='addr_street_num']" position="replace"/>
+
+  <xpath expr="//label[@name='postal_code']" position="replace"/>
+  <xpath expr="//label[@name='city']" position="replace"/>
+  <xpath expr="//label[@name='contact_title']" position="replace"/>
+  <xpath expr="//label[@name='addr_compl2']" position="replace"/>
+  <xpath expr="//label[@name='full_address']" position="replace"/>
+  <xpath expr="//label[@name='country']" position="replace"/>
+  <xpath expr="//label[@name='type']" position="replace"/>
+
+  <xpath expr="//field[@name='invoice']" position="replace"/>
+  <xpath expr="//field[@name='addr_compl']" position="replace"/>
+  <xpath expr="//field[@name='addr_street']" position="replace"/>
+  <xpath expr="//field[@name='addr_street_num']" position="replace"/>
+
+  <xpath expr="//field[@name='postal_code']" position="replace"/>
+  <xpath expr="//field[@name='city']" position="replace"/>
+  <xpath expr="//field[@name='contact_title']" position="replace"/>
+  <xpath expr="//field[@name='addr_compl2']" position="replace"/>
+  <xpath expr="//field[@name='full_address']" position="replace"/>
+  <xpath expr="//field[@name='country']" position="replace"/>
+  <xpath expr="//field[@name='type']" position="replace"/>
+
+</data>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree>
+    <field name="code"  expand="1"/>
+    <field name="name"  expand="3" />
+    <field name="publicname" expand="3"/>
+    <field name="contract_done" expand="1"/>
+    <field name="status"  expand="2" />
+    <field name="description" optional="0" expand="3"/>
+    <field name="project_type" optional="1" />
+    <field name="date_start" optional="0" expand="1"/>
+    <field name="date_end" optional="1" expand="1" />
+    <field name="as_attachment" optional="0"/>
+    <field name="active"/>
+    <field name="parties"/>
+    <field name="employees"/>
+    <field name="category"/>
+    <button name="open_form_tab"
+            string="Ouvrir"
+            type="object"
+            icon="tryton-open"/>
+</tree>

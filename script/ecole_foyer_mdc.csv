@@ -1,0 +1,95 @@
+Nom structure;type de structure;Provenance;quartier;secteur;répondant-e;rue;numero;code postale;commune;mail;telephone
+Centre de compétences en surdité;Ecole - foyer spécialisé;VDG;Vidollet;;;Chemin De-Vincy;2b;1202;Genève;ccs@etat.ge.ch;022 388 79 70
+Centre de compétence pour deficits visuels;Ecole - foyer spécialisé;VDG;Jonction;;;Rue de la Coulouvrenière;7;1204;Genève;ccdv@etat.ge.ch;022 388 21 33
+CLI EP Ami-Argand;Ecole - foyer spécialisé;Canton;Versoix;;;Chemin Ami-Argand;40;1290;Versoix;cli.ami-argand@etat.ge.ch;022 950 84 52
+CLI EP Balexert;Ecole - foyer spécialisé;Canton;Châtelaine;;;Avenue de Pailly;15;1219;Châteleine;cli.balexert@etat.ge.ch;022 388 67 94
+CLI EP Bellavista;Ecole - foyer spécialisé;Canton;Meyrin;;;Avenue de Vaudagne;39;1217;Meyrin;cli.boudines-bellavista@etat.ge.ch;022 783 03 64
+CLI EP Belle-Terre;Ecole - foyer spécialisé;Canton;Thonex;;;Allée Belle-Terre;18;1226;Thônex;cli.belle-terre@etat.ge.ch;022 869 44 05
+CLI EP Bossons;Ecole - foyer spécialisé;Canton;Onex;;;Avenue du Bois-de-la-Chappelle;90;1213;Onex;cli.bossons@etat.ge.ch;022 388 68 55
+CLI EP Caroline;Ecole - foyer spécialisé;Canton;Petit-Lancy;;;Rue des Bossons;74;1213;Petit-Lancy;cli.caroline@etat.ge.ch;022 870 98 00
+CLI EP Cayla;Ecole - foyer spécialisé;VDG;Saint-Jean;;;Chemin William-Lescazes;12;1203;Genève;cli.ep.cayla@etat.ge.ch;022 418 30 42
+CLI EP Champ-Joly / Palettes;Ecole - foyer spécialisé;Canton;Plan-Les-Ouates;;;Chemin de la Mère-Voie;60;1228;Plan-Les-Ouates;cli.champ-joly@etat.ge.ch;022 388 67 93
+CLI EP Confignon;Ecole - foyer spécialisé;Canton;Confignon;;;Chemin de Tréchaumont;6;1232;Confignon;cli.confignon@etat.ge.ch;022 388 67 06
+CLI EP Cressy;Ecole - foyer spécialisé;Canton;Confignon;;;Rue Edouard-Vallet;16;1232;Confignon;cli.cressy@etat.ge.ch;022 727 10 80
+CLI EP Crêts-de-Champel;Ecole - foyer spécialisé;VDG;Champel;;;Chemin des Crêts-de-Champel;40;1206;Genève;cli.crets-de-champel@etat.ge.ch;022 388 76 20
+CLI EP Eaux-Vives;Ecole - foyer spécialisé;VDG;Eaux-Vives;;;Rue des Eaux-Vives;86;1207;Genève;cli.eaux-vives@etat.ge.ch;022 388 72 79 
+CLI EP En-Sauvy;Ecole - foyer spécialisé;Canton;Grand-Lancy;;;Avenue du Curé-Baud;40;1212;Grand-lancy;cli.en-sauvy@etat.ge.ch;022 388 67 88
+CLI EP Etang;Ecole - foyer spécialisé;Canton;Châtelaine;;;Allée des Nénuphars;6;1219;Châteleine;cli.etang@etat.ge.ch;022 327 05 26
+CLI EP Ferdinand-Hodler;Ecole - foyer spécialisé;VDG;Rive;;;Boulevard Emile-Jacques-Dalcroze;4;1204;Genève;cli.ferdinand-hodler@etat.ge.ch;022 418 34 43
+CLI EP Floraire;Ecole - foyer spécialisé;Canton;Chêne-Bourg;;;Chemin de Floraire;11;1225;Chêne-Bourg;cli.floraire@etat.ge.ch;022 348 81 47
+CLI EP Franchises;Ecole - foyer spécialisé;VDG;Franchises;;;Route des Franchises;54;1203;Genève;cli.franchises@etat.ge.ch;022 418 31 38
+CLI EP Geisendorf;Ecole - foyer spécialisé;VDG;Geisendorf;;;Rue de Lyon;56;1203;Genève;cli.geisendorf@etat.ge.ch;022 418 33 08
+CLI EP Hugo-de-Senger;Ecole - foyer spécialisé;VDG;Plainpalais;;;Rue de Dizerens;26;1205;Genève;cli.hugo-de-senger@etat.ge.ch;022 827 85 60
+CLI EP Lignon;Ecole - foyer spécialisé;Canton;Lignon;;;Place du Lignon;24;1219;Le Lignon;cli.lignon@etat.ge.ch;022 388 79 83
+CLI EP Mail;Ecole - foyer spécialisé;VDG;Jonction;;;Rue du Village Suisse;5;1205;Genève;cli.mail@etat.ge.ch;022 418 33 65
+CLI EP Onex-Parc;Ecole - foyer spécialisé;Canton;Onex;;;Rue des Bossons;7;1213;Onex;cli.onex-parc@etat.ge.ch;022 792 48 14
+CLI EP Ouches;Ecole - foyer spécialisé;VDG;Ouches;;;Chemin des Ouches;19;1203;Genève;cli.ouches@etat.ge.ch;022 418 39 28
+CLI EP Palettes;Ecole - foyer spécialisé;Canton;Grand-Lancy;;;Avenue des Communes-Réunies;60;1212;Grand-lancy;cli.palettes@etat.ge.ch;022 794 33 24
+CLI EP Pré-du-Camp;Ecole - foyer spécialisé;Canton;Plan-Les-Ouates;;;Chevaliers-de-Maltes;11;1228;Plan-Les-Ouates;cli.pre-du-camp@etat.ge.ch;022 388 67 72 
+CLI EP Pré-Picot;Ecole - foyer spécialisé;Canton;Cologny;;;Chemin de Pré-Picot;1;1223;Cologny;cli.pre-picot@etat.ge.ch;022 418 39 18 
+CLI EP Sécheron;Ecole - foyer spécialisé;VDG;Pâquis-Sécheron;;;Avenue de France;15;1202;Genève;ccs@etat.ge.ch;022 388 79 70
+CLI EP Trembley;Ecole - foyer spécialisé;VDG;Trembley;;;Rue Pestalozzi;4 à 6 ;1202;Genève;cli.trembley@etat.ge.ch;022 418 34 78
+CLIM EP Pâquis;Ecole - foyer spécialisé;VDG;Pâquis;;;Rue de Berne;50;1201;Genève;clim.paquis@etat.ge.ch;022 418 31 57
+CLIM EP Roseraie;Ecole - foyer spécialisé;VDG;Augustins;;;Rue des Peupliers;15;1205;Genève;clim.roseraie@etat.ge.ch;022 388 97 95
+CLI EP Pont-Rouge;Ecole - foyer spécialisé;Canton;Grand-Lancy;;;Chemin des Mérinos;16;1212;Grand-lancy;cli.pont-rouge@etat.ge.ch;022 307 94 11
+Comptines HUG;Ecole - foyer spécialisé;VDG;;;;;;;;;
+ECPS Aïre;Ecole - foyer spécialisé;Canton;Aïre;;;Chemin du Grand-Champ;11;1219;Aïre;cli.aire@etat.ge.ch;022 38810 97
+ECPS Amandiers;Ecole - foyer spécialisé;Canton;Collonge-Bellerive;;;Chemin de Mancy;57;1245;Collonge-Bellerive;ecps.amandier@etat.ge.ch;022 388 72 72
+ECPS Antarès;Ecole - foyer spécialisé;VDG;Vidollet;;;Chemin de Vincy;2b;1202;Genève;ecps.antares@etat.ge.ch;022 388 67 05
+ECPS Arve;Ecole - foyer spécialisé;Canton;Carouge;;;Avenue du Cardinal-Mermillod;42;1227;Carouge;ecps.arve@etat.ge.ch;022 388 95 96
+ECPS Baron;Ecole - foyer spécialisé;Canton;Carouge;;;Rue de la Tannerie;2;1227;Carouge;ecps.baron@etat.ge.ch;022 388 98 30
+ECPS Baulacre;Ecole - foyer spécialisé;VDG;Vidollet;;;Chemin De-Vincy;2b;1202;Genève;ecps.baulacre@etat.ge.ch;022 388 98 36
+ECPS Bertrand;Ecole - foyer spécialisé;VDG;Saint-Jean;;;Avenue des Tilleuls;23;1203;Genève;ecps.bertrand@etat.ge.ch;022 388 79 60
+ECPS Boissonnas;Ecole - foyer spécialisé;Canton;Chêne-Bougeries;;;Chemin de Grange-Canal;22;1224;Chêne-Bougeries;ecps.boissonnas@etat.ge.ch;022 388 10 30
+ECPS Bornan;Ecole - foyer spécialisé;Canton;Collonge-Bellerive;;;Chemin de Mancy ;57;1245;Collonge-Bellerive;ecps.bornan@etat.ge.ch;022 388 95 93
+ECPS Budé;Ecole - foyer spécialisé;VDG;Moillebeau;;;Rue Moillebeau;72;1209;Genève;ecps.bude@etat.ge.ch;022 388 49 91
+ECPS Cèdres;Ecole - foyer spécialisé;Canton;Conches;;;Chemin J.-F.-Dupuy;18a;1231;Conches;ecps.cedres@etat.ge.ch;022 388 95 94
+ECPS Cerisiers;Ecole - foyer spécialisé;Canton;Collonge-Bellerive;;;Chemin de Mancy;57;1245;Collonge-Bellerive;ecps.cerisiers@etat.ge.ch;022 388 97 50
+ECPS Champel;Ecole - foyer spécialisé;VDG;Champel;;;Route du Bout-du-Monde;4;1206;Genève;ecps.champel@etat.ge.ch;022 388 11 90
+ECPS Charmille;Ecole - foyer spécialisé;VDG;Charmilles;;;Routes des Franchises;13;1203;Genève;ecps.charmilles@etat.ge.ch;022 388 77 17
+ECPS Châtaigniers;Ecole - foyer spécialisé;Canton;Conches;;;Chemin J.-F.-Dupuy;18a;1231;Conches;ecps.chataigniers@etat.ge.ch;022 388 67 02
+ECPS Coudraie;Ecole - foyer spécialisé;VDG;Franchises;;;Routes des Franchises;11;1203;Genève;ecps.coudraie@etat.ge.ch;022 388 77 07
+ECPS Dumas;Ecole - foyer spécialisé;VDG;Plainpalais;;;Rue des Savoises;3;1205;Genève;ecps.dumas@etat.ge.ch;022 388 21 50
+ECPS Eole;Ecole - foyer spécialisé;Canton;Versoix;;;Chemin des Colombières;8;1290;Versoix;ecps.eole@etat.ge.ch;022 388 69 10
+ECPS Evaux;Ecole - foyer spécialisé;Canton;Onex;;;Chemin François-Chavaz;106;1213;Onex;ecps.evaux@etat.ge.ch;022 388 97 60
+ECPS Fazy;Ecole - foyer spécialisé;VDG;Cornavin;;;Rue Bautte;10;1201;Genève;ecps.fazy@etat.ge.ch;022 388 60 14
+ECPS Figuiers;Ecole - foyer spécialisé;Canton;Collonge-Bellerive;;;Chemin de Mancy;57;1245;Collonge-Bellerive;ecps.figuiers@etat.ge.ch;022 388 97 53
+ECPS Florissant 1;Ecole - foyer spécialisé;Canton;Conches;;;Route de Florissant ;160;1231;Conches;ecps.florissant1@etat.ge.ch;022 388 47 71
+ECPS Florissant 2;Ecole - foyer spécialisé;Canton;Conches;;;Route de Florissant ;160;1231;Conches;ecps.florissant2@etat.ge.ch;022 388 47 73
+ECPS Frênes;Ecole - foyer spécialisé;Canton;Conches;;;Chemin J.-F.-Dupuy;18a;1231;Conches;ecps.frenes@etat.ge.ch;022 388 24 50
+ECPS Genêts;Ecole - foyer spécialisé;VDG;Petit-Saconnex;;;Chemin des Vignes;1;1209;Genève;ecps.genets@etat.ge.ch;022 388 67 69
+ECPS Joran;Ecole - foyer spécialisé;Canton;Collonge-Bellerive;;;Chemin Bois-Caran;40;1245;Collonge-Bellerive;ecps.joran@etat.ge.ch;022 388 95 45
+ECPS Magnolias;Ecole - foyer spécialisé;Canton;Thônex;;;Chemin du Foron;43;1226;Thônex;ecps.magnolias@etat.ge.ch;022 388 68 50
+ECPS Merisiers;Ecole - foyer spécialisé;Canton;Collonge-Bellerive;;;Chemin de Mancy;57;1245;Collonge-Bellerive;ecps.merisiers@etat.ge.ch;022 388 66 51
+ECPS Olivier;Ecole - foyer spécialisé;VDG;Franchises;;;Route des Franchises;15;1203;Genève;ecps.oliviers@etat.ge.ch;022 388 77 20
+ECPS Prailly;Ecole - foyer spécialisé;Canton;Châtelaine;;;Avenue de Pailly;1;1219;Châtelaine;ecps.pailly@etat.ge.ch;022 388 97 90
+ECPS Peschier;Ecole - foyer spécialisé;VDG;Eaux-Vives;;;Avenue Peschier;34;1206;Genève;ecps.peschier@etat.ge.ch;022 388 60 50
+ECPS Petite Ours;Ecole - foyer spécialisé;Canton;Conches;;;Chemin de la Colombe;6;1231;Conches;ecps.petite-ours@etat.ge.ch;022 388 97 73
+ECPS Petit-Bois;Ecole - foyer spécialisé;Canton;Plan-Les-Ouates;;;Chemin des Voirets;15;1228;Plan-Les-Ouates;ecps.petis-bois@etat.ge.ch;022 388 97 70
+ECPS Pléiades;Ecole - foyer spécialisé;Canton;Conches;;;Chemin J.-F.-Dupuy;18a;1231;Conches;ecps.pleiades@etat.ge.ch;022 388 24 70
+ECPS Pralée;Ecole - foyer spécialisé;Canton;Onex;;;Route du Grand-Lancy;175;1213;Onex;ecps.pralee@etat.ge.ch;022 388 97 55
+ECPS Roseraie 1 ;Ecole - foyer spécialisé;VDG;Hôpital;;;Avenue de la Roseraie;43;1205;Genève;ecps.roseraie1@etat.ge.ch;022 388 72 62
+ECPS Roseraie 2;Ecole - foyer spécialisé;VDG;Hôpital;;;Sentier de la Roseraie;10;1205;Genève;ecps.roseraie2@etat.ge.ch;022 388 12 77
+ECPS Rouelbeau;Ecole - foyer spécialisé;Canton;Meiner;;;Chemin de la Caille;50;1252;Meinier;ecps.rouelbeau@etat.ge.ch;022 388 57 30
+ECPS Trèfles;Ecole - foyer spécialisé;Canton;Thônex;;;Avenue du Petit-Senn;60;1226;Thônex;ecps.trefles@etat.ge.ch;022 388 79 65
+ECPS Valavran;Ecole - foyer spécialisé;Canton;Bellevue;;;Route de Valavran;33;1293;Bellevue;ecps.valavran@etat.ge.ch;022 388 15 37
+ECPS Vallade;Ecole - foyer spécialisé;VDG;Franchises;;;Route des Franchises;19;1203;Genève;ecps.vallade@etat.ge.ch;022 388 79 78
+ECPS Vaudaire;Ecole - foyer spécialisé;Canton;Collonge-Bellerive;;;Chemin de Mancy;57;1245;Collonge-Bellerive;ecps.vaudaire@etat.ge.ch;022 388 95 88
+ECPS Versoix;Ecole - foyer spécialisé;Canton;Versoix;;;Route de Saint-Loup;29;1290;Versoix;ecps.versoix@etat.ge.ch;022 388 98 40
+ECPS Vidollet;Ecole - foyer spécialisé;VDG;Vidollet;;;Chemin de Vincy;2b;1202;Genève;ecps.vidollet@etat.ge.ch;022 388 97 85
+ECPS Vignes;Ecole - foyer spécialisé;Canton;Versoix;;;Chemin des Colombières;12;1290;Versoix;ecps.vignes@etat.ge.ch;022 388 98 45
+ECPS Villars-Beaulieu;Ecole - foyer spécialisé;VDG;Servette;;;Avenue Edmond-Vaucher;50;1203;Genève;ecps.villars-beaulieu@etat.ge.ch;022 388 96 96
+ECPS Vincy;Ecole - foyer spécialisé;VDG;Vidollet;;;Chemin de Vincy;2b;1202;Genève;ecps.vincy@etat.ge.ch;022 388 67 49
+ECPS Voirons;Ecole - foyer spécialisé;Canton;Thônex;;;Chemin du Foron;43;1226;Thônex;ecps.voirons@etat.ge.ch;022 388 97 77
+ECPS Seujet;Ecole - foyer spécialisé;VDG;Seujet;;;Quai du Seujet;10;1201;Genève;ecps.seujet@etat.ge.ch;022 388 68 96
+ECPS Vandoeuvres;Ecole - foyer spécialisé;Canton;Vandoeuvres;;;Chemin de l'Ecorcherie;14;1253;Vandoeuvre;ecps.vandoeuvres@etat.ge.ch;022 388 69 00
+Astural Arc-en-Ciel;Ecole - foyer spécialisé;VDG;Servette;;;Square Aimée-Rapin;18;1202;Genève;arcenciel@astural.org;022 757 23 38
+Astural Horizon;Ecole - foyer spécialisé;VDG;Seujet;;;Quai du Seujet;34;1201;Genève;horizon@astural.org;022 731 46 74
+Astural La Châtelaine;Ecole - foyer spécialisé;Canton;Châtelaine;;;Route de Vernier;92;1219;Châtelaine;chatelaine@astural.org;022 796 82 64
+Astural Externat Helios;Ecole - foyer spécialisé;Canton;Carouge;;;Route de Veyrier;32;1227;Carouge;helios@astural.org;022 796 96 10
+Clair Bois Chambésy;Ecole - foyer spécialisé;Canton;Chambésy;;;;;;Chambésy;;
+Clair Bois Lancy;Ecole - foyer spécialisé;Canton;Lancy;;;;;;Lancy;;
+L'Arc - école privée;Ecole - foyer spécialisé;Canton;Thônex;;;Chemin de la Mousse;100;1226;Thônex;;022 349 49 40
+L'Atelier - école privée;Ecole - foyer spécialisé;;;;;;;;;;
+La Voie Lactée - école privée;Ecole - foyer spécialisé;Canton;Meyrin;;;Rue des Arpenteurs;7;1217;Meyrin;ecole@lavoielactee.ch;022 785 02 02
+Petite Arche - école privée;Ecole - foyer spécialisé;;;;;;;;;;

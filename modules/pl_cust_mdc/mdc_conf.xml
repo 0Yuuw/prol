@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="mdc_configuration_view_form">
+            <field name="model">pl_cust_mdc.configuration</field>
+            <field name="type">form</field>
+            <field name="name">configuration_form</field>
+        </record>
+        
+        <record model="ir.action.act_window" id="act_mdc_configuration_form">
+            <field name="name">Booking Configuration</field>
+            <field name="res_model">pl_cust_mdc.configuration</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_mdc_configuration_form_view1">
+            <field name="sequence" eval="1"/>
+            <field name="view" ref="mdc_configuration_view_form"/>
+            <field name="act_window" ref="act_mdc_configuration_form"/>
+        </record>
+
+        <record model="ir.sequence.type" id="sequence_type_booking">
+            <field name="name">Bookings</field>
+            <!--<field name="code">pl_cust_avo.folders</field>-->
+        </record>
+        <record model="ir.sequence" id="sequence_booking">
+            <field name="name">Booking</field>
+            <field name="sequence_type" ref="sequence_type_booking"/>
+            <!--<field name="code">pl_cust_avo.folders</field>-->
+        </record>
+        <record model="ir.sequence.type-res.group" id="sequence_type_booking_group_admin">
+            <field name="sequence_type" ref="sequence_type_booking"/>
+            <field name="group" ref="res.group_admin"/>
+        </record>
+
+        <menuitem name="MDC" sequence="0" id="menu_mdc" icon="tryton-party"/>
+        <menuitem parent="menu_mdc" action="act_mdc_configuration_form" id="menu_booking_seq" sequence="1" icon="tryton-list"/>
+    </data>
+
+    <data noupdate="1">
+        <record model="pl_cust_mdc.configuration.booking_sequence" id="configuration_booking_sequence">
+            <field name="booking_sequence" ref="sequence_booking"/>
+        </record>
+    </data>
+    
+</tryton>

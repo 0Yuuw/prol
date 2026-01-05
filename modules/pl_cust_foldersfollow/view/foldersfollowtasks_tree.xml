@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree editable="1">
+  <field name="foldersfollow" expand="1"/>
+  <field name="inout" expand="0"/>
+  <field name="tasks" expand="0"/>
+  <field name="name" expand="3"/>
+  <field name="resp_id" expand="0"/>
+  <field name="date"  expand="0"/>
+  <field name="duration" expand="0"/>
+</tree>

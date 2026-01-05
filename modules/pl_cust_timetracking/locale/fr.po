@@ -1,0 +1,516 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:pl_cust_timetracking.hlwizard.start,day_of_week:"
+msgid "Day of Week"
+msgstr "Jour de la semaine"
+
+msgctxt "field:pl_cust_timetracking.hlwizard.start,day_type:"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "field:pl_cust_timetracking.hlwizard.start,employee:"
+msgid "Employee"
+msgstr "Employé-e"
+
+msgctxt "field:pl_cust_timetracking.hlwizard.start,end_date:"
+msgid "End Date"
+msgstr "Date de fin"
+
+msgctxt "field:pl_cust_timetracking.hlwizard.start,start_date:"
+msgid "Start Date"
+msgstr "Date de début"
+
+msgctxt "field:pl_cust_timetracking.ttadddaywizard_start,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:pl_cust_timetracking.ttadddaywizard_start,employee_id:"
+msgid "Employee"
+msgstr "Responsable"
+
+msgctxt "field:pl_cust_timetracking.ttdays,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:pl_cust_timetracking.ttdays,day_type:"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "field:pl_cust_timetracking.ttdays,employee_id:"
+msgid "Employee"
+msgstr "Employé-e"
+
+msgctxt "field:pl_cust_timetracking.ttdays,hours_ids:"
+msgid "Hours List"
+msgstr "Liste des pointages"
+
+msgctxt "field:pl_cust_timetracking.ttdays,not_valid:"
+msgid "Day not valid"
+msgstr "Jour non valide"
+
+msgctxt "field:pl_cust_timetracking.ttdays,tot_hours:"
+msgid "To hours"
+msgstr "Total des heures"
+
+msgctxt "field:pl_cust_timetracking.ttdaystype,code:"
+msgid "code"
+msgstr "code"
+
+msgctxt "field:pl_cust_timetracking.ttdaystype,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_timetracking.tthours,day_id:"
+msgid "Day"
+msgstr "Jour"
+
+msgctxt "field:pl_cust_timetracking.tthours,employ_hour:"
+msgid "Employee Hour"
+msgstr "Heure de pointage"
+
+msgctxt "field:pl_cust_timetracking.tthours,employee_id:"
+msgid "Employee"
+msgstr "Employé-e"
+
+msgctxt "field:pl_cust_timetracking.tthours,sys_date:"
+msgid "System Date"
+msgstr "Date Machine"
+
+msgctxt "field:pl_cust_timetracking.tthours,sys_hour:"
+msgid "System Hour"
+msgstr "Pointage Machine"
+
+msgctxt "field:pl_cust_timetracking.tthours,sys_user:"
+msgid "System User"
+msgstr "Utilisateur Machine"
+
+msgctxt "field:pl_cust_timetracking.tthours,type_hour:"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "field:pl_cust_timetracking.ttovertimevalidate,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:pl_cust_timetracking.ttovertimevalidate,employee_id:"
+msgid "Employee"
+msgstr "Employé-e"
+
+msgctxt "field:pl_cust_timetracking.ttovertimevalidate,nb_hours:"
+msgid "Nb Hours"
+msgstr "Total"
+
+msgctxt "field:pl_cust_timetracking.ttprintreport_start,employee_id:"
+msgid "Employee"
+msgstr "Employé-e"
+
+msgctxt "field:pl_cust_timetracking.ttprintreport_start,from_date:"
+msgid "From Date"
+msgstr "Date de début"
+
+msgctxt "field:pl_cust_timetracking.ttprintreport_start,to_date:"
+msgid "To Date"
+msgstr "Date de fin"
+
+msgctxt "field:pl_cust_timetracking.tttimetables,date_end:"
+msgid "End Date"
+msgstr "Date de fin"
+
+msgctxt "field:pl_cust_timetracking.tttimetables,date_start:"
+msgid "Start Date"
+msgstr "Date de début"
+
+msgctxt "field:pl_cust_timetracking.tttimetables,employee_id:"
+msgid "Employee"
+msgstr "Employé-e"
+
+msgctxt "field:pl_cust_timetracking.tttimetables,friday:"
+msgid "Friday"
+msgstr "Vendredi"
+
+msgctxt "field:pl_cust_timetracking.tttimetables,monday:"
+msgid "Monday"
+msgstr "Lundi"
+
+msgctxt "field:pl_cust_timetracking.tttimetables,saturday:"
+msgid "Saturday"
+msgstr "Samedi"
+
+msgctxt "field:pl_cust_timetracking.tttimetables,sunday:"
+msgid "Sunday"
+msgstr "Dimanche"
+
+msgctxt "field:pl_cust_timetracking.tttimetables,thursday:"
+msgid "Thursday"
+msgstr "Jeudi"
+
+msgctxt "field:pl_cust_timetracking.tttimetables,tuesday:"
+msgid "Tuesday"
+msgstr "Mardi"
+
+msgctxt "field:pl_cust_timetracking.tttimetables,tx_activity:"
+msgid "Tx activity (%)"
+msgstr "Taux d'activité (%)"
+
+msgctxt "field:pl_cust_timetracking.tttimetables,wednesday:"
+msgid "Wednesday"
+msgstr "Mercredi"
+
+msgctxt "field:pl_cust_timetracking.tttimetables,weekly_detail:"
+msgid "Weekly Detail"
+msgstr "Semaine"
+
+msgctxt "field:pl_cust_timetracking.tttimetables,weekly_duration:"
+msgid "Weekly Duration"
+msgstr "Durée hebdomadaire"
+
+msgctxt "field:pl_cust_timetracking.tttimetables,weekly_duration_auto:"
+msgid "Weekly Duration Auto"
+msgstr "Durée hebdomadaire calculée"
+
+msgctxt "field:pl_cust_timetracking.ttweeklydetail,day:"
+msgid "Day"
+msgstr "Jour"
+
+msgctxt "field:pl_cust_timetracking.ttweeklydetail,hours_ids:"
+msgid "Hours List"
+msgstr "Listes des heures"
+
+msgctxt "field:pl_cust_timetracking.ttweeklydetail,timetable_id:"
+msgid "TimeTable"
+msgstr "Horaire"
+
+msgctxt "field:pl_cust_timetracking.ttweeklydetail,tot_hours:"
+msgid "To hours"
+msgstr "Total des heures"
+
+msgctxt "field:pl_cust_timetracking.ttweeklydetailhours,employ_hour:"
+msgid "Employee Hour"
+msgstr "Pointage"
+
+msgctxt "field:pl_cust_timetracking.ttweeklydetailhours,type_hour:"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "field:pl_cust_timetracking.ttweeklydetailhours,weekly_detail_id:"
+msgid "WeeklyDetail"
+msgstr "Détail hebdomadaire"
+
+msgctxt "field:pl_cust_timetracking.ttwizard_start,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:pl_cust_timetracking.ttwizard_start,employee_id:"
+msgid "Employee"
+msgstr "Employé-e"
+
+msgctxt "field:pl_cust_timetracking.ttwizard_start,time:"
+msgid "Hours"
+msgstr "Heures"
+
+msgctxt "field:pl_cust_timetracking.ttwizard_start,type_hour:"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "model:ir.action,name:act_ttdays_form"
+msgid "Days"
+msgstr "Jours"
+
+msgctxt "model:ir.action,name:act_ttdaystype_form"
+msgid "Days Type"
+msgstr "Type de jour"
+
+msgctxt "model:ir.action,name:act_tthours_form"
+msgid "Hours"
+msgstr "Heures"
+
+msgctxt "model:ir.action,name:act_tttimtables_form"
+msgid "Timetables"
+msgstr "Horaires"
+
+msgctxt "model:ir.action,name:act_ttweeklydetail_form"
+msgid "Weekly Detail"
+msgstr "Détail hebdomadaire"
+
+msgctxt "model:ir.action,name:act_ttweeklydetailhours_form"
+msgid "Weekly Detail Hours"
+msgstr "Détail des heures hebdomadaire"
+
+msgctxt "model:ir.action,name:act_wizard_hlwizard"
+msgid "Saisie des absences"
+msgstr "Saisie des absences"
+
+msgctxt "model:ir.action,name:act_wizard_ttadddaywizard"
+msgid "Add Day"
+msgstr "Jour manquant"
+
+msgctxt "model:ir.action,name:act_wizard_ttprintreport"
+msgid "Print Report"
+msgstr "Imprimer le rapport"
+
+msgctxt "model:ir.action,name:act_wizard_ttwizard"
+msgid "Pointing"
+msgstr "Pointage"
+
+msgctxt "model:ir.action,name:my_act_ttdays_form"
+msgid "My Days"
+msgstr "Mes jours"
+
+msgctxt "model:ir.action,name:reporttt"
+msgid "Report TT"
+msgstr "Rapport"
+
+msgctxt "model:ir.ui.menu,name:"
+msgid "Add Day"
+msgstr "Jour manquant"
+
+msgctxt "model:ir.ui.menu,name:menu_hlwizard"
+msgid "Saisie des absences"
+msgstr "Saisie des absences"
+
+msgctxt "model:ir.ui.menu,name:menu_myttdays_form"
+msgid "My Days"
+msgstr "Mes jours"
+
+msgctxt "model:ir.ui.menu,name:menu_timetracking"
+msgid "TimeTracking"
+msgstr "ETT"
+
+msgctxt "model:ir.ui.menu,name:menu_ttdays_form"
+msgid "Days"
+msgstr "Jours"
+
+msgctxt "model:ir.ui.menu,name:menu_ttdaystype_form"
+msgid "Days Type"
+msgstr "Type de jour"
+
+msgctxt "model:ir.ui.menu,name:menu_tthours_form"
+msgid "Hours"
+msgstr "Heures"
+
+msgctxt "model:ir.ui.menu,name:menu_ttprintreport"
+msgid "Print Report"
+msgstr "Imprimer le rapport"
+
+msgctxt "model:ir.ui.menu,name:menu_tttimetables_form"
+msgid "Timetables"
+msgstr "Horaires"
+
+msgctxt "model:ir.ui.menu,name:menu_ttweeklydetail_form"
+msgid "Weekly Detail"
+msgstr "Détail hebdomadaire"
+
+msgctxt "model:ir.ui.menu,name:menu_ttweeklydetailhours_form"
+msgid "Weekly Detail Hours"
+msgstr "Détail heures hebdomadaire"
+
+msgctxt "model:ir.ui.menu,name:menu_ttwizard"
+msgid "Pointing"
+msgstr "Pointage"
+
+msgctxt "model:pl_cust_timetracking.hlwizard.start,name:"
+msgid "Holiday Wizard Start"
+msgstr "Saisie des absences"
+
+msgctxt "model:pl_cust_timetracking.ttadddaywizard_start,name:"
+msgid "TTAddDayWizardStart"
+msgstr "Ajout jour manquant"
+
+msgctxt "model:pl_cust_timetracking.ttdays,name:"
+msgid "Time Traking Days"
+msgstr "Jours"
+
+msgctxt "model:pl_cust_timetracking.ttdaystype,name:"
+msgid "Time Traking Days Type"
+msgstr "Type de jour"
+
+msgctxt "model:pl_cust_timetracking.tthours,name:"
+msgid "Time Traking Hours"
+msgstr "Heures"
+
+msgctxt "model:pl_cust_timetracking.ttovertimevalidate,name:"
+msgid "Time Traking Overtime Validate"
+msgstr "Heures supplémentaires"
+
+msgctxt "model:pl_cust_timetracking.ttprintreport_start,name:"
+msgid "Print TT Report"
+msgstr "Rapport ETT"
+
+msgctxt "model:pl_cust_timetracking.tttimetables,name:"
+msgid "Time Traking Work Timetables"
+msgstr ""
+
+msgctxt "model:pl_cust_timetracking.ttweeklydetail,name:"
+msgid "Time Tracking Weekly Detail"
+msgstr ""
+
+msgctxt "model:pl_cust_timetracking.ttweeklydetailhours,name:"
+msgid "Time Traking Hours"
+msgstr "Heures"
+
+msgctxt "model:pl_cust_timetracking.ttwizard_start,name:"
+msgid "TTWizardStart"
+msgstr ""
+
+msgctxt "model:res.group,name:group_timetracking_admin"
+msgid "TimeTracking Administration"
+msgstr "TimeTracking Administration"
+
+msgctxt "model:res.group,name:group_timetracking_conf"
+msgid "TimeTracking Configuration"
+msgstr "Configuration"
+
+msgctxt "model:res.group,name:group_timetracking_user"
+msgid "TimeTracking User"
+msgstr "TimeTracking Utilisateur"
+
+msgctxt "report:pl_cust_timetracking.ttreport:"
+msgid "- Période du"
+msgstr ""
+
+msgctxt "report:pl_cust_timetracking.ttreport:"
+msgid "/"
+msgstr "/"
+
+msgctxt "report:pl_cust_timetracking.ttreport:"
+msgid "Pointages de"
+msgstr ""
+
+msgctxt "report:pl_cust_timetracking.ttreport:"
+msgid "TOTAL DE LA PÉRIODE :"
+msgstr ""
+
+msgctxt "report:pl_cust_timetracking.ttreport:"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "report:pl_cust_timetracking.ttreport:"
+msgid "Total de la"
+msgstr ""
+
+msgctxt "report:pl_cust_timetracking.ttreport:"
+msgid "Total pour"
+msgstr ""
+
+msgctxt "report:pl_cust_timetracking.ttreport:"
+msgid "au"
+msgstr ""
+
+msgctxt "report:pl_cust_timetracking.ttreport:"
+msgid "heures"
+msgstr ""
+
+msgctxt "selection:pl_cust_timetracking.hlwizard.start,day_of_week:"
+msgid "Friday"
+msgstr "Vendredi"
+
+msgctxt "selection:pl_cust_timetracking.hlwizard.start,day_of_week:"
+msgid "Monday"
+msgstr "Lundi"
+
+msgctxt "selection:pl_cust_timetracking.hlwizard.start,day_of_week:"
+msgid "Thursday"
+msgstr "Jeudi"
+
+msgctxt "selection:pl_cust_timetracking.hlwizard.start,day_of_week:"
+msgid "Tuesday"
+msgstr "Mardi"
+
+msgctxt "selection:pl_cust_timetracking.hlwizard.start,day_of_week:"
+msgid "Wednesday"
+msgstr "Mercredi"
+
+msgctxt "selection:pl_cust_timetracking.tthours,type_hour:"
+msgid "In"
+msgstr "Entrée"
+
+msgctxt "selection:pl_cust_timetracking.tthours,type_hour:"
+msgid "Out"
+msgstr "Sortie"
+
+msgctxt "selection:pl_cust_timetracking.ttweeklydetail,day:"
+msgid "Dimanche"
+msgstr ""
+
+msgctxt "selection:pl_cust_timetracking.ttweeklydetail,day:"
+msgid "Jeudi"
+msgstr ""
+
+msgctxt "selection:pl_cust_timetracking.ttweeklydetail,day:"
+msgid "Lundi"
+msgstr ""
+
+msgctxt "selection:pl_cust_timetracking.ttweeklydetail,day:"
+msgid "Mardi"
+msgstr ""
+
+msgctxt "selection:pl_cust_timetracking.ttweeklydetail,day:"
+msgid "Mercredi"
+msgstr ""
+
+msgctxt "selection:pl_cust_timetracking.ttweeklydetail,day:"
+msgid "Samedi"
+msgstr ""
+
+msgctxt "selection:pl_cust_timetracking.ttweeklydetail,day:"
+msgid "Vendredi"
+msgstr ""
+
+msgctxt "selection:pl_cust_timetracking.ttweeklydetailhours,type_hour:"
+msgid "In"
+msgstr "Entrée"
+
+msgctxt "selection:pl_cust_timetracking.ttweeklydetailhours,type_hour:"
+msgid "Out"
+msgstr "Sortie"
+
+msgctxt "selection:pl_cust_timetracking.ttwizard_start,type_hour:"
+msgid "In"
+msgstr "Entrée"
+
+msgctxt "selection:pl_cust_timetracking.ttwizard_start,type_hour:"
+msgid "Out"
+msgstr "Sortie"
+
+msgctxt "view:pl_cust_timetracking.ttdays:"
+msgid "Nb de Pointage"
+msgstr "Nb de Pointage"
+
+msgctxt "view:pl_cust_timetracking.ttdays:"
+msgid "Tot:"
+msgstr ""
+
+msgctxt "wizard_button:pl_cust_timetracking.hlwizard,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_timetracking.hlwizard,start,update_day_type:"
+msgid "Update"
+msgstr "Mise à jour"
+
+msgctxt "wizard_button:pl_cust_timetracking.ttadddaywizard,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt ""
+"wizard_button:pl_cust_timetracking.ttadddaywizard,start,validate_newday:"
+msgid "Add day"
+msgstr "Jour manquant"
+
+msgctxt "wizard_button:pl_cust_timetracking.ttprintreport,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_timetracking.ttprintreport,start,print_:"
+msgid "Print"
+msgstr "Imprimer"
+
+msgctxt "wizard_button:pl_cust_timetracking.ttwizard,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_timetracking.ttwizard,start,validate_tt:"
+msgid "Validate"
+msgstr "Valider"

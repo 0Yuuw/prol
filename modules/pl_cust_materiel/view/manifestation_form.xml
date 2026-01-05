@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form col="4">
+    <group id="grp_manif_left" col="6" colspan="2">
+        <label name="date_start" />
+        <field name="date_start" readonly="1"/>
+        <label name="time_start" />
+        <field name="time_start" readonly="1"/>
+        <label name="afternoon" />
+        <field name="afternoon" readonly="1"/>
+        <label name="date_end" />
+        <field name="date_end" readonly="1"/>
+        <label name="time_end" />
+        <field name="time_end" readonly="1"/>
+        <label name="morning" />
+        <field name="morning" readonly="1"/>
+        <label name="party" />
+        <field name="party" colspan="5" readonly="1"/>
+        <separator name="name" colspan="6"/>
+        <field name="name" colspan="6" readonly="1"/>
+        <separator name="localisation" colspan="6"/>
+        <field name="localisation" widget='selection' colspan="6" readonly="1"/>
+        <separator name="description" colspan="6"/>
+        <field name="description" colspan="6" />
+        <field name="color" colspan="6"/>
+        <field name="datetime_start" colspan="3" readonly="1"/>
+        <field name="datetime_end" colspan="3" readonly="1"/>
+        <field name="type" colspan="6" readonly="1"/>
+    </group>
+    <field name="locations" colspan="2" height="450" readonly="1"/>
+    <button name="change_manif" colspan="4" string="Modifier la manifestation" icon="tryton-go-next"/>
+
+    <field name="logs" colspan="4" readonly="1"/>
+</form>

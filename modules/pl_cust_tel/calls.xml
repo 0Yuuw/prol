@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+
+    <record model="ir.ui.view" id="regularcalls_view_form">
+      <field name="model">pl_cust_tel.regularcalls</field>
+      <field name="type">form</field>
+      <field name="name">regularcalls_form</field>
+    </record>
+
+    <record model="ir.ui.view" id="regularcalls_view_tree">
+      <field name="model">pl_cust_tel.regularcalls</field>
+      <field name="type">tree</field>
+      <field name="name">regularcalls_tree</field>
+    </record>
+
+    <record model="ir.ui.view" id="calls_view_form">
+      <field name="model">pl_cust_tel.calls</field>
+      <field name="type">form</field>
+      <field name="name">calls_form</field>
+    </record>
+
+    <record model="ir.ui.view" id="calls_view_tree">
+      <field name="model">pl_cust_tel.calls</field>
+      <field name="type">tree</field>
+      <field name="name">calls_tree</field>
+    </record>
+
+    <record model="ir.ui.view" id="calls_resume_view_tree">
+      <field name="model">pl_cust_tel.calls</field>
+      <field name="type">tree</field>
+      <field name="name">calls_resume_tree</field>
+    </record>
+
+    <record model="ir.action.act_window" id="act_calls_form">
+      <field name="name">Calls</field>
+      <field name="res_model">pl_cust_tel.calls</field>
+    </record>
+
+    <record model="ir.action.act_window" id="act_callsresume_form">
+      <field name="name">Calls Resume</field>
+      <field name="res_model">pl_cust_tel.calls</field>
+    </record>
+    <record model="ir.action.act_window.view" id="act_callsresume_form_view1">
+      <field name="sequence" eval="10" />
+      <field name="view" ref="calls_resume_view_tree" />
+      <field name="act_window" ref="act_callsresume_form" />
+    </record>
+    <record model="ir.action.act_window.view" id="act_callsresume_form_view2">
+      <field name="sequence" eval="20" />
+      <field name="view" ref="calls_view_form" />
+      <field name="act_window" ref="act_callsresume_form" />
+    </record>
+
+    <record model="ir.action.act_window" id="act_configuration_form">
+      <field name="name">Configuration Calls</field>
+      <field name="res_model">pl_cust_tel.configuration</field>
+    </record>
+
+    <record model="ir.action.act_window" id="act_regcall_form">
+      <field name="name">Regular Calls</field>
+      <field name="res_model">pl_cust_tel.regularcalls</field>
+    </record>
+
+    <record model="ir.ui.view" id="currentwriter_view_form">
+      <field name="model">pl_cust_tel.currentwriter</field>
+      <field name="type">form</field>
+      <field name="name">currentwriter_form</field>
+    </record>
+    <record model="ir.action.act_window" id="act_currentwriter_form">
+      <field name="name">Current Writer</field>
+      <field name="res_model">pl_cust_tel.currentwriter</field>
+    </record>
+    <record model="ir.action.act_window.view" id="act_currentwriter_form_view1">
+      <field name="sequence" eval="1" />
+      <field name="view" ref="currentwriter_view_form" />
+      <field name="act_window" ref="act_currentwriter_form" />
+    </record>
+
+    <record model="ir.action.act_window" id="act_calls_popup">
+      <field name="name">Nouvel appel</field>
+      <field name="res_model">pl_cust_tel.calls</field>
+    </record>
+    <record model="ir.action.act_window.view" id="act_calls_popup_view">
+      <field name="sequence" eval="10" />
+      <field name="view" ref="calls_view_form" />
+      <field name="act_window" ref="act_calls_popup" />
+    </record>
+
+    <menuitem name="Écoutants" sequence="0" id="menu_grea" />
+
+    <menuitem action="act_calls_form" parent="menu_grea" sequence="10" id="menu_calls_form" />
+    <menuitem action="act_callsresume_form" parent="menu_grea" sequence="10" id="menu_callsresume_form" />
+    <menuitem action="act_regcall_form" parent="menu_grea" sequence="10" id="menu_regcall_form" />
+    <menuitem action="act_calls_popup" parent="menu_grea" sequence="15" id="menu_popupcalls_form" />
+    <menuitem action="act_currentwriter_form" parent="menu_grea" sequence="20" id="menu_currentwriter_form" />
+    <menuitem action="act_configuration_form" parent="menu_grea" sequence="20" id="menu_configuration_form" />
+
+
+    <!-- <menuitem action="myact_calls_form" parent="menu_grea" sequence="10"
+    id="menu_mycalls_form"/> -->
+
+
+  </data>
+</tryton>

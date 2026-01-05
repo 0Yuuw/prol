@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form col="4">
+    <group id="wiz_addrepa_left" col="4" colspan="2">
+        <label name="date_start" yalign="0" />
+        <field name="date_start" yalign="0" />
+        <label name="date_end" yalign="0" />
+        <field name="date_end" yalign="0" />
+        <label name="materiel" yalign="0" />
+        <field name="materiel" yalign="0" />
+        <label name="qty" yalign="0" />
+        <field name="qty" yalign="0" /> 
+        <label name="logs_info" yalign="0" />
+        <field name="logs_info" yalign="0" colspan="3" /> 
+        <separator name="description" colspan="4"/>
+        <field name="description" yalign="0" colspan="4"/>
+    </group>
+    <field name="manifestations" colspan="2" height="450" />
+</form>

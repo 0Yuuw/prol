@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <record model="ir.ui.view" id="rescadtasks_view_form">
+            <field name="model">pl_cust_rescad.tasks</field>
+            <field name="type">form</field>
+            <field name="name">rescadtasks_form</field>
+        </record>
+        <record model="ir.ui.view" id="rescadtasks_view_tree">
+            <field name="model">pl_cust_rescad.tasks</field>
+            <field name="type">tree</field>
+            <field name="name">rescadtasks_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="rescad_act_tasks">
+            <field name="name">All Tasks</field>
+            <field name="res_model">pl_cust_rescad.tasks</field>
+        </record>
+
+
+        <record model="ir.ui.view" id="rescadlogs_view_form">
+            <field name="model">pl_cust_rescad.logs</field>
+            <field name="type">form</field>
+            <field name="name">rescadlogs_form</field>
+        </record>
+        <record model="ir.ui.view" id="rescadlogs_view_tree">
+            <field name="model">pl_cust_rescad.logs</field>
+            <field name="type">tree</field>
+            <field name="name">rescadlogs_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="rescad_act_logs">
+            <field name="name">All Logs</field>
+            <field name="res_model">pl_cust_rescad.logs</field>
+        </record>
+
+        <record model="ir.ui.view" id="rescad_view_form">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="party.party_view_form"/>
+            <field name="name">rescadparty_form</field>
+            <field name="priority" eval="180"/>
+        </record>
+
+        <menuitem parent="pl_cust_plbase.menu_myparty" sequence="10" action="rescad_act_logs" id="rescad_logs_id"/>
+        <menuitem parent="pl_cust_plbase.menu_myparty" sequence="10" action="rescad_act_tasks" id="rescad_tasks_id"/>
+
+    </data>
+
+</tryton>

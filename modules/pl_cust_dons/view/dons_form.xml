@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<form>
+    <label name="date"/>
+    <field name="date"/>
+
+    <label name="type"/>
+    <field name="type"/>
+
+    <label name="donator"/>
+    <field name="donator"/>
+
+    <label name="amount"/>
+    <field name="amount"/>
+
+    <!--<label name="notes"/>
+    <field name="notes"/>-->
+
+    <label name="complement"/>
+    <field name="complement"/>    
+
+    <label name="attestation_sent"/>
+    <field name="attestation_sent" xexpand="0" width="25"/>
+</form>

@@ -1,0 +1,9 @@
+Nom;Client;Stock;Fournisseur;Produit;Charge;Actifs;Relevé
+Liquidités;;;;;;x;balance
+Passif;;;;;;;balance
+Charges;;;;;x;;income
+Débiteurs;x;;;;;x;balance
+Produits;;;;x;;;income
+Résultat;;;;;;;income
+Actif;;;;;;x;balance
+Créanciers;;;x;;;;balance

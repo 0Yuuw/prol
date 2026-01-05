@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+
+    <xpath expr="//field[@name='name']" position="after">
+        <field name="change_import" optional="1"/>
+        <field name="check_import" optional="1"/>
+        <field name="c_archi" optional="1"/>
+        <field name="c_artvisu" optional="1" />
+        <field name="c_cine" optional="1" />
+        <field name="c_danse" optional="1" />
+        <field name="c_design" optional="1" />
+        <field name="c_digit" optional="1" />
+        <field name="c_ecolo" optional="1" />
+        <field name="c_enseign" optional="1" />
+        <field name="c_queer" optional="1" />
+        <field name="c_hotel" optional="1" />
+        <field name="c_geneva" optional="1" />
+        <field name="c_litera" optional="1" />
+        <field name="c_bd" optional="1" />
+        <field name="c_mode" optional="1" />
+        <field name="c_music" optional="1" />
+        <field name="c_photo" optional="1" />
+        <field name="c_science" optional="1" />
+        <field name="c_social" optional="1" />
+        <field name="c_theat" optional="1" />
+        <field name="c_tour" optional="1" />
+        <field name="c_video" optional="1" />
+    </xpath>
+
+</data>

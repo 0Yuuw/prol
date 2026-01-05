@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.action.report" id="fc_report_invoice">
+            <field name="name">Factures FC</field>
+            <field name="model">account.invoice</field>
+            <field name="report_name">pl_cust_account.invoice_report</field>
+            <field name="report">pl_cust_fc/fc_invoice.fodt</field>
+            <field name="single">1</field>
+        </record>
+        <record model="ir.action.keyword" id="report_fcinvoice_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">account.invoice,-1</field>
+            <field name="action" ref="fc_report_invoice"/>
+        </record>
+
+        <record model="ir.action.report" id="fc_report_invoice2">
+            <field name="name">Factures FC 2 pages</field>
+            <field name="model">account.invoice</field>
+            <field name="report_name">pl_cust_account.invoice_report</field>
+            <field name="report">pl_cust_fc/fc_invoice2.fodt</field>
+            <field name="single">1</field>
+        </record>
+        <record model="ir.action.keyword" id="report_fcinvoice2_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">account.invoice,-1</field>
+            <field name="action" ref="fc_report_invoice2"/>
+        </record>
+
+        <record model="ir.action.report" id="fc_report_devis">
+            <field name="name">Devis FC</field>
+            <field name="model">account.invoice</field>
+            <field name="report_name">pl_cust_account.invoice_report</field>
+            <field name="report">pl_cust_fc/fc_devis.fodt</field>
+            <field name="single">1</field>
+        </record>
+        <record model="ir.action.keyword" id="report_fcdevis_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">account.invoice,-1</field>
+            <field name="action" ref="fc_report_devis"/>
+        </record>
+    </data>
+</tryton>

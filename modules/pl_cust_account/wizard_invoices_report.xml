@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+
+    <record model="ir.ui.view" id="invoicereport_start_view_form">
+      <field name="model">pl_cust_account.invoicereport_start</field>
+      <field name="type">form</field>
+      <field name="name">invoicereport_start_form</field>
+    </record>
+
+    <record model="ir.ui.view" id="invoicereport_result_view_form">
+      <field name="model">pl_cust_account.invoicereport_result</field>
+      <field name="type">form</field>
+      <field name="name">invoicereport_result_form</field>
+    </record>
+
+    <record model="ir.action.wizard" id="act_wizard_invoicereport">
+      <field name="name">Invoice Report</field>
+      <field name="wiz_name">pl_cust_account.invoicereport</field>
+    </record>
+    
+    <menuitem parent="menu_compta" action="act_wizard_invoicereport" id="menu_invoicereport" sequence="20"/>
+
+    <record model="ir.ui.menu-res.group" id="menu_invoicereport_group_account_admin">
+      <field name="menu" ref="menu_invoicereport"/>
+      <field name="group" ref="group_compta_admin"/>
+    </record>
+
+  </data>
+</tryton>

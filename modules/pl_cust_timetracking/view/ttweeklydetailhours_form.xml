@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form>
+    <label name="employ_hour" />
+    <field name="employ_hour" />
+    <label name="type_hour" />
+    <field name="type_hour" />
+    <label name="weekly_detail_id" />
+    <field name="weekly_detail_id" />
+</form>
+

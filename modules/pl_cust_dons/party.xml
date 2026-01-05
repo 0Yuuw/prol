@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <!-- Vues Party -->
+        <record model="ir.ui.view" id="dons_view_form">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="party.party_view_form"/>
+            <field name="name">party_form</field>
+            <field name="priority" eval="101"/>
+        </record>
+
+        <record model="ir.ui.view" id="dons_view_tree">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="pl_cust_plbase.pl_party_view_tree"/>
+            <field name="name">party_tree</field>
+            <field name="priority" eval="101"/>
+        </record>
+    </data>
+</tryton>

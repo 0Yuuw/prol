@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<form col="4">
+  <field name="call_user" invisible="1" colspan="4"/>
+  <newline/>
+  <!--<button colspan="4" name="close_tab" string="Fermer sans sauver" icon="tryton-close"/>-->
+  <button colspan="2" name="save" string="Enregistrer" type="object" icon="tryton-save"/>
+  <button colspan="2" name="save_and_new" string="Enregistrer + Nouvel Appel" type="object" icon="tryton-add"/>
+  <field name="name" colspan="4" readonly="1"/>
+
+  <separator colspan="4"/>
+  <group id="call_writer" colspan="4" col="8">
+    <label name="call_pseudo" />
+    <field name="call_pseudo" colspan="3" readonly="1"/>
+    <label name="call_date" />
+    <field name="call_date" />
+    <label name="call_time" />
+    <field name="call_time" />
+    <field name="call_writer" invisible="1"/>
+  </group>
+
+  <separator colspan="4"/>
+  <separator id="appel" string="Appel" colspan="4"/>
+
+  <group id="call_type" colspan="4" col="4">
+    <label name="call_type"/>
+    <field name="call_type"/>
+    <label name="call_special"/>
+    <field name="call_special"/>
+    <group id="call_length" colspan="2" col="4">
+      <label name="call_length"/>
+      <field name="call_length"/>
+      <label name="call_user_type"/>
+      <field name="call_user_type"/>
+    </group>
+  </group>
+
+
+  <separator colspan="4"/>
+  <separator id="appelant" string="Appelant" colspan="4"/>
+
+  <group id='call_user_info' col="4" colspan="4">
+    <group id='call_user_info_left' col="2" colspan="2">
+      <label name="call_regular" xalign="0"/>
+      <field name="call_regular" widget="selection"/>
+      <label name="call_user_gender" xalign="0"/>
+      <field name="call_user_gender"/>
+      <label name="call_user_age" xalign="0"/>
+      <field name="call_user_age"/>
+    </group>
+    <group id='call_user_info_right' col="2" colspan="2">
+      <field name="call_regular_notes" readonly="1" colspan="2" yalign="0" yexpend="1" yfill="1"/>
+    </group>
+  </group>
+
+  <separator colspan="4"/>
+  <separator id="obj" string="Objet de l'appel" colspan="4"/>
+
+  <group id='call_contenu' col="2" colspan="2">
+    <label name="contenu" yalign="0" xalign="0"/>
+    <field name="contenu" yalign="0" />
+    <label name="contenu_2" yalign="0" xalign="0"/>
+    <field name="contenu_2" yalign="0"/>
+    <label name="contenu_3" yalign="0" xalign="0"/>
+    <field name="contenu_3" yalign="0"/>
+  </group>
+
+  <group id='call_contenu' col="2" colspan="2">
+    <label name="call_origin_sos" yalign="0" xalign="0"/>
+    <field name="call_origin_sos" yalign="0" />
+    <label name="call_problem_sos" yalign="0" xalign="0"/>
+    <field name="call_problem_sos" yalign="0" />
+    <label name="call_role_sos" yalign="0" xalign="0"/>
+    <field name="call_role_sos" yalign="0" />
+    <label name="call_type_sos" yalign="0" xalign="0"/>
+    <field name="call_type_sos" yalign="0" />
+    <label name="call_type_terrestre_sos" yalign="0" xalign="0"/>
+    <field name="call_type_terrestre_sos" yalign="0" />
+    <label name="call_type_internet_sos" yalign="0" xalign="0"/>
+    <field name="call_type_internet_sos" yalign="0" />
+    <label name="call_origin_vd" yalign="0" xalign="0"/>
+    <field name="call_origin_vd" yalign="0" />
+    <label name="call_role_vd" yalign="0" xalign="0"/>
+    <field name="call_role_vd" yalign="0" />
+    <label name="call_rel_vd" yalign="0" xalign="0"/>
+    <field name="call_rel_vd" yalign="0" />
+    <label name="call_type_vd" yalign="0" xalign="0"/>
+    <field name="call_type_vd" yalign="0" />
+    <label name="call_origin_vih" yalign="0" xalign="0"/>
+    <field name="call_origin_vih" yalign="0" />
+    <label name="call_motif_vih" yalign="0" xalign="0"/>
+    <field name="call_motif_vih" yalign="0" />
+  </group>
+  <label name="call_complement" xalign="0" />
+  <field name="call_complement" colspan="3" />
+  <label name="call_resume" xalign="0" />
+  <field name="call_resume" colspan="4"/>
+
+  <separator colspan="4"/>
+  <separator id="inter" string="Intervention Externe" colspan="2"/>
+  <separator id="suivi" string="Suivi de l'appel" colspan="2"/>
+
+  <group id="call_inter" col="4" colspan="2">
+    <label name="interv_umus" xalign="0"/>
+    <field name="interv_umus" xalign="0" xexpand="0"/>
+    <label name="interv_police" xalign="0"/>
+    <field name="interv_police" xalign="0" xexpand="0"/>
+    <label name="interv_medecins" xalign="0"/>
+    <field name="interv_medecins" xalign="0" xexpand="0"/>
+    <label name="interv_autres" xalign="0"/>
+    <field name="interv_autres" xalign="0" xexpand="0"/>
+  </group>
+
+  <group id="call_orent" colspan="2" col="1">
+    <label name="call_orientation" xalign="0"/>
+    <field name="call_orientation"/>
+    <label name="call_action" xalign="0"/>
+    <field name="call_action"/>
+  </group>
+
+  <button colspan="2" name="save" string="Enregistrer" type="object" icon="tryton-save"/>
+  <button colspan="2" name="save_and_new" string="Enregistrer + Nouvel Appel" type="object" icon="tryton-add"/>
+
+</form>

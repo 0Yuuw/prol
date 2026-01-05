@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form col="2">
+    <label name="employee_id" />
+    <field name="employee_id" />
+    <label name="tx_activity" />
+    <field name="tx_activity" />
+    <newline/>
+    <label name="date_start" />
+    <field name="date_start" />
+    <label name="date_end" />
+    <field name="date_end" />
+    <newline/>
+    <label name="weekly_duration_auto" />
+    <field name="weekly_duration_auto" />
+    <newline/>
+    <label name="weekly_duration" />
+    <field name="weekly_duration" />
+    <newline/>
+    <label name="weekly_detail" />
+    <field name="weekly_detail" />
+    <newline/>
+    <group id='bool_day_list' colspan="2" col='14'>
+        <label name="monday" />
+        <field name="monday" />
+        <label name="tuesday" />
+        <field name="tuesday" />
+        <label name="wednesday" />
+        <field name="wednesday" />
+        <label name="thursday" />
+        <field name="thursday" />
+        <label name="friday" />
+        <field name="friday" />
+        <label name="saturday" />
+        <field name="saturday" />
+        <label name="sunday" />
+        <field name="sunday" />
+    </group>
+</form>
+

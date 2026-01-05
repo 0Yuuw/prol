@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form col="4">
+    <group id="wiz_addmanif_left" col="6" colspan="2">
+    <label name="date_start" yalign="0"/>
+    <field name="date_start" yalign="0"/>
+    <label name="time_start" yalign="0"/>
+    <field name="time_start" yalign="0"/>
+    <label name="afternoon" yalign="0"/>
+    <field name="afternoon" yalign="0"/>
+    <label name="date_end" yalign="0"/>
+    <field name="date_end" yalign="0"/>
+    <label name="time_end" yalign="0"/>
+    <field name="time_end" yalign="0"/>
+    <label name="morning" yalign="0"/>
+    <field name="morning" yalign="0"/>
+    <label name="party" yalign="0"/>
+    <field name="party" yalign="0" colspan="5" />
+    <separator name="name" colspan="6"/>
+    <field name="name" yalign="0" colspan="6" />
+    <separator name="localisation" colspan="6"/>
+    <field name="localisation" yalign="0" colspan="6"/>
+    <separator name="description" colspan="6"/>
+    <field name="description" yalign="0" colspan="6"/>
+    <field name="datetime_start" colspan="3" yalign="0"/>
+    <field name="datetime_end" colspan="3" yalign="0"/>
+    </group>
+    <field name="locations_tmp" colspan="2" height="450"/>   
+</form>

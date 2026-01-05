@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form>
+    <label name="name" />
+    <field name="name" colspan="3"/>
+    <label name="qty" />
+    <field name="qty" />
+    <label name="price" />
+    <field name="price" />
+    <separator name="description" colspan="4"/>
+    <field name="description" colspan="4"/>
+    <separator name="atelier" colspan="4"/>
+    <field name="atelier" colspan="4"/>
+    <field name="locations" colspan="4"/>
+    <field name="logs" colspan="4"/>
+    <field name="color" colspan="4"/>
+</form>

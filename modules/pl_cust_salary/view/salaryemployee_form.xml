@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+  <xpath expr="/form/field[@name='party']" position="after">
+    <label name="avs_num"/>
+    <field name="avs_num"/>
+    <label name="bank_name"/>
+    <field name="bank_name"/>
+    <label name="iban"/>
+    <field name="iban"/>
+  </xpath>
+</data>

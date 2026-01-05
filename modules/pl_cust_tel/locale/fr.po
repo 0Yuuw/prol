@@ -1,0 +1,1038 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:party.party,calls:"
+msgid "Appels"
+msgstr "Appels"
+
+msgctxt "field:party.party,comments:"
+msgid "Commentaires"
+msgstr ""
+
+msgctxt "field:party.party,engagement_date:"
+msgid "Date de début"
+msgstr ""
+
+msgctxt "field:party.party,is_writer:"
+msgid "Ecoutant"
+msgstr ""
+
+msgctxt "field:party.party,party:"
+msgid "Contact"
+msgstr ""
+
+msgctxt "field:party.party,pseudo:"
+msgid "Pseudo"
+msgstr "Pseudo"
+
+msgctxt "field:pl_cust_tel.calls,call_action:"
+msgid "Action choisie"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_complement:"
+msgid "Complément"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:pl_cust_tel.calls,call_length:"
+msgid "Durée (en minutes)"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_motif_vih:"
+msgid "Motif (VIH)"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_orientation:"
+msgid "Orientation (LAVI, Solidarité Femme, Rien ne va plus...)"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_origin_sos:"
+msgid "Provenance de l'appel (SOS Jeux)"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_origin_vd:"
+msgid "Provenance de l'appel (vd)"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_origin_vih:"
+msgid "Provenance de l'appel (VIH)"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_problem_sos:"
+msgid "Motivations de l’appel (SOS Jeux)"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_pseudo:"
+msgid "Pseudo"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_regular:"
+msgid "Appelant régulier"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_regular_notes:"
+msgid "Info appelant régulier"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_rel_vd:"
+msgid "Relation (vd)"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_resume:"
+msgid "Résumé de l'appel"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_role_sos:"
+msgid "Rôle (SOS Jeux)"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_role_vd:"
+msgid "Rôle (vd)"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_special:"
+msgid "Raison"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_time:"
+msgid "Heure"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_type:"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "field:pl_cust_tel.calls,call_type_internet_sos:"
+msgid "En ligne (SOS Jeux)"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_type_sos:"
+msgid "Type (SOS Jeux)"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_type_terrestre_sos:"
+msgid "En Terrestre (SOS Jeux)"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_type_vd:"
+msgid "Type (vd)"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_user:"
+msgid "User"
+msgstr "Utilisateur"
+
+msgctxt "field:pl_cust_tel.calls,call_user_age:"
+msgid "Âge"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_user_gender:"
+msgid "Sexe"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_user_type:"
+msgid "Type d'appelant"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,call_writer:"
+msgid "Écoutant"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,contenu:"
+msgid "Contenu"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,contenu_2:"
+msgid "Contenu 2"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,contenu_3:"
+msgid "Contenu 3"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,interv_autres:"
+msgid "Autres"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,interv_medecins:"
+msgid "Médecins"
+msgstr "Médecins"
+
+msgctxt "field:pl_cust_tel.calls,interv_police:"
+msgid "Police"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,interv_umus:"
+msgid "UMUS"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.calls,name:"
+msgid "N°"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.configuration,call_sequence:"
+msgid "Séquence"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.currentwriter,call_writer:"
+msgid "Écoutant"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.regularcalls,age:"
+msgid "Âge"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.regularcalls,name:"
+msgid "Nom"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.regularcalls,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "field:pl_cust_tel.regularcalls,oe_id:"
+msgid "OEID"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.regularcalls,sexe:"
+msgid "Genre"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.wizard_result,file:"
+msgid "File"
+msgstr "Fichier"
+
+msgctxt "field:pl_cust_tel.wizard_result,name:"
+msgid "File Name"
+msgstr "Nom du fichier"
+
+msgctxt "field:pl_cust_tel.wizard_service_start,call_writer:"
+msgid "Écoutant"
+msgstr ""
+
+msgctxt "field:pl_cust_tel.wizard_start,year_export:"
+msgid "Year to Generate"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_calls_form"
+msgid "Calls"
+msgstr "Appels"
+
+msgctxt "model:ir.action,name:act_calls_popup"
+msgid "Nouvel appel"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_callsresume_form"
+msgid "Calls Resume"
+msgstr "Appels précédents"
+
+msgctxt "model:ir.action,name:act_configuration_form"
+msgid "Configuration Calls"
+msgstr "Configuration"
+
+msgctxt "model:ir.action,name:act_currentwriter_form"
+msgid "Current Writer"
+msgstr "Ecoutant courant"
+
+msgctxt "model:ir.action,name:act_regcall_form"
+msgid "Regular Calls"
+msgstr "Appelants"
+
+msgctxt "model:ir.action,name:wizard_export"
+msgid "Stats"
+msgstr "Statistiques"
+
+msgctxt "model:ir.action,name:wizard_service"
+msgid "Prise de service"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_calls_form"
+msgid "Calls"
+msgstr "Appels"
+
+msgctxt "model:ir.ui.menu,name:menu_callsresume_form"
+msgid "Calls Resume"
+msgstr "Appels précédents"
+
+msgctxt "model:ir.ui.menu,name:menu_configuration_form"
+msgid "Configuration Calls"
+msgstr "Configuration"
+
+msgctxt "model:ir.ui.menu,name:menu_currentwriter_form"
+msgid "Current Writer"
+msgstr "Ecoutant courant"
+
+msgctxt "model:ir.ui.menu,name:menu_grea"
+msgid "Écoutants"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_popupcalls_form"
+msgid "Nouvel appel"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_regcall_form"
+msgid "Regular Calls"
+msgstr "Appelants"
+
+msgctxt "model:ir.ui.menu,name:menu_wizard_export"
+msgid "Stats"
+msgstr "Statistiques"
+
+msgctxt "model:ir.ui.menu,name:menu_wizard_service"
+msgid "Prise de service"
+msgstr ""
+
+msgctxt "model:pl_cust_tel.calls,string:"
+msgid "Pl Cust Tel Calls"
+msgstr ""
+
+msgctxt "model:pl_cust_tel.configuration,string:"
+msgid "Pl Cust Tel Configuration"
+msgstr ""
+
+msgctxt "model:pl_cust_tel.currentwriter,string:"
+msgid "Pl Cust Tel Currentwriter"
+msgstr ""
+
+msgctxt "model:pl_cust_tel.regularcalls,string:"
+msgid "Pl Cust Tel Regularcalls"
+msgstr ""
+
+msgctxt "model:pl_cust_tel.wizard_result,string:"
+msgid "Pl Cust Tel Wizard Result"
+msgstr ""
+
+msgctxt "model:pl_cust_tel.wizard_service_start,string:"
+msgid "Pl Cust Tel Wizard Service Start"
+msgstr ""
+
+msgctxt "model:pl_cust_tel.wizard_start,string:"
+msgid "Pl Cust Tel Wizard Start"
+msgstr ""
+
+msgctxt "model:res.group,name:group_lmt_admin"
+msgid "LMTAdmin"
+msgstr ""
+
+msgctxt "model:res.group,name:group_lmt_user"
+msgid "LMTUser"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_motif_vih:"
+msgid "Appel pour un tiers"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_motif_vih:"
+msgid "Demande de renseignements"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_motif_vih:"
+msgid "Inquiétude après le test"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_motif_vih:"
+msgid "Inquiétude en vue du test"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_sos:"
+msgid "Autre"
+msgstr "Autre"
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_sos:"
+msgid "France"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_sos:"
+msgid "Fribourg"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_sos:"
+msgid "Genève"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_sos:"
+msgid "Jura"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_sos:"
+msgid "Neuchâtel"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_sos:"
+msgid "Non renseigné"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_sos:"
+msgid "Valais"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_sos:"
+msgid "Vaud"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_vd:"
+msgid "Autre"
+msgstr "Autre"
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_vd:"
+msgid "Fribourg"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_vd:"
+msgid "Genève"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_vd:"
+msgid "Jura"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_vd:"
+msgid "Neuchâtel"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_vd:"
+msgid "Valais"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_vd:"
+msgid "Vaud"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_vih:"
+msgid "Autre"
+msgstr "Autre"
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_vih:"
+msgid "Fribourg"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_vih:"
+msgid "Genève"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_vih:"
+msgid "Jura"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_vih:"
+msgid "Neuchâtel"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_vih:"
+msgid "Non renseigné"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_vih:"
+msgid "Valais"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_origin_vih:"
+msgid "Vaud"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_problem_sos:"
+msgid "Aide et soutien"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_problem_sos:"
+msgid "Autre"
+msgstr "Autre"
+
+msgctxt "selection:pl_cust_tel.calls,call_problem_sos:"
+msgid "Erreur (technique)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_problem_sos:"
+msgid "Informations sur la dépendance"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_problem_sos:"
+msgid "Informations sur les exclusions de jeu"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_problem_sos:"
+msgid "Informations sur les prestations d’aide"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_rel_vd:"
+msgid "Amis"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_rel_vd:"
+msgid "Autre"
+msgstr "Autre"
+
+msgctxt "selection:pl_cust_tel.calls,call_rel_vd:"
+msgid "Conjoints ou partenaires"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_rel_vd:"
+msgid "Ex-conjoints ou ex-partenaires"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_rel_vd:"
+msgid "Parents/beaux-parents et enfants"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_rel_vd:"
+msgid "Voisinage"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_role_sos:"
+msgid "Autre"
+msgstr "Autre"
+
+msgctxt "selection:pl_cust_tel.calls,call_role_sos:"
+msgid "Joueur"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_role_sos:"
+msgid "Proche"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_role_sos:"
+msgid "Professionnel"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_role_vd:"
+msgid "Auteur"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_role_vd:"
+msgid "Autre"
+msgstr "Autre"
+
+msgctxt "selection:pl_cust_tel.calls,call_role_vd:"
+msgid "Professionnel"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_role_vd:"
+msgid "Témoin"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_role_vd:"
+msgid "Victime"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_special:"
+msgid "Erreur"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_special:"
+msgid "Mis en attente (2ème, 3ème ligne)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_special:"
+msgid "Refusé/Abusif"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_special:"
+msgid "Silencieux"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_type:"
+msgid "Appel (moins d'une minute)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_type:"
+msgid "E-Mails"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_type:"
+msgid "Entretien"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_type:"
+msgid "Tchat"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_type_sos:"
+msgid "Autres"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_type_sos:"
+msgid "Billets à gratter"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_type_sos:"
+msgid "Bourse/Marchés financiers"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_type_sos:"
+msgid "Jeux de table (blackjack/roulette/poker)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_type_sos:"
+msgid "Jeux illégaux"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_type_sos:"
+msgid "Loterie électronique (tactilo, etc.)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_type_sos:"
+msgid "Machines à sous"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_type_sos:"
+msgid "PMU/Paris chevaux"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_type_sos:"
+msgid "Paris sportifs"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_type_sos:"
+msgid "Poker hors casino"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_type_sos:"
+msgid "Tirage (loto, Euromillions, etc.)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_type_vd:"
+msgid "Autre"
+msgstr "Autre"
+
+msgctxt "selection:pl_cust_tel.calls,call_type_vd:"
+msgid "Physique"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_type_vd:"
+msgid "Psychologique"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_type_vd:"
+msgid "Sexuelle"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_type_vd:"
+msgid "Économique"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_user_age:"
+msgid "+65"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_user_age:"
+msgid "-18"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_user_age:"
+msgid "19-40"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_user_age:"
+msgid "41-65"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_user_age:"
+msgid "Non déterminé"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_user_gender:"
+msgid "Femme"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_user_gender:"
+msgid "Homme"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_user_gender:"
+msgid "Non déterminé"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_user_type:"
+msgid "Contact occasionnel ou répété"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_user_type:"
+msgid "Contact régulier"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,call_user_type:"
+msgid "Premier contact"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid "Divers (double-appel, tri et renseignements)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid "Dépendances (problèmes de drogues, alcool, ...)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid "Famille, éducation (problèmes familiaux, au sein de la famille)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid ""
+"Gestion du quotidien (hébergement, difficulté à aborder les choses simples "
+"de tous les jours, problèmes d'organisation, ...)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid "Guerre/Terrorisme/Paix"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid "LAVI"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid "Ligne Gardez le lien"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid "Ligne SOS Jeux"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid "Ligne VIH"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid "Ligne Violences domestiques"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid "Perte, deuil, mort"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid "Problèmes relationnels (travail, voisinage, collègues, amis , ...)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid "Problèmes sociaux (finances, logement, ... )"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid "Relations de couple"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid "Risque de suicide et suicide"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid "Sexualité"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid "Solitude"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid "Soucis dû à une infection"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid "Souffrance physique"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid ""
+"Souffrance psychique (état dépressif, angoisse, troubles et problèmes psy)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid "Spiritualité, sens de la vie"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid ""
+"Travail et formation (travail, mobbing, chômage, problèmes d’apprentissage, "
+"d’études, ...)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid "Violence sur ligne 143 (psychique, physique, sexuelle)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu:"
+msgid "Éducation aux médias"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid "Divers (double-appel, tri et renseignements)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid "Dépendances (problèmes de drogues, alcool, ...)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid "Famille, éducation (problèmes familiaux, au sein de la famille)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid ""
+"Gestion du quotidien (hébergement, difficulté à aborder les choses simples "
+"de tous les jours, problèmes d'organisation, ...)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid "Guerre/Terrorisme/Paix"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid "LAVI"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid "Ligne Gardez le lien"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid "Ligne SOS Jeux"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid "Ligne VIH"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid "Ligne Violences domestiques"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid "Perte, deuil, mort"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid "Problèmes relationnels (travail, voisinage, collègues, amis , ...)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid "Problèmes sociaux (finances, logement, ... )"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid "Relations de couple"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid "Risque de suicide et suicide"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid "Sexualité"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid "Solitude"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid "Soucis dû à une infection"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid "Souffrance physique"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid ""
+"Souffrance psychique (état dépressif, angoisse, troubles et problèmes psy)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid "Spiritualité, sens de la vie"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid ""
+"Travail et formation (travail, mobbing, chômage, problèmes d’apprentissage, "
+"d’études, ...)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid "Violence sur ligne 143 (psychique, physique, sexuelle)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_2:"
+msgid "Éducation aux médias"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid "Divers (double-appel, tri et renseignements)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid "Dépendances (problèmes de drogues, alcool, ...)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid "Famille, éducation (problèmes familiaux, au sein de la famille)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid ""
+"Gestion du quotidien (hébergement, difficulté à aborder les choses simples "
+"de tous les jours, problèmes d'organisation, ...)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid "Guerre/Terrorisme/Paix"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid "LAVI"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid "Ligne Gardez le lien"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid "Ligne SOS Jeux"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid "Ligne VIH"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid "Ligne Violences domestiques"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid "Perte, deuil, mort"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid "Problèmes relationnels (travail, voisinage, collègues, amis , ...)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid "Problèmes sociaux (finances, logement, ... )"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid "Relations de couple"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid "Risque de suicide et suicide"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid "Sexualité"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid "Solitude"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid "Soucis dû à une infection"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid "Souffrance physique"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid ""
+"Souffrance psychique (état dépressif, angoisse, troubles et problèmes psy)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid "Spiritualité, sens de la vie"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid ""
+"Travail et formation (travail, mobbing, chômage, problèmes d’apprentissage, "
+"d’études, ...)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid "Violence sur ligne 143 (psychique, physique, sexuelle)"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.calls,contenu_3:"
+msgid "Éducation aux médias"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.regularcalls,age:"
+msgid "+65"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.regularcalls,age:"
+msgid "-18"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.regularcalls,age:"
+msgid "19-40"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.regularcalls,age:"
+msgid "41-65"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.regularcalls,age:"
+msgid "Non déterminé"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.regularcalls,sexe:"
+msgid "Femme"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.regularcalls,sexe:"
+msgid "Homme"
+msgstr ""
+
+msgctxt "selection:pl_cust_tel.regularcalls,sexe:"
+msgid "Non déterminé"
+msgstr ""
+
+msgctxt "view:party.party:"
+msgid "Écoutants"
+msgstr ""
+
+msgctxt "view:pl_cust_tel.calls:"
+msgid "Appel"
+msgstr ""
+
+msgctxt "view:pl_cust_tel.calls:"
+msgid "Appelant"
+msgstr ""
+
+msgctxt "view:pl_cust_tel.calls:"
+msgid "Intervention Externe"
+msgstr ""
+
+msgctxt "view:pl_cust_tel.calls:"
+msgid "Objet de l'appel"
+msgstr ""
+
+msgctxt "view:pl_cust_tel.calls:"
+msgid "Suivi de l'appel"
+msgstr ""
+
+msgctxt "wizard_button:pl_cust_tel.wizard_export,result,end:"
+msgid "Close"
+msgstr "Fermer"
+
+msgctxt "wizard_button:pl_cust_tel.wizard_export,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_tel.wizard_export,start,generate_report:"
+msgid "Generate Report"
+msgstr "Générer"
+
+msgctxt "wizard_button:pl_cust_tel.wizard_service,start,change:"
+msgid "Prise de service"
+msgstr ""
+
+msgctxt "wizard_button:pl_cust_tel.wizard_service,start,end:"
+msgid "Cancel"
+msgstr "Annuler"

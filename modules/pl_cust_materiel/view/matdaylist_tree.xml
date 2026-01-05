@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree editable="1">
+    <field name="manifestation" readonly='1' expand="1"/>
+    <field name="localisation" readonly='1' expand="1"/>
+    <field name="mat_list" readonly='1' expand="4"/>
+    <field name="mat_com" expand="3"/>
+</tree>

@@ -1,0 +1,88 @@
+"OE"|"Référence"|"Produit"|"Description"|"Commentaire"|"UdM"|"Prix public"
+|"CREA-CAMP"|"Campagne"|"Conception / création"|"Analyse et compréhension du briefing client. Définition de plusieurs axes de communication. Recherche et développement de différentes pistes créatives, visuelles et conceptuelles déclinable sur divers supports. Rédaction des textes et accroches. Recherches iconographique et de mise en page des diverses pistes, retouches images et montage des maquettes. Soumission et corrections. Cession des droits pour Genève, sans limites de temps."|"Heure"|180
+|"SHOOT"|"Shooting"|"Shooting photo/vidéo"|"Organisation du casting, repérage et journée de shooting. Post-production et livraison des fichiers HD. Réalisation de capsules vidéos. Cession des droits."||0
+|"SHOOT-PHOTO"|"Shooting"|"Shooting photo "|"Organisation du casting, repérage et journée de shooting. Post-production et livraison des fichiers HD. Cession des droits."|"Heure"|0
+|"DIRECTION"|"Direction artistique"|"Direction artistique"|"Briefing photographe, repérage, organisation et suivi des prises de vue."|"Heure"|180
+|"FINALISAT"|"Finalisation"|"Finalisation"|"Sélection des images, retouches des images, mise en page de plusieurs propositions. Soumission, corrections. Mise au net et finalisation de la piste choisie."|"Heure"|160
+|"REAL-PRINT"|"Réalisation"|"Réalisation print"|"Mise au format des affiches selon gabarits et les données techniques des différents supports. Simulation taille 1:1 pour en juger de la lisibilité. Préparation des fichiers pour l'impression. "|"Heure"|160
+|"ANNONCES"|"Annonces"|"Réalisation annonces"|"Mise au format des annonces selon les caractéristiques de chaque média. Création des PDF HD certifiés pour impression."|"Heure"|160
+|"REAL-DIGIT"|"Réalisation"|"Réalisation digital"|"Mise au format statique des visuels de campagne aux formats clés. Exportation des fichiers optimisés pour le web."|"Heure"|160
+|"LITHO"|"Photolitho"|"Photolithographie"|"Retouches images HD, intégration des profils colorimétriques et épreuves couleurs certifiées."||0
+|"PLAN-MEDIA-PRINT"|"Plan media"|"Plan media print"|"Contact avec les médias, proposition d’un plan média, simulation, suivi de campagne et vérification."|"Heure"|160
+|"PLAN-MEDIA-DIG"|"Plan media"|"Plan media digital"|"Contact avec les médias, proposition d’un plan média, simulation, suivi de campagne et vérification."||0
+|"ACHAT-ESP-DIG"|"Achat d'espace "|"Achat d'espace digital"|"Ouverture et configuration des comptes publicitaires, création des annonces, mise en place et ciblage, reporting mi-fin parcours. Adaptation aux différents formats pour le réseau Google Display et un post Facebook et linkedin via les réseaux existants."||0
+|"ACHAT-ESP-PRINT"|"Achat d'espace "|"Achat d'espace print"|"1 habillage de tram Cityrunner (2 F24 + 5 crêtes), 100 F4, 2 arrières de bus Citaro, etc…."||0
+"OE"|"ACHAT-FONT"|"Achat font"|"Achat de font"|"Achat et license pour 1 police de caractère."||0
+"OE"|"ACHAT-IMAG"|"Achat image"|"Achat d'image"|"Achat d'images et droits d'utilisation (CHF X par image)."||0
+"OE"|"ATELIER"|"Atelier"|"Atelier de marque"|"Préparation en amont de l’atelier. Workshop sur une matinée. Analyse du Benchmark.Travail sur les valeurs de la marque et la manière dont on aimerait qu'elle soit perçue. Compte rendu de l’atelier (environ 10 pages) avec les messages, les fondamentaux de la marque et son positionnement. Atelier de 2h sur la formalisation des valeurs. "|"Heure"|200
+|"NAMING"|"Naming"|"Naming"|"Suite au travail sur les fondamentaux, échanges et discussions autour de l'architecture de la marque. Proposition de différents noms en relation avec la stratégie."||0
+"OE"|"CREA-BRAND"|"Branding"|"Conception / création ligne graphique"|"Analyse et compréhension du briefing client. Définition de plusieurs axes de communication. Recherche de typographies, de formes et de gammes de couleurs. Création d’un univers visuel en lien avec le logo, déclinaison sur des éléments graphiques (pictogrammes, infographies,..) et différents outils de communication. Application des systèmes graphiques sur des brochures, le set administratif et divers supports de communication pour pouvoir en juger la justesse. Soumission et corrections."|"Heure"|180
+|"CHART-GRAPH"|"Charte graphique"|"Charte graphique"|"Création d'une charte graphique d'environ 10 pages listant les divers éléments réalisés (logo, typographies, palettes de couleurs, etc.)"|"Heure"|160
+"OE"|"REAL-PAPET"|"Réalisation"|"Réalisation set administratif"|"Réalisation du set administratif (un modèle de carte de visite, une signature mail, un template Word pour papier à en-tête, des enveloppes). Soumission et corrections. Livraison des fichiers et des logos aux divers formats."|"Heure"|160
+"OE"|"POWER-POINT"|"Powerpoint"|"Création et réalisation template Powerpoint"|"Création d'un template Powerpoint. Recherche d'un style graphique et d'une mise en page pour 2 à 5 slides types. Soumission. Réalisation des diverses slides selon les remarques. Livraison du fichier."|"Heure"|160
+"OE"|"WEB-ERGO"|"Site web"|"Arborescence, ergonomie, architecture et UX "|"Proposition de l’arborescence, soumission et ajustements. Prototypage du site au moyen de wireframes interactifs, permettant de choisir les modalités de navigation et la structure des différentes pages types avec rédaction de certains contenus. Pour environ 4 typologies de pages, y compris 2 révisions. "||0
+|"WEB-LAND"|"Site web"|"Landing page"|"Design et ergonomie d'une landing page. Programmation et intégration des contenus de la page d'atterrissage. "||0
+"OE"|"WEB-CONC"|"Site web"|"Etude graphique"|"Proposition d’un design pour 3 typologies de pages de références, sur la base des wireframes. Soumission et corrections. Finalisation de la variante retenue, réalisation de toutes les typologies de pages (environ 5) nécessaires. Adaptation en responsive. "||0
+"OE"|"WEB-DEV"|"Site web"|"Développement et mise en œuvre technique "|"Mise en place d’un CMS, intégration HTML/CSS/Javascript, installation et configuration des modules, achat des licences, développements spécifiques. Développement pour une langue. Intégration des contenus. "||0
+"OE"|"WEB-REDAC"|"Site web"|"Rédaction des textes français "|"Proposition d’une tonalité et d’un style d’écriture. Rédaction selon les pratiques du web, des divers contenus à partir d’une documentation fournie. Soumission et finalisation. 5 pages. "||0
+"OE"|"WEB-GEST"|"Site web"|"Gestion de projet et contrôle qualité "|"Instructions et suivi des sous-traitants, coordination interne et externe, séances. Contrôle de qualité de tous les modules fonctionnels, sur différents appareils. "||0
+"OE"|"REDAC"|"Rédaction"|"Conception / Rédaction"|"Prise de contact avec le client et collecte d'informations.Recherche et développement de différentes pistes rédactionnelles des textes et accroches. Soumission et corrections. Rédaction des textes."||0
+"OE"|"BROCH-CREA"|"Brochure"|"Conception / création"|"Recherche et développement de différentes pistes créatives, visuelles et conceptuelles déclinables sur divers supports. Recherche et proposition de diverses couvertures et de 2 grilles de mise en page. Montage des maquettes pour soumission."|"Heure"|180
+"OE"|"BROCH-REAL"|"Brochure"|"Réalisation"|"Réalisation d'une brochure de 5 pages, mise en page des textes et des images, réalisation d’éventuelles infographies. Soumission et corrections. Préparation des fichiers de production."|"Heure"|160
+"OE"|"FILM-REDAC"|"Film"|"Rédaction script"|"Rédaction d'un scénario à partir de contenus reçus. Soumission et finalisation"||0
+"OE"|"FILM-TOURN"|"Film"|"Tournage"|"Journée de tournage (matériel complet, caméras, lumière et son)."||0
+"OE"|"FILM-MONT"|"Film"|"Montage post-prod"|"Montage des vidéos, color grading, sound design, musique. Soumission et corrections."||0
+"OE"|"FILM-INTEGR"|"Film"|"Intégration et adaptation"|"Intégration des sous-titres (textes fournis) et adaptation de la vidéo à diférents formats."||0
+"OE"|"FILM-MODEL"|"Film"|"Modèles "|"Recherche et rémunération de deux modèles."||0
+|"ILLU-CREA"|"Illustration"|"Conception / Création"|"Recherche et proposition d'un style d'illustrations. Soumission et corrections. "|"Heure"|180
+|"ILLU-REAL"|"Illustration"|"Réalisation"|"Réalisation des illustrations. Soumission et finalisation."|"Heure"|160
+|"ANIM-REAL"|"Animation"|"Réalisation"|"Réalisation d'une animation simple avec intro/extro. Soumission et corrections."|"Heure"|160
+"OE"|"GEST"|"Gestion"|"Gestion / suivi de projet"|"Coordination entre les divers intervenants, gestion de projet, séances et suivi de production."|"Heure"|160
+|"COMM-PRESS"|"Communiqué presse"|"Communiqué presse"|"Recherche de rédactions ciblées ou rédaction du communiqué à partir d’une documentation fournie. Diffusion personnalisée du communiqué de presse en Suisse romande. Relance téléphonique. Suivi et gestion des demandes presse. Rapport d’activité et revue de presse."||0
+|"SPOT-RAD"|"Radio"|"Spot radio"|"Ecriture d’un script. Soumission et ajustements. Enregistrement des voix, montage audio et musique."||0
+|"DEFRAI"|"Défraiement"|"Défraiement"|"Défraiement pour la participation au concours."||0
+|"DiVERS-1"|"Produit divers"|"Divers 1"|"Ajouter description"|"Heure"|160
+|"DiVERS-2"|"Produit divers"|"Divers 2"|"Ajouter description"|"Heure"|180
+|"SIGNAL-AV-PROJ"|"Signalétique"|"Avant-projet"|"Concept et analyse signalétique définitive
+En tenant compte des remarques exprimées par les parties prenantes, proposition de différentes ébauches de pistes conceptuelles en vue de la définition d’un concept d’avant-projet :
+- étude historique et contextuelle du projet dans son ensemble ;
+- étude des données structurelles et fonctionnelles de l’ensemble des espaces intérieurs et extérieurs concernés par la signalétique à mettre en place ;
+- analyse des contraintes liées aux usages et aux circulations, analyse des flux de circulation ;
+- réflexion sur un système de numérotation et de dénomination des bâtiments et des espaces ;
+- élaboration d’un concept à partir duquel les partis pris graphiques et tridimensionnels émergeront ;
+- esquisses des partis pris graphiques appliqués à la signalétique ;
+- esquisses des partis pris tridimensionnels des interventions signalétiques ;
+- définition de la typologie des différents objets et interventions signalétiques par rapport à leur fonction et leur nature.
+
+Livrable : un dossier expliquant le concept, les dénominations, les axes de circulation et d’usage avec des principes de hiérarchisation ainsi que de premières intentions de réalisation. Soumission et ajustements (2-3 vagues, une importante et deux mineures)."||0
+|"SIGNAL-PROJ"|"Signalétique"|"Projet"|"Projet signalétique définitive
+En tenant compte des remarques à l’issue de la phase avant-projet, réalisation d’un dossier sur le projet :
+- développement de l’ensemble des interventions signalétiques par rapport à leur fonction et leur nature ;
+- développement et mise au point des composantes graphiques de l’identité visuelle (typographie, couleurs, pictogrammes...) ;
+- développement et mise au point des partis pris tridimensionnels et des descriptifs techniques par type d’intervention ;
+- mise au point des dénominations des espaces ;
+- définition d’un cahier des contenus correspondant aux différents types d’interventions et leur implantation ;
+- mise au point du schéma d’implantation et mise à jour des quantitatifs ;
+- Constitution d’un premier dossier technique estimatif permettant la consultation des entreprises pour la signalétique intérieure et extérieure et la réalisation d’une première estimation budgétaire de fabrication et de pose. Ce dossier estimatif comprendra : un cahier des principes graphiques à respecter pour chaque type de support signalétique et d’intervention, des plans de détails des supports avec des descriptifs techniques détaillés, un plan d’implantation des supports et un premier quantitatif par type ;
+- réponse aux éventuelles questions des candidats et assistance pour le choix de l’entreprise ;
+- réalisation du premier planning prévisionnel de fabrication et de pose.
+
+Livrables : un dossier mettant en oeuvre le concept avec les pistes graphiques et tridimensionnelles. Premiers estimatifs de coûts de production."||0
+|"SIGNAL-REAL"|"Signalétique"|"Réalisation"|"Réalisation des fichiers pour la production signalétique définitive
+Suite à la validation du dossier projet et du cahier des contenus validés pour la signalétique, finalisation des mises en page de tous les supports spécifiques, remise d’une épreuve de relecture pour chaque support, intégration des éventuelles corrections, remise d’un bon à tirer, préparation et transmission des fichiers pour fabrication des supports.
+- finalisation du cahier des contenus correspondant aux différents types, d’interventions et leur implantation ;
+- finalisation des plans de détail des supports et des descriptifs techniques par type d’intervention ;
+- finalisation du schéma d’implantation et confirmation des quantitatifs ;
+- confirmation des coûts de travaux de la signalétique ;
+- confirmation du planning de fabrication et de pose ;
+- Finalisation du dossier technique permettant au prestataire un chiffrage précis pour la signalétique intérieure et extérieure.
+
+Livrables : un dossier technique et les fichiers prêts pour la fabrication et la pose."||0
+|"SINGAL-SUIVI"|"Signalétique"|"Suivi"|"Suivi des travaux signalétique définitive
+- visa des plans d’exécution réalisés pour chaque type de support ;
+- réunions de chantier et coordination entre les différents intervenants ;
+- vérification des ouvrages en cours de réalisation et de leur conformité par rapport aux études ;
+- suivi du planning des travaux ;
+- participation aux opérations de réception.
+
+Livrables : livraison de la signalétique pour le bâtiment."||0

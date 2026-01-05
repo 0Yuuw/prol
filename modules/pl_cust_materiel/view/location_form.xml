@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form col="6">
+    <label name="manifestation" />
+    <field name="manifestation" readonly="1"/>
+    <newline/>
+    <label name="date_start" />
+    <field name="date_start" readonly="1"/>
+    <label name="time_start" />
+    <field name="time_start" readonly="1"/>
+    <label name="afternoon" />
+    <field name="afternoon" readonly="1"/>
+    <label name="date_end" />
+    <field name="date_end" readonly="1"/>
+    <label name="time_end" />
+    <field name="time_end" readonly="1"/>
+    <label name="morning" />
+    <field name="morning" readonly="1"/>
+    <label name="materiel" />
+    <field name="materiel" readonly="1"/>
+    <label name="qty" />
+    <field name="qty" readonly="1"/>
+    <field name="color" colspan="6"/>
+    <field name="repa" readonly="1"/>
+    <field name="repa_ok" readonly="1"/>
+</form>

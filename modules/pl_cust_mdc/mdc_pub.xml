@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <record model="ir.action.report" id="qr_report">
+            <field name="name">MDC Billets</field>
+            <field name="model">pl_cust_mdc.booking_pub</field>
+            <field name="report_name">pl_cust_mdc.mdc_reportpub</field>
+            <field name="report">pl_cust_mdc/mdc_billetQR.fodt</field>
+            <field name="single">1</field>
+        </record>
+        <record model="ir.action.keyword" id="qr_report_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">pl_cust_mdc.booking_pub,-1</field>
+            <field name="action" ref="qr_report"/>
+        </record>
+
+        <record model="ir.ui.view" id="mdc_daypub_view_form">
+            <field name="model">pl_cust_mdc.day_pub</field>
+            <field name="type">form</field>
+            <field name="name">daypub_form</field>
+            <field name="priority" eval="81"/>
+        </record>
+        <record model="ir.ui.view" id="mdc_daypub_view_tree">
+            <field name="model">pl_cust_mdc.day_pub</field>
+            <field name="type">tree</field>
+            <field name="name">daypub_tree</field>
+            <field name="priority" eval="81"/>
+        </record>
+
+        <record model="ir.action.act_window" id="act_mdc_daypub_form">
+            <field name="name">Days Pub</field>
+            <field name="res_model">pl_cust_mdc.day_pub</field>
+        </record>
+
+        <record model="ir.action.act_window.domain" id="act_mdc_daypub_form_view1">
+            <field name="name">Aujourd_hui</field>
+            <field name="sequence" eval="50"/>
+            <field name="domain" eval="[('date', '=', Date())]" pyson="1"/>
+            <field name="count" eval="False"/>
+            <field name="act_window" ref="act_mdc_daypub_form"/>
+        </record>
+
+        <record model="ir.action.act_window.domain" id="act_mdc_daypub_form_view2">
+            <field name="name">7 jours</field>
+            <field name="sequence" eval="50"/>
+            <field name="domain" eval="[('date', '>=', Date())]" pyson="1"/>
+            <field name="count" eval="False"/>
+            <field name="act_window" ref="act_mdc_daypub_form"/>
+        </record>
+
+         <record model="ir.action.act_window.domain" id="act_mdc_daypub_form_view3">
+            <field name="name">Tout</field>
+            <field name="sequence" eval="50"/>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="count" eval="False"/>
+            <field name="act_window" ref="act_mdc_daypub_form"/>
+        </record>
+
+
+        <record model="ir.ui.view" id="mdc_bookingpub_view_form">
+            <field name="model">pl_cust_mdc.booking_pub</field>
+            <field name="type">form</field>
+            <field name="name">bookingpub_form</field>
+            <field name="priority" eval="81"/>
+        </record>
+        <record model="ir.ui.view" id="mdc_bookingpub_view_tree">
+            <field name="model">pl_cust_mdc.booking_pub</field>
+            <field name="type">tree</field>
+            <field name="name">bookingpub_tree</field>
+            <field name="priority" eval="81"/>
+        </record>
+
+        <record model="ir.action.act_window" id="act_mdc_bookingpub_form">
+            <field name="name">Booking Pub</field>
+            <field name="res_model">pl_cust_mdc.booking_pub</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_bookpub_day">
+            <field name="name">Réservation du jour</field>
+            <field name="res_model">pl_cust_mdc.booking_pub</field>
+            <field name="domain" eval="[If(Eval('active_ids', []) == [Eval('active_id')], ('day', '=', Eval('active_id')), ('day', 'in', Eval('active_ids')))]" pyson="1"/>
+        </record>
+        <record model="ir.action.keyword" id="act_bookpub_day_keyword1">
+            <field name="keyword">form_relate</field>
+            <field name="model">pl_cust_mdc.booking_pub,-1</field>
+            <field name="action" ref="act_bookpub_day"/>
+        </record>
+
+        <record model="ir.ui.view" id="mdc_giftvoucher_view_form">
+            <field name="model">pl_cust_mdc.gift_voucher</field>
+            <field name="type">form</field>
+            <field name="name">giftvoucher_form</field>
+        </record>
+        <record model="ir.ui.view" id="mdc_giftvoucher_view_tree">
+            <field name="model">pl_cust_mdc.gift_voucher</field>
+            <field name="type">tree</field>
+            <field name="name">giftvoucher_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_mdc_giftvoucher_form">
+            <field name="name">Gift Voucher</field>
+            <field name="res_model">pl_cust_mdc.gift_voucher</field>
+        </record>
+
+        <record model="ir.action.report" id="voucher_report">
+            <field name="name">MDC Bons Cadeaux</field>
+            <field name="model">pl_cust_mdc.gift_voucher</field>
+            <field name="report_name">pl_cust_mdc.mdc_reportgift</field>
+            <field name="report">pl_cust_mdc/mdc_gift.fodt</field> 
+            <field name="single">1</field>
+        </record>
+        <record model="ir.action.keyword" id="voucher_report_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">pl_cust_mdc.gift_voucher,-1</field>
+            <field name="action" ref="voucher_report"/>
+        </record>
+
+        <menuitem action="act_mdc_giftvoucher_form" parent="pl_cust_mdc.menu_mdc" sequence="30" id="menu_mdc_giftvoucher_form"/>
+        <menuitem action="act_mdc_daypub_form" parent="pl_cust_mdc.menu_mdc" sequence="20" id="menu_mdc_daypub_form"/>
+        <menuitem action="act_mdc_bookingpub_form" parent="pl_cust_mdc.menu_mdc" sequence="10" id="menu_mdc_bookingpub_form"/>
+    </data>    
+</tryton>

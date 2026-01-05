@@ -1,0 +1,180 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:pl_cust_reportactivity.activityreport_start,employee_id:"
+msgid "Employee"
+msgstr "Responsable"
+
+msgctxt "field:pl_cust_reportactivity.activityreport_start,from_date:"
+msgid "From Date"
+msgstr "Date de début"
+
+msgctxt "field:pl_cust_reportactivity.activityreport_start,to_date:"
+msgid "To Date"
+msgstr "Date de fin"
+
+msgctxt "field:pl_cust_reportactivity.calendar,calendar_type:"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "field:pl_cust_reportactivity.calendar,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:pl_cust_reportactivity.calendar,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_reportactivity.calendar,year:"
+msgid "Year"
+msgstr "Année"
+
+msgctxt "field:pl_cust_reportactivity.generate_calendar_start,year:"
+msgid "Year to generate"
+msgstr "Année à générer"
+
+msgctxt "help:pl_cust_reportactivity.calendar,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "model:ir.action,name:"
+msgid "Activity Report"
+msgstr "Rapport d'activité"
+
+msgctxt "model:ir.action,name:act_calendar_form"
+msgid "Calendar"
+msgstr "Calendrier"
+
+msgctxt "model:ir.action,name:act_generate_cal"
+msgid "Generate Cal"
+msgstr "Générer le calendrier"
+
+msgctxt "model:ir.action,name:act_wizard_activityprintreport"
+msgid "Activity Report"
+msgstr "Rapport d'activité"
+
+msgctxt "model:ir.action,name:reporactivity"
+msgid "Activity Report"
+msgstr "Rapport d'activité"
+
+msgctxt "model:ir.ui.menu,name:menu_activityreport"
+msgid "Activity Report"
+msgstr "Rapport d'activité"
+
+msgctxt "model:ir.ui.menu,name:menu_calendar_form"
+msgid "Calendar"
+msgstr "Calendrier"
+
+msgctxt "model:ir.ui.menu,name:menu_generate_cal"
+msgid "Generate Cal"
+msgstr "Générer le calendrier"
+
+msgctxt "model:pl_cust_reportactivity.activityreport_start,name:"
+msgid "Start activity report"
+msgstr "Début rapport activité"
+
+msgctxt "model:pl_cust_reportactivity.calendar,name:"
+msgid "Calendar"
+msgstr "Calendrier"
+
+msgctxt "model:pl_cust_reportactivity.generate_calendar_start,name:"
+msgid "Generate Calendar Start"
+msgstr "Génération calendrier"
+
+#, fuzzy
+msgctxt "report:pl_cust_reportactivity.printactivityreport:"
+msgid "%"
+msgstr "%"
+
+msgctxt "report:pl_cust_reportactivity.printactivityreport:"
+msgid "- Période du"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:pl_cust_reportactivity.printactivityreport:"
+msgid "/"
+msgstr "/"
+
+msgctxt "report:pl_cust_reportactivity.printactivityreport:"
+msgid "DE LA PÉRIODE :"
+msgstr ""
+
+msgctxt "report:pl_cust_reportactivity.printactivityreport:"
+msgid "ETT"
+msgstr ""
+
+msgctxt "report:pl_cust_reportactivity.printactivityreport:"
+msgid "Horaire"
+msgstr ""
+
+msgctxt "report:pl_cust_reportactivity.printactivityreport:"
+msgid "PÉRIODE :"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:pl_cust_reportactivity.printactivityreport:"
+msgid "Ratio"
+msgstr "Ratio"
+
+msgctxt "report:pl_cust_reportactivity.printactivityreport:"
+msgid "TOTAL"
+msgstr ""
+
+msgctxt "report:pl_cust_reportactivity.printactivityreport:"
+msgid "TS"
+msgstr ""
+
+msgctxt "report:pl_cust_reportactivity.printactivityreport:"
+msgid "TS DE LA"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:pl_cust_reportactivity.printactivityreport:"
+msgid "Timesheet"
+msgstr "Timesheet"
+
+msgctxt "report:pl_cust_reportactivity.printactivityreport:"
+msgid "au"
+msgstr ""
+
+msgctxt "report:pl_cust_reportactivity.printactivityreport:"
+msgid "de"
+msgstr ""
+
+msgctxt "report:pl_cust_reportactivity.printactivityreport:"
+msgid "heures"
+msgstr ""
+
+msgctxt "report:pl_cust_reportactivity.printactivityreport:"
+msgid "ratio :"
+msgstr ""
+
+msgctxt "selection:pl_cust_reportactivity.calendar,calendar_type:"
+msgid "DayOff"
+msgstr "Férier"
+
+msgctxt "selection:pl_cust_reportactivity.calendar,calendar_type:"
+msgid "Holiday"
+msgstr "Vacances"
+
+msgctxt "selection:pl_cust_reportactivity.calendar,calendar_type:"
+msgid "Standard"
+msgstr "Standard"
+
+msgctxt "wizard_button:pl_cust_reportactivity.activitytreport,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_reportactivity.activitytreport,start,print_:"
+msgid "Print"
+msgstr "Imprimer"
+
+msgctxt "wizard_button:pl_cust_reportactivity.generate_calendar,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt ""
+"wizard_button:pl_cust_reportactivity.generate_calendar,start,generate:"
+msgid "Generate"
+msgstr "Générer"

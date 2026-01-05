@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form>
+    <label name="booking_sequence"/>
+    <field name="booking_sequence"/>
+    <label name="nb_max"/>
+    <field name="nb_max"/>
+    <label name="nb_inst_max"/>
+    <field name="nb_inst_max"/>
+    <label name="price_asso"/>
+    <field name="price_asso"/>
+    <label name="price_2"/>
+    <field name="price_2"/>
+    <label name="price_4"/>
+    <field name="price_4"/>
+    <label name="price_10"/>
+    <field name="price_10"/>
+    <label name="price_adult"/>
+    <field name="price_adult"/>
+    <label name="price_02"/>
+    <field name="price_02"/>
+    <label name="price_34"/>
+    <field name="price_34"/>
+    <label name="price_56"/>
+    <field name="price_56"/>
+    <label name="price_78"/>
+    <field name="price_78"/>
+    <label name="price_gift"/>
+    <field name="price_gift"/>
+    <label name="merchant_id"/>
+    <field name="merchant_id"/>
+    <label name="merchant_password"/>
+    <field name="merchant_password"/>
+    <label name="datatrans_url"/>
+    <field name="datatrans_url"/>
+    <label name="datatrans_successUrl"/>
+    <field name="datatrans_successUrl"/>
+    <label name="datatrans_giftSuccessUrl"/>
+    <field name="datatrans_giftSuccessUrl"/>    
+    <label name="datatrans_cancelUrl"/>
+    <field name="datatrans_cancelUrl"/>
+    <label name="datatrans_errorUrl"/>
+    <field name="datatrans_errorUrl"/>
+    <label name="checkticketUrl"/>
+    <field name="checkticketUrl"/>
+    <label name="checktgiftUrl"/>
+    <field name="checktgiftUrl"/>
+    
+
+    <!--  = fields.Char('Merchant_id') #'1110015004'  # Remplacez par l'ID de votre commerçant
+     = fields.Char('Merchant passwd') #'8bCFa2HMssieslx2'  # Remplacez par votre mot de passe
+     = fields.Char('Datatrans url') #'https://api.sandbox.datatrans.com/v1/transactions'
+     = fields.Char('Datatrans Successurl') #'https://api.sandbox.datatrans.com/v1/transactions'
+     = fields.Char('Datatrans Cancelurl') #'https://api.sandbox.datatrans.com/v1/transactions'
+    -->
+
+</form>

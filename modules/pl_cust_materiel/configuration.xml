@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <menuitem name="Gestion Materiel" sequence="0" id="menu_materiel" icon="tryton-party"/>
+
+        
+
+        <record model="res.group" id="group_mat_wizard">
+            <field name="name">Mat Wizard</field>
+        </record>
+
+        <record model="res.group" id="group_mat_conf">
+            <field name="name">Mat Configuration</field>
+        </record>
+
+        <record model="res.group" id="group_mat_viewer">
+            <field name="name">Mat Viewer</field>
+        </record>
+
+        <record model="ir.model.access" id="access_matday">
+            <field name="model">pl_cust_materiel.matday</field>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        
+        <record model="ir.model.access" id="access_lieumanif_viewer">
+            <field name="model">pl_cust_materiel.lieumanif</field>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+        <record model="ir.model.access" id="access_lieumanif_conf">
+            <field name="model">pl_cust_materiel.lieumanif</field>
+            <field name="group" ref="group_mat_conf"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+        <record model="ir.model.access" id="access_atelier_viewer">
+            <field name="model">pl_cust_materiel.atelier</field>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+        <record model="ir.model.access" id="access_atelier_conf">
+            <field name="model">pl_cust_materiel.atelier</field>
+            <field name="group" ref="group_mat_conf"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+        <record model="ir.model.access" id="access_materiel_viewer">
+            <field name="model">pl_cust_materiel.materiel</field>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+        <record model="ir.model.access" id="access_materiel_conf">
+            <field name="model">pl_cust_materiel.materiel</field>
+            <field name="group" ref="group_mat_conf"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+        <record model="ir.model.access" id="access_location_viewer">
+            <field name="model">pl_cust_materiel.location</field>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+        <record model="ir.model.access" id="access_location_wizard">
+            <field name="model">pl_cust_materiel.location</field>
+            <field name="group" ref="group_mat_wizard"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+        <record model="ir.model.access" id="access_manifestation_viewer">
+            <field name="model">pl_cust_materiel.manifestation</field>
+
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+    
+        <record model="ir.model.access" id="access_manifestation_wizard">
+            <field name="model">pl_cust_materiel.manifestation</field>
+            <field name="group" ref="group_mat_wizard"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+        <menuitem name="Configuration" sequence="100" id="menu_matconf" parent="menu_materiel" icon="tryton-settings"/>
+        
+        <record model="ir.ui.menu-res.group" id="menu_matconf_group_conf">
+            <field name="menu" ref="menu_matconf"/>
+            <field name="group" ref="group_mat_conf"/>
+        </record>
+    </data>
+</tryton>

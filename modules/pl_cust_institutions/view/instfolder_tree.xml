@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+
+    <xpath expr="/tree" position="replace">
+        <tree>
+            <field name="name"/>
+            <field name="description"/>
+            <field name="resp_id" widget="char"/>
+            <field name="date_start" />
+            <field name="date_end" />
+        </tree>
+    </xpath>
+</data>

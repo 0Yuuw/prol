@@ -1,0 +1,271 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        
+        <!--MatDay-->
+         <record model="ir.ui.view" id="matdaylist_view_form">
+            <field name="model">pl_cust_materiel.matdaylist</field>
+            <field name="type">form</field>
+            <field name="name">matdaylist_form</field>
+        </record>
+        <record model="ir.ui.view" id="matdaylist_view_tree">
+            <field name="model">pl_cust_materiel.matdaylist</field>
+            <field name="type">tree</field>
+            <field name="name">matdaylist_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="matday_view_form">
+            <field name="model">pl_cust_materiel.matday</field>
+            <field name="type">form</field>
+            <field name="name">matday_form</field>
+        </record>
+        <record model="ir.ui.view" id="matday_view_tree">
+            <field name="model">pl_cust_materiel.matday</field>
+            <field name="type">tree</field>
+            <field name="name">matday_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_matday_form">
+            <field name="name">Planning</field>
+            <field name="res_model">pl_cust_materiel.matday</field>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_matday_form_domain1">
+            <field name="name">A venir</field>
+            <field name="domain" eval="[('date', '>=', Date())]" pyson="1"/>
+            <field name="act_window" ref="act_matday_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_matday_form_domain2">
+            <field name="name">Tout</field>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="act_window" ref="act_matday_form"/>
+        </record>
+
+        <menuitem action="act_matday_form" parent="pl_cust_materiel.menu_materiel" sequence="20" id="menu_matday_form"/>
+
+        <!--Logs-->
+        <record model="ir.ui.view" id="logs_view_form">
+            <field name="model">pl_cust_materiel.logs</field>
+            <field name="type">form</field>
+            <field name="name">logs_form</field>
+        </record>
+        <record model="ir.ui.view" id="logs_view_tree">
+            <field name="model">pl_cust_materiel.logs</field>
+            <field name="type">tree</field>
+            <field name="name">logs_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_logs_form">
+            <field name="name">Logs</field>
+            <field name="res_model">pl_cust_materiel.logs</field>
+        </record>
+
+        <menuitem action="act_logs_form" parent="pl_cust_materiel.menu_matconf" sequence="20" id="menu_logs_form"/>
+
+        <!--Lieu Manif-->
+        <record model="ir.ui.view" id="lieumanif_view_form">
+            <field name="model">pl_cust_materiel.lieumanif</field>
+            <field name="type">form</field>
+            <field name="name">lieumanif_form</field>
+        </record>
+        <record model="ir.ui.view" id="lieumanif_view_tree">
+            <field name="model">pl_cust_materiel.lieumanif</field>
+            <field name="type">tree</field>
+            <field name="name">lieumanif_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_lieumanif_form">
+            <field name="name">Lieux Manifestations</field>
+            <field name="res_model">pl_cust_materiel.lieumanif</field>
+        </record>
+
+        <menuitem action="act_lieumanif_form" parent="pl_cust_materiel.menu_matconf" sequence="20" id="menu_lieumanif_form"/>
+
+        <!--Atelier-->
+        <record model="ir.ui.view" id="atelier_view_form">
+            <field name="model">pl_cust_materiel.atelier</field>
+            <field name="type">form</field>
+            <field name="name">atelier_form</field>
+        </record>
+        <record model="ir.ui.view" id="atelier_view_tree">
+            <field name="model">pl_cust_materiel.atelier</field>
+            <field name="type">tree</field>
+            <field name="name">atelier_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_atelier_form">
+            <field name="name">Ateliers</field>
+            <field name="res_model">pl_cust_materiel.atelier</field>
+        </record>
+
+        <menuitem action="act_atelier_form" parent="pl_cust_materiel.menu_matconf" sequence="20" id="menu_atelier_form"/>
+
+        <!--Materiel-->
+        <record model="ir.ui.view" id="materiel_view_form">
+            <field name="model">pl_cust_materiel.materiel</field>
+            <field name="type">form</field>
+            <field name="name">materiel_form</field>
+        </record>
+        <record model="ir.ui.view" id="materiel_view_tree">
+            <field name="model">pl_cust_materiel.materiel</field>
+            <field name="type">tree</field>
+            <field name="name">materiel_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_materiel_form">
+            <field name="name">Materiel</field>
+            <field name="res_model">pl_cust_materiel.materiel</field>
+        </record>
+
+        <menuitem action="act_materiel_form" parent="pl_cust_materiel.menu_materiel" sequence="10" id="menu_materiel_form"/>
+
+        <!--Location-->
+        <record model="ir.ui.view" id="location_view_calendar">
+            <field name="model">pl_cust_materiel.location</field>
+            <field name="type">calendar</field>
+            <field name="name">location_calendar</field>
+        </record>
+
+        <record model="ir.ui.view" id="location_view_form">
+            <field name="model">pl_cust_materiel.location</field>
+            <field name="type">form</field>
+            <field name="name">location_form</field>
+        </record>
+        <record model="ir.ui.view" id="location_view_tree">
+            <field name="model">pl_cust_materiel.location</field>
+            <field name="type">tree</field>
+            <field name="name">location_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="location_repa_view_tree">
+            <field name="model">pl_cust_materiel.location</field>
+            <field name="type">tree</field>
+            <field name="name">location_repa_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_location_form">
+            <field name="name">Location</field>
+            <field name="res_model">pl_cust_materiel.location</field>
+        </record>
+
+        <record model="ir.action.act_window.domain" id="act_location_form_domain1">
+            <field name="name">A venir / En cour</field>
+            <field name="domain" eval="[('date_end', '>=', Date()), ('repa', '=', False)]" pyson="1"/>
+            <field name="act_window" ref="act_location_form"/>
+        </record>
+
+        <record model="ir.action.act_window.domain" id="act_location_form_domain2">
+            <field name="name">Tout</field>
+            <field name="domain" eval="[('repa', '=', False)]" pyson="1"/>
+            <field name="act_window" ref="act_location_form"/>
+        </record>
+
+        <record model="ir.action.act_window" id="act_location_calendar">
+            <field name="name">Locations</field>
+            <field name="res_model">pl_cust_materiel.location</field>
+        </record>
+        <record model="ir.action.act_window.view"
+            id="act_location_calendar_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="location_view_calendar"/>
+            <field name="act_window" ref="act_location_calendar"/>
+        </record>
+        <record model="ir.action.act_window.view"
+            id="act_location_calendar_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="location_view_form"/>
+            <field name="act_window" ref="act_location_calendar"/>
+        </record>
+
+        <record model="ir.action.act_window" id="act_repa_form">
+            <field name="name">En Réparation</field>
+            <field name="res_model">pl_cust_materiel.location</field>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_repa_form_domain1">
+            <field name="name">A venir / En cour</field>
+            <field name="domain" eval="[('date_end', '>', Date()), ('repa', '=', True)]" pyson="1"/>
+            <field name="act_window" ref="act_repa_form"/>
+        </record>
+
+        <record model="ir.action.act_window.domain" id="act_repa_form_domain2">
+            <field name="name">Tout</field>
+            <field name="domain" eval="[('repa', '=', True)]" pyson="1"/>
+            <field name="act_window" ref="act_repa_form"/>
+        </record>
+
+        <record model="ir.action.act_window.view"
+            id="act_repa_form_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="location_repa_view_tree"/>
+            <field name="act_window" ref="act_repa_form"/>
+        </record>
+        <record model="ir.action.act_window.view"
+            id="act_repa_form_view2">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="location_view_tree"/>
+            <field name="act_window" ref="act_repa_form"/>
+        </record>
+
+        <menuitem action="act_location_form" parent="pl_cust_materiel.menu_materiel" sequence="40" id="menu_location_form"/>
+        <menuitem action="act_location_calendar" parent="pl_cust_materiel.menu_materiel" sequence="41" id="menu_location_calendar"/>
+        <menuitem action="act_repa_form" parent="pl_cust_materiel.menu_materiel" sequence="42" id="menu_repa_form"/>
+
+        <!--Manifestation-->
+        <record model="ir.ui.view" id="manifestation_view_calendar">
+            <field name="model">pl_cust_materiel.manifestation</field>
+            <field name="type">calendar</field>
+            <field name="name">manifestation_calendar</field>
+        </record>
+
+        <record model="ir.ui.view" id="manifestation_view_form">
+            <field name="model">pl_cust_materiel.manifestation</field>
+            <field name="type">form</field>
+            <field name="name">manifestation_form</field>
+        </record>
+        <record model="ir.ui.view" id="manifestation_view_tree">
+            <field name="model">pl_cust_materiel.manifestation</field>
+            <field name="type">tree</field>
+            <field name="name">manifestation_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_manifestation_form">
+            <field name="name">Manifestation</field>
+            <field name="res_model">pl_cust_materiel.manifestation</field>
+        </record>
+
+        <record model="ir.action.act_window.domain" id="act_manifestation_form_view1">
+            <field name="name">A venir / En cour</field>
+            <field name="domain" eval="[('type', '=', 'manif'),('date_end', '>=', Date())]" pyson="1"/>
+            <field name="act_window" ref="act_manifestation_form"/>
+        </record>
+
+        <record model="ir.action.act_window.domain" id="act_manifestation_form_view3">
+            <field name="name">Tout</field>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="act_window" ref="act_manifestation_form"/>
+        </record>
+
+        <record model="ir.action.act_window" id="act_manifestation_calendar">
+            <field name="name">Manifestations</field>
+            <field name="res_model">pl_cust_materiel.manifestation</field>
+        </record>
+        <record model="ir.action.act_window.view"
+            id="act_manifestation_calendar_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="manifestation_view_calendar"/>
+            <field name="act_window" ref="act_manifestation_calendar"/>
+        </record>
+        <record model="ir.action.act_window.view"
+            id="act_manifestation_calendar_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="manifestation_view_form"/>
+            <field name="act_window" ref="act_manifestation_calendar"/>
+        </record>
+
+        <menuitem action="act_manifestation_form" parent="pl_cust_materiel.menu_materiel" sequence="30" id="menu_manifestation_form"/>
+        <menuitem action="act_manifestation_calendar" parent="pl_cust_materiel.menu_materiel" sequence="31" id="menu_manifestation_calendar"/>
+
+    </data>
+
+</tryton>

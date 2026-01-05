@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<data>
+  <xpath expr="/form" position="replace">
+    <form col="4">
+
+      <group id="header" colspan="2" col="6">
+
+        <label name="lastname"/>
+        <field name="lastname" yexpand="0"/>
+        <label name="firstname"/>
+        <field name="firstname" yexpand="0"/>
+        <label name="party_title"/>
+        <field name="party_title" yexpand="0"/>
+        <label name="party_type"/>
+        <field name="party_type" yexpand="0"/>
+        <label name="prof"/>
+        <field name="prof" yexpand="0"/>
+        <label name="organisation"/>
+        <field name="organisation" yexpand="0"/>
+
+      </group>
+      <group id="partynotes" colspan="2" col="4" yfill="1" yalign="0">
+        <field name="notes" colspan="4" yfill="1" yalign="0"/>
+        <field name="name" invisible="1"/>
+      </group>
+      <group id="checkbox" colspan="2" col="4">
+        <label name="lang" />
+        <field name="lang" xexpand="0" width="200"/>
+        <group id="checkbox" colspan="2" col="4">
+          <label name="is_person_moral" />
+          <field name="is_person_moral" xexpand="0" width="35"/>
+          <label name="active" />
+          <field name="active" xexpand="0" width="35"/>
+        </group>
+      
+        <label name="birthdate" />
+        <field name="birthdate" xexpand="0" width="200"/>
+      </group>
+      <notebook colspan="4">
+        <page string="General" id="general" col="6">
+          <field height="100" name="addresses" mode="form,tree" colspan="3" view_ids="pl_cust_plbase.pl_partyaddr_view_form,pl_cust_plbase.pl_partyaddr_view_tree"/>
+          <field name="contact_mechanisms" colspan="3" view_ids="party.contact_mechanism_view_tree_sequence" />
+        </page>
+        <page string="Catégories" id="cat">
+          <field name="categories" colspan="4"/>
+        </page>
+        <page string="Accounting" id="accounting">
+            <separator string="Account" colspan="4" id="account"/>
+            <label name="account_receivable"/>
+            <field name="account_receivable"/>
+            <label name="account_payable"/>
+            <field name="account_payable"/>
+            <newline/>
+            <label name="receivable_today"/>
+            <field name="receivable_today"/>
+            <label name="payable_today"/>
+            <field name="payable_today"/>
+            <label name="receivable"/>
+            <field name="receivable"/>
+            <label name="payable"/>
+            <field name="payable"/>
+            <separator string="Taxes" colspan="4" id="taxes"/>
+            <label name="customer_tax_rule"/>
+            <field name="customer_tax_rule"/>
+            <label name="supplier_tax_rule"/>
+            <field name="supplier_tax_rule"/>
+        </page>
+      </notebook>
+    </form>
+  </xpath>
+</data>

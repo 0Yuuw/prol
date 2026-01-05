@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+    
+        <record model="ir.ui.view" id="modus_view_form">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="party.party_view_form"/>
+            <field name="name">modusparty_form</field>
+            <field name="priority" eval="180"/>
+        </record>
+
+        <record model="ir.ui.view" id="modusaddr_view_form">
+            <field name="model">party.address</field>
+            <field name="inherit" ref="party.address_view_form"/>
+            <field name="name">modusaddr_form</field>
+            <field name="priority" eval="180"/>
+        </record>
+
+        <record model="ir.ui.view" id="modusaddr_view_tree">
+            <field name="model">party.address</field>
+            <field name="inherit" ref="party.address_view_tree"/>
+            <field name="name">modusaddr_tree</field>
+            <field name="priority" eval="180"/>
+        </record>
+
+        <!-- <record model="ir.ui.view" id="modus_party_view_form">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="pl_cust_plbase.pl_party_view_form"/>
+            <field name="name">modusparty_form</field>
+            <field name="priority" eval="180"/>
+        </record> -->
+
+        <!-- <record model="ir.ui.view" id="modus_party_view_tree">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="party.party_view_tree"/>
+            <field name="name">modusparty_tree</field>
+            <field name="priority" eval="180"/>
+        </record> -->
+
+   
+    </data>
+
+</tryton>

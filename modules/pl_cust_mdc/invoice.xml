@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.action.report" id="qr_report_invoice">
+            <field name="name">MDC Facture</field>
+            <field name="model">account.invoice</field>
+            <field name="report_name">pl_cust_account.invoice_report</field>
+            <field name="report">pl_cust_mdc/mdc_QR.fodt</field>
+            <field name="single">1</field>
+        </record>
+        <record model="ir.action.keyword" id="report_qrinvoice_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">account.invoice,-1</field>
+            <field name="action" ref="qr_report_invoice"/>
+        </record>
+
+        <record model="ir.action.report" id="qr_report_invoice2">
+            <field name="name">MDC Facture (2pages)</field>
+            <field name="model">account.invoice</field>
+            <field name="report_name">pl_cust_account.invoice_report</field>
+            <field name="report">pl_cust_mdc/mdc_QR_2page.fodt</field>
+            <field name="single">1</field>
+        </record>
+        <record model="ir.action.keyword" id="report_qrinvoice2_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">account.invoice,-1</field>
+            <field name="action" ref="qr_report_invoice2"/>
+        </record>
+    </data>
+</tryton>

@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form>
+
+  <label string="Facturation à"/>
+  <field name="party"/>  
+  <newline/>
+  <label name="folder_id"/>
+  <field name="folder_id" width="400"/>
+  <newline/>
+  <!--<label name="with_vat"/>
+  <field name="with_vat"/>  
+  <newline/>-->
+  <label name="folder_devis_tot"/>
+  <field name="folder_devis_tot"/>
+  <newline/>
+  <label name="devislines"/>
+  <field name="devislines"/>  
+  <newline/>
+  <label name="folder_ts_tot"/>
+  <field name="folder_ts_tot"/>
+  <newline/>
+  <label name="timesheet_ids"/>
+  <field name="timesheet_ids"/>
+  <newline/>
+  <field name="party_ids" colspan="2" invisible="1"/>
+</form>

@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+    <record model="ir.ui.view" id="generate_dayspub_start_view_form">
+      <field name="model">pl_cust_mdc.generate_dayspub_start</field>
+      <field name="type">form</field>
+      <field name="name">gen_dayspub_start_form</field>
+    </record>
+
+    <record model="ir.action.wizard" id="act_generate_dayspub">
+      <field name="name">Generate Days Pub</field>
+      <field name="wiz_name">pl_cust_mdc.generate_dayspub</field>
+    </record>
+
+    <menuitem parent="menu_mdc" action="act_generate_dayspub" id="menu_generate_dayspub" sequence="20"/>
+
+    <record model="ir.ui.view" id="generate_daysinst_start_view_form">
+      <field name="model">pl_cust_mdc.generate_daysinst_start</field>
+      <field name="type">form</field>
+      <field name="name">gen_daysinst_start_form</field>
+    </record>
+
+    <record model="ir.action.wizard" id="act_generate_daysinst">
+      <field name="name">Generate Days Inst</field>
+      <field name="wiz_name">pl_cust_mdc.generate_daysinst</field>
+    </record>
+
+    <menuitem parent="menu_mdc" action="act_generate_daysinst" id="menu_generate_daysinst" sequence="20"/>
+
+  </data>
+</tryton>

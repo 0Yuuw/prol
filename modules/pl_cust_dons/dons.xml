@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <!-- Vues Dons -->
+        <record model="ir.ui.view" id="dons_dons_view_form">
+            <field name="model">pl_cust_dons.dons</field>
+            <field name="type">form</field>
+            <field name="name">dons_form</field>
+        </record>
+        <record model="ir.ui.view" id="dons_dons_view_tree">
+            <field name="model">pl_cust_dons.dons</field>
+            <field name="type">tree</field>
+            <field name="name">dons_tree</field>
+        </record>
+
+        <!-- Vue Type donateur -->
+        <record model="ir.ui.view" id="dons_type_donator_view_form">
+            <field name="model">pl_cust_dons.type_donateur</field>
+            <field name="type">form</field>
+            <field name="name">type_donator_form</field>
+        </record>
+        <record model="ir.ui.view" id="dons_type_donator_view_tree">
+            <field name="model">pl_cust_dons.type_donateur</field>
+            <field name="type">tree</field>
+            <field name="name">type_donator_tree</field>
+        </record>
+
+        <!-- Vue Type Dons -->
+        <record model="ir.ui.view" id="dons_type_dons_view_form">
+            <field name="model">pl_cust_dons.type_dons</field>
+            <field name="type">form</field>
+            <field name="name">type_dons_form</field>
+        </record>
+        <record model="ir.ui.view" id="dons_type_dons_view_tree">
+            <field name="model">pl_cust_dons.type_dons</field>
+            <field name="type">tree</field>
+            <field name="name">type_dons_tree</field>
+        </record>
+
+        <!-- Menu Dons -->
+        <record model="ir.action.act_window" id="act_dons_list_form">
+            <field name="name">List of donations</field>
+            <field name="res_model">pl_cust_dons.dons</field>
+        </record>
+
+        <!-- Menu type donateur -->
+        <record model="ir.action.act_window" id="act_type_donator_list_form">
+            <field name="name">Type of donator</field>
+            <field name="res_model">pl_cust_dons.type_donateur</field>
+        </record>
+
+        <!-- Menu type dons -->
+        <record model="ir.action.act_window" id="act_type_dons_list_form">
+            <field name="name">Type of donation</field>
+            <field name="res_model">pl_cust_dons.type_dons</field>
+        </record>
+
+        <!-- Création des menus -->
+        <menuitem name="Dons" sequence="0" id="menu_dons" icon="tryton-party"/>
+
+        <menuitem parent="menu_dons" action="act_dons_list_form" id="menu_list_dons" sequence="2" icon="tryton-list"/>
+        <menuitem parent="menu_dons" action="act_type_dons_list_form" id="menu_list_type_dons" sequence="3" icon="tryton-list"/>
+
+        <!-- Création des groupes -->
+        <record model="res.group" id="group_admin">
+            <field name="name">Administrator</field>
+        </record>
+
+        <record model="res.group" id="group_user">
+            <field name="name">User</field>
+        </record>
+        
+	<record model="ir.model.access" id="access_type_donation">
+            <field name="model">pl_cust_dons.type_dons</field>
+            <field name="group" ref="group_user"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="False"/>
+	</record>
+
+    </data>
+</tryton>

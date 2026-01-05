@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+    
+        <record model="ir.action.report" id="report_prolibre_tsreport">
+            <field name="name">Prolibre rapport TS</field>
+            <field name="model">pl_cust_plfolders.folders</field>
+            <field name="report_name">pl_cust_plfolders.tsreport</field>
+            <field name="report">pl_cust_prolibre/prolibre_TS.fodt</field>
+            <field name="single" eval="True"/>
+        </record>
+        <record model="ir.action.keyword" id="report_prolibre_tsreport_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">pl_cust_plfolders.folders,-1</field>
+            <field name="action" ref="report_prolibre_tsreport"/>
+        </record>
+
+    </data>
+</tryton>

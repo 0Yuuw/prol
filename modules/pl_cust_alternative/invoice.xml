@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.action.report" id="alternative_report_invoice">
+            <field name="name">Factures alternative</field>
+            <field name="model">account.invoice</field>
+            <field name="report_name">pl_cust_account.invoice_report</field>
+            <field name="report">pl_cust_alternative/alternative_invoice.fodt</field>
+            <field name="single">1</field>
+        </record>
+        <record model="ir.action.keyword" id="report_alternativeinvoice_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">account.invoice,-1</field>
+            <field name="action" ref="alternative_report_invoice"/>
+        </record>
+
+        <record model="ir.action.report" id="alternative_report_invoiceonep">
+            <field name="name">Factures alternative (une page)</field>
+            <field name="model">account.invoice</field>
+            <field name="report_name">pl_cust_account.invoice_report</field>
+            <field name="report">pl_cust_alternative/alternative_invoice_onepage.fodt</field>
+            <field name="single">1</field>
+        </record>
+        <record model="ir.action.keyword" id="report_alternativeinvoiceonep_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">account.invoice,-1</field>
+            <field name="action" ref="alternative_report_invoiceonep"/>
+        </record>
+
+       <!-- 
+        <record model="ir.action.report" id="alternative_report_invoice2">
+            <field name="name">Factures alternative 2 pages</field>
+            <field name="model">account.invoice</field>
+            <field name="report_name">pl_cust_account.invoice_report</field>
+            <field name="report">pl_cust_alternative/alternative_invoice2.fodt</field>
+            <field name="single">1</field>
+        </record>
+        <record model="ir.action.keyword" id="report_alternativeinvoice2_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">account.invoice,-1</field>
+            <field name="action" ref="alternative_report_invoice2"/>
+        </record>
+
+        <record model="ir.action.report" id="alternative_report_invoicenologo">
+            <field name="name">Factures alternative (sans logo)</field>
+            <field name="model">account.invoice</field>
+            <field name="report_name">pl_cust_account.invoice_report</field>
+            <field name="report">pl_cust_alternative/alternative_invoice_nologo.fodt</field>
+            <field name="single">1</field>
+        </record>
+        <record model="ir.action.keyword" id="report_alternativeinvoicenologo_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">account.invoice,-1</field>
+            <field name="action" ref="alternative_report_invoicenologo"/>
+        </record>
+
+        <record model="ir.action.report" id="alternative_report_invoice2nologo">
+            <field name="name">Factures alternative 2 pages (sans logo)</field>
+            <field name="model">account.invoice</field>
+            <field name="report_name">pl_cust_account.invoice_report</field>
+            <field name="report">pl_cust_alternative/alternative_invoice2_nologo.fodt</field>
+            <field name="single">1</field>
+        </record>
+        <record model="ir.action.keyword" id="report_alternativeinvoice2nologo_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">account.invoice,-1</field>
+            <field name="action" ref="alternative_report_invoice2nologo"/>
+        </record>
+        -->
+    </data>
+</tryton>

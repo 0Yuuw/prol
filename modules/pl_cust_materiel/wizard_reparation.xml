@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+    <record model="ir.ui.view" id="addrepa_step2_view_form">
+      <field name="model">pl_cust_materiel.addrepa_step2</field>
+      <field name="type">form</field>
+      <field name="name">addrepa_step2_form</field>
+    </record>
+
+    <record model="ir.ui.view" id="addrepa_start_view_form">
+      <field name="model">pl_cust_materiel.addrepa_start</field>
+      <field name="type">form</field>
+      <field name="name">addrepa_start_form</field>
+    </record>
+
+    <record model="ir.ui.view" id="returnrepa_start_view_form">
+      <field name="model">pl_cust_materiel.returnrepa_start</field>
+      <field name="type">form</field>
+      <field name="name">returnrepa_start_form</field>
+    </record>
+
+    <record model="ir.action.wizard" id="act_wizard_addrepa">
+      <field name="name">Add Repa</field>
+      <field name="wiz_name">pl_cust_materiel.addrepa</field>
+    </record>
+
+    <record model="ir.action.wizard" id="act_wizard_returnrepa">
+      <field name="name">Add Repa</field>
+      <field name="wiz_name">pl_cust_materiel.returnrepa</field>
+    </record>
+    
+    <menuitem parent="pl_cust_materiel.menu_materiel" action="act_wizard_addrepa" id="menu_addrepa" sequence="62"/>
+
+    <record model="ir.ui.menu-res.group" id="menu_addrepa_group_wizard">
+      <field name="menu" ref="menu_addrepa"/>
+      <field name="group" ref="group_mat_wizard"/>
+    </record> 
+
+  </data>
+</tryton>

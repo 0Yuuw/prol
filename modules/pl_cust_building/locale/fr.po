@@ -1,0 +1,119 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:pl_cust_building.building,city:"
+msgid "City"
+msgstr "Ville"
+
+msgctxt "field:pl_cust_building.building,locs:"
+msgid "Loc"
+msgstr "Locataires"
+
+msgctxt "field:pl_cust_building.building,proprio:"
+msgid "Proprio"
+msgstr "Propriétaire"
+
+msgctxt "field:pl_cust_building.building,regie:"
+msgid "Regie"
+msgstr "Régie"
+
+msgctxt "field:pl_cust_building.building,street:"
+msgid "Address Street"
+msgstr "Rue"
+
+msgctxt "field:pl_cust_building.building,street_num:"
+msgid "Address Num"
+msgstr "Numéro"
+
+msgctxt "field:pl_cust_building.building,zip:"
+msgid "ZIP"
+msgstr "Code Postal"
+
+msgctxt "field:pl_cust_building.buildinginvcreate_start,devislines:"
+msgid "Devis Lines"
+msgstr "Lignes de devis"
+
+msgctxt "field:pl_cust_building.buildinginvcreate_start,folder_devis_tot:"
+msgid "Devis tot"
+msgstr "Total devisé"
+
+msgctxt "field:pl_cust_building.buildinginvcreate_start,folder_id:"
+msgid "Folder"
+msgstr "Dossier"
+
+msgctxt "field:pl_cust_building.buildinginvcreate_start,folder_ts_tot:"
+msgid "Folder TS tot"
+msgstr "Total des heures"
+
+msgctxt "field:pl_cust_building.buildinginvcreate_start,party:"
+msgid "Fact to"
+msgstr "Facturation à"
+
+msgctxt "field:pl_cust_building.buildinginvcreate_start,party_ids:"
+msgid "All party"
+msgstr "Tous les contacts"
+
+msgctxt "field:pl_cust_building.buildinginvcreate_start,timesheet_ids:"
+msgid "Timesheet"
+msgstr "Timesheet"
+
+msgctxt "field:pl_cust_building.buildinginvcreate_start,with_vat:"
+msgid "With VAT"
+msgstr "Avec TVA"
+
+msgctxt "field:pl_cust_building.buildingloc,apartment:"
+msgid "Apartment Number"
+msgstr "N° d'appartement"
+
+msgctxt "field:pl_cust_building.buildingloc,building:"
+msgid "Building"
+msgstr "Immeuble"
+
+msgctxt "field:pl_cust_building.buildingloc,party:"
+msgid "Party"
+msgstr "Contact"
+
+msgctxt "field:pl_cust_plfolders.folders,building:"
+msgid "Building"
+msgstr "Immeuble"
+
+msgctxt "model:ir.action,name:act_building_form"
+msgid "Building"
+msgstr "Immeuble"
+
+msgctxt "model:ir.action,name:act_wizard_buildingcreateinv"
+msgid "Create Devis invoice"
+msgstr "Générer la facture"
+
+msgctxt "model:ir.ui.menu,name:menu_building"
+msgid "Building"
+msgstr "Immeuble"
+
+msgctxt "model:pl_cust_building.building,string:"
+msgid "Pl Cust Building"
+msgstr "Immeuble"
+
+msgctxt "model:pl_cust_building.buildinginvcreate_start,string:"
+msgid "Pl Cust Building Buildinginvcreate Start"
+msgstr "Générer la facture"
+
+msgctxt "model:pl_cust_building.buildingloc,string:"
+msgid "Pl Cust Building Buildingloc"
+msgstr ""
+
+msgctxt "view:pl_cust_building.buildinginvcreate_start:"
+msgid "Facturation à"
+msgstr "Facturation à"
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Facturation immeuble"
+msgstr "Facturation"
+
+msgctxt "wizard_button:pl_cust_building.buildinginvcreate,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_building.buildinginvcreate,start,generate_inv:"
+msgid "Facturation du dossier"
+msgstr "Facturation"

@@ -1,0 +1,199 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:pl_cust_devis.devisinvcreate_start,devislines:"
+msgid "Devis Lines"
+msgstr "Lignes"
+
+msgctxt "field:pl_cust_devis.devisinvcreate_start,folder_devis_tot:"
+msgid "Devis tot"
+msgstr "Total"
+
+msgctxt "field:pl_cust_devis.devisinvcreate_start,folder_id:"
+msgid "Folder"
+msgstr "Dossier"
+
+msgctxt "field:pl_cust_devis.devisinvcreate_start,with_vat:"
+msgid "With VAT"
+msgstr "Avec TVA"
+
+msgctxt "field:pl_cust_devis.devisline,comment:"
+msgid "Comment"
+msgstr "Commentaire"
+
+msgctxt "field:pl_cust_devis.devisline,folder_id:"
+msgid "Folder"
+msgstr "Dossier"
+
+msgctxt "field:pl_cust_devis.devisline,force_invoice:"
+msgid "Force Invoice"
+msgstr "Force fact"
+
+msgctxt "field:pl_cust_devis.devisline,invoice_id:"
+msgid "Invoice"
+msgstr "Facture"
+
+msgctxt "field:pl_cust_devis.devisline,invoiced:"
+msgid "Invoiced"
+msgstr "Facturé"
+
+msgctxt "field:pl_cust_devis.devisline,name:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:pl_cust_devis.devisline,pct:"
+msgid "PCT"
+msgstr "PCT"
+
+msgctxt "field:pl_cust_devis.devisline,price:"
+msgid "Price"
+msgstr "Tot"
+
+msgctxt "field:pl_cust_devis.devisline,product:"
+msgid "Product"
+msgstr "Produit"
+
+msgctxt "field:pl_cust_devis.devisline,product_price:"
+msgid "Product Price"
+msgstr "Prix"
+
+msgctxt "field:pl_cust_devis.devisline,product_tva:"
+msgid "TVA"
+msgstr ""
+
+msgctxt "field:pl_cust_devis.devisline,quantity:"
+msgid "Qty"
+msgstr "Qté"
+
+msgctxt "field:pl_cust_plfolders.folders,contact_address:"
+msgid "Address"
+msgstr "Adresse"
+
+msgctxt "field:pl_cust_plfolders.folders,contact_name:"
+msgid "Contact name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_plfolders.folders,devis_lines:"
+msgid "Devis Line"
+msgstr "Ligne de devis"
+
+msgctxt "field:pl_cust_plfolders.folders,price_devis:"
+msgid "Price devis"
+msgstr "Tot devis"
+
+msgctxt "field:pl_cust_plfolders.folders,price_manual:"
+msgid "Price manual"
+msgstr "Forcer le prix"
+
+msgctxt "field:pl_cust_plfolders.folders,price_tot:"
+msgid "Price tot"
+msgstr "Tot"
+
+msgctxt "field:pl_cust_plfolders.folders,state:"
+msgid "Devis State"
+msgstr "Etat"
+
+msgctxt "model:ir.action,name:act_wizard_deviscreateinv"
+msgid "Create Devis invoice"
+msgstr "Facturer"
+
+msgctxt "model:ir.action,name:devisact_devis_folders_form"
+msgid "Dossiers devis"
+msgstr "Devis"
+
+msgctxt "model:ir.action,name:devisact_open_folders_form"
+msgid "Dossiers en cours"
+msgstr "Ouvert"
+
+msgctxt "model:ir.ui.menu,name:menu_folderdevis_form"
+msgid "Dossiers devis"
+msgstr "Dossiers Devis"
+
+msgctxt "model:ir.ui.menu,name:menu_folderopen_form"
+msgid "Dossiers en cours"
+msgstr "Dossier en cours"
+
+msgctxt "model:pl_cust_devis.devisinvcreate_start,name:"
+msgid "Devis Create Invoice Start"
+msgstr ""
+
+msgctxt "model:pl_cust_devis.devisline,name:"
+msgid "PL Folder timesheet"
+msgstr ""
+
+msgctxt "selection:pl_cust_devis.devisline,pct:"
+msgid "0%"
+msgstr ""
+
+msgctxt "selection:pl_cust_devis.devisline,pct:"
+msgid "100%"
+msgstr ""
+
+msgctxt "selection:pl_cust_devis.devisline,pct:"
+msgid "150%"
+msgstr ""
+
+msgctxt "selection:pl_cust_devis.devisline,pct:"
+msgid "200%"
+msgstr ""
+
+msgctxt "selection:pl_cust_devis.devisline,pct:"
+msgid "50%"
+msgstr ""
+
+msgctxt "selection:pl_cust_plfolders.folders,state:"
+msgid "Close"
+msgstr "Archivé"
+
+msgctxt "selection:pl_cust_plfolders.folders,state:"
+msgid "Denied"
+msgstr "Refusé"
+
+msgctxt "selection:pl_cust_plfolders.folders,state:"
+msgid "Devis"
+msgstr "Devis"
+
+msgctxt "selection:pl_cust_plfolders.folders,state:"
+msgid "Invoiced"
+msgstr "Facturé"
+
+msgctxt "selection:pl_cust_plfolders.folders,state:"
+msgid "Open"
+msgstr "En cours"
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "1"
+msgstr ""
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Close"
+msgstr "Archiver"
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Denied"
+msgstr "Refusé"
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Devis"
+msgstr ""
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Facturation du devis"
+msgstr ""
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Open"
+msgstr "Accepter"
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Re-Open"
+msgstr "Réouvrir"
+
+msgctxt "wizard_button:pl_cust_devis.devisinvcreate,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_devis.devisinvcreate,start,generate_inv:"
+msgid "Facturation du devis"
+msgstr ""

@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <menuitem name="Projects" parent="pl_cust_plbase.menu_start" sequence="10" id="menu_projects" icon="tryton-party"/>
+
+        <record model="ir.action.act_window" id="act_projectstype_form">
+            <field name="name">Project Types</field>
+            <field name="res_model">pl_cust_plprojects.projectstype</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_projectsaxe_form">
+            <field name="name">Project Axes</field>
+            <field name="res_model">pl_cust_plprojects.projectsaxe</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_projectscategory_form">
+            <field name="name">Project Category</field>
+            <field name="res_model">pl_cust_plprojects.category</field>
+        </record>
+
+        <record model="res.group" id="group_project_admin">
+            <field name="name">project Administration</field>
+        </record>
+
+        <record model="res.group" id="group_project_viewer">
+            <field name="name">project Viewer</field>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="menu_start_project_viewer">
+            <field name="menu" ref="pl_cust_plbase.menu_start"/>
+            <field name="group" ref="group_project_viewer"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="menu_start_project_admin">
+            <field name="menu" ref="pl_cust_plbase.menu_start"/>
+            <field name="group" ref="group_project_admin"/>
+        </record>
+
+        <record model="ir.sequence.type" id="sequence_type_projects">
+            <field name="name">projects</field>
+        </record>
+        <record model="ir.sequence.type-res.group" id="sequence_type_projects_group_admin">
+            <field name="sequence_type" ref="sequence_type_projects"/>
+            <field name="group" ref="res.group_admin"/>
+        </record>
+
+        <record model="ir.sequence.type-res.group" id="sequence_type_projects_group_projects_admin">
+            <field name="sequence_type" ref="sequence_type_projects"/>
+            <field name="group" ref="group_project_admin"/>
+        </record>
+
+        <record model="ir.sequence" id="sequence_projects">
+            <field name="name">projects</field>
+            <field name="sequence_type" ref="sequence_type_projects"/>
+        </record>
+
+        <menuitem name="Configuration" parent="menu_projects" sequence="100" id="menu_configuration" icon="tryton-party"/>
+
+        <record model="ir.ui.menu-res.group" id="menu_configuration_group_admin">
+            <field name="menu" ref="menu_configuration"/>
+            <field name="group" ref="group_project_admin"/>
+        </record>
+        
+        <menuitem action="act_projectstype_form" parent="menu_configuration" sequence="15" id="my_menu_projectstype_form"/>
+        <menuitem action="act_projectsaxe_form" parent="menu_configuration" sequence="15" id="my_menu_projectsaxe_form"/>
+
+        <!--<menuitem action="act_projectscategory_form" parent="menu_configuration" sequence="15" id="my_menu_projectscat_form"/>-->
+                
+    </data> 
+
+    <data noupdate="1">
+
+        <record model="pl_cust_plbase.partytype" id="partytype_empl">
+            <field name="name">Employé-e</field>
+            <field name="code">empl</field>
+        </record>
+    </data>
+</tryton>

@@ -1,0 +1,355 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:company.employee,avs_num:"
+msgid "AVS num"
+msgstr "N° AVS"
+
+msgctxt "field:company.employee,bank_name:"
+msgid "Bank name"
+msgstr "Nom de la banque"
+
+msgctxt "field:company.employee,iban:"
+msgid "IBAN"
+msgstr "IBAN"
+
+msgctxt "field:pl_cust_salary.cat,account_cc:"
+msgid "Account c/c"
+msgstr "Compte c/c"
+
+msgctxt "field:pl_cust_salary.cat,account_charge:"
+msgid "Account charge"
+msgstr "Compte de charge"
+
+msgctxt "field:pl_cust_salary.cat,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:pl_cust_salary.cat,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_salary.cat,socialcharge:"
+msgid "SocialCharges"
+msgstr "Charges sociales"
+
+msgctxt "field:pl_cust_salary.confsocialcharge,cat:"
+msgid "Cat"
+msgstr "Catégories des charges sociales"
+
+msgctxt "field:pl_cust_salary.confsocialcharge,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_salary.confsocialcharge,tx_boss:"
+msgid "Tx Boss"
+msgstr "Taux employeur"
+
+msgctxt "field:pl_cust_salary.confsocialcharge,tx_employee:"
+msgid "Tx Employee"
+msgstr "Taux employé"
+
+msgctxt "field:pl_cust_salary.contract,alloc_charge:"
+msgid "Alloc"
+msgstr "Allocations"
+
+msgctxt "field:pl_cust_salary.contract,alloc_charge_txt:"
+msgid "Alloc txt"
+msgstr "Description allocations"
+
+msgctxt "field:pl_cust_salary.contract,car_charge:"
+msgid "Car Charges"
+msgstr "Part privée du véhicule d'entreprise"
+
+msgctxt "field:pl_cust_salary.contract,car_charge_txt:"
+msgid "Car Charges txt"
+msgstr "Description part privée véhicule "
+
+msgctxt "field:pl_cust_salary.contract,date_end:"
+msgid "Date end"
+msgstr "Date de fin"
+
+msgctxt "field:pl_cust_salary.contract,date_start:"
+msgid "Date start"
+msgstr "Date de début"
+
+msgctxt "field:pl_cust_salary.contract,function:"
+msgid "Function"
+msgstr "Fonction"
+
+msgctxt "field:pl_cust_salary.contract,gross_salary:"
+msgid "Gross Salary"
+msgstr "Salaire brut"
+
+msgctxt "field:pl_cust_salary.contract,is_charge:"
+msgid "IS Charges(%)"
+msgstr "Taux impôt à la source"
+
+msgctxt "field:pl_cust_salary.contract,is_charge_cat:"
+msgid "IS Cat"
+msgstr "IS"
+
+msgctxt "field:pl_cust_salary.contract,is_charge_txt:"
+msgid "IS Charges txt"
+msgstr "Description impôt à la source"
+
+msgctxt "field:pl_cust_salary.contract,lpp_charge:"
+msgid "LPP"
+msgstr "Montant LPP"
+
+msgctxt "field:pl_cust_salary.contract,lpp_charge_cat:"
+msgid "LPP Cat"
+msgstr "LPP"
+
+msgctxt "field:pl_cust_salary.contract,lpp_charge_txt:"
+msgid "LPP txt"
+msgstr "Description LPP"
+
+msgctxt "field:pl_cust_salary.contract,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_salary.contract,notes:"
+msgid "Comment"
+msgstr "Commentaire"
+
+msgctxt "field:pl_cust_salary.contract,resp_id:"
+msgid "Employee"
+msgstr "Employé-e"
+
+msgctxt "field:pl_cust_salary.contract,sal_cat:"
+msgid "SAL Cat"
+msgstr "SAL"
+
+msgctxt "field:pl_cust_salary.contract,salary_ids:"
+msgid "Salary"
+msgstr "Fiches de salaire"
+
+msgctxt "field:pl_cust_salary.contract,socialcharge_ids:"
+msgid "SocialCharges"
+msgstr "Charges sociales"
+
+msgctxt "field:pl_cust_salary.contract,tx_activity:"
+msgid "Tx Activity(%)"
+msgstr "Taux d'activité"
+
+msgctxt "field:pl_cust_salary.salary,alloc_charge:"
+msgid "Alloc"
+msgstr "Montant des allocations"
+
+msgctxt "field:pl_cust_salary.salary,alloc_charge_txt:"
+msgid "Alloc txt"
+msgstr "Description allocations"
+
+msgctxt "field:pl_cust_salary.salary,car_charge:"
+msgid "Car Charges"
+msgstr "Part privée du véhicule"
+
+msgctxt "field:pl_cust_salary.salary,car_charge_txt:"
+msgid "Car Charges txt"
+msgstr "Decription part privée véhicule"
+
+msgctxt "field:pl_cust_salary.salary,compta:"
+msgid "Move"
+msgstr "Mouvement comptable"
+
+msgctxt "field:pl_cust_salary.salary,compta_state:"
+msgid "Compta state"
+msgstr "Etat comptabilisation"
+
+msgctxt "field:pl_cust_salary.salary,contract:"
+msgid "Contract"
+msgstr "Contrat"
+
+msgctxt "field:pl_cust_salary.salary,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:pl_cust_salary.salary,gross_salary:"
+msgid "Gross Salary"
+msgstr "Salaire brut"
+
+msgctxt "field:pl_cust_salary.salary,gross_salary_contract:"
+msgid "Gross Salary Contract"
+msgstr "Salaire brut (contrat)"
+
+msgctxt "field:pl_cust_salary.salary,is_charge:"
+msgid "IS Charges(%)"
+msgstr "Taux de l'impôt à la source"
+
+msgctxt "field:pl_cust_salary.salary,is_charge_amount:"
+msgid "IS Amount"
+msgstr "Montant de l'impôt à la source"
+
+msgctxt "field:pl_cust_salary.salary,is_charge_txt:"
+msgid "IS Charges txt"
+msgstr "Description impôt à la source"
+
+msgctxt "field:pl_cust_salary.salary,line_ids:"
+msgid "Salary Lines"
+msgstr "Lignes de charges sociales"
+
+msgctxt "field:pl_cust_salary.salary,lpp_charge:"
+msgid "LPP"
+msgstr "LPP"
+
+msgctxt "field:pl_cust_salary.salary,lpp_charge_txt:"
+msgid "LPP txt"
+msgstr "Description LPP"
+
+msgctxt "field:pl_cust_salary.salary,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_salary.salary,net_salary:"
+msgid "Net Salary"
+msgstr "Salaire net"
+
+msgctxt "field:pl_cust_salary.salary,notes:"
+msgid "Comment"
+msgstr "Commentaire"
+
+msgctxt "field:pl_cust_salary.salary,period:"
+msgid "Period"
+msgstr "Période"
+
+msgctxt "field:pl_cust_salary.salary,prim:"
+msgid "Prim"
+msgstr "Prime"
+
+msgctxt "field:pl_cust_salary.salary,prim_txt:"
+msgid "Prim txt"
+msgstr "Description de la prime"
+
+msgctxt "field:pl_cust_salary.salary,resp_id:"
+msgid "Employee"
+msgstr "Employé-e"
+
+msgctxt "field:pl_cust_salary.salaryline,account_cc:"
+msgid "Account c/c"
+msgstr "Compte c/c"
+
+msgctxt "field:pl_cust_salary.salaryline,account_charge:"
+msgid "Account charge"
+msgstr "Compte de charge"
+
+msgctxt "field:pl_cust_salary.salaryline,amount_boss:"
+msgid "Amount Boss"
+msgstr "Montant employeur"
+
+msgctxt "field:pl_cust_salary.salaryline,amount_employee:"
+msgid "Amount Employ"
+msgstr "Montant employé"
+
+msgctxt "field:pl_cust_salary.salaryline,cat:"
+msgid "Cat"
+msgstr "Catégories"
+
+msgctxt "field:pl_cust_salary.salaryline,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_salary.salaryline,salary:"
+msgid "Salary"
+msgstr "Fiche de salaire"
+
+msgctxt "field:pl_cust_salary.salaryline,tx_boss:"
+msgid "Tx Boss"
+msgstr "Taux employeur"
+
+msgctxt "field:pl_cust_salary.salaryline,tx_employee:"
+msgid "Tx Employee"
+msgstr "Taux employé"
+
+msgctxt "field:pl_cust_salary.socialcharge,cat:"
+msgid "Cat"
+msgstr "Catégorie"
+
+msgctxt "field:pl_cust_salary.socialcharge,charge:"
+msgid "Charge"
+msgstr "Charges sociales"
+
+msgctxt "field:pl_cust_salary.socialcharge,contract:"
+msgid "Contract"
+msgstr "Contrat "
+
+msgctxt "help:pl_cust_salary.contract,date_end:"
+msgid "Date end"
+msgstr "Date de fin"
+
+msgctxt "help:pl_cust_salary.contract,date_start:"
+msgid "Date start"
+msgstr "Date de début"
+
+msgctxt "help:pl_cust_salary.salary,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "model:ir.action,name:act_salarycat_form"
+msgid "Salary Cat"
+msgstr "Catégories des charges"
+
+msgctxt "model:ir.action,name:act_salaryconfsoc_form"
+msgid "Salary Conf Soc"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_salarycontract_form"
+msgid "Salary Contract"
+msgstr "Contrat"
+
+msgctxt "model:ir.action,name:act_salarysalary_form"
+msgid "Salary"
+msgstr "Fiches de salaire"
+
+msgctxt "model:ir.action,name:act_salarysoccha_form"
+msgid "Salary Soc Charge"
+msgstr "Charges sociales"
+
+msgctxt "model:ir.action,name:act_wizard_createsal"
+msgid "Create Salary"
+msgstr "Générer une fiche de salaire"
+
+msgctxt "model:ir.ui.menu,name:menu_salary"
+msgid "Salary"
+msgstr "Salaires"
+
+msgctxt "model:ir.ui.menu,name:menu_salarycat_form"
+msgid "Salary Cat"
+msgstr "Catégories charges sociales"
+
+msgctxt "model:ir.ui.menu,name:menu_salarycontract_form"
+msgid "Salary Contract"
+msgstr "Contrats"
+
+msgctxt "model:ir.ui.menu,name:menu_salarysalary_form"
+msgid "Salary"
+msgstr "Fiches de salaire"
+
+msgctxt "model:pl_cust_salary.cat,name:"
+msgid "SalaryCat"
+msgstr "Catégorie de charges sociales"
+
+msgctxt "model:pl_cust_salary.confsocialcharge,name:"
+msgid "SalaryConfSocialCharge"
+msgstr "Conf charges sociales"
+
+msgctxt "model:pl_cust_salary.contract,name:"
+msgid "SalaryContract"
+msgstr "Contrats"
+
+msgctxt "model:pl_cust_salary.salary,name:"
+msgid "SalarySalary"
+msgstr "Fiches de salaire"
+
+msgctxt "model:pl_cust_salary.salaryline,name:"
+msgid "SalarySalaryLine"
+msgstr "Charges sociales"
+
+msgctxt "model:pl_cust_salary.socialcharge,name:"
+msgid "SocialCharges"
+msgstr "Charges sociales"
+
+msgctxt "model:res.group,name:group_salary_admin"
+msgid "Salary Administration"
+msgstr "Administration fiches de salaire"

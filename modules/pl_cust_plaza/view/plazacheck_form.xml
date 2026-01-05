@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form col="6">
+
+  <group id='check_header' colspan="6" col="6" yfill="1">
+    <field height="150" colspan="2" name="addresses" mode="form" view_ids="pl_cust_plaza.plaza_check_addr_form" readonly="1" yalign="0" yfill="1" yexpand="1"/>
+    <field height="150" name="contact_mechanisms" colspan="2" view_ids="party.contact_mechanism_view_tree_sequence" readonly="1" yalign="0" yfill="1" yexpand="1"/>
+    <field height="300" name="notes" colspan="2" yalign="0" yfill="1" yexpand="1" />
+  </group>
+  <separator string="Activité" id="sep1" colspan="6"/>
+  <field name="party_type" colspan="6" xalign="0" xexpand="1" widget="selection"/>
+  <group id='check_type' colspan="2" col="6">
+    <label name="fourn" xalign="1" xexpand="0"/>
+    <field name="fourn" xalign="0" width="20" xexpand="0"/>
+    <label name="hub_mbc" xalign="1" xexpand="0"/>
+    <field name="hub_mbc" xalign="0" width="20" xexpand="0"/>
+    <label name="med_mod" xalign="1" xexpand="0"/>
+    <field name="med_mod" xalign="0" width="20" xexpand="0"/>
+  </group>
+  <separator string="Domaines" id="sep2" colspan="6"/>
+  <group id='chekbox_list' colspan="6" col="10">
+      <label name="c_archi" xalign="1" xexpand="1"/>
+      <field name="c_archi" xalign="0" width="20" xexpand="0"/>
+      <label name="c_artvisu" xalign="1" xexpand="1"/>
+      <field name="c_artvisu" xalign="0" width="20" xexpand="0"/>
+      <label name="c_cine" xalign="1" xexpand="1"/>
+      <field name="c_cine" xalign="0" width="20" xexpand="0"/>
+      <label name="c_danse" xalign="1" xexpand="1"/>
+      <field name="c_danse" xalign="0" width="20" xexpand="0"/>
+      <label name="c_design" xalign="1" xexpand="1"/>
+      <field name="c_design" xalign="0" width="20" xexpand="0"/>
+      <label name="c_digit" xalign="1" xexpand="1"/>
+      <field name="c_digit" xalign="0" width="20" xexpand="0"/>
+      <label name="c_ecolo" xalign="1" xexpand="1"/>
+      <field name="c_ecolo" xalign="0" width="20" xexpand="0"/>      
+      <label name="c_enseign" xalign="1" xexpand="1"/>
+      <field name="c_enseign" xalign="0" width="20" xexpand="0"/>
+      <label name="c_queer" xalign="1" xexpand="1"/>
+      <field name="c_queer" xalign="0" width="20" xexpand="0"/>
+      <label name="c_hotel" xalign="1" xexpand="1"/>
+      <field name="c_hotel" xalign="0" width="20" xexpand="0"/>
+      <label name="c_geneva" xalign="1" xexpand="1"/>
+      <field name="c_geneva" xalign="0" width="20" xexpand="0"/>
+      <label name="c_litera" xalign="1" xexpand="1"/>
+      <field name="c_litera" xalign="0" width="20" xexpand="0"/>
+      <label name="c_bd" xalign="1" xexpand="1"/>
+      <field name="c_bd" xalign="0" width="20" xexpand="0"/>
+      <label name="c_mode" xalign="1" xexpand="1"/>
+      <field name="c_mode" xalign="0" width="20" xexpand="0"/>
+      <label name="c_music" xalign="1" xexpand="1"/>
+      <field name="c_music" xalign="0" width="20" xexpand="0"/>
+      <label name="c_photo" xalign="1" xexpand="1"/>
+      <field name="c_photo" xalign="0" width="20" xexpand="0"/>
+      <label name="c_science" xalign="1" xexpand="1"/>
+      <field name="c_science" xalign="0" width="20" xexpand="0"/>
+      <label name="c_social" xalign="1" xexpand="1"/>
+      <field name="c_social" xalign="0" width="20" xexpand="0"/>
+      <label name="c_theat" xalign="1" xexpand="1"/>
+      <field name="c_theat" xalign="0" width="20" xexpand="0"/>
+      <label name="c_tour" xalign="1" xexpand="1"/>
+      <field name="c_tour" xalign="0" width="20" xexpand="0"/>
+      <label name="c_video" xalign="1" xexpand="1"/>
+      <field name="c_video" xalign="0" width="20" xexpand="0"/>
+  </group>
+  <group id='chekbox_list' colspan="6" col="6">
+    <button name="valid_and_next_button" string="VALIDER" icon="tryton-forward" colspan="4"/>
+    <button name="remove_and_next_button" string="Supprimer" icon="tryton-close" colspan="2"/>
+    <button name="change_and_next_button" string="Valider et corriger le contact" icon="tryton-open" colspan="6"/>
+  </group>
+</form>

@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree editable="1" sequence="sequence">
+  <field name="folder_id"/>
+  <field name="product"/>
+  <field name="name"/>
+  <field name="comment"/>
+  <field name="product_price"/>
+  <field name="quantity"/>
+  <field name="price"/>
+  <field name="product_tva"/>
+  <field name="pct"/>
+  <field name="delivery"/>
+  <button name="copy_button"/>
+</tree>

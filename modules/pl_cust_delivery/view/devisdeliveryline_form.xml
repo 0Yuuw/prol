@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form col="2">
+  <label name="sequence"/>
+  <field name="sequence"/>
+  <label name="folder_id"/>
+  <field name="folder_id"/>
+  <label name="product"/>
+  <field name="product"/>
+  <label name="name"/>
+  <field name="name"/>
+  <label name="comment"/>
+  <field name="comment"/>
+  <label name="product_price"/>
+  <field name="product_price"/>
+  <label name="quantity"/>
+  <field name="quantity"/>
+  <label name="price"/>
+  <field name="price"/>
+  <label name="product_tva"/>
+  <field name="product_tva"/>
+  <label name="pct"/>
+  <field name="pct"/>
+</form>

@@ -1,0 +1,34 @@
+Nom;Cpte prod;Cpte charge;TVA
+Ventes marchandises;3220;;TVA 7.7 s/ventes
+Ventes hébergements;3300;;TVA 7.7 s/ventes
+Ventes services;3400;;TVA 7.7 s/ventes
+Achats marchandises;;4210;TVA 7.7 s/achats B&S
+Salaires;;5200;
+AVS-AI-AC;;5270;
+CAFI;;5271;
+LPP;;5272;
+LAA-LAAC;;5273;
+IJM;;5274;
+Frais admin AVS;;5276;
+Loyer;;6000;
+Assurance choses;;6300;
+Assurance RC;;6310;
+Droits;;6360;
+Taxes;;6361;
+Electricité & Eau;;6400;TVA 7.7 s/inv. & FGX
+Matériel de bureau;;6500;TVA 7.7 s/achats B&S
+Littérature technique;;6503;TVA 7.7 s/achats B&S
+Téléphone, Internet;;6510;TVA 7.7 s/inv. & FGX
+Achats hébergement;;6511;TVA 7.7 s/achats B&S
+Achat noms domaines;;6512;TVA 7.7 s/achats B&S
+Frais de port;;6513;TVA 7.7 s/achats B&S
+Cotisations;;6520;
+Dons et cadeaux;;6521;TVA 7.7 s/achats B&S
+Honoraires conseil juridique;;6532;TVA 7.7 s/achats B&S
+Publicité;;6600;TVA 7.7 s/achats B&S
+Matériel-imprimés publicité;;6610;TVA 7.7 s/achats B&S
+Cadeaux clientèle;;6642;TVA 7.7 s/achats B&S
+Frais représentation;;6650;TVA 7.7 s/achats B&S
+Frais CCP;;6840;
+Impôts sur le bénéfice;;8900;
+Impôts hors exercice;;8902;

@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<data>
+  <xpath expr="/form" position="replace">
+    <form col="4">
+
+      <group id="header" colspan="2" col="6" yfill="1" yalign="0">
+
+        <label name="lastname" xalign="0" />
+        <field name="lastname" yexpand="0"/>
+        <label name="firstname" xalign="0"/>
+        <field name="firstname" yexpand="0"/>
+        <label name="party_title" xalign="0"/>
+        <field name="party_title" yexpand="0"/>
+        <label name="party_type" xalign="0"/>
+        <field name="party_type" yexpand="0"/>
+        <label name="prof" xalign="0"/>
+        <field name="prof" yexpand="0"/>
+        <label name="organisation" xalign="0"/>
+        <field name="organisation" yexpand="0"/>
+        <label name="nickname" xalign="0"/>
+        <field name="nickname" yexpand="0"/>
+        <label name="code" xalign="0"/>
+        <field name="code" yexpand="0"/>
+        <label name="birthdate" xalign="0"/>
+        <field name="birthdate" xexpand="0" width="200"/>
+        <newline/>
+        <label name="description" xalign="0"/>
+        <field name="description" xexpand="1" xalign="0" colspan="5"/>
+  
+        <group id="checkbox" colspan="2" col="4">
+          <label name="is_person_moral" />
+          <field name="is_person_moral" xexpand="0" width="35"/>
+          <!--<label name="lang" />
+          <field name="lang" xexpand="0" width="35"/>-->
+        </group>
+      </group>
+      
+      <notebook colspan="4">
+        <page string="General" id="general" col="6">
+          <field height="400" name="addresses" mode="form,tree" colspan="3" view_ids="pl_cust_plbase.pl_partyaddr_view_form,pl_cust_plbase.pl_partyaddr_view_tree"/>
+          
+          <group id="partynotes" colspan="3" col="2" yfill="1" yalign="0">
+            <field name="contact_mechanisms" colspan="2" view_ids="party.contact_mechanism_view_tree_sequence" />
+            <field name="notes" colspan="2" yfill="1" yalign="0"/>
+            <field name="name" colspan="2" invisible="1"/>
+          </group>
+      
+        </page>
+        <page string="Catégories" id="cat">
+          <field name="categories" colspan="4"/>
+        </page>
+        <page string="Accounting" id="accounting">
+            <label name="iban_formatted"/>
+            <field name="iban_formatted"/>
+            <separator string="Product / Tax" colspan="4" id="product"/>
+            <label name="default_category_account_expense"/>
+            <field name="default_category_account_expense"/>
+            <label name="default_category_account_revenue"/>
+            <field name="default_category_account_revenue"/>
+            <label name="default_tax_expense"/>
+            <field name="default_tax_expense"/>
+            <label name="default_tax_revenue"/>
+            <field name="default_tax_revenue"/>
+            <separator string="Account" colspan="4" id="account"/>
+            <label name="account_receivable"/>
+            <field name="account_receivable"/>
+            <label name="account_payable"/>
+            <field name="account_payable"/>
+            <newline/>
+            <label name="receivable_today"/>
+            <field name="receivable_today"/>
+            <label name="payable_today"/>
+            <field name="payable_today"/>
+            <label name="receivable"/>
+            <field name="receivable"/>
+            <label name="payable"/>
+            <field name="payable"/>
+            <separator string="Taxes" colspan="4" id="taxes"/>
+            <label name="customer_tax_rule"/>
+            <field name="customer_tax_rule"/>
+            <label name="supplier_tax_rule"/>
+            <field name="supplier_tax_rule"/>
+        </page>
+      </notebook>
+      <label name="active" />
+      <field name="active" xexpand="0" width="35"/>
+    </form>
+  </xpath>
+</data>

@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree editable="0">
+  <field name="street"/>
+  <field name="street_num"/>
+  <field name="zip"/>
+  <field name="city"/>
+  <field name="proprio"/>
+  <field name="regie"/>
+  <field name='locs'/>
+</tree>

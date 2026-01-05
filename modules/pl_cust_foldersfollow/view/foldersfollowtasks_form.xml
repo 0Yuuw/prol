@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form col="2">
+  <label name="inout"/>
+  <field name="inout"/>
+  <label name="foldersfollow"/>
+  <field name="foldersfollow"/>
+  <label name="tasks"/>
+  <field name="tasks"/>
+  <label name="name"/>
+  <field name="name"/>
+  <label name="date"/>
+  <field name="date"/>
+  <label name="duration"/>
+  <field name="duration"/>
+  <label name="resp_id"/>
+  <field name="resp_id"/>
+</form>

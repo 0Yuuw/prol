@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+modules/pl_cust_tel/gen_stats.py
+docker-compose.yml

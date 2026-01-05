@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <menuitem name="Folders" parent="pl_cust_plbase.menu_start" sequence="10" id="menu_folders" icon="tryton-party"/>
+
+        <record model="ir.ui.view" id="folders_conf_wizard_view_form">
+            <field name="model">pl_cust_plfolders.wizardconf</field>
+            <field name="type">form</field>
+            <field name="name">confwizard_form</field>
+        </record>
+        <record model="ir.action.act_window" id="act_folders_conf_wizard_form">
+            <field name="name">Folders Wizard Configuration</field>
+            <field name="res_model">pl_cust_plfolders.wizardconf</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_folders_conf_wizard_form_view1">
+            <field name="sequence" eval="1"/>
+            <field name="view" ref="folders_conf_wizard_view_form"/>
+            <field name="act_window" ref="act_folders_conf_wizard_form"/>
+        </record>
+
+        <record model="ir.ui.view" id="folders_configuration_view_form">
+            <field name="model">pl_cust_plfolders.configuration</field>
+            <field name="type">form</field>
+            <field name="name">configuration_form</field>
+        </record>
+        <record model="ir.action.act_window" id="act_folders_configuration_form">
+            <field name="name">Folders Configuration</field>
+            <field name="res_model">pl_cust_plfolders.configuration</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_foldertype_form">
+            <field name="name">Folder Types</field>
+            <field name="res_model">pl_cust_plfolders.foldertype</field>
+        </record>
+
+        <record model="res.group" id="group_folder_admin">
+            <field name="name">Folder Administration</field>
+        </record>
+
+        <record model="res.group" id="group_folder_conf">
+            <field name="name">Folder Configuration</field>
+        </record>
+
+        <record model="res.group" id="group_folder_viewer">
+            <field name="name">Folder Viewer</field>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="menu_start_folder_viewer">
+            <field name="menu" ref="pl_cust_plbase.menu_start"/>
+            <field name="group" ref="group_folder_viewer"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="menu_start_folder_admin">
+            <field name="menu" ref="pl_cust_plbase.menu_start"/>
+            <field name="group" ref="group_folder_admin"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="menu_start_folder_conf">
+            <field name="menu" ref="pl_cust_plbase.menu_start"/>
+            <field name="group" ref="group_folder_conf"/>
+        </record>
+
+
+        <record model="ir.sequence.type" id="sequence_type_folders">
+            <field name="name">Folders</field>
+        </record>
+        <record model="ir.sequence.type-res.group" id="sequence_type_folders_group_admin">
+            <field name="sequence_type" ref="sequence_type_folders"/>
+            <field name="group" ref="res.group_admin"/>
+        </record>
+
+        <record model="ir.sequence.type-res.group" id="sequence_type_folders_group_folders_admin">
+            <field name="sequence_type" ref="sequence_type_folders"/>
+            <field name="group" ref="group_folder_admin"/>
+        </record>
+
+        <record model="ir.sequence" id="sequence_folders">
+            <field name="name">Folders</field>
+            <field name="sequence_type" ref="sequence_type_folders"/>
+        </record>
+
+
+        <menuitem name="Configuration" parent="menu_folders" sequence="100" id="menu_configuration" icon="tryton-party"/>
+
+        <record model="ir.ui.menu-res.group" id="menu_configuration_group_admin">
+            <field name="menu" ref="menu_configuration"/>
+            <field name="group" ref="group_folder_conf"/>
+        </record>
+
+        <menuitem parent="menu_configuration" action="act_folders_configuration_form" id="menu_folders_config" sequence="1" icon="tryton-list"/>
+
+        <menuitem action="act_foldertype_form" parent="menu_configuration" sequence="15" id="my_menu_foldertype_form"/>
+        <menuitem parent="menu_configuration" action="act_folders_conf_wizard_form" id="menu_folders_conf_wizard" sequence="2" icon="tryton-list"/>
+
+    </data>
+</tryton>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<data>
+  <xpath expr="//field[@name='party']" position="after">
+    <label name="carte" xalign="0" xfill="0"/>
+    <field name="carte" xfill="1" xexpand="0"/>
+    <label name="panettone" xalign="0" xfill="0"/>
+    <field name="panettone" xfill="1" xexpand="0"/>
+    <newline/>
+  </xpath>
+</data>

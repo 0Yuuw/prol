@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<tree>
+    <field name="date"/>
+    <field name="type"/>
+    <field name="donator"/>
+    <field name="amount"/>
+    <field name="complement"/>
+    <field name="attestation_sent"/>
+</tree>

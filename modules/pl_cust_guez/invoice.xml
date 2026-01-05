@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+       <record model="ir.action.report" id="qr_report_invoice_guez">
+            <field name="name">QR Factures</field>
+            <field name="model">account.invoice</field>
+            <field name="report_name">pl_cust_account.invoice_report</field>
+            <field name="report">pl_cust_guez/guez_QR.fodt</field>
+            <field name="single">1</field>
+        </record>
+        <record model="ir.action.keyword" id="report_qrinvoiceguez_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">account.invoice,-1</field>
+            <field name="action" ref="qr_report_invoice_guez"/>
+        </record>
+        <record model="ir.action.report" id="qr_report_invoice2_guez">
+            <field name="name">QR Factures 2 pages</field>
+            <field name="model">account.invoice</field>
+            <field name="report_name">pl_cust_account.invoice_report</field>
+            <field name="report">pl_cust_guez/guez_QR2.fodt</field>
+            <field name="single">1</field>
+        </record>
+        <record model="ir.action.keyword" id="report_qrinvoice_guez_keyword2">
+            <field name="keyword">form_print</field>
+            <field name="model">account.invoice,-1</field>
+            <field name="action" ref="qr_report_invoice2_guez"/>
+        </record>
+    </data>
+</tryton>

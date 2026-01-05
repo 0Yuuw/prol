@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <record model="res.group" id="group_lmt_admin">
+            <field name="name">LMTAdmin</field>
+        </record>
+
+        <record model="res.group" id="group_lmt_user">
+            <field name="name">LMTUser</field>
+        </record>
+
+        <record model="ir.model.access" id="model_access_lmt_user">
+            <field name="model">pl_cust_tel.calls</field>
+            <field name="group" ref="pl_cust_tel.group_lmt_user"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+        <record model="ir.model.access" id="model_access_lmt_admin">
+            <field name="model">pl_cust_tel.calls</field>
+            <field name="group" ref="pl_cust_tel.group_lmt_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <record model="ir.model.access" id="access_party_lmt_user">
+            <field name="model">party.party</field>
+            <field name="group" ref="pl_cust_tel.group_lmt_user"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+        <record model="ir.model.access" id="access_party_lmt_admin">
+            <field name="model">party.party</field>
+            <field name="group" ref="pl_cust_tel.group_lmt_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <record model="ir.model.access" id="access_reg_lmt_user">
+            <field name="model">pl_cust_tel.regularcalls</field>
+            <field name="group" ref="pl_cust_tel.group_lmt_user"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+        <record model="ir.model.access" id="access_reg_lmt_admin">
+            <field name="model">pl_cust_tel.regularcalls</field>
+            <field name="group" ref="pl_cust_tel.group_lmt_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+
+    </data>
+</tryton>

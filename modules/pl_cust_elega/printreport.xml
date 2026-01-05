@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+
+    <record model="ir.action.report" id="elega_devis">
+      <field name="name">Devis</field>
+      <field name="model">pl_cust_plfolders.folders</field>
+      <field name="report_name">pl_cust_delivery.devisreport</field>
+      <field name="report">pl_cust_elega/elega_devis.fodt</field>
+    </record>
+    <record model="ir.action.keyword" id="elega_devis_keyword">
+      <field name="keyword">form_print</field>
+      <field name="model">pl_cust_plfolders.folders,-1</field>
+      <field name="action" ref="elega_devis"/>
+    </record>
+
+    <record model="ir.action.report" id="elega_delivery">
+      <field name="name">Bulletin de livraison</field>
+      <field name="model">pl_cust_plfolders.folders</field>
+      <field name="report_name">pl_cust_delivery.deliveryreport</field>
+      <field name="report">pl_cust_elega/elega_delivery.fodt</field>
+    </record>
+    <record model="ir.action.keyword" id="elega_delivery_keyword">
+      <field name="keyword">form_print</field>
+      <field name="model">pl_cust_plfolders.folders,-1</field>
+      <field name="action" ref="elega_delivery"/>
+    </record>
+
+    <record model="ir.action.report" id="elega_fiche">
+      <field name="name">Fiche de travail</field>
+      <field name="model">pl_cust_plfolders.folders</field>
+      <field name="report_name">pl_cust_elega.elegareport</field>
+      <field name="report">pl_cust_elega/elega_fiche.fodt</field>
+    </record>
+    <record model="ir.action.keyword" id="elega_fiche_keyword">
+      <field name="keyword">form_print</field>
+      <field name="model">pl_cust_plfolders.folders,-1</field>
+      <field name="action" ref="elega_fiche"/>
+    </record>
+    
+  </data>
+</tryton>

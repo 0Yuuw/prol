@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <record model="ir.ui.view" id="plaza_check_view_form">
+            <field name="model">party.party</field>
+            <field name="type">form</field>
+            <field name="name">plazacheck_form</field>
+            <field name="priority" eval="81"/>
+        </record>
+        <record model="ir.ui.view" id="plaza_check_view_tree">
+            <field name="model">party.party</field>
+            <field name="type">tree</field>
+            <field name="name">plazacheck_tree</field>
+            <field name="priority" eval="81"/>
+        </record>
+
+        <record model="ir.ui.view" id="plaza_check_addr_form">
+            <field name="model">party.address</field>
+            <field name="type">form</field>
+            <field name="name">plazaaddrcheck_form</field>
+            <field name="priority" eval="82"/>
+        </record>
+        
+         <record model="ir.action.act_window" id="act_changevalid_form">
+            <field name="name">Contacts valides à corriger</field>
+            <field name="res_model">party.party</field>
+            <field name="domain" eval="[('check_import', '=', False)]" pyson="1"/>
+            <field name="search_value" eval="[('change_import', '=', True)]" pyson="1"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_changevalid_form_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="pl_cust_plbase.pl_party_view_tree"/>
+            <field name="act_window" ref="act_changevalid_form"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_changevalid_form_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="pl_cust_plbase.pl_party_view_form"/>
+            <field name="act_window" ref="act_changevalid_form"/>
+        </record>
+
+        <record model="ir.action.act_window" id="act_check_form">
+            <field name="name">Importation à valider</field>
+            <field name="res_model">party.party</field>
+            <field name="domain" eval="[('check_import', '=', True)]" pyson="1"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_check_form_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="plaza_check_view_tree"/>
+            <field name="act_window" ref="act_check_form"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_check_form_view2">
+            <field name="sequence" eval="11"/>
+            <field name="view" ref="plaza_check_view_form"/>
+            <field name="act_window" ref="act_check_form"/>
+        </record>
+
+        <menuitem action="act_changevalid_form" parent="pl_cust_plbase.menu_myparty" sequence="20" id="menu_plaza_changevalid_form"/>
+
+        <menuitem action="act_check_form" parent="pl_cust_plbase.menu_myparty" sequence="10" id="menu_plaza_check_form"/>
+
+        <record model="ir.ui.view" id="plaza_party_view_form">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="party.party_view_form"/>
+            <field name="name">plazaparty_form</field>
+            <field name="priority" eval="70"/>
+        </record>        
+
+        <record model="ir.ui.view" id="plaza_party_view_tree">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="pl_cust_plbase.pl_party_view_tree"/>
+            <field name="name">plazaparty_tree</field>
+            <field name="priority" eval="70"/>
+        </record>        
+        
+        <record model="ir.ui.view" id="plaza_partyaddr_view_form">
+            <field name="model">party.address</field>
+            <field name="inherit" ref="party.address_view_form"/>
+            <!--<field name="type">form</field>-->
+            <field name="name">plazapartyaddr_form</field>
+            <field name="priority" eval="61"/>
+        </record>
+
+    </data>
+</tryton>

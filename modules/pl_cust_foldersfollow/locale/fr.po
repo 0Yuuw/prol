@@ -1,0 +1,191 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:pl_cust_foldersfollow.foldersfollow,as_attachment:"
+msgid "pj"
+msgstr ""
+
+msgctxt "field:pl_cust_foldersfollow.foldersfollow,date_end:"
+msgid "Date end"
+msgstr "Date de fin"
+
+msgctxt "field:pl_cust_foldersfollow.foldersfollow,date_start:"
+msgid "Date start"
+msgstr "Date de début"
+
+msgctxt "field:pl_cust_foldersfollow.foldersfollow,description:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:pl_cust_foldersfollow.foldersfollow,folder_type:"
+msgid "Folder Type"
+msgstr "Type de dossier"
+
+msgctxt "field:pl_cust_foldersfollow.foldersfollow,followtasks:"
+msgid "Follow Tasks"
+msgstr "Tâches"
+
+msgctxt "field:pl_cust_foldersfollow.foldersfollow,internal_com:"
+msgid "Internal Com"
+msgstr "Commentaire interne"
+
+msgctxt "field:pl_cust_foldersfollow.foldersfollow,internal_notes:"
+msgid "Internal Notes"
+msgstr "Notes interne"
+
+msgctxt "field:pl_cust_foldersfollow.foldersfollow,name:"
+msgid "Number"
+msgstr "Numéro"
+
+msgctxt "field:pl_cust_foldersfollow.foldersfollow,notes:"
+msgid "Comment"
+msgstr "Commentaire"
+
+msgctxt "field:pl_cust_foldersfollow.foldersfollow,party_id:"
+msgid "Party"
+msgstr "Contact"
+
+msgctxt "field:pl_cust_foldersfollow.foldersfollow,resp:"
+msgid "Resp"
+msgstr ""
+
+msgctxt "field:pl_cust_foldersfollow.foldersfollowtasks,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:pl_cust_foldersfollow.foldersfollowtasks,duration:"
+msgid "Duration"
+msgstr "Durée"
+
+msgctxt "field:pl_cust_foldersfollow.foldersfollowtasks,foldersfollow:"
+msgid "Folder"
+msgstr "Dossier"
+
+msgctxt "field:pl_cust_foldersfollow.foldersfollowtasks,name:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:pl_cust_foldersfollow.foldersfollowtasks,resp_id:"
+msgid "Employee"
+msgstr "Employé-e"
+
+msgctxt "field:pl_cust_foldersfollow.foldersfollowtasks,tasks:"
+msgid "Task"
+msgstr "Tâche"
+
+msgctxt "field:pl_cust_foldersfollow.foldersfollowtype,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:pl_cust_foldersfollow.foldersfollowtype,name:"
+msgid "Name"
+msgstr "Nom"
+
+ 
+msgctxt "field:pl_cust_foldersfollow.tasks,duration:"
+msgid "Duration"
+msgstr "Durée"
+
+msgctxt "field:pl_cust_foldersfollow.tasks,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "help:pl_cust_foldersfollow.foldersfollow,date_end:"
+msgid "Date end"
+msgstr "Date de fin"
+
+msgctxt "help:pl_cust_foldersfollow.foldersfollow,date_start:"
+msgid "Date start"
+msgstr "Date de début"
+
+msgctxt "help:pl_cust_foldersfollow.foldersfollowtasks,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "model:ir.action,name:act_folders_form"
+msgid "Tous les dossiers"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_foldersfollowtasks_form"
+msgid "Follow Tasks"
+msgstr "Tâches"
+
+msgctxt "model:ir.action,name:act_foldertype_form"
+msgid "Folder Types"
+msgstr "Type de dossier"
+
+msgctxt "model:ir.action,name:act_tasks_form"
+msgid "Gestion des Tâches"
+msgstr ""
+
+msgctxt "model:ir.action,name:my_act_foldersfollowtasks_form"
+msgid "My Follow Tasks"
+msgstr "Mon suivi"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:my_act_foldersfollowtasks_form_all"
+msgid "Tous"
+msgstr ""
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:my_act_foldersfollowtasks_form_today"
+msgid "Aujourd'hui"
+msgstr ""
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:my_act_foldersfollowtasks_form_yesterday"
+msgid "Hier"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_configuration"
+msgid "Configuration"
+msgstr "Configuration"
+
+msgctxt "model:ir.ui.menu,name:menu_folders"
+msgid "Folders"
+msgstr "Dossiers"
+
+msgctxt "model:ir.ui.menu,name:menu_folders_form"
+msgid "Tous les dossiers"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_foldersfollowtasks_form"
+msgid "Follow Tasks"
+msgstr "Tous les suivis"
+
+msgctxt "model:ir.ui.menu,name:menu_myfoldersfollowtasks_form"
+msgid "My Follow Tasks"
+msgstr "Mes suivis"
+
+msgctxt "model:ir.ui.menu,name:my_menu_foldertype_form"
+msgid "Folder Types"
+msgstr "Type de dossier"
+
+msgctxt "model:pl_cust_foldersfollow.foldersfollow,string:"
+msgid "Pl Cust Foldersfollow"
+msgstr "Suivi"
+
+msgctxt "model:pl_cust_foldersfollow.foldersfollowtasks,string:"
+msgid "Pl Cust Foldersfollow Foldersfollowtasks"
+msgstr ""
+
+msgctxt "model:pl_cust_foldersfollow.foldersfollowtype,string:"
+msgid "Pl Cust Foldersfollow Foldersfollowtype"
+msgstr ""
+
+msgctxt "model:pl_cust_foldersfollow.tasks,string:"
+msgid "Pl Cust Foldersfollow Tasks"
+msgstr ""
+
+msgctxt "view:pl_cust_foldersfollow.foldersfollow:"
+msgid "Follow"
+msgstr "Suivi"
+
+msgctxt "view:pl_cust_foldersfollow.foldersfollow:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "view:pl_cust_foldersfollow.foldersfollow:"
+msgid "Numero"
+msgstr ""

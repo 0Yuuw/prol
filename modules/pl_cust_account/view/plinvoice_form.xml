@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+  <xpath expr="/form/label[@name='reference']" position="replace" />
+  <xpath expr="/form/field[@name='reference']" position="replace">
+    <label name="fourn_num"/>
+    <field name="fourn_num"/>
+    <label name="purchase_num"/>
+    <field name="purchase_num"/>
+    <label name="purchase_date"/>
+    <field name="purchase_date"/>
+    <label name="buyer"/>
+    <field name="buyer"/>
+    <label name="reference"/>
+    <field name="reference"/>
+    <label name="date_due"/>
+    <field name="date_due"/>
+    <label name="employee_id"/>
+    <field name="employee_id"/>
+  </xpath>
+
+</data>

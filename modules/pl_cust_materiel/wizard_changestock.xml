@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+    <record model="ir.ui.view" id="changestock_step2_view_form">
+      <field name="model">pl_cust_materiel.changestock_step2</field>
+      <field name="type">form</field>
+      <field name="name">changestock_step2_form</field>
+    </record>
+
+    <record model="ir.ui.view" id="changestock_start_view_form">
+      <field name="model">pl_cust_materiel.changestock_start</field>
+      <field name="type">form</field>
+      <field name="name">changestock_start_form</field>
+    </record>
+
+    <record model="ir.action.wizard" id="act_wizard_changestock">
+      <field name="name">Change Stock</field>
+      <field name="wiz_name">pl_cust_materiel.changestock</field>
+    </record>
+    
+    <menuitem parent="pl_cust_materiel.menu_materiel" action="act_wizard_changestock" id="menu_changestock" sequence="63"/>
+
+    <record model="ir.ui.menu-res.group" id="menu_changestock_group_wizard">
+      <field name="menu" ref="menu_changestock"/>
+      <field name="group" ref="group_mat_wizard"/>
+    </record> 
+
+  </data>
+</tryton>

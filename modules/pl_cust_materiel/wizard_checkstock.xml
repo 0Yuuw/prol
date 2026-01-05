@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+
+    <record model="ir.ui.view" id="locationtmp2_view_form">
+      <field name="model">pl_cust_materiel.location_tmp2</field>
+      <field name="type">form</field>
+      <field name="name">location_tmp2_form</field>
+    </record>
+    <record model="ir.ui.view" id="locationtmp2_view_tree">
+      <field name="model">pl_cust_materiel.location_tmp2</field>
+      <field name="type">tree</field>
+      <field name="name">location_tmp2_tree</field>
+    </record>
+
+    <record model="ir.ui.view" id="checkstock_step2_view_form">
+      <field name="model">pl_cust_materiel.checkstock_step2</field>
+      <field name="type">form</field>
+      <field name="name">checkstock_step2_form</field>
+    </record>
+
+    <record model="ir.ui.view" id="checkstock_start_view_form">
+      <field name="model">pl_cust_materiel.checkstock_start</field>
+      <field name="type">form</field>
+      <field name="name">checkstock_start_form</field>
+    </record>
+
+    <record model="ir.action.wizard" id="act_wizard_checkstock">
+      <field name="name">Check Stock</field>
+      <field name="wiz_name">pl_cust_materiel.checkstock</field>
+    </record>
+    
+    <menuitem parent="pl_cust_materiel.menu_materiel" action="act_wizard_checkstock" id="menu_checkstock" sequence="64"/>
+  </data>
+</tryton>

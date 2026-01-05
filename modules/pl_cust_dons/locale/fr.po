@@ -1,0 +1,385 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:party.party,total_donations_year:"
+msgid "Total donations this year"
+msgstr "Total annuel des dons"
+
+msgctxt "field:party.party,type_donateur:"
+msgid "Donator type"
+msgstr "Type de donateur"
+
+msgctxt "field:pl_cust_dons.dons,amount:"
+msgid "Amount (CHF)"
+msgstr "Montant (CHF)"
+
+msgctxt "field:pl_cust_dons.dons,attestation_sent:"
+msgid "Attestation sent"
+msgstr "Attestation envoyée"
+
+msgctxt "field:pl_cust_dons.dons,complement:"
+msgid "Complement"
+msgstr ""
+
+msgctxt "field:pl_cust_dons.dons,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:pl_cust_dons.dons,donator:"
+msgid "Donator"
+msgstr "Donateur"
+
+msgctxt "field:pl_cust_dons.dons,formatted_amount:"
+msgid "Amount (formatted)"
+msgstr "Montant"
+
+msgctxt "field:pl_cust_dons.dons,name:"
+msgid "N°"
+msgstr ""
+
+msgctxt "field:pl_cust_dons.dons,no_att:"
+msgid "No attestation"
+msgstr "Pas d'attestation"
+
+msgctxt "field:pl_cust_dons.dons,notes:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "field:pl_cust_dons.dons,type:"
+msgid "Type of donation"
+msgstr "Type de don"
+
+msgctxt "field:pl_cust_dons.type_donateur,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:pl_cust_dons.type_donateur,contacts:"
+msgid "Contacts"
+msgstr "Contacts"
+
+msgctxt "field:pl_cust_dons.type_donateur,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_dons.type_dons,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:pl_cust_dons.type_dons,dons:"
+msgid "Dons"
+msgstr ""
+
+msgctxt "field:pl_cust_dons.type_dons,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "model:ir.action,name:act_dons_list_form"
+msgid "List of donations"
+msgstr "Liste des dons"
+
+msgctxt "model:ir.action,name:act_type_donator_list_form"
+msgid "Type of donator"
+msgstr "Type de donateur"
+
+msgctxt "model:ir.action,name:act_type_dons_list_form"
+msgid "Type of donation"
+msgstr "Type de don"
+
+msgctxt "model:ir.action,name:dons_report"
+msgid "Attestation of Donations (Yearly)"
+msgstr "Attestation annuelle"
+
+msgctxt "model:ir.action,name:dons_report_single"
+msgid "Attestation of a Single Donation"
+msgstr "Attestation simple"
+
+msgctxt "model:ir.ui.menu,name:"
+msgid "Configuration"
+msgstr "Configuration"
+
+msgctxt "model:ir.ui.menu,name:menu_dons"
+msgid "Dons"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_list_dons"
+msgid "List of donations"
+msgstr "Liste des dons"
+
+msgctxt "model:ir.ui.menu,name:menu_list_type_dons"
+msgid "Type of donation"
+msgstr "Type de don"
+
+msgctxt "model:pl_cust_dons.dons,name:"
+msgid "Dons"
+msgstr ""
+
+msgctxt "model:pl_cust_dons.type_donateur,name:"
+msgid "Type Donateur"
+msgstr "Type de donateur"
+
+msgctxt "model:pl_cust_dons.type_dons,name:"
+msgid "Type Dons"
+msgstr "Type de don"
+
+msgctxt "model:res.group,name:group_admin"
+msgid "Administrator"
+msgstr "Administrateur"
+
+msgctxt "model:res.group,name:group_user"
+msgid "User"
+msgstr "Utilisateur"
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid ","
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "022 320 50 87"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "1211 GENEVE 4"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "143.ch"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "Andreas Rötheli"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "Anschrift"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid ""
+"Au nom de toute l’équipe, un grand merci de faire partie de cette belle "
+"aventure humaine qui se poursuit depuis plus de 65 ans."
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "Avec toute notre reconnaissance."
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "C:\\DATEN\\Logos\\zewo_logo_new.jpg"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "Case Postale 157"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "Directrice"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid ""
+"En conservant ce courrier, vous pourrez le joindre à votre prochaine "
+"déclaration fiscale et ainsi"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "Genève"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "Genève,"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "IBAN CH49 0900 0000 1201 3454 0"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "La Main Tendue"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "La Main Tendue – Case postale 157 – 1211 GENEVE 4"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "Nous avons bien reçu votre don de CHF"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "Président"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid ""
+"Votre contribution joue un rôle essentiel dans la poursuite de notre "
+"mission."
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid ""
+"Votre geste ne se limite pas à une seule contribution financière, il incarne"
+" aussi votre foi en un monde où la solidarité s’exprime, chacun avec sa "
+"compréhension, sa sensibilité et ses aptitudes."
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "Votre soutien de"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "Yaël LIEBKIND"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "déduire ce montant de vos revenus."
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "en cela votre aide est inestimable. Merci !"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "et nous vous en remercions chaleureusement."
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "geneve@143-ge.ch"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "permet à La Main Tendue la poursuite de sa mission :"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation:"
+msgid "|"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid ","
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "022 320 50 87"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "1211 GENEVE 4"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "143.ch"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "Andreas Rötheli"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "Anschrift"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid ""
+"Au nom de toute l’équipe, un grand merci de faire partie de cette belle "
+"aventure humaine qui se poursuit depuis plus de 65 ans."
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "Avec toute notre reconnaissance."
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "C:\\DATEN\\Logos\\zewo_logo_new.jpg"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "Case Postale 157"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "Directrice"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid ""
+"En conservant ce courrier, vous pourrez le joindre à votre prochaine "
+"déclaration fiscale et ainsi"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "Genève"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "Genève,"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "IBAN CH49 0900 0000 1201 3454 0"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "La Main Tendue"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "La Main Tendue – Case postale 157 – 1211 GENEVE 4"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "Nous avons bien reçu votre don de CHF"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "Président"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid ""
+"Votre contribution joue un rôle essentiel dans la poursuite de notre "
+"mission."
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid ""
+"Votre geste ne se limite pas à une seule contribution financière, il incarne"
+" aussi votre foi en un monde où la solidarité s’exprime, chacun avec sa "
+"compréhension, sa sensibilité et ses aptitudes."
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "Votre soutien de"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "Yaël LIEBKIND"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "déduire ce montant de vos revenus."
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "en cela votre aide est inestimable. Merci !"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "et nous vous en remercions chaleureusement."
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "geneve@143-ge.ch"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "permet à La Main Tendue la poursuite de sa mission :"
+msgstr ""
+
+msgctxt "report:pl_cust_dons.dons_attestation_single:"
+msgid "|"
+msgstr ""
+
+msgctxt "view:party.party:"
+msgid "Dons"
+msgstr ""

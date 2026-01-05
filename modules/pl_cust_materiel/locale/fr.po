@@ -1,0 +1,1159 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:pl_cust_materiel.addmanif_start,afternoon:"
+msgid "Afternoon"
+msgstr "Après-midi"
+
+msgctxt "field:pl_cust_materiel.addmanif_start,date_end:"
+msgid "Date End"
+msgstr "Fin"
+
+msgctxt "field:pl_cust_materiel.addmanif_start,date_start:"
+msgid "Date Start"
+msgstr "Début"
+
+msgctxt "field:pl_cust_materiel.addmanif_start,morning:"
+msgid "Morning"
+msgstr "Matin"
+
+msgctxt "field:pl_cust_materiel.addmanif_start,time_end:"
+msgid "Hours End"
+msgstr "Heure de fin"
+
+msgctxt "field:pl_cust_materiel.addmanif_start,time_start:"
+msgid "Hours Start"
+msgstr "Heure de début"
+
+msgctxt "field:pl_cust_materiel.addmanif_step2,afternoon:"
+msgid "Afternoon"
+msgstr "Après-midi"
+
+msgctxt "field:pl_cust_materiel.addmanif_step2,date_end:"
+msgid "Date End"
+msgstr "Fin"
+
+msgctxt "field:pl_cust_materiel.addmanif_step2,date_start:"
+msgid "Date Start"
+msgstr "Début"
+
+msgctxt "field:pl_cust_materiel.addmanif_step2,datetime_end:"
+msgid "DateTime End"
+msgstr "Fin"
+
+msgctxt "field:pl_cust_materiel.addmanif_step2,datetime_start:"
+msgid "DateTime Start"
+msgstr "Début"
+
+msgctxt "field:pl_cust_materiel.addmanif_step2,description:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:pl_cust_materiel.addmanif_step2,localisation:"
+msgid "Localisation"
+msgstr "Lieu"
+
+msgctxt "field:pl_cust_materiel.addmanif_step2,locations_tmp:"
+msgid "Locations"
+msgstr "Locations"
+
+msgctxt "field:pl_cust_materiel.addmanif_step2,morning:"
+msgid "Morning"
+msgstr "Matin"
+
+msgctxt "field:pl_cust_materiel.addmanif_step2,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_materiel.addmanif_step2,party:"
+msgid "Party"
+msgstr "Clients"
+
+msgctxt "field:pl_cust_materiel.addmanif_step2,time_end:"
+msgid "Hours End"
+msgstr "Heure de fin"
+
+msgctxt "field:pl_cust_materiel.addmanif_step2,time_start:"
+msgid "Hours Start"
+msgstr "Heure de début"
+
+msgctxt "field:pl_cust_materiel.addmanif_step3,afternoon:"
+msgid "Afternoon"
+msgstr "Après-midi"
+
+msgctxt "field:pl_cust_materiel.addmanif_step3,date_end:"
+msgid "Date End"
+msgstr "Fin"
+
+msgctxt "field:pl_cust_materiel.addmanif_step3,date_start:"
+msgid "Date Start"
+msgstr "Début"
+
+msgctxt "field:pl_cust_materiel.addmanif_step3,datetime_end:"
+msgid "DateTime End"
+msgstr "Fin"
+
+msgctxt "field:pl_cust_materiel.addmanif_step3,datetime_start:"
+msgid "DateTime Start"
+msgstr "Début"
+
+msgctxt "field:pl_cust_materiel.addmanif_step3,description:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:pl_cust_materiel.addmanif_step3,localisation:"
+msgid "Localisation"
+msgstr "Lieu"
+
+msgctxt "field:pl_cust_materiel.addmanif_step3,locations_tmp:"
+msgid "Locations"
+msgstr "Locations (calendrier)"
+
+msgctxt "field:pl_cust_materiel.addmanif_step3,morning:"
+msgid "Morning"
+msgstr "Matin"
+
+msgctxt "field:pl_cust_materiel.addmanif_step3,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_materiel.addmanif_step3,party:"
+msgid "Party"
+msgstr "Tiers"
+
+msgctxt "field:pl_cust_materiel.addmanif_step3,time_end:"
+msgid "Hours End"
+msgstr "Heure de fin"
+
+msgctxt "field:pl_cust_materiel.addmanif_step3,time_start:"
+msgid "Hours Start"
+msgstr "Heure de début"
+
+msgctxt "field:pl_cust_materiel.addrepa_start,date_end:"
+msgid "Date End"
+msgstr "Fin"
+
+msgctxt "field:pl_cust_materiel.addrepa_start,date_start:"
+msgid "Date Start"
+msgstr "Début"
+
+msgctxt "field:pl_cust_materiel.addrepa_start,materiel:"
+msgid "Materiel"
+msgstr "Materiel"
+
+msgctxt "field:pl_cust_materiel.addrepa_start,qty:"
+msgid "Quantity"
+msgstr "Quantité"
+
+msgctxt "field:pl_cust_materiel.addrepa_step2,date_end:"
+msgid "Date End"
+msgstr "Fin"
+
+msgctxt "field:pl_cust_materiel.addrepa_step2,date_start:"
+msgid "Date Start"
+msgstr "Début"
+
+msgctxt "field:pl_cust_materiel.addrepa_step2,datetime_end:"
+msgid "DateTime End"
+msgstr "Fin"
+
+msgctxt "field:pl_cust_materiel.addrepa_step2,datetime_start:"
+msgid "DateTime Start"
+msgstr "Début"
+
+msgctxt "field:pl_cust_materiel.addrepa_step2,description:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:pl_cust_materiel.addrepa_step2,localisation:"
+msgid "Localisation"
+msgstr "Lieu"
+
+msgctxt "field:pl_cust_materiel.addrepa_step2,manifestations:"
+msgid "Manifestations"
+msgstr "Manifestations"
+
+msgctxt "field:pl_cust_materiel.addrepa_step2,materiel:"
+msgid "Materiel"
+msgstr "Materiel"
+
+msgctxt "field:pl_cust_materiel.addrepa_step2,party:"
+msgid "Party"
+msgstr "Clients"
+
+msgctxt "field:pl_cust_materiel.addrepa_step2,qty:"
+msgid "Quantity"
+msgstr "Quantité"
+
+msgctxt "field:pl_cust_materiel.atelier,description:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:pl_cust_materiel.atelier,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_materiel.changemanif_start,afternoon:"
+msgid "Afternoon"
+msgstr "Après-midi"
+
+msgctxt "field:pl_cust_materiel.changemanif_start,date_end:"
+msgid "Date End"
+msgstr "Fin"
+
+msgctxt "field:pl_cust_materiel.changemanif_start,date_start:"
+msgid "Date Start"
+msgstr "Début"
+
+msgctxt "field:pl_cust_materiel.changemanif_start,manif:"
+msgid "Manifestation"
+msgstr "Manifestations"
+
+msgctxt "field:pl_cust_materiel.changemanif_start,morning:"
+msgid "Morning"
+msgstr "Matin"
+
+msgctxt "field:pl_cust_materiel.changemanif_start,time_end:"
+msgid "Hours End"
+msgstr "Heure de fin"
+
+msgctxt "field:pl_cust_materiel.changemanif_start,time_start:"
+msgid "Hours Start"
+msgstr "Heure de début"
+
+msgctxt "field:pl_cust_materiel.changemanif_step2,afternoon:"
+msgid "Afternoon"
+msgstr "Après-midi"
+
+msgctxt "field:pl_cust_materiel.changemanif_step2,date_end:"
+msgid "Date End"
+msgstr "Fin"
+
+msgctxt "field:pl_cust_materiel.changemanif_step2,date_start:"
+msgid "Date Start"
+msgstr "Début"
+
+msgctxt "field:pl_cust_materiel.changemanif_step2,datetime_end:"
+msgid "DateTime End"
+msgstr "Fin"
+
+msgctxt "field:pl_cust_materiel.changemanif_step2,datetime_start:"
+msgid "DateTime Start"
+msgstr "Début"
+
+msgctxt "field:pl_cust_materiel.changemanif_step2,description:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:pl_cust_materiel.changemanif_step2,localisation:"
+msgid "Localisation"
+msgstr "Lieu"
+
+msgctxt "field:pl_cust_materiel.changemanif_step2,locations_tmp:"
+msgid "Locations"
+msgstr "Locations (calendrier)"
+
+msgctxt "field:pl_cust_materiel.changemanif_step2,manif:"
+msgid "Manifestation"
+msgstr "Manifestations"
+
+msgctxt "field:pl_cust_materiel.changemanif_step2,morning:"
+msgid "Morning"
+msgstr "Matin"
+
+msgctxt "field:pl_cust_materiel.changemanif_step2,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_materiel.changemanif_step2,party:"
+msgid "Party"
+msgstr "Client"
+
+msgctxt "field:pl_cust_materiel.changemanif_step2,time_end:"
+msgid "Hours End"
+msgstr "Heure de fin"
+
+msgctxt "field:pl_cust_materiel.changemanif_step2,time_start:"
+msgid "Hours Start"
+msgstr "Heure de début"
+
+msgctxt "field:pl_cust_materiel.changemanif_step3,afternoon:"
+msgid "Afternoon"
+msgstr "Après-midi"
+
+msgctxt "field:pl_cust_materiel.changemanif_step3,date_end:"
+msgid "Date End"
+msgstr "Fin"
+
+msgctxt "field:pl_cust_materiel.changemanif_step3,date_start:"
+msgid "Date Start"
+msgstr "Début"
+
+msgctxt "field:pl_cust_materiel.changemanif_step3,datetime_end:"
+msgid "DateTime End"
+msgstr "Fin"
+
+msgctxt "field:pl_cust_materiel.changemanif_step3,datetime_start:"
+msgid "DateTime Start"
+msgstr "Début"
+
+msgctxt "field:pl_cust_materiel.changemanif_step3,description:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:pl_cust_materiel.changemanif_step3,localisation:"
+msgid "Localisation"
+msgstr "Lieu"
+
+msgctxt "field:pl_cust_materiel.changemanif_step3,locations_tmp:"
+msgid "Locations"
+msgstr "Locations (calendrier)"
+
+msgctxt "field:pl_cust_materiel.changemanif_step3,manif:"
+msgid "Manifestation"
+msgstr "Manifestations"
+
+msgctxt "field:pl_cust_materiel.changemanif_step3,morning:"
+msgid "Morning"
+msgstr "Matin"
+
+msgctxt "field:pl_cust_materiel.changemanif_step3,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_materiel.changemanif_step3,party:"
+msgid "Party"
+msgstr "Client"
+
+msgctxt "field:pl_cust_materiel.changemanif_step3,time_end:"
+msgid "Hours End"
+msgstr "Heure de fin"
+
+msgctxt "field:pl_cust_materiel.changemanif_step3,time_start:"
+msgid "Hours Start"
+msgstr "Heure de début"
+
+msgctxt "field:pl_cust_materiel.changestock_start,date_end:"
+msgid "Date End"
+msgstr "Fin"
+
+msgctxt "field:pl_cust_materiel.changestock_start,date_start:"
+msgid "Date Start"
+msgstr "Début"
+
+msgctxt "field:pl_cust_materiel.changestock_start,materiel:"
+msgid "Materiel"
+msgstr "Materiel"
+
+msgctxt "field:pl_cust_materiel.changestock_start,qty:"
+msgid "Quantity"
+msgstr "Quantité"
+
+msgctxt "field:pl_cust_materiel.changestock_step2,date_end:"
+msgid "Date End"
+msgstr "Fin"
+
+msgctxt "field:pl_cust_materiel.changestock_step2,date_start:"
+msgid "Date Start"
+msgstr "Début"
+
+msgctxt "field:pl_cust_materiel.changestock_step2,description:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:pl_cust_materiel.changestock_step2,logs_info:"
+msgid "Logs Info"
+msgstr ""
+
+msgctxt "field:pl_cust_materiel.changestock_step2,manifestations:"
+msgid "Manifestations"
+msgstr "Manifestations (calendrier)"
+
+msgctxt "field:pl_cust_materiel.changestock_step2,materiel:"
+msgid "Materiel"
+msgstr "Materiel"
+
+msgctxt "field:pl_cust_materiel.changestock_step2,qty:"
+msgid "Quantity"
+msgstr "Quantité"
+
+msgctxt "field:pl_cust_materiel.checkstock_start,date_start:"
+msgid "Date Start"
+msgstr "Début"
+
+msgctxt "field:pl_cust_materiel.checkstock_step2,locations_tmp1:"
+msgid "Non disponible"
+msgstr ""
+
+msgctxt "field:pl_cust_materiel.checkstock_step2,locations_tmp2:"
+msgid "Disponible"
+msgstr ""
+
+msgctxt "field:pl_cust_materiel.generate_days_start,date_from:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:pl_cust_materiel.generate_days_start,date_to:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:pl_cust_materiel.lieumanif,description:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:pl_cust_materiel.lieumanif,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_materiel.location,afternoon:"
+msgid "Afternoon"
+msgstr "Après-midi"
+
+msgctxt "field:pl_cust_materiel.location,color:"
+msgid "Color"
+msgstr "Couleur"
+
+msgctxt "field:pl_cust_materiel.location,date_end:"
+msgid "Date End"
+msgstr "Fin"
+
+msgctxt "field:pl_cust_materiel.location,date_start:"
+msgid "Date Start"
+msgstr "Début"
+
+msgctxt "field:pl_cust_materiel.location,manifestation:"
+msgid "Manifestation"
+msgstr "Manifestations"
+
+msgctxt "field:pl_cust_materiel.location,materiel:"
+msgid "Materiel"
+msgstr "Materiel"
+
+msgctxt "field:pl_cust_materiel.location,morning:"
+msgid "Morning"
+msgstr "Matin"
+
+msgctxt "field:pl_cust_materiel.location,qty:"
+msgid "Quantity"
+msgstr "Quantité"
+
+msgctxt "field:pl_cust_materiel.location,repa:"
+msgid "Repair?"
+msgstr "En reparation"
+
+msgctxt "field:pl_cust_materiel.location,repa_ok:"
+msgid "Repair_ok?"
+msgstr "Réparation OK"
+
+msgctxt "field:pl_cust_materiel.location,time_end:"
+msgid "Hours End"
+msgstr "Heure de fin"
+
+msgctxt "field:pl_cust_materiel.location,time_start:"
+msgid "Hours Start"
+msgstr "Heure de début"
+
+msgctxt "field:pl_cust_materiel.location_tmp,check:"
+msgid "qty > disp"
+msgstr ""
+
+msgctxt "field:pl_cust_materiel.location_tmp,materiel:"
+msgid "Materiel"
+msgstr "Matériel"
+
+msgctxt "field:pl_cust_materiel.location_tmp,qty:"
+msgid "Quantity"
+msgstr "Quantité"
+
+msgctxt "field:pl_cust_materiel.location_tmp,qty_disp:"
+msgid "Quantity Disp"
+msgstr "Disponible"
+
+msgctxt "field:pl_cust_materiel.location_tmp2,materiel:"
+msgid "Materiel"
+msgstr "Materiel"
+
+msgctxt "field:pl_cust_materiel.location_tmp2,qty_disp:"
+msgid "Quantity Disp"
+msgstr "Disponible"
+
+msgctxt "field:pl_cust_materiel.logs,date:"
+msgid "Date Start"
+msgstr "Début"
+
+msgctxt "field:pl_cust_materiel.logs,description:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:pl_cust_materiel.logs,logs_info:"
+msgid "Logs Info"
+msgstr ""
+
+msgctxt "field:pl_cust_materiel.logs,logs_type:"
+msgid "Logs Type"
+msgstr "Type"
+
+msgctxt "field:pl_cust_materiel.logs,manifestation:"
+msgid "Manifestation"
+msgstr "Manifestations"
+
+msgctxt "field:pl_cust_materiel.logs,materiel:"
+msgid "Materiel"
+msgstr "Materiel"
+
+msgctxt "field:pl_cust_materiel.logs,user:"
+msgid "User"
+msgstr "Utilisateur"
+
+msgctxt "field:pl_cust_materiel.manifestation,afternoon:"
+msgid "Afternoon"
+msgstr "Après-midi"
+
+msgctxt "field:pl_cust_materiel.manifestation,color:"
+msgid "Couleur"
+msgstr "Couleur"
+
+msgctxt "field:pl_cust_materiel.manifestation,date_end:"
+msgid "Date End"
+msgstr "Fin"
+
+msgctxt "field:pl_cust_materiel.manifestation,date_start:"
+msgid "Date Start"
+msgstr "Début"
+
+msgctxt "field:pl_cust_materiel.manifestation,datetime_end:"
+msgid "DateTime End"
+msgstr "Fin"
+
+msgctxt "field:pl_cust_materiel.manifestation,datetime_start:"
+msgid "DateTime Start"
+msgstr "Début"
+
+msgctxt "field:pl_cust_materiel.manifestation,description:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:pl_cust_materiel.manifestation,localisation:"
+msgid "Localisation"
+msgstr "Lieu"
+
+msgctxt "field:pl_cust_materiel.manifestation,locations:"
+msgid "Locations"
+msgstr "Locations"
+
+msgctxt "field:pl_cust_materiel.manifestation,logs:"
+msgid "Logs"
+msgstr "Journaux"
+
+msgctxt "field:pl_cust_materiel.manifestation,manif_date_end:"
+msgid "Manif Date End"
+msgstr ""
+
+msgctxt "field:pl_cust_materiel.manifestation,manif_date_start:"
+msgid "Manif Date Start"
+msgstr ""
+
+msgctxt "field:pl_cust_materiel.manifestation,morning:"
+msgid "Morning"
+msgstr "Matin"
+
+msgctxt "field:pl_cust_materiel.manifestation,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_materiel.manifestation,party:"
+msgid "Party"
+msgstr "Client"
+
+msgctxt "field:pl_cust_materiel.manifestation,time_end:"
+msgid "Hours End"
+msgstr "Heure de fin"
+
+msgctxt "field:pl_cust_materiel.manifestation,time_start:"
+msgid "Hours Start"
+msgstr "Heure de début"
+
+msgctxt "field:pl_cust_materiel.manifestation,type:"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "field:pl_cust_materiel.matday,date:"
+msgid "Date Start"
+msgstr "Début"
+
+msgctxt "field:pl_cust_materiel.matday,infos:"
+msgid "Infos"
+msgstr ""
+
+msgctxt "field:pl_cust_materiel.matday,mdl_end:"
+msgid "MatDayLists End"
+msgstr "A récupérer"
+
+msgctxt "field:pl_cust_materiel.matday,mdl_start:"
+msgid "MatDayLists Start"
+msgstr "A livrer"
+
+msgctxt "field:pl_cust_materiel.matdaylist,localisation:"
+msgid "Lieu"
+msgstr ""
+
+msgctxt "field:pl_cust_materiel.matdaylist,manifestation:"
+msgid "Manifestation"
+msgstr "Manifestations"
+
+msgctxt "field:pl_cust_materiel.matdaylist,mat_com:"
+msgid "Coms"
+msgstr "Remarques"
+
+msgctxt "field:pl_cust_materiel.matdaylist,mat_list:"
+msgid "Mat list"
+msgstr ""
+
+msgctxt "field:pl_cust_materiel.matdaylist,matdayend:"
+msgid "MatDayEnd"
+msgstr "Retour"
+
+msgctxt "field:pl_cust_materiel.matdaylist,matdaystart:"
+msgid "MatDayStart"
+msgstr "Livraison"
+
+msgctxt "field:pl_cust_materiel.materiel,as_attachment:"
+msgid "pj"
+msgstr ""
+
+msgctxt "field:pl_cust_materiel.materiel,atelier:"
+msgid "Atelier"
+msgstr "Ateliers"
+
+msgctxt "field:pl_cust_materiel.materiel,color:"
+msgid "Couleur"
+msgstr "Couleur"
+
+msgctxt "field:pl_cust_materiel.materiel,description:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:pl_cust_materiel.materiel,locations:"
+msgid "Locations"
+msgstr "Locations"
+
+msgctxt "field:pl_cust_materiel.materiel,logs:"
+msgid "Logs"
+msgstr "Journaux"
+
+msgctxt "field:pl_cust_materiel.materiel,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_materiel.materiel,price:"
+msgid "Price"
+msgstr "Prix"
+
+msgctxt "field:pl_cust_materiel.materiel,qty:"
+msgid "Quantity"
+msgstr "Quantité"
+
+msgctxt "field:pl_cust_materiel.returnrepa_start,location:"
+msgid "Location"
+msgstr "Locations"
+
+msgctxt "field:pl_cust_materiel.returnrepa_start,qty:"
+msgid "Quantity"
+msgstr "Quantité"
+
+msgctxt "model:ir.action,name:act_atelier_form"
+msgid "Ateliers"
+msgstr "Ateliers"
+
+msgctxt "model:ir.action,name:act_generate_days"
+msgid "Generate Days"
+msgstr "Générer les jours pour le planning"
+
+msgctxt "model:ir.action,name:act_lieumanif_form"
+msgid "Lieux Manifestations"
+msgstr "Liste des lieux"
+
+msgctxt "model:ir.action,name:act_location_calendar"
+msgid "Locations"
+msgstr "Locations (calendrier)"
+
+msgctxt "model:ir.action,name:act_location_form"
+msgid "Location"
+msgstr "Locations"
+
+msgctxt "model:ir.action,name:act_logs_form"
+msgid "Logs"
+msgstr "Journaux"
+
+msgctxt "model:ir.action,name:act_manifestation_calendar"
+msgid "Manifestations"
+msgstr "Manifestations (calendrier)"
+
+msgctxt "model:ir.action,name:act_manifestation_form"
+msgid "Manifestation"
+msgstr "Manifestations"
+
+msgctxt "model:ir.action,name:act_matday_form"
+msgid "Planning"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_materiel_form"
+msgid "Materiel"
+msgstr "Materiel"
+
+msgctxt "model:ir.action,name:act_repa_form"
+msgid "En Réparation"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_wizard_addmanif"
+msgid "Add Manif"
+msgstr "Ajouter une manifestation"
+
+msgctxt "model:ir.action,name:act_wizard_addrepa"
+msgid "Add Repa"
+msgstr "Ajouter une réparation"
+
+msgctxt "model:ir.action,name:act_wizard_changemanif"
+msgid "Change Manif"
+msgstr "Modifier une manif."
+
+msgctxt "model:ir.action,name:act_wizard_changestock"
+msgid "Change Stock"
+msgstr "Modifier le stock"
+
+msgctxt "model:ir.action,name:act_wizard_checkstock"
+msgid "Check Stock"
+msgstr "Voir l'état du stock"
+
+msgctxt "model:ir.action,name:act_wizard_returnrepa"
+msgid "Add Repa"
+msgstr "Ajouter une réparation"
+
+msgctxt "model:ir.action,name:matday_report"
+msgid "MatDay Report"
+msgstr "Planning du jour"
+
+msgctxt "model:ir.action.act_window.domain,name:act_location_form_domain1"
+msgid "A venir / En cour"
+msgstr "A venir / En cours"
+
+msgctxt "model:ir.action.act_window.domain,name:act_location_form_domain2"
+msgid "Tout"
+msgstr ""
+
+msgctxt "model:ir.action.act_window.domain,name:act_manifestation_form_view1"
+msgid "A venir / En cour"
+msgstr "A venir / En cours"
+
+msgctxt "model:ir.action.act_window.domain,name:act_manifestation_form_view3"
+msgid "Tout"
+msgstr ""
+
+msgctxt "model:ir.action.act_window.domain,name:act_matday_form_domain1"
+msgid "A venir"
+msgstr ""
+
+msgctxt "model:ir.action.act_window.domain,name:act_matday_form_domain2"
+msgid "Tout"
+msgstr ""
+
+msgctxt "model:ir.action.act_window.domain,name:act_repa_form_domain1"
+msgid "A venir / En cour"
+msgstr "A venir / En cours"
+
+msgctxt "model:ir.action.act_window.domain,name:act_repa_form_domain2"
+msgid "Tout"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:"
+msgid "Change Manif"
+msgstr "Modifier une manif."
+
+msgctxt "model:ir.ui.menu,name:menu_addmanif"
+msgid "Add Manif"
+msgstr "Ajouter une manif."
+
+msgctxt "model:ir.ui.menu,name:menu_addrepa"
+msgid "Add Repa"
+msgstr "Ajouter une réparation"
+
+msgctxt "model:ir.ui.menu,name:menu_atelier_form"
+msgid "Ateliers"
+msgstr "Ateliers"
+
+msgctxt "model:ir.ui.menu,name:menu_changestock"
+msgid "Change Stock"
+msgstr "Modifier le stock"
+
+msgctxt "model:ir.ui.menu,name:menu_checkstock"
+msgid "Check Stock"
+msgstr "État du stock"
+
+msgctxt "model:ir.ui.menu,name:menu_generate_days"
+msgid "Generate Days"
+msgstr "Générer les jours pour le planning"
+
+msgctxt "model:ir.ui.menu,name:menu_lieumanif_form"
+msgid "Lieux Manifestations"
+msgstr "Lieux"
+
+msgctxt "model:ir.ui.menu,name:menu_location_calendar"
+msgid "Locations"
+msgstr "Locations (calendrier)"
+
+msgctxt "model:ir.ui.menu,name:menu_location_form"
+msgid "Location"
+msgstr "Locations"
+
+msgctxt "model:ir.ui.menu,name:menu_logs_form"
+msgid "Logs"
+msgstr "Journaux"
+
+msgctxt "model:ir.ui.menu,name:menu_manifestation_calendar"
+msgid "Manifestations"
+msgstr "Manifestations (calendrier)"
+
+msgctxt "model:ir.ui.menu,name:menu_manifestation_form"
+msgid "Manifestation"
+msgstr "Manifestations"
+
+msgctxt "model:ir.ui.menu,name:menu_matconf"
+msgid "Configuration"
+msgstr "Configuration"
+
+msgctxt "model:ir.ui.menu,name:menu_matday_form"
+msgid "Planning"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_materiel"
+msgid "Gestion Materiel"
+msgstr "Gestion Materiel"
+
+msgctxt "model:ir.ui.menu,name:menu_materiel_form"
+msgid "Materiel"
+msgstr "Materiel"
+
+msgctxt "model:ir.ui.menu,name:menu_repa_form"
+msgid "En Réparation"
+msgstr ""
+
+msgctxt "model:pl_cust_materiel.addmanif_start,name:"
+msgid "AddManifStart"
+msgstr "Nouvelle manifestation (étape 1)"
+
+msgctxt "model:pl_cust_materiel.addmanif_step2,name:"
+msgid "AddManifStep2"
+msgstr "Nouvelle manifestation (étape 2)"
+
+msgctxt "model:pl_cust_materiel.addmanif_step3,name:"
+msgid "AddManifStep3"
+msgstr "Nouvelle manifestation (étape 3)"
+
+msgctxt "model:pl_cust_materiel.addrepa_start,name:"
+msgid "AddRepaStart"
+msgstr "Répartion"
+
+msgctxt "model:pl_cust_materiel.addrepa_step2,name:"
+msgid "AddRepaStep2"
+msgstr "Répartion (étape 2)"
+
+msgctxt "model:pl_cust_materiel.atelier,name:"
+msgid "Atelier"
+msgstr "Ateliers"
+
+msgctxt "model:pl_cust_materiel.changemanif_start,name:"
+msgid "ChangeManifStart"
+msgstr "Modifier une manif"
+
+msgctxt "model:pl_cust_materiel.changemanif_step2,name:"
+msgid "ChangeManifStep2"
+msgstr "Modifier une manif (étape 2)"
+
+msgctxt "model:pl_cust_materiel.changemanif_step3,name:"
+msgid "ChangeManifStep2"
+msgstr "Modifier une manif (étape 2)"
+
+msgctxt "model:pl_cust_materiel.changestock_start,name:"
+msgid "ChangeStockStart"
+msgstr "Modifier le stock"
+
+msgctxt "model:pl_cust_materiel.changestock_step2,name:"
+msgid "ChangeStockStep2"
+msgstr "Modifier le stock (étape 2)"
+
+msgctxt "model:pl_cust_materiel.checkstock_start,name:"
+msgid "CheckStockStart"
+msgstr "État du stock"
+
+msgctxt "model:pl_cust_materiel.checkstock_step2,name:"
+msgid "CheckStockStep2"
+msgstr "État du stock (étape 2)"
+
+msgctxt "model:pl_cust_materiel.generate_days_start,name:"
+msgid "Generate Day Pub Start"
+msgstr ""
+
+msgctxt "model:pl_cust_materiel.lieumanif,name:"
+msgid "Atelier"
+msgstr "Atelier"
+
+msgctxt "model:pl_cust_materiel.location,name:"
+msgid "Location"
+msgstr "Location"
+
+msgctxt "model:pl_cust_materiel.location_tmp,name:"
+msgid "LocationTMP"
+msgstr ""
+
+msgctxt "model:pl_cust_materiel.location_tmp2,name:"
+msgid "LocationTMP2"
+msgstr ""
+
+msgctxt "model:pl_cust_materiel.logs,name:"
+msgid "Logs"
+msgstr "Journaux"
+
+msgctxt "model:pl_cust_materiel.manifestation,name:"
+msgid "Manifestation"
+msgstr "Manifestation"
+
+msgctxt "model:pl_cust_materiel.matday,name:"
+msgid "MatDay"
+msgstr ""
+
+msgctxt "model:pl_cust_materiel.matdaylist,name:"
+msgid "MatDayList"
+msgstr ""
+
+msgctxt "model:pl_cust_materiel.materiel,name:"
+msgid "Materiel"
+msgstr "Materiel"
+
+msgctxt "model:pl_cust_materiel.returnrepa_start,name:"
+msgid "ReturnRepaStart"
+msgstr ""
+
+msgctxt "model:res.group,name:group_mat_conf"
+msgid "Mat Configuration"
+msgstr ""
+
+msgctxt "model:res.group,name:group_mat_viewer"
+msgid "Mat Viewer"
+msgstr ""
+
+msgctxt "model:res.group,name:group_mat_wizard"
+msgid "Mat Wizard"
+msgstr ""
+
+msgctxt "report:pl_cust_materiel.matdayreport:"
+msgid "A livrer"
+msgstr ""
+
+msgctxt "report:pl_cust_materiel.matdayreport:"
+msgid "A récupérer"
+msgstr ""
+
+msgctxt "report:pl_cust_materiel.matdayreport:"
+msgid "Info"
+msgstr ""
+
+msgctxt "report:pl_cust_materiel.matdayreport:"
+msgid "Liste"
+msgstr ""
+
+msgctxt "report:pl_cust_materiel.matdayreport:"
+msgid "Manifestation"
+msgstr "Manifestations"
+
+msgctxt "report:pl_cust_materiel.matdayreport:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "selection:pl_cust_materiel.changestock_step2,logs_info:"
+msgid "Autre"
+msgstr "Autre"
+
+msgctxt "selection:pl_cust_materiel.changestock_step2,logs_info:"
+msgid "Cassé"
+msgstr ""
+
+msgctxt "selection:pl_cust_materiel.changestock_step2,logs_info:"
+msgid "Obsolète"
+msgstr ""
+
+msgctxt "selection:pl_cust_materiel.changestock_step2,logs_info:"
+msgid "Volé"
+msgstr ""
+
+msgctxt "selection:pl_cust_materiel.logs,logs_info:"
+msgid "Autre"
+msgstr "Autre"
+
+msgctxt "selection:pl_cust_materiel.logs,logs_info:"
+msgid "Cassé"
+msgstr ""
+
+msgctxt "selection:pl_cust_materiel.logs,logs_info:"
+msgid "Obsolète"
+msgstr ""
+
+msgctxt "selection:pl_cust_materiel.logs,logs_info:"
+msgid "Volé"
+msgstr ""
+
+msgctxt "selection:pl_cust_materiel.logs,logs_type:"
+msgid "Création"
+msgstr "Création"
+
+msgctxt "selection:pl_cust_materiel.logs,logs_type:"
+msgid "Modif. Stock"
+msgstr ""
+
+msgctxt "selection:pl_cust_materiel.logs,logs_type:"
+msgid "Modification"
+msgstr "Modification"
+
+msgctxt "selection:pl_cust_materiel.logs,logs_type:"
+msgid "Réparation"
+msgstr ""
+
+msgctxt "selection:pl_cust_materiel.manifestation,type:"
+msgid "Manifestation"
+msgstr "Manifestation"
+
+msgctxt "selection:pl_cust_materiel.manifestation,type:"
+msgid "Réparation"
+msgstr ""
+
+msgctxt "selection:pl_cust_materiel.manifestation,type:"
+msgid "Supprimé"
+msgstr "Annulée"
+
+msgctxt "view:pl_cust_materiel.location:"
+msgid "Réparé"
+msgstr "Réparé"
+
+msgctxt "view:pl_cust_materiel.manifestation:"
+msgid "Modifier la manifestation"
+msgstr ""
+
+msgctxt "view:pl_cust_materiel.returnrepa_start:"
+msgid "Indiquer ici le nombre d'élément qui ont été réparé"
+msgstr ""
+
+msgctxt "wizard_button:pl_cust_materiel.addmanif,start,check:"
+msgid "Check"
+msgstr "Vérifier"
+
+msgctxt "wizard_button:pl_cust_materiel.addmanif,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_materiel.addmanif,step2,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_materiel.addmanif,step2,final:"
+msgid "Continuer"
+msgstr ""
+
+msgctxt "wizard_button:pl_cust_materiel.addmanif,step3,add_manif:"
+msgid "Create Manif"
+msgstr "Ajouter une manifestation"
+
+msgctxt "wizard_button:pl_cust_materiel.addmanif,step3,check:"
+msgid "Retour"
+msgstr ""
+
+msgctxt "wizard_button:pl_cust_materiel.addmanif,step3,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_materiel.addrepa,start,check:"
+msgid "Check"
+msgstr "Vérifier"
+
+msgctxt "wizard_button:pl_cust_materiel.addrepa,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_materiel.addrepa,step2,add_repa:"
+msgid "Add Reparation"
+msgstr "Enregistrer la réparation"
+
+msgctxt "wizard_button:pl_cust_materiel.addrepa,step2,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_materiel.changemanif,start,check:"
+msgid "Check"
+msgstr "Vérifier"
+
+msgctxt "wizard_button:pl_cust_materiel.changemanif,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_materiel.changemanif,step2,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_materiel.changemanif,step2,final:"
+msgid "Continuer"
+msgstr ""
+
+msgctxt "wizard_button:pl_cust_materiel.changemanif,step3,add_manif:"
+msgid "Create Manif"
+msgstr ""
+
+msgctxt "wizard_button:pl_cust_materiel.changemanif,step3,check:"
+msgid "Retour"
+msgstr ""
+
+msgctxt "wizard_button:pl_cust_materiel.changemanif,step3,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_materiel.changestock,start,check:"
+msgid "Check"
+msgstr "Vérifier"
+
+msgctxt "wizard_button:pl_cust_materiel.changestock,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_materiel.changestock,step2,changestock:"
+msgid "Change Stock"
+msgstr "Modifier"
+
+msgctxt "wizard_button:pl_cust_materiel.changestock,step2,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_materiel.checkstock,start,check:"
+msgid "Check"
+msgstr "Vérifier"
+
+msgctxt "wizard_button:pl_cust_materiel.checkstock,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_materiel.checkstock,step2,end:"
+msgid "OK"
+msgstr "OK"
+
+msgctxt "wizard_button:pl_cust_materiel.generate_days,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_materiel.generate_days,start,generate:"
+msgid "Generate"
+msgstr ""
+
+msgctxt "wizard_button:pl_cust_materiel.returnrepa,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_materiel.returnrepa,start,return_repa:"
+msgid "Valider"
+msgstr ""

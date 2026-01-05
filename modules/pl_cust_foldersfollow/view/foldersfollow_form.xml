@@ -1,0 +1,61 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form>
+
+  <group id="folderheader" yalign="0" yexpand="0" colspan="2" col="2">
+    <group id="foldername" colspan="2" col="4">
+      <label name="name" xalign="0" xexpand="0" />
+      <field name="name" readonly="1"/>
+      <label name="description" xalign="0" xexpand="0"/>
+      <field name="description" xalign="0" xexpand="1"/>
+    </group>
+    <label name="party_id" xalign="0" xexpand="0"/>
+    <field name="party_id" xalign="0" xexpand="1"/>
+    <label name="folder_type" xalign="0" xexpand="0"/>
+    <field name="folder_type" xalign="0" xexpand="1"/>
+    <label name="resp" xalign="0" xexpand="0"/>
+    <field name="resp" xalign="0" xexpand="1"/>
+  </group>
+  <group id="folderheader2" yalign="0" yexpand="0" colspan="2" col="2">
+    <group id="folderdate" colspan="2" col="4">
+      <label name="date_start" xalign="0" xexpand="0"/>
+      <field name="date_start" xalign="0" xexpand="1"/>
+      <label name="date_end" xalign="0" xexpand="0" />
+      <field name="date_end" xalign="0" xexpand="1"/>
+    </group>
+    <field name="internal_notes" xalign="0" xexpand="1" colspan="2"/>
+  </group>
+
+  <group id="folderheader3" yalign="0" yexpand="0" colspan="4" col="8">
+      <label name="who" xalign="0" xexpand="0"/>
+      <field name="who" xalign="0" xexpand="1"/>
+      <label name="cat" xalign="0" xexpand="0" />
+      <field name="cat" xalign="0" xexpand="1"/>
+      <label name="jur" xalign="0" xexpand="0"/>
+      <field name="jur" xalign="0" xexpand="1"/>
+      <label name="cop" xalign="0" xexpand="0" />
+      <field name="cop" xalign="0" xexpand="1"/>
+      <label name="age" xalign="0" xexpand="0"/>
+      <field name="age" xalign="0" xexpand="1"/>
+      <label name="ecart_age" xalign="0" xexpand="0" />
+      <field name="ecart_age" xalign="0" xexpand="1"/>
+      <label name="other_violence" xalign="0" xexpand="0"/>
+      <field name="other_violence" xalign="0" xexpand="1"/>
+      <label name="frequency" xalign="0" xexpand="0" />
+      <field name="frequency" xalign="0" xexpand="1"/>
+  </group>
+
+  <notebook colspan="4">
+    <page string="Follow" id="folderts">
+      <field name="followtasks" colspan="4" widget="one2many"/>
+    </page>
+    <page string="Notes" id="foldernotes">
+      <label name="notes" xalign="0.0" colspan="4"/>
+      <field name="notes" colspan="4"/>
+    </page>
+    
+  </notebook>
+  <field name="active" colspan="2"/>
+  
+</form>

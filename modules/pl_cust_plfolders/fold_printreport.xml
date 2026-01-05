@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+
+    <record model="ir.ui.view" id="foldprintreport_start_view_form">
+      <field name="model">pl_cust_plfolders.foldprintreport_start</field>
+      <field name="type">form</field>
+      <field name="name">foldprintreport_start_form</field>
+    </record>
+
+    <record model="ir.action.wizard" id="act_wizard_foldprintreport">
+      <field name="name">TS Report</field>
+      <field name="wiz_name">pl_cust_plfolders.foldprintreport</field>
+    </record>
+
+    <record model="ir.action.report" id="reporfoldt">
+            <field name="name">Report TS</field>
+            <field name="model">pl_cust_plfolders.foldersheet</field>
+            <field name="report_name">pl_cust_plfolders.foldreport</field>
+            <field name="report">pl_cust_plfolders/foldreport.fodt</field>
+    </record>
+    
+    <menuitem parent="menu_folders" action="act_wizard_foldprintreport" id="menu_foldprintreport" sequence="20"/>
+
+  </data>
+</tryton>

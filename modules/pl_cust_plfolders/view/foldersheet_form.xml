@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form col="2">
+  <label name="folder_id"/>
+  <field name="folder_id"/>
+  <label name="activity"/>
+  <field name="activity" readonly="1"/>
+  <label name="task"/>
+  <field name="task"/>
+  <label name="name"/>
+  <field name="name"/>
+  <label name="date"/>
+  <field name="date"/>
+  <label name="duration"/>
+  <field name="duration"/>
+  <label name="hour_price"/>
+  <field name="hour_price"/>
+  <label name="price"/>
+  <field name="price"/>
+  <label name="resp_id"/>
+  <field name="resp_id"/>
+  <label name="pct"/>
+  <field name="pct"/>
+  <label name="invoiced"/>
+  <field name="invoiced"/>
+  <label name="invoice_id"/>
+  <field name="invoice_id"/>
+  <label name="archived"/>
+  <field name="archived"/>
+  <label name="resp_type"/>
+  <field name="resp_type"/>
+</form>

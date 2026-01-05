@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+
+  <xpath expr="//group[@id='checkbox']" position="after">
+    <group id="contactcheckbox" colspan="2" col="4" yfill="1" yalign="0">
+      <label name="fourn" />
+      <field name="fourn" yfill="1" xexpand="0" yalign="0" width="35"/>
+      <label name="hub_mbc" />
+      <field name="hub_mbc" yfill="1" xexpand="0" yalign="0" width="35"/>
+      <label name="med_mod" />
+      <field name="med_mod" yfill="1" xexpand="0" yalign="0" width="35"/>
+      <field name="check_import" invisible="0" yfill="1" xexpand="0" yalign="0" width="35"/>
+      <field name="change_import" invisible="0" yfill="1" xexpand="0" yalign="0" width="35"/>      
+      <label name="lang" />
+      <field name="lang" yfill="1" widget="selection"/>
+      <button name="valid_change_button" string="Valider changement" icon="tryton-forward" colspan="4"/>
+    </group>
+  </xpath>
+
+  <xpath expr="//notebook/page[@id='accounting']" position="replace">
+  </xpath>
+
+  <xpath expr="//notebook/page[@id='cat']" position="replace">
+  </xpath>
+
+
+  <xpath expr="//notebook/page[@id='general']" position="after">
+    <page string="Domaines" id="infos" col="8">
+      <label name="c_archi"/>
+      <field name="c_archi"/>
+      <label name="c_artvisu"/>
+      <field name="c_artvisu"/>
+      <label name="c_cine"/>
+      <field name="c_cine"/>
+      <label name="c_danse"/>
+      <field name="c_danse"/>
+      <label name="c_design"/>
+      <field name="c_design"/>
+      <label name="c_digit"/>
+      <field name="c_digit"/>
+      <label name="c_ecolo"/>
+      <field name="c_ecolo"/>      
+      <label name="c_enseign"/>
+      <field name="c_enseign"/>
+      <label name="c_queer"/>
+      <field name="c_queer"/>
+      <label name="c_hotel"/>
+      <field name="c_hotel"/>
+      <label name="c_geneva"/>
+      <field name="c_geneva"/>
+      <label name="c_litera"/>
+      <field name="c_litera"/>
+      <label name="c_bd"/>
+      <field name="c_bd"/>
+      <label name="c_mode"/>
+      <field name="c_mode"/>
+      <label name="c_music"/>
+      <field name="c_music"/>
+      <label name="c_photo"/>
+      <field name="c_photo"/>
+      <label name="c_science"/>
+      <field name="c_science"/>
+      <label name="c_social"/>
+      <field name="c_social"/>
+      <label name="c_theat"/>
+      <field name="c_theat"/>
+      <label name="c_tour"/>
+      <field name="c_tour"/>
+      <label name="c_video"/>
+      <field name="c_video"/>
+    </page>
+  </xpath>
+
+</data>

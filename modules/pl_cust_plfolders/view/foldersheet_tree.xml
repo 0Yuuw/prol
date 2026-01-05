@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree editable="1">
+  <field name="folder_id" expand="1"/>
+  <field name="activity" tree_invisible="1" />
+  <field name="task" expand="0"/>
+  <field name="name" expand="3"/>
+  <field name="resp_id" expand="0"/>
+  <field name="date"  expand="0"/>
+  <field name="duration" expand="0"/>
+  <field name="hour_price" tree_invisible="1"/> 
+  <field name="price" expand="0"/>
+  <field name="pct" expand="0"/>
+  <field name="invoiced" expand="0"/>
+  <field name="invoice_id" tree_invisible="1"/>
+</tree>

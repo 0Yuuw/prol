@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<form>
+  <label name="name"/>
+  <field name="name"/>
+  <label name="active"/>
+  <field name="active"/>
+  <label name="sexe"/>
+  <field name="sexe"/>
+  <label name="age"/>
+  <field name="age"/>
+  <field name="notes" colspan="4"/>
+  <field name="histo" colspan="4"/>
+</form>

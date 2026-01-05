@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <!-- Vues Dons -->
+        <record model="ir.ui.view" id="chrono_view_form">
+            <field name="model">pl_cust_chrono.chrono</field>
+            <field name="type">form</field>
+            <field name="name">chrono_form</field>
+        </record>
+        <record model="ir.ui.view" id="chrono_view_tree">
+            <field name="model">pl_cust_chrono.chrono</field>
+            <field name="type">tree</field>
+            <field name="name">chrono_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="chronoline_view_form">
+            <field name="model">pl_cust_chrono.chronoline</field>
+            <field name="type">form</field>
+            <field name="name">chronoline_form</field>
+        </record>
+        <record model="ir.ui.view" id="chronoline_view_tree">
+            <field name="model">pl_cust_chrono.chronoline</field>
+            <field name="type">tree</field>
+            <field name="name">chronoline_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_chrono_form">
+            <field name="name">Chrono</field>
+            <field name="res_model">pl_cust_chrono.chrono</field>
+        </record>
+
+        <menuitem action="act_chrono_form" id="menu_chrono" sequence="3" icon="tryton-list"/>
+        
+        <record model="ir.action.act_window" id="act_chronoline_form">
+            <field name="name">ChronoLines</field>
+            <field name="res_model">pl_cust_chrono.chronoline</field>
+        </record>
+
+        <menuitem action="act_chronoline_form" id="menu_chronoline" sequence="3" icon="tryton-list"/>
+
+       
+    </data>
+</tryton>

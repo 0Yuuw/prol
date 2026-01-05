@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<data>
+
+
+  <xpath expr="//group[@id='checkbox']" position="after">
+    <group id="rescad" colspan="5" col="4">
+      <label name="investment_profile" />
+      <field name="investment_profile" />
+      <label name="alternativeinvestments" />
+      <field name="alternativeinvestments" />
+      <label name="managementfees" />
+      <field name="managementfees" xexpand="1"/>
+      <label name="comments" />
+      <field name="comments" xexpand="1"/>
+    </group>
+  </xpath>
+
+  <xpath expr="//notebook" position="inside">
+    <page string="Logs" col="6" id="rescadlogs">
+      <field name="logs" colspan="6"/>
+    </page>
+    <page string="Tasks" col="6" id="rescadtasks">
+      <field name="tasks" colspan="6"/>
+    </page>
+    <page string="Info Pro" col="6" id="rescadpro">
+      <label name="pro_activity" />
+      <field name="pro_activity" xexpand="1"/>
+      <label name="pro_is_employee" />
+      <field name="pro_is_employee" xexpand="1"/>
+      <label name="pro_employee_employer" />
+      <field name="pro_employee_employer" xexpand="1"/>
+      <label name="pro_employee_industry" />
+      <field name="pro_employee_industry" xexpand="1"/>
+      <label name="pro_employee_position" />
+      <field name="pro_employee_position" xexpand="1"/>
+      <label name="pro_employee_place" />
+      <field name="pro_employee_place" xexpand="1"/>
+      
+      <separator id="selfemploy" colspan="6"/>
+      <label name="pro_is_selfemployed" />
+      <field name="pro_is_selfemployed" xexpand="1"/>
+      <label name="pro_selfemployed_company" />
+      <field name="pro_selfemployed_company" xexpand="1"/>
+      <label name="pro_selfemployed_industry" />
+      <field name="pro_selfemployed_industry" xexpand="1"/>
+      <label name="pro_selfemployed_place" />
+      <field name="pro_selfemployed_place" xexpand="1"/>
+      <label name="pro_selfemployed_website" />
+      <field name="pro_selfemployed_website" xexpand="1"/>
+
+      <separator id="retired" colspan="6"/>
+      <label name="pro_retired" />
+      <field name="pro_retired" xexpand="1"/>
+      <label name="pro_previous_activities" />
+      <field name="pro_previous_activities" xexpand="1"/>
+      
+      <separator id="other" colspan="6"/>
+      <label name="pro_is_other" />
+      <field name="pro_is_other" xexpand="1"/>
+      <label name="pro_other" />
+      <field name="pro_other" xexpand="1"/>
+
+      <separator id="corporate" colspan="6"/>
+      <label name="pro_is_corporate_insider" />
+      <field name="pro_is_corporate_insider" xexpand="1"/>
+      <label name="pro_corporate_insider_name" />
+      <field name="pro_corporate_insider_name" xexpand="1"/>
+      <label name="pro_corporate_insider_relation" />
+      <field name="pro_corporate_insider_relation" xexpand="1"/>
+      <label name="pro_corporate_insider_background" />
+      <field name="pro_corporate_insider_background" xexpand="1"/>
+      
+    </page>
+  </xpath>
+
+  <xpath expr="//page[@id='accounting']" position="replace"/>
+
+</data>

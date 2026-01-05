@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<data>
+  <xpath expr="/form" position="replace">
+    <form col="6">
+      <label name="party"/>
+      <field name="party" colspan="5"/>
+      <!--<label name="party_name"/>
+  <field name="party_name"/>-->
+
+
+
+      <!--<label name="name"/>
+  <field name="name"/>
+  <label name="type"/>
+  <field name="type"/>-->
+
+
+      <group id="newaddr" colspan="4" col="4">
+        <label name="invoice"/>
+        <field name="invoice"/>
+        <!--<label name="subdivision"/>
+        <field name="subdivision" widget="selection"/>-->
+        <newline/> 
+        <label name="addr_compl"/>
+        <field name="addr_compl" colspan="3"/>
+        <label name="addr_street"/>
+        <field name="addr_street"/>
+        <label name="addr_street_num"/>
+        <field name="addr_street_num"/>
+        <label name="addr_compl2"/>
+        <field name="addr_compl2" colspan="3"/>
+        <label name="postal_code"/>
+        <field name="postal_code"/>
+        <label name="city"/>
+        <field name="city"/>
+        <label name="country"/>
+        <field name="country" widget="selection" colspan="3"/>
+        <newline/>
+        <label name="type"/>
+        <field name="type" colspan="3"/>
+        <newline/>
+        <field name="full_address" colspan="4" readonly="1"/>
+        <field name="active" xexpand="0" width="25" invisible="1"/>
+        <!--<label name="subdivision"/>
+    <field name="subdivision" widget="selection"/>-->
+      </group>
+    </form>
+  </xpath>
+</data>

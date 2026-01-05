@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.action.report" id="matday_report">
+            <field name="name">MatDay Report</field>
+            <field name="model">pl_cust_materiel.matday</field>
+            <field name="report_name">pl_cust_materiel.matdayreport</field>
+            <field name="report">pl_cust_materiel/matday_report.fodt</field>
+            <field name="single">1</field>
+        </record>
+        <record model="ir.action.keyword" id="matday_report_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">pl_cust_materiel.matday,-1</field>
+            <field name="action" ref="matday_report"/>
+        </record>
+    </data>
+</tryton>

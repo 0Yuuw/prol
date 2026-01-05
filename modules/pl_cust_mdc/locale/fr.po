@@ -1,0 +1,1104 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:pl_cust_mdc.booking_inst,booking_date:"
+msgid "Date de réservation"
+msgstr ""
+
+msgctxt "field:pl_cust_mdc.booking_inst,child_year:"
+msgid "Child Year"
+msgstr "Age"
+
+msgctxt "field:pl_cust_mdc.booking_inst,day:"
+msgid "Day"
+msgstr "Jour"
+
+msgctxt "field:pl_cust_mdc.booking_inst,inst_activity:"
+msgid "Activity"
+msgstr "Activité"
+
+msgctxt "field:pl_cust_mdc.booking_inst,inst_comment:"
+msgid "Comment"
+msgstr "Commentaire"
+
+msgctxt "field:pl_cust_mdc.booking_inst,inst_email:"
+msgid "Inst Email Contact"
+msgstr "E-mail de contact"
+
+msgctxt "field:pl_cust_mdc.booking_inst,inst_name:"
+msgid "Inst Name"
+msgstr "Nom de l'institution"
+
+msgctxt "field:pl_cust_mdc.booking_inst,inst_prov:"
+msgid "Inst Prov"
+msgstr "Provenance"
+
+msgctxt "field:pl_cust_mdc.booking_inst,inst_rep:"
+msgid "Inst Rép"
+msgstr "Personne de contact"
+
+msgctxt "field:pl_cust_mdc.booking_inst,inst_tel:"
+msgid "Tel Contact"
+msgstr "Téléphone"
+
+#, fuzzy
+msgctxt "field:pl_cust_mdc.booking_inst,inst_type:"
+msgid "Inst Type"
+msgstr "Type d'institution"
+
+msgctxt "field:pl_cust_mdc.booking_inst,invoice:"
+msgid "Invoice"
+msgstr "Facture"
+
+msgctxt "field:pl_cust_mdc.booking_inst,invoiced:"
+msgid "Invoiced"
+msgstr "Facturé"
+
+msgctxt "field:pl_cust_mdc.booking_inst,mad:"
+msgid "MAD choice"
+msgstr "Période"
+
+msgctxt "field:pl_cust_mdc.booking_inst,name:"
+msgid "Booking"
+msgstr "Réservation"
+
+msgctxt "field:pl_cust_mdc.booking_inst,nb_adult:"
+msgid "Number Adult"
+msgstr "Adultes"
+
+msgctxt "field:pl_cust_mdc.booking_inst,nb_child:"
+msgid "Number Child"
+msgstr "Enfants"
+
+msgctxt "field:pl_cust_mdc.booking_inst,party:"
+msgid "Party"
+msgstr "Tiers"
+
+msgctxt "field:pl_cust_mdc.booking_inst,piqueNique:"
+msgid "Pique Nique"
+msgstr ""
+
+msgctxt "field:pl_cust_mdc.booking_inst,sieste:"
+msgid "Sieste"
+msgstr ""
+
+msgctxt "field:pl_cust_mdc.booking_inst,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:pl_cust_mdc.booking_inst,txt_for_mail:"
+msgid "Resume"
+msgstr ""
+
+msgctxt "field:pl_cust_mdc.booking_pub,datatrans_id:"
+msgid "Datatrans Id"
+msgstr "N° Datatrans"
+
+msgctxt "field:pl_cust_mdc.booking_pub,day:"
+msgid "Day"
+msgstr "Jour"
+
+msgctxt "field:pl_cust_mdc.booking_pub,email:"
+msgid "Email"
+msgstr "E-mail"
+
+msgctxt "field:pl_cust_mdc.booking_pub,mad:"
+msgid "MAD choice"
+msgstr "Période"
+
+msgctxt "field:pl_cust_mdc.booking_pub,name:"
+msgid "Booking"
+msgstr "Réservation"
+
+msgctxt "field:pl_cust_mdc.booking_pub,name_asso:"
+msgid "Asso Name"
+msgstr ""
+
+msgctxt "field:pl_cust_mdc.booking_pub,nb_02:"
+msgid "Number 0-2"
+msgstr "0-2 ans"
+
+msgctxt "field:pl_cust_mdc.booking_pub,nb_34:"
+msgid "Number 3-4"
+msgstr "3-4 ans"
+
+msgctxt "field:pl_cust_mdc.booking_pub,nb_56:"
+msgid "Number 5-6"
+msgstr "5-6 ans"
+
+msgctxt "field:pl_cust_mdc.booking_pub,nb_78:"
+msgid "Number 7-8"
+msgstr "7-8 ans"
+
+msgctxt "field:pl_cust_mdc.booking_pub,nb_adult:"
+msgid "Number Adult"
+msgstr "Adultes"
+
+msgctxt "field:pl_cust_mdc.booking_pub,nb_asso:"
+msgid "Number Asso"
+msgstr ""
+
+msgctxt "field:pl_cust_mdc.booking_pub,nb_gift:"
+msgid "Number Gift"
+msgstr "Bons"
+
+msgctxt "field:pl_cust_mdc.booking_pub,npa:"
+msgid "NPA"
+msgstr "Numéro postal"
+
+msgctxt "field:pl_cust_mdc.booking_pub,party:"
+msgid "Party"
+msgstr "Tiers"
+
+msgctxt "field:pl_cust_mdc.booking_pub,refno:"
+msgid "Datatrans ref no"
+msgstr "N° référence"
+
+msgctxt "field:pl_cust_mdc.booking_pub,state:"
+msgid "State"
+msgstr "État"
+
+msgctxt "field:pl_cust_mdc.booking_pub,used:"
+msgid "Used"
+msgstr "Utilisé"
+
+msgctxt "field:pl_cust_mdc.configuration,booking_sequence:"
+msgid "Booking Sequence"
+msgstr "Séquence de réservation"
+
+msgctxt "field:pl_cust_mdc.configuration,checktgiftUrl:"
+msgid "Check Gift url"
+msgstr ""
+
+msgctxt "field:pl_cust_mdc.configuration,checkticketUrl:"
+msgid "Check ticket url"
+msgstr ""
+
+msgctxt "field:pl_cust_mdc.configuration,datatrans_cancelUrl:"
+msgid "Datatrans Cancelurl"
+msgstr "URL d'annulation"
+
+msgctxt "field:pl_cust_mdc.configuration,datatrans_errorUrl:"
+msgid "Datatrans Errorurl"
+msgstr "URL d'erreur"
+
+msgctxt "field:pl_cust_mdc.configuration,datatrans_giftSuccessUrl:"
+msgid "Datatrans Gift Successurl"
+msgstr ""
+
+msgctxt "field:pl_cust_mdc.configuration,datatrans_successUrl:"
+msgid "Datatrans Successurl"
+msgstr "URL de succès"
+
+msgctxt "field:pl_cust_mdc.configuration,datatrans_url:"
+msgid "Datatrans url"
+msgstr "URL Datatrans"
+
+msgctxt "field:pl_cust_mdc.configuration,merchant_id:"
+msgid "Merchant_id"
+msgstr "ID du marchand"
+
+msgctxt "field:pl_cust_mdc.configuration,merchant_password:"
+msgid "Merchant passwd"
+msgstr "Mot de passe"
+
+msgctxt "field:pl_cust_mdc.configuration,nb_inst_max:"
+msgid "Nb inst max"
+msgstr "Nombre d'institutions max"
+
+msgctxt "field:pl_cust_mdc.configuration,nb_max:"
+msgid "Nb max"
+msgstr "Nombre max"
+
+msgctxt "field:pl_cust_mdc.configuration,nb_sieste_max:"
+msgid "Nb sieste max"
+msgstr "Nombre de sieste max"
+
+msgctxt "field:pl_cust_mdc.configuration,price_02:"
+msgid "Price 0-2"
+msgstr "Prix 0-2 ans"
+
+msgctxt "field:pl_cust_mdc.configuration,price_10:"
+msgid "Price 4 10"
+msgstr "N° Bons 10"
+
+msgctxt "field:pl_cust_mdc.configuration,price_2:"
+msgid "Price 4 2"
+msgstr "N° Bons 2"
+
+msgctxt "field:pl_cust_mdc.configuration,price_34:"
+msgid "Price 3-4"
+msgstr "Prix 3-4 ans"
+
+msgctxt "field:pl_cust_mdc.configuration,price_4:"
+msgid "Price 4 4"
+msgstr "N° Bons 4"
+
+msgctxt "field:pl_cust_mdc.configuration,price_56:"
+msgid "Price 5-6"
+msgstr "Prix 5-6 ans"
+
+msgctxt "field:pl_cust_mdc.configuration,price_78:"
+msgid "Price 7-8"
+msgstr "Prix 7-8 ans"
+
+msgctxt "field:pl_cust_mdc.configuration,price_adult:"
+msgid "Price adult"
+msgstr "Prix adulte"
+
+msgctxt "field:pl_cust_mdc.configuration,price_asso:"
+msgid "Price association"
+msgstr ""
+
+msgctxt "field:pl_cust_mdc.configuration.booking_sequence,booking_sequence:"
+msgid "Booking Sequence"
+msgstr "Sequence de réservation"
+
+msgctxt "field:pl_cust_mdc.day_inst,booking_to_valid:"
+msgid "To valid"
+msgstr ""
+
+msgctxt "field:pl_cust_mdc.day_inst,bookings_inst:"
+msgid "Bookings"
+msgstr "Réservation institutions"
+
+msgctxt "field:pl_cust_mdc.day_inst,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:pl_cust_mdc.day_inst,dtype:"
+msgid "Day type"
+msgstr "Type de jour"
+
+msgctxt "field:pl_cust_mdc.day_inst,name:"
+msgid "Day"
+msgstr "Jour"
+
+msgctxt "field:pl_cust_mdc.day_inst,nb_inst_max:"
+msgid "Nb inst max"
+msgstr "Nombre d'institutions max"
+
+msgctxt "field:pl_cust_mdc.day_inst,nb_max:"
+msgid "Nb max"
+msgstr "Nombre max"
+
+msgctxt "field:pl_cust_mdc.day_inst,tot_afternoon:"
+msgid "Tot_afternoon"
+msgstr "Total après-midi"
+
+msgctxt "field:pl_cust_mdc.day_inst,tot_day:"
+msgid "Tot_day"
+msgstr "Total de la journée"
+
+msgctxt "field:pl_cust_mdc.day_inst,tot_inst_a:"
+msgid "Tot_inst afternoon"
+msgstr "Institutions l'après-midi"
+
+msgctxt "field:pl_cust_mdc.day_inst,tot_inst_m:"
+msgid "Tot_inst morning"
+msgstr "Institutions le matin"
+
+msgctxt "field:pl_cust_mdc.day_inst,tot_morning:"
+msgid "Tot_morning"
+msgstr "Total matin"
+
+msgctxt "field:pl_cust_mdc.day_inst,tot_sieste:"
+msgid "Tot_sieste"
+msgstr "Nombre de sieste"
+
+msgctxt "field:pl_cust_mdc.day_pub,bookings_pub:"
+msgid "Bookings"
+msgstr "Réservation public"
+
+msgctxt "field:pl_cust_mdc.day_pub,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:pl_cust_mdc.day_pub,dtype:"
+msgid "Day type"
+msgstr "Type de jour"
+
+msgctxt "field:pl_cust_mdc.day_pub,lim1:"
+msgid "lim1"
+msgstr "jauge1"
+
+msgctxt "field:pl_cust_mdc.day_pub,lim2:"
+msgid "lim2"
+msgstr "jauge2"
+
+msgctxt "field:pl_cust_mdc.day_pub,name:"
+msgid "Day"
+msgstr "Jour"
+
+msgctxt "field:pl_cust_mdc.day_pub,nb_max:"
+msgid "Nb max"
+msgstr "Nombre max"
+
+msgctxt "field:pl_cust_mdc.day_pub,tot_afternoon:"
+msgid "Tot_afternoon"
+msgstr "Total après-midi"
+
+msgctxt "field:pl_cust_mdc.day_pub,tot_live_afternoon:"
+msgid "Tot_live_afternoon"
+msgstr "dans la maison (après-midi)"
+
+msgctxt "field:pl_cust_mdc.day_pub,tot_live_morning:"
+msgid "Tot_live_morning"
+msgstr "dans la maison (matin)"
+
+msgctxt "field:pl_cust_mdc.day_pub,tot_morning:"
+msgid "Tot_morning"
+msgstr "Total matin"
+
+msgctxt "field:pl_cust_mdc.generate_daysinst_start,close_days:"
+msgid "Close Days"
+msgstr ""
+"Jour non visible sur \n"
+"le formulaire d'inscription"
+
+msgctxt "field:pl_cust_mdc.generate_daysinst_start,date_from:"
+msgid "Date de début"
+msgstr "Début"
+
+msgctxt "field:pl_cust_mdc.generate_daysinst_start,date_to:"
+msgid "Date de fin"
+msgstr "Fin"
+
+msgctxt "field:pl_cust_mdc.generate_dayspub_start,add_all_days:"
+msgid "Add All Days"
+msgstr ""
+"Vacances scolaires\n"
+"(ajout des lundis, mardis, ....)"
+
+msgctxt "field:pl_cust_mdc.generate_dayspub_start,date_from:"
+msgid "Date"
+msgstr "Début"
+
+msgctxt "field:pl_cust_mdc.generate_dayspub_start,date_to:"
+msgid "Date"
+msgstr "Fin"
+
+#, fuzzy
+msgctxt "field:pl_cust_mdc.gift_voucher,datatrans_id:"
+msgid "Datatrans Id"
+msgstr "ID Datatrans"
+
+#, fuzzy
+msgctxt "field:pl_cust_mdc.gift_voucher,email:"
+msgid "E-Mail"
+msgstr "E-Mail"
+
+msgctxt "field:pl_cust_mdc.gift_voucher,firstname:"
+msgid "Prénom"
+msgstr ""
+
+msgctxt "field:pl_cust_mdc.gift_voucher,lastname:"
+msgid "Nom"
+msgstr ""
+
+msgctxt "field:pl_cust_mdc.gift_voucher,nb_10:"
+msgid "Quantity for 10 Entry"
+msgstr "Quantité bons de 10 entrées"
+
+msgctxt "field:pl_cust_mdc.gift_voucher,nb_2:"
+msgid "Quantity for 2 Entry"
+msgstr "Quantité bons de 2 entrées"
+
+msgctxt "field:pl_cust_mdc.gift_voucher,nb_4:"
+msgid "Quantity for 4 Entry"
+msgstr "Quantité bons de 4 entrées"
+
+#, fuzzy
+msgctxt "field:pl_cust_mdc.gift_voucher,npa:"
+msgid "NPA"
+msgstr "Numéro postal"
+
+msgctxt "field:pl_cust_mdc.gift_voucher,purchase_date:"
+msgid "Purchase Date"
+msgstr "Date"
+
+msgctxt "field:pl_cust_mdc.gift_voucher,refno:"
+msgid "Datatrans Ref No"
+msgstr ""
+
+#, fuzzy
+msgctxt "field:pl_cust_mdc.gift_voucher,state:"
+msgid "State"
+msgstr "Status"
+
+msgctxt "field:pl_cust_mdc.gift_voucher,used:"
+msgid "Is Used?"
+msgstr "Utilisé"
+
+msgctxt "field:pl_cust_mdc.invcreate_start,booking:"
+msgid "Booking"
+msgstr "Réservation"
+
+msgctxt "field:pl_cust_mdc.invcreate_start,with_vat:"
+msgid "With VAT"
+msgstr "avec TVA"
+
+msgctxt "field:pl_cust_mdc.wizardconf,account_deb_id:"
+msgid "Account H Deb"
+msgstr "Compte débiteur"
+
+msgctxt "field:pl_cust_mdc.wizardconf,currency:"
+msgid "Devise"
+msgstr "Devise"
+
+msgctxt "field:pl_cust_mdc.wizardconf,depl_notva:"
+msgid "Depl NO TVA"
+msgstr "Déplacement sans TVA"
+
+msgctxt "field:pl_cust_mdc.wizardconf,depl_tva:"
+msgid "Depl TVA"
+msgstr "Déplacement avec TVA"
+
+msgctxt "field:pl_cust_mdc.wizardconf,journal_id:"
+msgid "Journal"
+msgstr "Journal"
+
+msgctxt "field:pl_cust_mdc.wizardconf,journal_pp:"
+msgid "Journal PP"
+msgstr "Journal PP"
+
+msgctxt "field:pl_cust_mdc.wizardconf,payment_term:"
+msgid "Default Customer Payment Term"
+msgstr "Conditions de paiement client par défaut"
+
+msgctxt "field:pl_cust_mdc.wizardconf,product_notva:"
+msgid "Produit NO TVA"
+msgstr "Produit sans TVA"
+
+msgctxt "field:pl_cust_mdc.wizardconf,product_tva:"
+msgid "Produit TVA"
+msgstr "Produit avec TVA"
+
+msgctxt "field:pl_cust_mdc.wizardconf,taxe77:"
+msgid "TVA 7.7%"
+msgstr "TVA à 7.7%"
+
+msgctxt "field:pl_cust_mdc.wizardconf,taxe:"
+msgid "TVA"
+msgstr ""
+
+msgctxt "help:pl_cust_mdc.configuration,booking_sequence:"
+msgid "Used to generate the booking id."
+msgstr "Pour générer le n° de réservation"
+
+msgctxt "help:pl_cust_mdc.configuration.booking_sequence,booking_sequence:"
+msgid "Used to generate the booking id."
+msgstr "Pour générer le n° de réservation"
+
+msgctxt "model:ir.action,name:"
+msgid "Generate Days"
+msgstr "Création des jours"
+
+msgctxt "model:ir.action,name:act_bookinst_day"
+msgid "Réservation du jour"
+msgstr "Réservation institutions du jour"
+
+msgctxt "model:ir.action,name:act_bookpub_day"
+msgid "Réservation du jour"
+msgstr "Réservation public du jour"
+
+msgctxt "model:ir.action,name:act_folders_conf_wizard_form"
+msgid "Folders Wizard Configuration"
+msgstr "Configuration Facturation"
+
+msgctxt "model:ir.action,name:act_generate_daysinst"
+msgid "Generate Days Inst"
+msgstr "Générer les jours des institutions"
+
+msgctxt "model:ir.action,name:act_generate_dayspub"
+msgid "Generate Days Pub"
+msgstr "Générer les jours publics"
+
+msgctxt "model:ir.action,name:act_mdc_bookinginst_form"
+msgid "Booking Inst"
+msgstr "Réservations institutions"
+
+msgctxt "model:ir.action,name:act_mdc_bookingpub_form"
+msgid "Booking Pub"
+msgstr "Réservations public"
+
+msgctxt "model:ir.action,name:act_mdc_configuration_form"
+msgid "Booking Configuration"
+msgstr "Configuration"
+
+msgctxt "model:ir.action,name:act_mdc_dayinst_form"
+msgid "Days Inst"
+msgstr "Jours institutions"
+
+msgctxt "model:ir.action,name:act_mdc_daypub_form"
+msgid "Days Pub"
+msgstr "Jours public"
+
+msgctxt "model:ir.action,name:act_mdc_giftvoucher_form"
+msgid "Gift Voucher"
+msgstr "Bons cadeaux"
+
+msgctxt "model:ir.action,name:act_wizard_createinv"
+msgid "Create invoice"
+msgstr "Générer la facture"
+
+msgctxt "model:ir.action,name:qr_report"
+msgid "MDC Billets"
+msgstr "Billet"
+
+msgctxt "model:ir.action,name:qr_report_invoice"
+msgid "MDC Facture"
+msgstr "Facture"
+
+msgctxt "model:ir.action,name:qr_report_invoice2"
+msgid "MDC Facture (2pages)"
+msgstr "Facture (2 pages)"
+
+msgctxt "model:ir.action,name:voucher_report"
+msgid "MDC Bons Cadeaux"
+msgstr ""
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_mdc_bookinginst_form_view1"
+msgid "A valider"
+msgstr "A valider"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_mdc_bookinginst_form_view2"
+msgid "Tout"
+msgstr "Tout"
+
+msgctxt "model:ir.action.act_window.domain,name:act_mdc_dayinst_form_view1"
+msgid "Aujourd_hui"
+msgstr "Aujourd'hui"
+
+msgctxt "model:ir.action.act_window.domain,name:act_mdc_dayinst_form_view2"
+msgid "7 jours"
+msgstr "A venir"
+
+msgctxt "model:ir.action.act_window.domain,name:act_mdc_dayinst_form_view3"
+msgid "Tout"
+msgstr "Tout"
+
+#, fuzzy
+msgctxt "model:ir.action.act_window.domain,name:act_mdc_dayinst_form_view4"
+msgid "A valider"
+msgstr "A valider"
+
+msgctxt "model:ir.action.act_window.domain,name:act_mdc_daypub_form_view1"
+msgid "Aujourd_hui"
+msgstr "Aujourd_hui"
+
+msgctxt "model:ir.action.act_window.domain,name:act_mdc_daypub_form_view2"
+msgid "7 jours"
+msgstr "A venir"
+
+msgctxt "model:ir.action.act_window.domain,name:act_mdc_daypub_form_view3"
+msgid "Tout"
+msgstr "Tout"
+
+msgctxt "model:ir.sequence,name:sequence_booking"
+msgid "Booking"
+msgstr "Réservation"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_booking"
+msgid "Bookings"
+msgstr "Réservation"
+
+msgctxt "model:ir.ui.menu,name:"
+msgid "Generate Days"
+msgstr "Générer les jours"
+
+msgctxt "model:ir.ui.menu,name:menu_booking_conf_wizard"
+msgid "Folders Wizard Configuration"
+msgstr "Configuration Facturation"
+
+msgctxt "model:ir.ui.menu,name:menu_booking_seq"
+msgid "Booking Configuration"
+msgstr "Configuration"
+
+msgctxt "model:ir.ui.menu,name:menu_generate_daysinst"
+msgid "Generate Days Inst"
+msgstr "Générer les jours des institutions"
+
+msgctxt "model:ir.ui.menu,name:menu_generate_dayspub"
+msgid "Generate Days Pub"
+msgstr "Générer les jours publics"
+
+msgctxt "model:ir.ui.menu,name:menu_mdc"
+msgid "MDC"
+msgstr "MDC"
+
+msgctxt "model:ir.ui.menu,name:menu_mdc_bookinginst_form"
+msgid "Booking Inst"
+msgstr "Réservations institutions"
+
+msgctxt "model:ir.ui.menu,name:menu_mdc_bookingpub_form"
+msgid "Booking Pub"
+msgstr "Réservations public"
+
+msgctxt "model:ir.ui.menu,name:menu_mdc_dayinst_form"
+msgid "Days Inst"
+msgstr "Jours institutions"
+
+msgctxt "model:ir.ui.menu,name:menu_mdc_daypub_form"
+msgid "Days Pub"
+msgstr "Jours public"
+
+msgctxt "model:ir.ui.menu,name:menu_mdc_giftvoucher_form"
+msgid "Gift Voucher"
+msgstr "Bons cadeaux"
+
+msgctxt "model:pl_cust_mdc.booking_inst,name:"
+msgid "MDC BookingInst"
+msgstr "Réservations institutions"
+
+msgctxt "model:pl_cust_mdc.booking_pub,name:"
+msgid "MDC Booking Pub"
+msgstr "Réservations public"
+
+msgctxt "model:pl_cust_mdc.configuration,name:"
+msgid "MDC Configuration"
+msgstr "Configuration"
+
+msgctxt "model:pl_cust_mdc.configuration.booking_sequence,name:"
+msgid "MDC Booking Configuration Sequence"
+msgstr ""
+
+msgctxt "model:pl_cust_mdc.day_inst,name:"
+msgid "MDC Day Inst"
+msgstr "Jours institutions"
+
+msgctxt "model:pl_cust_mdc.day_pub,name:"
+msgid "MDC Day Pub"
+msgstr "Jours publics"
+
+msgctxt "model:pl_cust_mdc.generate_daysinst_start,name:"
+msgid "Generate Day Inst Start"
+msgstr "Création des jours"
+
+msgctxt "model:pl_cust_mdc.generate_dayspub_start,name:"
+msgid "Generate Day Pub Start"
+msgstr "Création des jours"
+
+msgctxt "model:pl_cust_mdc.gift_voucher,name:"
+msgid "MDC Gift Voucher"
+msgstr ""
+
+msgctxt "model:pl_cust_mdc.invcreate_start,name:"
+msgid "Create Invoice"
+msgstr "Générer la facture"
+
+msgctxt "model:pl_cust_mdc.wizardconf,name:"
+msgid "Configuration for invoiced wizard"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "%"
+msgstr "%"
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "8.1"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid ":"
+msgstr " :"
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "Acheteur :"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "CHF"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "Compte / Payable à"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "Concerne :"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "Date :"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "HT"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "Informations supplémentaires"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "Merci de votre confiance"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "Monnaie"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "Montant"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "Numéro de référence"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "N° de"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "N° de commande :"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "N° de f"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "Paiement à 30 jours"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "Payable par"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "Point de dépôt"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "Prix"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "Quantité"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "Récépissé"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "Section de paiement"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "Solde"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "TVA"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "Votre référence :"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "acture :"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "de commande :"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "en notre faveur"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "fournisseur :"
+msgstr ""
+
+msgctxt "report:pl_cust_account.invoice_report:"
+msgid "net"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportgift:"
+msgid "+41 22 810 18 90"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportgift:"
+msgid "10"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportgift:"
+msgid "1231 Conches"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportgift:"
+msgid "4"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportgift:"
+msgid "7 chemin Calandrini"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportgift:"
+msgid "Acheter le :"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportgift:"
+msgid "Bon cadeau"
+msgstr ""
+
+#, fuzzy
+msgctxt "report:pl_cust_mdc.mdc_reportgift:"
+msgid "Genève"
+msgstr "Genève"
+
+#, fuzzy
+msgctxt "report:pl_cust_mdc.mdc_reportgift:"
+msgid "M"
+msgstr "M"
+
+msgctxt "report:pl_cust_mdc.mdc_reportgift:"
+msgid "Maison de la créativité"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportgift:"
+msgid "Réf :"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportgift:"
+msgid "aison de la créativit"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportgift:"
+msgid "bon(s) cadeau(x) pour"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportgift:"
+msgid "bon(s) cadeau(x) pour 2 entrée"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportgift:"
+msgid "entrée"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportgift:"
+msgid "info@maisondelacreativite.ch"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportgift:"
+msgid "pour la"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportgift:"
+msgid "s"
+msgstr "s"
+
+msgctxt "report:pl_cust_mdc.mdc_reportgift:"
+msgid "é"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportpub:"
+msgid "+41 22 810 18 90"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportpub:"
+msgid "1231 Conches"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportpub:"
+msgid "7 chemin Calandrini"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportpub:"
+msgid "Billet d’entrée pour la maison de la créativité"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportpub:"
+msgid "Genève"
+msgstr "Genève"
+
+msgctxt "report:pl_cust_mdc.mdc_reportpub:"
+msgid "Maison de la créativité"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportpub:"
+msgid "Valable uniquement le :"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportpub:"
+msgid "entrée(s) gratuite(s)"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportpub:"
+msgid "entrée(s) payante(s)"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportpub:"
+msgid "info@maisondelacreativite.ch"
+msgstr ""
+
+msgctxt "report:pl_cust_mdc.mdc_reportpub:"
+msgid "à"
+msgstr ""
+
+msgctxt "selection:pl_cust_mdc.booking_inst,child_year:"
+msgid "0-2 Year"
+msgstr "0-2 ans"
+
+msgctxt "selection:pl_cust_mdc.booking_inst,child_year:"
+msgid "3-4 Year"
+msgstr "3-4 ans"
+
+msgctxt "selection:pl_cust_mdc.booking_inst,child_year:"
+msgid "5-6 Year"
+msgstr "5-6 ans"
+
+msgctxt "selection:pl_cust_mdc.booking_inst,child_year:"
+msgid "7-8 Year"
+msgstr "7-8 ans"
+
+msgctxt "selection:pl_cust_mdc.booking_inst,inst_type:"
+msgid "Collectivité publique / Association / Fondation"
+msgstr ""
+
+msgctxt "selection:pl_cust_mdc.booking_inst,inst_type:"
+msgid "Collectivité publique hors Ville de Genève"
+msgstr ""
+
+msgctxt "selection:pl_cust_mdc.booking_inst,inst_type:"
+msgid "E&C (Ecole & Culture) – DIP"
+msgstr ""
+
+msgctxt "selection:pl_cust_mdc.booking_inst,inst_type:"
+msgid "IPE Ville de Genève/Canton de Genève"
+msgstr ""
+
+msgctxt "selection:pl_cust_mdc.booking_inst,mad:"
+msgid "Après-Midi"
+msgstr "Après-midi"
+
+msgctxt "selection:pl_cust_mdc.booking_inst,mad:"
+msgid "Journée"
+msgstr ""
+
+msgctxt "selection:pl_cust_mdc.booking_inst,mad:"
+msgid "Matin"
+msgstr "Matin"
+
+msgctxt "selection:pl_cust_mdc.booking_inst,state:"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "selection:pl_cust_mdc.booking_inst,state:"
+msgid "No"
+msgstr "Refusé"
+
+msgctxt "selection:pl_cust_mdc.booking_inst,state:"
+msgid "Validated"
+msgstr "Validé"
+
+msgctxt "selection:pl_cust_mdc.booking_pub,mad:"
+msgid "Après-Midi"
+msgstr "Après-midi"
+
+msgctxt "selection:pl_cust_mdc.booking_pub,mad:"
+msgid "Matin"
+msgstr "Matin"
+
+msgctxt "selection:pl_cust_mdc.booking_pub,state:"
+msgid "Draft"
+msgstr "Brouillon"
+
+msgctxt "selection:pl_cust_mdc.booking_pub,state:"
+msgid "Payed"
+msgstr "Payé"
+
+msgctxt "selection:pl_cust_mdc.day_inst,dtype:"
+msgid "Close"
+msgstr "Fermé"
+
+msgctxt "selection:pl_cust_mdc.day_inst,dtype:"
+msgid "Holliday"
+msgstr "Vacances"
+
+msgctxt "selection:pl_cust_mdc.day_inst,dtype:"
+msgid "Institution"
+msgstr "Institution"
+
+msgctxt "selection:pl_cust_mdc.day_pub,dtype:"
+msgid "Close"
+msgstr "Fermé"
+
+msgctxt "selection:pl_cust_mdc.day_pub,dtype:"
+msgid "Holliday"
+msgstr "Vacances"
+
+msgctxt "selection:pl_cust_mdc.day_pub,dtype:"
+msgid "Public"
+msgstr "Public"
+
+#, fuzzy
+msgctxt "selection:pl_cust_mdc.gift_voucher,state:"
+msgid "Draft"
+msgstr "Brouillons"
+
+#, fuzzy
+msgctxt "selection:pl_cust_mdc.gift_voucher,state:"
+msgid "Payed"
+msgstr "Payé"
+
+msgctxt "selection:res.user.application,application:"
+msgid "Booking"
+msgstr "Réservation"
+
+msgctxt "view:pl_cust_mdc.booking_inst:"
+msgid "Facturer"
+msgstr ""
+
+msgctxt "view:pl_cust_mdc.booking_inst:"
+msgid "Pas de place"
+msgstr ""
+
+msgctxt "view:pl_cust_mdc.booking_inst:"
+msgid "Valider"
+msgstr ""
+
+msgctxt "wizard_button:pl_cust_mdc.generate_daysinst,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_mdc.generate_daysinst,start,generate:"
+msgid "Generate"
+msgstr "Générer"
+
+msgctxt "wizard_button:pl_cust_mdc.generate_dayspub,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_mdc.generate_dayspub,start,generate:"
+msgid "Generate"
+msgstr "Générer"
+
+msgctxt "wizard_button:pl_cust_mdc.invcreate,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_mdc.invcreate,start,generate_inv:"
+msgid "Facturation"
+msgstr ""

@@ -1,0 +1,890 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:account.invoice,folder_id:"
+msgid "Folders"
+msgstr "Tous les dossiers"
+
+msgctxt "field:account.invoice,timesheet_ids:"
+msgid "Timesheet"
+msgstr "Timesheet"
+
+msgctxt "field:company.employee,code:"
+msgid "code"
+msgstr "code"
+
+msgctxt "field:company.employee,employee_type:"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "field:party.address,addr_compl2:"
+msgid "Address Compl2"
+msgstr "Compl. adr. (suite)"
+
+msgctxt "field:party.address,addr_compl:"
+msgid "Address Compl"
+msgstr "Compl. adr."
+
+msgctxt "field:party.address,addr_street:"
+msgid "Address Street"
+msgstr "Rue"
+
+msgctxt "field:party.address,addr_street_num:"
+msgid "Address Num"
+msgstr "Numéro"
+
+msgctxt "field:party.address,format_:"
+msgid "Format"
+msgstr "Format"
+
+msgctxt "field:party.address,type:"
+msgid "Address Type"
+msgstr "Type d'adresse"
+
+msgctxt "field:party.party,birthdate:"
+msgid "Birthdate"
+msgstr "Date de naissance"
+
+msgctxt "field:party.party,firstname:"
+msgid "Firstname"
+msgstr "Prénom"
+
+msgctxt "field:party.party,is_person_moral:"
+msgid "Person Moral ?"
+msgstr "Personne morale?"
+
+msgctxt "field:party.party,lastname:"
+msgid "Lastname"
+msgstr "Nom"
+
+msgctxt "field:party.party,notes:"
+msgid "Comment"
+msgstr "Commentaire"
+
+msgctxt "field:party.party,organisation:"
+msgid "Organisation"
+msgstr "Organisation"
+
+msgctxt "field:party.party,party_title:"
+msgid "Title"
+msgstr "Titre"
+
+msgctxt "field:party.party,party_type:"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "field:party.party,prof:"
+msgid "Profession"
+msgstr "Profession"
+
+msgctxt "field:pl_cust_plbase.partytype,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:pl_cust_plbase.partytype,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_plfolders.configuration,folders_sequence:"
+msgid "Folder Sequence"
+msgstr "Séquence des dossiers"
+
+msgctxt ""
+"field:pl_cust_plfolders.configuration.folders_sequence,folders_sequence:"
+msgid "Folder Sequence"
+msgstr "Séquence des dossiers"
+
+msgctxt "field:pl_cust_plfolders.employeetype,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:pl_cust_plfolders.employeetype,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_plfolders.folders,as_attachment:"
+msgid "pj"
+msgstr ""
+
+msgctxt "field:pl_cust_plfolders.folders,check_ts:"
+msgid "Check TS"
+msgstr "Vérifier le TS"
+
+msgctxt "field:pl_cust_plfolders.folders,currency:"
+msgid "Currency"
+msgstr "Devise"
+
+msgctxt "field:pl_cust_plfolders.folders,date_end:"
+msgid "Date end"
+msgstr "Date de fin"
+
+msgctxt "field:pl_cust_plfolders.folders,date_start:"
+msgid "Date start"
+msgstr "Date de début"
+
+msgctxt "field:pl_cust_plfolders.folders,description:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:pl_cust_plfolders.folders,fact_to:"
+msgid "Invoice To"
+msgstr "Facturation à"
+
+msgctxt "field:pl_cust_plfolders.folders,folder_charges:"
+msgid "Folder Charges(%)"
+msgstr "Frais de dossier(%)"
+
+msgctxt "field:pl_cust_plfolders.folders,folder_forf_amount:"
+msgid "Folder Forfait amount"
+msgstr "Montant forfaitaire"
+
+msgctxt "field:pl_cust_plfolders.folders,folder_price1:"
+msgid "T1"
+msgstr "Tarif 1"
+
+msgctxt "field:pl_cust_plfolders.folders,folder_price2:"
+msgid "T2"
+msgstr "Tarif 2"
+
+msgctxt "field:pl_cust_plfolders.folders,folder_price3:"
+msgid "T3"
+msgstr "Tarif 3"
+
+msgctxt "field:pl_cust_plfolders.folders,folder_price4:"
+msgid "T4"
+msgstr "Tarif 4"
+
+msgctxt "field:pl_cust_plfolders.folders,folder_price5:"
+msgid "T5"
+msgstr "Tarif 5"
+
+msgctxt "field:pl_cust_plfolders.folders,folder_tax_bool:"
+msgid "Folder Tax"
+msgstr "Dossier avec TVA"
+
+msgctxt "field:pl_cust_plfolders.folders,folder_type:"
+msgid "Folder Type"
+msgstr "Type de dossier"
+
+msgctxt "field:pl_cust_plfolders.folders,in_invoice_ids:"
+msgid "In Invoices"
+msgstr "Factures fournisseur"
+
+msgctxt "field:pl_cust_plfolders.folders,internal_com:"
+msgid "Internal Com"
+msgstr "Commentaire interne"
+
+msgctxt "field:pl_cust_plfolders.folders,internal_notes:"
+msgid "Internal Notes"
+msgstr "Notes interne"
+
+msgctxt "field:pl_cust_plfolders.folders,invoice_ids:"
+msgid "Invoices"
+msgstr "Factures"
+
+msgctxt "field:pl_cust_plfolders.folders,name:"
+msgid "Number"
+msgstr "Numéro"
+
+msgctxt "field:pl_cust_plfolders.folders,newfolder_expected:"
+msgid "Tot TS expected"
+msgstr "TS attendu"
+
+msgctxt "field:pl_cust_plfolders.folders,newfolder_expected_txt:"
+msgid "Tot TS expected"
+msgstr "TS attendu"
+
+msgctxt "field:pl_cust_plfolders.folders,newfolder_tot_fact_ts:"
+msgid "Tot TS fact"
+msgstr "Total TS facturé"
+
+msgctxt "field:pl_cust_plfolders.folders,newfolder_tot_fact_ts_txt:"
+msgid "Tot TS fact"
+msgstr "Total TS facturé"
+
+msgctxt "field:pl_cust_plfolders.folders,newfolder_tot_notfact_ts:"
+msgid "Tot TS not fact"
+msgstr "Total TS non facturé"
+
+msgctxt "field:pl_cust_plfolders.folders,newfolder_tot_notfact_ts_txt:"
+msgid "Tot TS not fact"
+msgstr "Total TS non facturé"
+
+msgctxt "field:pl_cust_plfolders.folders,newfolder_tot_ts:"
+msgid "Tot TS"
+msgstr "Total TS"
+
+msgctxt "field:pl_cust_plfolders.folders,newfolder_tot_ts_txt:"
+msgid "Tot TS"
+msgstr "Total TS"
+
+msgctxt "field:pl_cust_plfolders.folders,newfolder_tot_ts_withoutpct:"
+msgid "Tot TS without pct"
+msgstr "Total TS effectif"
+
+msgctxt "field:pl_cust_plfolders.folders,newfolder_tot_ts_withoutpct_txt:"
+msgid "Tot TS without pct"
+msgstr "Total TS effectif"
+
+msgctxt "field:pl_cust_plfolders.folders,notes:"
+msgid "Comment"
+msgstr "Commentaire"
+
+msgctxt "field:pl_cust_plfolders.folders,party_id:"
+msgid "Party"
+msgstr "Client"
+
+msgctxt "field:pl_cust_plfolders.folders,timesheet_ids:"
+msgid "Timesheet"
+msgstr "Timesheet"
+
+msgctxt "field:pl_cust_plfolders.folders,timesheet_ids_not_inv:"
+msgid "Timesheet"
+msgstr "Timesheet"
+
+msgctxt "field:pl_cust_plfolders.foldersheet,activity:"
+msgid "Activity"
+msgstr "Activité"
+
+msgctxt "field:pl_cust_plfolders.foldersheet,archived:"
+msgid "Archived"
+msgstr "Archivé"
+
+msgctxt "field:pl_cust_plfolders.foldersheet,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:pl_cust_plfolders.foldersheet,duration:"
+msgid "Duration"
+msgstr "Durée"
+
+msgctxt "field:pl_cust_plfolders.foldersheet,folder_id:"
+msgid "Folder"
+msgstr "Dossier"
+
+msgctxt "field:pl_cust_plfolders.foldersheet,folder_type:"
+msgid "Folder Type"
+msgstr "Type de dossier"
+
+msgctxt "field:pl_cust_plfolders.foldersheet,hour_price:"
+msgid "Price per hour"
+msgstr "Prix/h"
+
+msgctxt "field:pl_cust_plfolders.foldersheet,invoice_id:"
+msgid "Invoice"
+msgstr "Facture"
+
+msgctxt "field:pl_cust_plfolders.foldersheet,invoiced:"
+msgid "Invoiced"
+msgstr "Facturé"
+
+msgctxt "field:pl_cust_plfolders.foldersheet,name:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:pl_cust_plfolders.foldersheet,pct:"
+msgid "PCT"
+msgstr "PCT"
+
+msgctxt "field:pl_cust_plfolders.foldersheet,price:"
+msgid "Price"
+msgstr "Prix"
+
+msgctxt "field:pl_cust_plfolders.foldersheet,resp_id:"
+msgid "Employee"
+msgstr "Responsable"
+
+msgctxt "field:pl_cust_plfolders.foldersheet,resp_type:"
+msgid "Employee Type"
+msgstr "Type de l'employé"
+
+msgctxt "field:pl_cust_plfolders.foldersheet,task:"
+msgid "Task"
+msgstr "Tâche"
+
+msgctxt "field:pl_cust_plfolders.foldertype,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:pl_cust_plfolders.foldertype,folder_charges:"
+msgid "Folder Charges(%)"
+msgstr "Frais du dossier(%)"
+
+msgctxt "field:pl_cust_plfolders.foldertype,folder_price1:"
+msgid "T1"
+msgstr "Tarif 1"
+
+msgctxt "field:pl_cust_plfolders.foldertype,folder_price2:"
+msgid "T2"
+msgstr "Tarif 2"
+
+msgctxt "field:pl_cust_plfolders.foldertype,folder_price3:"
+msgid "T3"
+msgstr "Tarif 3"
+
+msgctxt "field:pl_cust_plfolders.foldertype,folder_price4:"
+msgid "T4"
+msgstr "Tarif 4"
+
+msgctxt "field:pl_cust_plfolders.foldertype,folder_price5:"
+msgid "T5"
+msgstr "Tarif 5"
+
+msgctxt "field:pl_cust_plfolders.foldertype,folder_price_depl:"
+msgid "Deplacement Price"
+msgstr "Déplacement"
+
+msgctxt "field:pl_cust_plfolders.foldertype,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_plfolders.foldprintreport_start,employee_id:"
+msgid "Employee"
+msgstr "Responsable"
+
+msgctxt "field:pl_cust_plfolders.foldprintreport_start,from_date:"
+msgid "From Date"
+msgstr "Date de début"
+
+msgctxt "field:pl_cust_plfolders.foldprintreport_start,to_date:"
+msgid "To Date"
+msgstr "Date de fin"
+
+msgctxt "field:pl_cust_plfolders.invcreate_start,folder_id:"
+msgid "Folder"
+msgstr "Dossier"
+
+msgctxt "field:pl_cust_plfolders.invcreate_start,folder_ts_tot:"
+msgid "Folder TS tot"
+msgstr "Total des heures"
+
+msgctxt "field:pl_cust_plfolders.invcreate_start,inv_id:"
+msgid "Facture"
+msgstr ""
+
+msgctxt "field:pl_cust_plfolders.invcreate_start,timesheet_ids:"
+msgid "Timesheet"
+msgstr "Timesheet"
+
+msgctxt "field:pl_cust_plfolders.invcreate_start,with_vat:"
+msgid "With VAT"
+msgstr "Avec TVA"
+
+msgctxt "field:pl_cust_plfolders.periodicts.start,day_of_week:"
+msgid "Day of Week"
+msgstr "Jour de la semaine"
+
+msgctxt "field:pl_cust_plfolders.periodicts.start,employee:"
+msgid "Employee"
+msgstr "Responsable"
+
+msgctxt "field:pl_cust_plfolders.periodicts.start,end_date:"
+msgid "End Date"
+msgstr "Date de fin"
+
+msgctxt "field:pl_cust_plfolders.periodicts.start,folder_id:"
+msgid "Folder"
+msgstr "Dossier"
+
+msgctxt "field:pl_cust_plfolders.periodicts.start,start_date:"
+msgid "Start Date"
+msgstr "Date de début"
+
+msgctxt "field:pl_cust_plfolders.periodicts.start,timesheet_ids:"
+msgid "Timesheet"
+msgstr "Timesheet"
+
+msgctxt "field:pl_cust_plfolders.sheetact,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:pl_cust_plfolders.sheetact,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_plfolders.sheetact,tasks:"
+msgid "Tasks"
+msgstr "Tâches"
+
+msgctxt "field:pl_cust_plfolders.sheettasks,activity:"
+msgid "Activity"
+msgstr "Activités"
+
+msgctxt "field:pl_cust_plfolders.sheettasks,duration:"
+msgid "Duration"
+msgstr "Durée"
+
+msgctxt "field:pl_cust_plfolders.sheettasks,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_plfolders.tstoinv_start,folder_id:"
+msgid "Folder"
+msgstr "Dossier"
+
+msgctxt "field:pl_cust_plfolders.tstoinv_start,folder_ts_tot:"
+msgid "Folder TS tot"
+msgstr "Total des heures"
+
+msgctxt "field:pl_cust_plfolders.tstoinv_start,inv_id:"
+msgid "Facture"
+msgstr ""
+
+msgctxt "field:pl_cust_plfolders.tstoinv_start,timesheet_ids:"
+msgid "Timesheet"
+msgstr "Timesheet"
+
+msgctxt "field:pl_cust_plfolders.wizardconf,account_deb_id:"
+msgid "Account H Deb"
+msgstr "Compte débiteur"
+
+msgctxt "field:pl_cust_plfolders.wizardconf,depl_notva:"
+msgid "Depl NO TVA"
+msgstr "Déplacement sans TVA"
+
+msgctxt "field:pl_cust_plfolders.wizardconf,depl_tva:"
+msgid "Depl TVA"
+msgstr "Déplacement avec TVA"
+
+msgctxt "field:pl_cust_plfolders.wizardconf,journal_id:"
+msgid "Journal"
+msgstr "Journal"
+
+msgctxt "field:pl_cust_plfolders.wizardconf,journal_pp:"
+msgid "Journal PP"
+msgstr "Journal de PP"
+
+msgctxt "field:pl_cust_plfolders.wizardconf,payment_term:"
+msgid "Default Customer Payment Term"
+msgstr "Conditions de paiement client par défaut"
+
+msgctxt "field:pl_cust_plfolders.wizardconf,product_notva:"
+msgid "Produit NO TVA"
+msgstr "Produit sans TVA"
+
+msgctxt "field:pl_cust_plfolders.wizardconf,product_tva:"
+msgid "Produit TVA"
+msgstr "Produit avec TVA"
+
+msgctxt "field:pl_cust_plfolders.wizardconf,taxe77:"
+msgid "TVA 7.7%"
+msgstr "TVA"
+
+msgctxt "help:pl_cust_plfolders.configuration,folders_sequence:"
+msgid "Used to generate the folder name."
+msgstr "Séquence du dossier"
+
+msgctxt ""
+"help:pl_cust_plfolders.configuration.folders_sequence,folders_sequence:"
+msgid "Used to generate the folder name."
+msgstr "Séquence du dossier"
+
+msgctxt "help:pl_cust_plfolders.folders,date_end:"
+msgid "Date end"
+msgstr "Date de début"
+
+msgctxt "help:pl_cust_plfolders.folders,date_start:"
+msgid "Date start"
+msgstr "Date de fin"
+
+msgctxt "help:pl_cust_plfolders.foldersheet,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "model:ir.action,name:"
+msgid "Contacts"
+msgstr "Contacts"
+
+msgctxt "model:ir.action,name:act_employeetype_form"
+msgid "Employee Type"
+msgstr "Type de l'employé"
+
+msgctxt "model:ir.action,name:act_folders_conf_wizard_form"
+msgid "Folders Wizard Configuration"
+msgstr "Conf. wizard facturation"
+
+msgctxt "model:ir.action,name:act_folders_configuration_form"
+msgid "Folders Configuration"
+msgstr "Configuration du dossier"
+
+msgctxt "model:ir.action,name:act_folders_form"
+msgid "Tous les dossiers"
+msgstr "Dossiers"
+
+msgctxt "model:ir.action,name:act_folders_invoices"
+msgid "Factures du dossier"
+msgstr "Factures du dossier"
+
+msgctxt "model:ir.action,name:act_foldersheet_form"
+msgid "Timesheet"
+msgstr "Timesheet"
+
+msgctxt "model:ir.action,name:act_foldertype_form"
+msgid "Folder Types"
+msgstr "Types de dossier"
+
+msgctxt "model:ir.action,name:act_sheetact_form"
+msgid "Gestion des Activités"
+msgstr "Gestion des Activités"
+
+msgctxt "model:ir.action,name:act_sheettasks_form"
+msgid "Gestion des Tâches"
+msgstr "Gestion des Tâches"
+
+msgctxt "model:ir.action,name:act_wizard_createinv"
+msgid "Create invoice"
+msgstr "Créer la facture"
+
+msgctxt "model:ir.action,name:act_wizard_foldprintreport"
+msgid "TS Report"
+msgstr "Rapport de Timesheet"
+
+msgctxt "model:ir.action,name:act_wizard_new_tstoinv"
+msgid "TS to invoice"
+msgstr "TS à facturer"
+
+msgctxt "model:ir.action,name:act_wizard_periodicts"
+msgid "Ajoute du TS périodic"
+msgstr "Ajout TS périodique"
+
+msgctxt "model:ir.action,name:my_act_foldersheet_form"
+msgid "Mon Timesheet"
+msgstr ""
+
+msgctxt "model:ir.action,name:reporfoldt"
+msgid "Report TS"
+msgstr "Rapport de Timesheet"
+
+msgctxt "model:ir.action.act_window.domain,name:my_act_foldersheet_form_all"
+msgid "Tous"
+msgstr ""
+
+msgctxt "model:ir.action.act_window.domain,name:my_act_foldersheet_form_today"
+msgid "Aujourd'hui"
+msgstr ""
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:my_act_foldersheet_form_yesterday"
+msgid "Hier"
+msgstr ""
+
+msgctxt "model:ir.sequence,name:sequence_folders"
+msgid "Folders"
+msgstr "Dossiers"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_folders"
+msgid "Folders"
+msgstr "Dossiers"
+
+msgctxt "model:ir.ui.menu,name:"
+msgid "Contacts"
+msgstr "Contacts"
+
+msgctxt "model:ir.ui.menu,name:menu_configuration"
+msgid "Configuration"
+msgstr "Configuration"
+
+msgctxt "model:ir.ui.menu,name:menu_employeetype_form"
+msgid "Employee Type"
+msgstr "Type de l'employé"
+
+msgctxt "model:ir.ui.menu,name:menu_folders"
+msgid "Folders"
+msgstr "Dossiers"
+
+msgctxt "model:ir.ui.menu,name:menu_folders_conf_wizard"
+msgid "Folders Wizard Configuration"
+msgstr "Conf. wizard facturation"
+
+msgctxt "model:ir.ui.menu,name:menu_folders_config"
+msgid "Folders Configuration"
+msgstr "Configuration du dossier"
+
+msgctxt "model:ir.ui.menu,name:menu_folders_form"
+msgid "Tous les dossiers"
+msgstr "Dossiers"
+
+msgctxt "model:ir.ui.menu,name:menu_foldersheet_form"
+msgid "Timesheet"
+msgstr "Timesheet"
+
+msgctxt "model:ir.ui.menu,name:menu_foldprintreport"
+msgid "TS Report"
+msgstr "Rapport de Timesheet"
+
+msgctxt "model:ir.ui.menu,name:menu_myfoldersheet_form"
+msgid "Mon Timesheet"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_periodicts"
+msgid "Ajoute du TS périodic"
+msgstr "Ajout TS périodique"
+
+msgctxt "model:ir.ui.menu,name:menu_sheetact_form"
+msgid "Gestion des Activités"
+msgstr "Gestion des Activités"
+
+msgctxt "model:ir.ui.menu,name:my_menu_foldertype_form"
+msgid "Folder Types"
+msgstr "Types de dossier"
+
+msgctxt "model:party.party_lang,name:"
+msgid "En français par défaut"
+msgstr "En français par défaut"
+
+msgctxt "model:pl_cust_plbase.partytype,name:"
+msgid "Party_type"
+msgstr "Nom de type de contact"
+
+msgctxt "model:pl_cust_plfolders.configuration,name:"
+msgid "Folder Configuration"
+msgstr "Configuration du dossier"
+
+msgctxt "model:pl_cust_plfolders.configuration.folders_sequence,name:"
+msgid "Folders Configuration Sequence"
+msgstr "Configuration sequence des dossiers"
+
+msgctxt "model:pl_cust_plfolders.employeetype,name:"
+msgid "Employee_type"
+msgstr "Type de l'employé"
+
+msgctxt "model:pl_cust_plfolders.folders,name:"
+msgid "Folders"
+msgstr "Dossiers"
+
+msgctxt "model:pl_cust_plfolders.foldersheet,name:"
+msgid "Folder timesheet"
+msgstr "Timesheet du dossier"
+
+msgctxt "model:pl_cust_plfolders.foldertype,name:"
+msgid "Folder timesheet"
+msgstr "Timesheet du dossier"
+
+msgctxt "model:pl_cust_plfolders.foldprintreport_start,name:"
+msgid "Print Fold Report"
+msgstr "Rapport du dossier"
+
+msgctxt "model:pl_cust_plfolders.invcreate_start,name:"
+msgid "Create Invoice"
+msgstr "Créer la facture"
+
+msgctxt "model:pl_cust_plfolders.periodicts.start,name:"
+msgid "PeriodicTSWizardStart"
+msgstr ""
+
+msgctxt "model:pl_cust_plfolders.sheetact,name:"
+msgid "Folder timesheet activity"
+msgstr "Activités"
+
+msgctxt "model:pl_cust_plfolders.sheettasks,name:"
+msgid "Folder timesheet tasks"
+msgstr "Tâches"
+
+msgctxt "model:pl_cust_plfolders.tstoinv_start,name:"
+msgid "TStoInvStart"
+msgstr "Timesheet à facturer"
+
+msgctxt "model:pl_cust_plfolders.wizardconf,name:"
+msgid "Configuration for invoiced wizard"
+msgstr "Conf. wizard facturation"
+
+msgctxt "model:res.group,name:group_folder_admin"
+msgid "Folder Administration"
+msgstr "Admin dossiers"
+
+msgctxt "model:res.group,name:group_folder_conf"
+msgid "Folder Configuration"
+msgstr "Configuration du dossier"
+
+msgctxt "model:res.group,name:group_folder_viewer"
+msgid "Folder Viewer"
+msgstr "Utilisateur dossiers"
+
+msgctxt "report:pl_cust_plfolders.foldreport:"
+msgid "- Période du"
+msgstr ""
+
+msgctxt "report:pl_cust_plfolders.foldreport:"
+msgid "/"
+msgstr "/"
+
+msgctxt "report:pl_cust_plfolders.foldreport:"
+msgid "TOTAL DE LA PÉRIODE :"
+msgstr ""
+
+msgctxt "report:pl_cust_plfolders.foldreport:"
+msgid "Timesheet"
+msgstr "Timesheet"
+
+msgctxt "report:pl_cust_plfolders.foldreport:"
+msgid "Total"
+msgstr "Total"
+
+msgctxt "report:pl_cust_plfolders.foldreport:"
+msgid "Total de la"
+msgstr ""
+
+msgctxt "report:pl_cust_plfolders.foldreport:"
+msgid "Total pour"
+msgstr ""
+
+msgctxt "report:pl_cust_plfolders.foldreport:"
+msgid "au"
+msgstr ""
+
+msgctxt "report:pl_cust_plfolders.foldreport:"
+msgid "de"
+msgstr ""
+
+msgctxt "report:pl_cust_plfolders.foldreport:"
+msgid "heures"
+msgstr ""
+
+msgctxt "selection:party.party,party_title:"
+msgid "Dr"
+msgstr "Docteur"
+
+msgctxt "selection:party.party,party_title:"
+msgid "Me"
+msgstr "Maître"
+
+msgctxt "selection:party.party,party_title:"
+msgid "Mr"
+msgstr "Monsieur"
+
+msgctxt "selection:party.party,party_title:"
+msgid "Mr & Mrs"
+msgstr "Monsieur et Madame"
+
+msgctxt "selection:party.party,party_title:"
+msgid "Mrs"
+msgstr "Madame"
+
+msgctxt "selection:pl_cust_plfolders.foldersheet,pct:"
+msgid "0%"
+msgstr ""
+
+msgctxt "selection:pl_cust_plfolders.foldersheet,pct:"
+msgid "100%"
+msgstr ""
+
+msgctxt "selection:pl_cust_plfolders.foldersheet,pct:"
+msgid "150%"
+msgstr ""
+
+msgctxt "selection:pl_cust_plfolders.foldersheet,pct:"
+msgid "200%"
+msgstr ""
+
+msgctxt "selection:pl_cust_plfolders.foldersheet,pct:"
+msgid "50%"
+msgstr ""
+
+msgctxt "selection:pl_cust_plfolders.periodicts.start,day_of_week:"
+msgid "Friday"
+msgstr "Vendredi"
+
+msgctxt "selection:pl_cust_plfolders.periodicts.start,day_of_week:"
+msgid "Monday"
+msgstr "Lundi"
+
+msgctxt "selection:pl_cust_plfolders.periodicts.start,day_of_week:"
+msgid "Thursday"
+msgstr "Jeudi"
+
+msgctxt "selection:pl_cust_plfolders.periodicts.start,day_of_week:"
+msgid "Tuesday"
+msgstr "Mardi"
+
+msgctxt "selection:pl_cust_plfolders.periodicts.start,day_of_week:"
+msgid "Wednesday"
+msgstr "Mercredi"
+
+msgctxt "view:account.invoice:"
+msgid "Timesheet"
+msgstr "Timesheet"
+
+msgctxt "view:party.party:"
+msgid "Catégories"
+msgstr "Catégories"
+
+msgctxt "view:party.party:"
+msgid "General"
+msgstr "Général"
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Configuration"
+msgstr "Configuration"
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Facturation du dossier"
+msgstr ""
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Invoices"
+msgstr "Factures"
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Lier du TS à une facture"
+msgstr ""
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "MAJ INFO"
+msgstr "MAJ infos"
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Numero"
+msgstr "Numéro"
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "TS to invoice"
+msgstr "TS à facturer"
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Timesheet"
+msgstr "Timesheet"
+
+msgctxt "view:pl_cust_plfolders.foldersheet:"
+msgid "Tot:"
+msgstr ""
+
+msgctxt "wizard_button:pl_cust_plfolders.foldprintreport,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_plfolders.foldprintreport,start,print_:"
+msgid "Print"
+msgstr "Imprimer"
+
+msgctxt "wizard_button:pl_cust_plfolders.invcreate,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_plfolders.invcreate,start,generate_inv:"
+msgid "Facturation"
+msgstr ""
+
+msgctxt "wizard_button:pl_cust_plfolders.invcreate,start,tstoinv:"
+msgid "Lier à une facture"
+msgstr ""
+
+msgctxt "wizard_button:pl_cust_plfolders.periodicts,start,add_periodic_ts:"
+msgid "Ajouter"
+msgstr ""
+
+msgctxt "wizard_button:pl_cust_plfolders.periodicts,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_plfolders.tstoinv,start,end:"
+msgid "Annuler"
+msgstr ""
+
+msgctxt "wizard_button:pl_cust_plfolders.tstoinv,start,tstoinv:"
+msgid "Lier à la facture"
+msgstr ""

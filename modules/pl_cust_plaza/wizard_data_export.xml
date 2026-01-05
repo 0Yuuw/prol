@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+
+    <record model="ir.ui.view" id="dataexport_start_view_form">
+      <field name="model">pl_cust_plaza.dataexport_start</field>
+      <field name="type">form</field>
+      <field name="name">dataexport_start_form</field>
+    </record>
+
+    <record model="ir.ui.view" id="dataexport_result_view_form">
+      <field name="model">pl_cust_plaza.dataexport_result</field>
+      <field name="type">form</field>
+      <field name="name">dataexport_result_form</field>
+    </record>
+
+    <record model="ir.action.wizard" id="act_wizard_dataexport">
+      <field name="name">Export de données</field>
+      <field name="wiz_name">pl_cust_plaza.dataexport</field>
+    </record>
+    
+    <menuitem parent="pl_cust_plbase.menu_myparty" action="act_wizard_dataexport" id="menu_dataexport" sequence="20"/>
+  </data>
+</tryton>

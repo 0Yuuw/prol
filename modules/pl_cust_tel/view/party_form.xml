@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+  <xpath expr="//notebook" position="inside">
+    <page string="Écoutants" id="ecoutants">
+      <label name="pseudo"/>
+      <field name="pseudo"/>
+      <label name="engagement_date"/>
+      <field name="engagement_date"/>
+      <label name="comments"/>
+      <field name="comments"/>
+    </page>
+  </xpath>
+
+  <xpath expr="//group[@id='checkbox']" position="before">
+    <label name="is_writer"/>
+    <field name="is_writer"/>
+  </xpath>
+</data>
+

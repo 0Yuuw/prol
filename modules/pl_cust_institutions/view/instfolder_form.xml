@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+
+    <xpath expr="/form" position="replace">
+        <form>
+            <group id="altheader" colspan="2" col="2">
+                <group id="altname" colspan="2" col="4">
+                    <label name="name"/>
+                    <field name="name" readonly="1"/>
+                    <label name="description"/>
+                    <field name="description"/>
+                    <label name="date_start" />
+                    <field name="date_start" />
+                    <label name="date_end" />
+                    <field name="date_end" />
+                </group>
+                <label name="party_id" string="Employée"/>
+                <field name="party_id"/>
+                <label name="folder_type"/>
+                <field name="folder_type"/>
+                <field name="resp_id" invisible="1" readonly="1"/>
+            </group>
+            <group id="altheader2" colspan="2" col="2">
+                <field name="internal_notes" colspan="2"/>
+
+            </group>
+            <notebook colspan="4">
+                <page string="Timesheet" id="folderts">
+                    <field name="timesheet_ids" colspan="4" widget="one2many" height="400"/>
+                </page>
+
+                <page string="Notes" id="altnotes">
+                    <label name="notes" xalign="0.0" colspan="4"/>
+                    <field name="notes" colspan="4"/>
+                    <field name="active" colspan="4"/>
+                </page>
+
+            </notebook>
+            <button name="periodic_ts" colspan="4" string="TS Périodique" icon="tryton-go-next"/>
+        </form>
+    </xpath>
+</data>

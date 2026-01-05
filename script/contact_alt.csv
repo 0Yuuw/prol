@@ -1,0 +1,37 @@
+C/F;Nom;id;Description;Notes;Compl.adresse;Rue;Compl adresse suite;Code postal;Ville;Pays;Site web;Tél général;Mail général;Actif;Cpte client;Cpte fournisseur;Titre;Nom;Prénom;Fonction;email;Tél contact 1;Tél contact 2
+C;Banque Cantonale de Fribourg;1943;;;;Bd de Perolles 1;;1701;Fribourg;;;;;True;15000 Clients;25000 Fournisseur;;;;;;;
+C;Banque Cantonale de Genève;1519;;;;Quai de l'Ile 17;Case postale 2251;1211;Genève 2;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;Mme;Bussat;Sandrine;Responsable Évèn;sandrine.bussat@bcge.ch;+41 22 809 20 14;
+C;Banque Cantonale de Genève;1519;;;;Quai de l'Ile 17;Case postale 2251;1211;Genève 2;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;Mme;Hungerbühler;Monique;;;;
+C;Banque Cantonale de Genève;1519;;;;Quai de l'Ile 17;Case postale 2251;1211;Genève 2;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;M.;Jaquet;Gregory;Porte parole adj;;;
+C;Banque Cantonale de Genève;1519;;;;Quai de l'Ile 17;Case postale 2251;1211;Genève 2;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;Mme;Reboul;Sandrine;;;;
+C;Banque Cantonale de Genève;1519;;;;Quai de l'Ile 17;Case postale 2251;1211;Genève 2;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;Mme;Rochet;Marie-Laure;;;;
+C;Banque Cantonale de Genève;1519;;;;Quai de l'Ile 17;Case postale 2251;1211;Genève 2;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;M.;Savary;Dominique;Fondé de pouvoir;;;
+C;Banque Cantonale de Genève;1519;;;;Quai de l'Ile 17;Case postale 2251;1211;Genève 2;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;M.;Truffer;Nicolas;Product manager Clientèle Privée;;;
+C;Banque Cantonale de Genève;1519;;;;Quai de l'Ile 17;Case postale 2251;1211;Genève 2;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;M.;Villanti;Pierre;Directeur adjoint;;;
+C;Banque Cantonale de Genève;1519;;;;Quai de l'Ile 17;Case postale 2251;1211;Genève 2;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;Mme;Vollenweider;Francine;Chargée de communication;;;
+C;Banque Cantonale de Genève;1519;;;Corporate affairs & Communication;;Case Postale 1546;1211;Genève 26;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;Mme;Vernaz;Nathalie;Chargée de communication;nathalie.vernaz@bcge.ch;;
+C;Banque Cantonale de Genève;1519;;;Département Communication;;Case postale 2251;1211;Genève 2;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;Mme;Cebey;Chantal;;;;
+C;Banque Cantonale de Genève;1519;;;Marketing;;Case Postale 1546;1211;Genève 26;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;Mme;Bozkaya;Tugçe;Apprentie 2e;;;
+C;Banque Cantonale de Genève;1519;;;Marketing;;Case Postale 1546;1211;Genève 26;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;Mme;Dalla Costa;Gaelle;;;;
+C;Banque Cantonale de Genève;1519;;;Marketing;;Case Postale 1546;1211;Genève 26;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;M.;Weber;Christophe;Directeur, Corpo;;;
+C;Banque Cantonale de Genève;1519;;;Marketing;;Case Postale 1546;1211;Genève 26;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;M.;Zutter;Nathanaël;Spécialiste en p;;;
+C;Banque Cantonale de Genève;1519;;;;Quai de l'Ile 17;Case postale 2251;1211;Genève 2;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;M.;Dufeil;Grégoire-Pierre;Publicité;gregoire-pierre.duteil@bcge.ch;;
+C;Banque Cantonale de Genève;1519;;;;Quai de l'Ile 17;Case postale 2251;1211;Genève 2;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;M.;Hamm;Christian;Chef Marketing;;;
+C;Banque Cantonale de Genève;1519;;;;Quai de l'Ile 17;Case postale 2251;1211;Genève 2;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;Mme;Lakhdar-Murisier;Sandrine;Chargée de communication;sandrine.lakhdar-murisier@bcge.ch;;
+C;Banque Cantonale de Genève;1519;;;;Quai de l'Ile 17;Case postale 2251;1211;Genève 2;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;Mme;Latour;Véronique;Corporate Design;veronique.latour@bcge.ch;+41 22 809  28 65;
+C;Banque Cantonale de Genève;1519;;;;Quai de l'Ile 17;Case postale 2251;1211;Genève 2;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;M.;Mathevet;Simon;Product manager;;;
+C;Banque Cantonale de Genève;1519;;;;Quai de l'Ile 17;Case postale 2251;1211;Genève 2;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;Mme;Ribbi;Maria;Fondée de pouvoir;;;
+C;Banque Cantonale de Genève;1519;;;;Quai de l'Ile 17;Case postale 2251;1211;Genève 2;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;Mme;Saltini;Loredana;;;;
+C;Banque Cantonale de Genève;1519;;;;Quai de l'Ile 17;Case postale 2251;1211;Genève 2;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;Mme;Trigo;Maeva;Apprentie 2ème a;Maeva.Chiari@sicpa.com;;
+C;Banque Cantonale de Genève;1519;;;;Quai de l'Ile 17;Case postale 2251;1211;Genève 2;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;M.;Vialla;Pierre-Olivier;;Pierre-Olivier.VIALLA@bcge.ch;;
+C;Banque Cantonale de Genève;1519;;;;Quai de l'Ile 17;Case postale 2251;1211;Genève 2;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;Mme;Wassmer;Tiffany;;;;
+C;Banque Cantonale de Genève;1519;;;Ressources Humaines;;Case postale 2251;1211;Genève 2;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;Mme;Reyes;Aileen;;;;
+C;Banque Cantonale de Genève;1519;;;;Route de Chancy 65;;1213;Petit-Lancy;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;Mme;Oulevay;Soraya;;soraya.oulevay@bcge.ch;;
+C;Banque Cantonale de Genève;1519;;;;Route de Chancy 65;;1213;Petit-Lancy;;www.bcge.ch;;;True;15000 Clients;25000 Fournisseur;M.;Van Woerden;Philippe;Chargé de commun;;;
+C;Banque Cantonale de Genève (France) SA;1910;;;;20 place Louis Pradel;;69001;Lyon;France;;;;True;15000 Clients;25000 Fournisseur;M.;Collado;Sébastien;;;+33 4 72 07 31 69;
+C;Banque Mirabaud;1520;;;;Boulevard Georges-Favon 29;;1204;Genève;;;;;True;15000 Clients;25000 Fournisseur;M.;Mirabaud;Yves;;yves.mirabaud@mirabaud.com;;
+F;Banque Vontobel;1521;;;;Place de l'Université 6;;1205;Genève;;;;;True;15000 Clients;25000 Fournisseur;Mme;Mory-Prenant;Corinne;;corinne.mory-prenant@vontobel.ch;;
+F;ProLibre Sàrl;1900;Serveur/Open ERP;;;Rue des Moraines 18;;1227;Carouge;;www.prolibre.com;+41 22 301 53 83;info@prolibre.com;True;15000 Clients;25000 Fournisseur;Mme;Vaudaux;Isabelle;;vaudaux@prolibre.comn;+41 79 409 13 68;
+F;ProLibre Sàrl;1900;Serveur/Open ERP;;;Rue des Moraines 18;;1227;Carouge;;www.prolibre.com;+41 22 301 53 83;info@prolibre.com;True;15000 Clients;25000 Fournisseur;M.;Loosli;Olivier;;loosli@prolibre.comn;+41 76 443 06 35;
+F;Arthur Schwarz;2468;typographe, graphiste, concours et dév.polices=> notes;"Son portfolio est situé sur le serveur dans ZZ Utilitaire –> Typographes avec des exemples de Budgets
+Mots clés:  typographe, graphiste, intéressant pour concours et développement de police de caractères custom, basé à Genève";;;;;;;https://arthurschwarz.ch/;;contact@arthurschwarz.ch;;;;;;;;;;

@@ -1,0 +1,169 @@
+Nom structure;Type structure;Provenance;quartier;secteur;répondant-e;rue;numero;code postale;commune;mail;telephone
+Allobroges;DIP Ecole publique;VDG;Les Acacias;;;Rue des Allobroges;4 à 6;1227;Les Acacias;;022 418 33 23
+Hugo-de-Senger;DIP Ecole publique;VDG;;;;Rue Dizerens;26;1205;Genève;allo.hugo@etat.ge.ch;022 418 33 23
+Anières;DIP Ecole publique;Canton;Anières;;;Rue Centrale;66;1247;Anières;anières-co-gy-her-ju-pre@etat.ge.ch;022 751 92 90
+Corsier;DIP Ecole publique;Canton;Corsier;;;Route de Corsier;23;1246;Corsier;anières-co-gy-her-ju-pre@etat.ge.ch;022 751 92 90
+Gy;DIP Ecole publique;Canton;Gy;;;Route de Gy;141;1251;Gy;anières-co-gy-her-ju-pre@etat.ge.ch;022 751 92 90
+Hermance;DIP Ecole publique;Canton;Hermance;;;Chemin des Glerrets;14;1248;Hermance;anières-co-gy-her-ju-pre@etat.ge.ch;022 751 92 90
+Jussy;DIP Ecole publique;Canton;Jussy;;;Route des Beillans ;9;1254;Jussy;anières-co-gy-her-ju-pre@etat.ge.ch;022 751 92 90
+Presinge;DIP Ecole publique;Canton;Presinge;;;Route de la Louvière;4;1243;Presinge;anières-co-gy-her-ju-pre@etat.ge.ch;022 751 92 90
+Aire-La-Ville;DIP Ecole publique;Canton;Aire-La-Ville;;;Chemin des Mussel;11;1288;Aire-La-Ville;avully-airelaville-athenaz-cartigny-chancy@etat.ge.ch;022 757 49 75
+Athenaz;DIP Ecole publique;Canton;Athenaz;;;Route d'Athenaz;33;1285;Athenaz;avully-airelaville-athenaz-cartigny-chancy@etat.ge.ch;022 756 92 92
+Avully;DIP Ecole publique;Canton;Avully;;;Route d'Avully;35;1237;Avully;avully-airelaville-athenaz-cartigny-chancy@etat.ge.ch;022 756 12 84
+Cartigny;DIP Ecole publique;Canton;Cartigny;;;Rue du Trabli;5;1236;Cartigny;avully-airelaville-athenaz-cartigny-chancy@etat.ge.ch;022 756 36 17
+Chancy;DIP Ecole publique;Canton;Chancy;;;Chemin de la Ruette;10;1284;Chancy;avully-airelaville-athenaz-cartigny-chancy@etat.ge.ch;022 756 38 47
+Bellevue;DIP Ecole publique;Canton;Bellevue;;;Parc des Aiglettes;1;1293;Bellevue;bellevue-genthod@etat.ge.ch;022 959 75 40
+Genthod;DIP Ecole publique;Canton;Genthod;;;Route de Valavran;139;1294;Genthod;bellevue-genthod@etat.ge.ch;022 959 75 40
+Robert-Hainard;DIP Ecole publique;Canton;Bernex;;;Chemin de Saule;120;1233;Bernex;bernex@etat.ge.ch;022 850 96 72
+Luchepelet;DIP Ecole publique;Canton;Bernex;;;Route d'Aire-La-Ville;22;1233;Bernex;bernex@etat.ge.ch;022 850 96 72
+Lully;DIP Ecole publique;Canton;Bernex;;;Route de Soral;152;1233;Bernex;bernex@etat.ge.ch;022 850 96 72
+Avanchet-Jura;DIP Ecole publique;Canton;Les Avanchets;;;Route du Grand-Bay;13;1220;Les Avanchets;avanchets@etat.ge.ch;022 327 09 82
+Avanchet-Saleve;DIP Ecole publique;Canton;Les Avanchets;;;Rue François-Durafour;17;1220;Les Avanchets;avanchets@etat.ge.ch;022 327 09 82
+Bellavista;DIP Ecole publique;Canton;Meyrin;;;Avenue de Vaudagne;39;1217;Meyrin;bellavista-boudines@etat.ge.ch;022 783 04 47
+Boudines;DIP Ecole publique;Canton;Meyrin;;;Rue  des Boudines;10;1217;Meyrin;bellavista-boudines@etat.ge.ch;022 783 04 47
+Bois-Des-Arts;DIP Ecole publique;Canton;Thônex;;;Chemin du Bois-Des-Arts;62;1226;Thônex;boisdesarts-adrienjeandin@etat.ge.ch;022 860 09 85
+Adrien-Jeandin;DIP Ecole publique;Canton;Thônex;;;Avenue Adrien-Jeandin;7;1226;Thônex;boisdesarts-adrienjeandin@etat.ge.ch;022 860 09 85
+Bois-gourmant;DIP Ecole publique;Canton;Veyrier;;;Route de Veyrier;208;1255;Veyrier;bois-gourmand-pinchat@etat.ge.ch;022 799 10 70
+Pinchat;DIP Ecole publique;Canton;Vessy;;;Chemin de la Tour de Pinchat;2 à 4;1234;Vessy;bois-gourmand-pinchat@etat.ge.ch;022 799 10 70
+Bon-Sejour;DIP Ecole publique;Canton;Versoix;;;Route de Sauverny;4;1290;Versoix;bonsejour-amiargand-monfleury@etat.ge.ch;022 950 84 52
+Ami-Argand;DIP Ecole publique;Canton;Versoix;;;Chemin Ami-Argand;40;1290;Versoix;bonsejour-amiargand-monfleury@etat.ge.ch;022 950 84 52
+Montfleury;DIP Ecole publique;Canton;Versoix;;;Grand-Montfleury;60;1290;Versoix;bonsejour-amiargand-monfleury@etat.ge.ch;022 950 84 52
+Bosson;DIP Ecole publique;Canton;Onex;;;Avenue du Bois-de-la-Chapelle;90;1213;Onex;bosson-onexvillage@etat.ge.ch;022 388 60 92
+Bosson UCE;DIP Ecole publique;Canton;Onex;;;Avenue du Bois-de-la-Chapelle;90;1213;Onex;bosson-onexvillage@etat.ge.ch;022 388 60 92
+Onex-Village;DIP Ecole publique;Canton;Onex;;;Rue Gaudy-Le-Fort;24;1213;Onex;bosson-onexvillage@etat.ge.ch;022 792 23 63
+Caroline;DIP Ecole publique;Canton;Petit-Lancy;;;Rue des Bossons;74;1213;Petit-Lancy;Caroline-ceresole-morgines@etat.ge.ch;022 870 98 00
+Cérésole;DIP Ecole publique;Canton;Petit-Lancy;;;Chemin de la Vendée;31;1213;Petit-Lancy;Caroline-ceresole-morgines@etat.ge.ch;022 870 98 00
+Morgines;DIP Ecole publique;Canton;Petit-Lancy;;;Avenue des Morgines;17b;1213;Petit-Lancy;Caroline-ceresole-morgines@etat.ge.ch;022 870 98 00
+Cayly;DIP Ecole publique;VDG;Charmilles;;;Chemin William-Lescaze;12;1203;Genève;cayla-europe@etat.ge.ch;022 418 30 30
+Europe;DIP Ecole publique;VDG;Charmilles;;;Avenue d'Aïre;42;1203;Genève;cayla-europe@etat.ge.ch;022 418 30 20
+Champ-Joly;DIP Ecole publique;Canton;Plan-Les-Ouates;;;Chemin de la Mère-Voie;60;1228;Plan-Les-Ouates;champ-joly-pré-du-camp@etat.ge.ch;022 706 90 70
+Pré-du-Camp;DIP Ecole publique;Canton;Plan-Les-Ouates;;;Route des Chevaliers de Malte;11;1228;Plan-Les-Ouates;champ-joly-pré-du-camp@etat.ge.ch;022 706 17 70
+Champs-Fréchets;DIP Ecole publique;Canton;Meyrin;;;Rue des Lattes;71;1217;Meyrin;champsfrechets-cointrin-vergers@etat.ge.ch;022 989 43 02
+Cointrin;DIP Ecole publique;Canton;Meyrin;;;Chemin du Ruisseau;39;1216;Cointrin;champsfrechets-cointrin-vergers@etat.ge.ch;022 798 77 17
+Vergers;DIP Ecole publique;Canton;Meyrin;;;Rue des Arpenteurs;9;1217;Meyrin;champsfrechets-cointrin-vergers@etat.ge.ch;022 989 43 13
+Charles-Giron;DIP Ecole publique;VDG;Charmilles;;;Rue Charles-Giron;20;1203;Genève;charmilles-cgiron-jrhone-ouches@etat.ge.ch;022 418 39 50
+Charmilles;DIP Ecole publique;VDG;Charmilles;;;Avenue d'Aïre;1;1203;Genève;charmilles-cgiron-jrhone-ouches@etat.ge.ch;022 418 39 40
+Jardins du Rhône;DIP Ecole publique;VDG;Charmilles;;;Chemin Michée-Chauderon;29;1203;Genève;charmilles-cgiron-jrhone-ouches@etat.ge.ch;022 418 39 30
+Ouches;DIP Ecole publique;VDG;Charmilles;;;Chemin des Ouches;19;1203;Genève;charmilles-cgiron-jrhone-ouches@etat.ge.ch;022 418 39 20
+Belvédère;DIP Ecole publique;Canton;Chêne-Bougeries;;;Chemin de-la-Montagne;71;1224;Chêne-bougeries;chenebougeries@etat.ge.ch;022 348 74 50
+Chêne-Bougeries;DIP Ecole publique;Canton;Chêne-Bougeries;;;Route de Chêne;149;1224;Chêne-bougeries;chenebougeries@etat.ge.ch;022 348 36 57
+Conches;DIP Ecole publique;Canton;Chêne-Bougeries;;;Chemin de la Colombe;7;1231;Conches;chenebougeries@etat.ge.ch;022 347 02 96
+De-la-Montagne;DIP Ecole publique;Canton;Chêne-Bougeries;;;Chemin de-la-Montagne;3;1224;Chêne-bougeries;chenebougeries@etat.ge.ch;022 348 36 70
+Gradelle;DIP Ecole publique;Canton;Chêne-Bougeries;;;Avenue des Amazones;25;1224;Chêne-bougeries;chenebougeries@etat.ge.ch;022 348 31 97
+De-Haller;DIP Ecole publique;Canton;Chêne-Bourg;;;Avenue de Bel-Air;35;1225;Chêne-Bourg;chene-bourg@etat.ge.ch;022 348 78 38
+Floraire;DIP Ecole publique;Canton;Chêne-Bourg;;;Chemin de Floraire;11;1225;Chêne-Bourg;chene-bourg@etat.ge.ch;022 348 78 38
+Petit-Senn;DIP Ecole publique;Canton;Chêne-Bourg;;;Avenue Petit-Senn;13;1225;Chêne-Bourg;chene-bourg@etat.ge.ch;022 348 78 38
+Place-Favre;DIP Ecole publique;Canton;Chêne-Bourg;;;Avenue François-A. Grison;1;1225;Chêne-Bourg;chene-bourg@etat.ge.ch;022 348 78 38
+Cité-Jonction;DIP Ecole publique;VDG;Jonction;;;Avenue Sainte-Clotilde;24;1205;Genève;citejonction-plantaporrets@etat.ge.ch;022 418 34 80
+Plantaporrets;DIP Ecole publique;VDG;Jonction;;;Rue des Plantaporrêts;1;1205;Genève;citejonction-plantaporrets@etat.ge.ch;022 418 34 90
+Collonge CE;DIP Ecole publique;Canton;Collonge;;;Route d'Hermance;110;1245;Collonge-Bellerive;collonge-meinier-vesenaz@etat.ge.ch;022 752 39 77
+Collonge CM;DIP Ecole publique;Canton;Collonge;;;Route d'Hermance;101;1245;Collonge-Bellerive;collonge-meinier-vesenaz@etat.ge.ch;022 752 39 77
+Meinier;DIP Ecole publique;Canton;Meinier;;;Route de la Repentance;90;1252;Meinier;collonge-meinier-vesenaz@etat.ge.ch;022 752 39 77
+Vésenaz;DIP Ecole publique;Canton;Vésenaz;;;Chemin de la Californie;18;1222;Vésenaz;collonge-meinier-vesenaz@etat.ge.ch;022 752 39 77
+Confignon;DIP Ecole publique;Canton;Confignon;;;Chemin de Tréchaumont;6;1232;Confignon;confignon-cressy@etat.ge.ch;022 757 46 28
+Cressy;DIP Ecole publique;Canton;Cressy;;;Rue Edouard-Vallet;16;1232;Confignon;confignon-cressy@etat.ge.ch;022 757 46 28
+Crêts;DIP Ecole publique;Canton;Petit-Saconnex;;;Chemin Moïse-duboule;2;1209;Genève;dedube-crets-genets@etat.ge.ch;022 418 39 03
+De-Budé;DIP Ecole publique;Canton;Petit-Saconnex;;;Chemin de Colladon;1;1209;Genève;dedube-crets-genets@etat.ge.ch;022 418 39 03
+Genêts;DIP Ecole publique;Canton;Petit-Saconnex;;;Chemin de Sous-Bois;1à3;1202;Genève;dedube-crets-genets@etat.ge.ch;022 418 39 03
+De-Livron;DIP Ecole publique;Canton;Meyrin;;;Rue de Livron;2;1217;Meyrin;delivron-golette@etat.ge.ch;022 989 43 31
+Golette;DIP Ecole publique;Canton;Meyrin;;;Rue de la Golette;20;1217;Meyrin;delivron-golette@etat.ge.ch;022 989 43 51
+En-Sauvy;DIP Ecole publique;Canton;Grand-Lancy;;;Avenue du Curé-Baud;40;1212;Grand-Lancy;pontrouge-ensauvy@etat.ge.ch;022 307 94 00
+Pont-Rouge;DIP Ecole publique;Canton;Grand-Lancy;;;Chemin des Mérinos;16;1212;Grand-Lancy;pontrouge-ensauvy@etat.ge.ch;022 794 46 29
+Balexert;DIP Ecole publique;Canton;Châtelaine;;;Avenue du Pailly;15;1219;Châtelaine;etang-balexert-bourquin-chatelaine@etat.ge.ch;022 327 09 14
+Bourquin;DIP Ecole publique;Canton;Châtelaine;;;Avenue de Châtelaine;68;1219;Châtelaine;etang-balexert-bourquin-chatelaine@etat.ge.ch;022 327 09 79
+Châtelaine;DIP Ecole publique;Canton;Châtelaine;;;Avenue de Châtelaine;84;1219;Châtelaine;etang-balexert-bourquin-chatelaine@etat.ge.ch;022 327 09 21
+Etang;DIP Ecole publique;Canton;Châtelaine;;;Allée des Nénuphars;6;1219;Châtelaine;etang-balexert-bourquin-chatelaine@etat.ge.ch;022 327 09 14
+Ferdinand-Hodler;DIP Ecole publique;VDG;Rive;;;Boulevard Jaques-Dalcroz;4;1204;Genève;fhodler-micheli-santoine@etat.ge.ch;022 418 34 43
+Micheli-du-crest;DIP Ecole publique;VDG;Rive;;;Rue Micheli-Du-Crest;17;1205;Genève;fhodler-micheli-santoine@etat.ge.ch;022 418 34 43
+Saint-Antoine;DIP Ecole publique;VDG;Rive;;;Promenade Saint-Antoine;8 à 10;1204;Genève;fhodler-micheli-santoine@etat.ge.ch;022 418 34 43
+Franchises;DIP Ecole publique;VDG;Franchises;;;Route des Franchises;54;1203;Genève;franchises-liotard-vieusseux@etat.ge.ch;022 418 31 30
+Liotard;DIP Ecole publique;VDG;Vieusseux;;;Rue Liotard;66;1203;Genève;franchises-liotard-vieusseux@etat.ge.ch;022 418 31 10
+Vieusseux;DIP Ecole publique;VDG;Vieusseux;;;Cité-Vieusseux;14;1203;Genève;franchises-liotard-vieusseux@etat.ge.ch;022 418 31 20
+Central;DIP Ecole publique;VDG;Geisendorf;;;Rue de Lyon;56;1203;Genève;geisendorf@etat.ge.ch;022 418 33 00
+Faller;DIP Ecole publique;VDG;Geisendorf;;;Rue de Lyon;56;1203;Genève;geisendorf@etat.ge.ch;022 418 33 00
+Poterie;DIP Ecole publique;VDG;Geisendorf;;;Rue de Lyon;56;1203;Genève;geisendorf@etat.ge.ch;022 418 33 00
+Grand-Saconnex-Place;DIP Ecole publique;Canton;Grand-Saconnex;;;Chemin Sarasin;51;1218;Grand-Saconnex;gdsacvillage-place-pregny@etat.ge.ch;022 920 98 10
+Grand-Saconnex-Village;DIP Ecole publique;Canton;Grand-Saconnex;;;Route de Colovrex;31;1218;Grand-Saconnex;gdsacvillage-place-pregny@etat.ge.ch;022 920 98 40
+Pregny-Fontaine;DIP Ecole publique;Canton;Pregny;;;Chemin de la Fontaine;77;1292;Chambesy;gdsacvillage-place-pregny@etat.ge.ch;022 758 17 10
+Pregny-Village;DIP Ecole publique;Canton;Pregny;;;Chemin de Valérie;25;1292;Chambesy;gdsacvillage-place-pregny@etat.ge.ch;022 758 15 90
+Grand-Salève;DIP Ecole publique;Canton;Veyrier;;;Avenue du Grand-Salève;10;1255;Veyrier;grand-salève-troinex@etat.ge.ch;022 799 10 50
+Troinex;DIP Ecole publique;Canton;Troinex;;;Place de la Mairie;2;1256;Troinex;grand-salève-troinex@etat.ge.ch;022 784 31 04
+Beaulieu;DIP Ecole publique;VDG;Beaulieu;;;Rue du Grand-Pré;22;1202;Genève;grottes-beaulieu-cropettes@etat.ge.ch;022 418 30 69
+Cropettes;DIP Ecole publique;VDG;Cropettes;;;Rue Baulacre;8;1202;Genève;grottes-beaulieu-cropettes@etat.ge.ch;022 418 30 60
+Grottes;DIP Ecole publique;VDG;Grottes;;;Avenue Eugène-Empeyta;5 à 7;1202;Genève;grottes-beaulieu-cropettes@etat.ge.ch;022 418 30 60
+Céligny;DIP Ecole publique;Canton;Céligny;;;Route de Crans;7;1298;Céligny;lachenal-celigny-collex@etat.ge.ch;022 950 84 21
+Collex-Bossy;DIP Ecole publique;Canton;Collex;;;Route de Vireloup;107;1239;Collex;lachenal-celigny-collex@etat.ge.ch;022 950 84 21
+Lachenal;DIP Ecole publique;Canton;Versoix;;;Route de Saint-Loup;10;1290;Versoix;lachenal-celigny-collex@etat.ge.ch;022 950 84 21
+Contamines;DIP Ecole publique;VDG;Contamines;;;Rue Michel-Chauvet;22;1208;Genève;lecorbusier-contamines@etat.ge.ch;022 418 30 90
+Le-Corbusier;DIP Ecole publique;VDG;Malagnou;;;Rue Le Corbusier;2;1208;Genève;lecorbusier-contamines@etat.ge.ch;022 418 31 00
+Le-Sapay;DIP Ecole publique;Canton;Plan-Les-Ouates;;;Chemin Le-Sapay;10;1228;Plan-Les-Ouates;lesapay@etat.ge.ch;022 304 16 60
+Emilie-de-Morsier;DIP Ecole publique;Canton;Châtelaine;;;Rue Jean-Simonet;1A;1219;Châtelaine;libellules@etat.ge.ch;022 327 09 60
+Libellules;DIP Ecole publique;Canton;Châtelaine;;;Route de l'Usine-à-Gaz;16;1219;Châtelaine;libellules@etat.ge.ch;022 327 09 34
+Aïre;DIP Ecole publique;Canton;Aïre;;;Chemin du Grand-Champs;11;1219;Aïre;lignon-aire@etat.ge.ch;022 327 09 44
+Lignon CE;DIP Ecole publique;Canton;Lignon;;;Place du Lignon;22;1219;Le Lignon;lignon-aire@etat.ge.ch;022 327 09 44
+Lignon CM;DIP Ecole publique;Canton;Lignon;;;Place du Lignon;24;1219;Le Lignon;lignon-aire@etat.ge.ch;022 327 09 44
+Carl-Vogt;DIP Ecole publique;VDG;Jonction;;;Boulevard Carl-Vogt;69;1205;Genève;mail-carlvogt@etat.ge.ch;022 418 33 84
+Mail;DIP Ecole publique;VDG;Jonction;;;Rue du Village-Suisse;5;1205;Genève;mail-carlvogt@etat.ge.ch;022 418 33 60
+Dardagny;DIP Ecole publique;Canton;Mandement;;;Route du Mandement;520;1283;Dardagny;mandement@etat.ge.ch;022 753 90 80
+Plaine;DIP Ecole publique;Canton;Mandement;;;Route de La-Plaine;79;1283;La Plaine;mandement@etat.ge.ch;022 753 90 80
+Russin;DIP Ecole publique;Canton;Mandement;;;Route du Mandement;351;1281;Russin;mandement@etat.ge.ch;022 753 90 80
+Satigny-Mairie;DIP Ecole publique;Canton;Mandement;;;Rampe de Choully;21;1242;Satigny;mandement@etat.ge.ch;022 753 90 80
+Satigny-Village;DIP Ecole publique;Canton;Mandement;;;Route de la Gare;27A;1242;Satigny;mandement@etat.ge.ch;022 753 90 80
+Meyrin-Monthoux;DIP Ecole publique;Canton;Meyrin;;;Rue Virginio-Malnati;44;1217;Meyrin;meyrin-monthoux-village@etat.ge.ch;022 785 33 59
+Meyrin-Village;DIP Ecole publique;Canton;Meyrin;;;Avenue de Vaudagne;6;1217;Meyrin;meyrin-monthoux-village@etat.ge.ch;022 785 33 59
+Belle-Cour;DIP Ecole publique;Canton;Onex;;;Route du Grand-Lancy;155;1213;Onex;onexparc-bellecour@etat.ge.ch;022 879 85 30
+Onex-Parc;DIP Ecole publique;Canton;Onex;;;Rue des Bossons;7;1213;Onex;onexparc-bellecour@etat.ge.ch;022 388 60 84
+Bachet-de-Pesay;DIP Ecole publique;Canton;Grand-Lancy;;;Chemin des Pontets;19;1212;Grand-Lancy;palettes-bachet@etat.ge.ch;022 794 33 24
+Palettes;DIP Ecole publique;Canton;Grand-Lancy;;;Avenue des Grandes-Communes;60;1212;Grand-Lancy;palettes-bachet@etat.ge.ch;022 794 33 24
+De-Chateaubriand;DIP Ecole publique;VDG;Pâquis;;;Place de Chateaubriand;1;1202;Genève;paquis@etat.ge.ch;022 418 31 60
+Pâquis-Centre;DIP Ecole publique;VDG;Pâquis;;;Rue de Berne;50;1201;Genève;paquis@etat.ge.ch;022 418 31 50
+Zurich;DIP Ecole publique;VDG;Pâquis;;;Rue de Zurich;28;1201;Genève;paquis@etat.ge.ch;022 418 31 40
+Compesières;DIP Ecole publique;Canton;Compesière;;;Route de Cugny;95;1257;La -Croix-de-Rozon;perly-comp-lac-soral@etat.ge.ch;022 721 02 80
+Laconnex;DIP Ecole publique;Canton;Laconnex;;;Chemin des Quarts;2;1287;Laconnex;perly-comp-lac-soral@etat.ge.ch;022 756 31 13
+Perly-Certoux;DIP Ecole publique;Canton;Perly-Certoux;;;Route de Certoux;35;1258;Perly;perly-comp-lac-soral@etat.ge.ch;022 721 02 47
+Soral;DIP Ecole publique;Canton;Soral;;;Route des Lolliets;11;1286;Soral;perly-comp-lac-soral@etat.ge.ch;022 756 20 68
+De-Montfalcon;DIP Ecole publique;Canton;Carouge;;;Avenue de la Praille;19;1227;Carouge;pervenches-dmontf-jdalphin@etat.ge.ch;022 307 91 75
+Jacques-Dalphin;DIP Ecole publique;Canton;Carouge;;;Rue Jacques-Dalphin;33;1227;Carouge;pervenches-dmontf-jdalphin@etat.ge.ch;022 307 91 81
+Pervenches;DIP Ecole publique;Canton;Carouge;;;Rue Louis-de-Montfalcon;4;1227;Carouge;pervenches-dmontf-jdalphin@etat.ge.ch;022 307 91 91
+Crêts-de-Champel;DIP Ecole publique;VDG;Champel;;;Chemin des Crêts-de-Champel;40;1206;Genève;peschier-cchampel@etat.ge.ch;022 418 30 70
+Peschier;DIP Ecole publique;VDG;Champel;;;Avenue Dumas;28;1206;Genève;peschier-cchampel@etat.ge.ch;022 418 30 70
+Petit-Lancy;DIP Ecole publique;Canton;Petit-Lancy;;;Avenue Louis-Bertrand;7;1213;Petit-Lancy;plateau-petitlancy-tivoli@etat.ge.ch;022 879 52 00
+Plateau;DIP Ecole publique;Canton;Petit-Lancy;;;Avenue du Plateau;40;1213;Petit-Lancy;plateau-petitlancy-tivoli@etat.ge.ch;022 879 52 00
+Tivoli;DIP Ecole publique;Canton;Petit-Lancy;;;Chemin Fief-de-Chapitre;15;1213;Petit-Lancy;plateau-petitlancy-tivoli@etat.ge.ch;022 879 52 00
+Roseraie;DIP Ecole publique;VDG;Roseraie;;;Rue des Peupliers;15;1205;Genève;roseraie@etat.ge.ch;022 418 35 40
+De Chandieu;DIP Ecole publique;VDG;Chandieu;;;Rue de chandieu;10;1202;Genève;secheron-dechandieu@etat.ge.ch;022 418 30 00
+Sécheron;DIP Ecole publique;VDG;Sécheron;;;Avenue de France;15;1202;Genève;secheron-dechandieu@etat.ge.ch;022 418 30 00
+Devin-du-Village;DIP Ecole publique;VDG;Saint-Jean;;;Rue du Vicaire-savoyard;1;1203;Genève;seujet-devin-necker-sjean@etat.ge.ch;022 418 36 90 
+Necker;DIP Ecole publique;VDG;Cornavin;;;Rue Jacques-Necker;4;1201;Genève;seujet-devin-necker-sjean@etat.ge.ch;022 418 36 80
+Saint-Jean;DIP Ecole publique;VDG;Saint-Jean;;;Rue de saint-Jean ;12;1203;Genève;seujet-devin-necker-sjean@etat.ge.ch;022 418 36 70
+Seujet;DIP Ecole publique;VDG;Seujet;;;Quai du Seujet;8;1201;Genève;seujet-devin-necker-sjean@etat.ge.ch;022 418 36 60
+Tambourine;DIP Ecole publique;Canton;Carouge;;;Rue de la Tambourine;37;1227;Carouge;tambourine-vignerouge@etat.ge.ch;022 307 91 60
+Vigne-Rouge;DIP Ecole publique;Canton;Carouge;;;Chemin de la Vigne-Rouge;2;1227;Carouge;tambourine-vignerouge@etat.ge.ch;022 307 91 50
+Gros-Chêne;DIP Ecole publique;Canton;Onex;;;Avenue du Gros-Chêne;39b;1213;Onex;tattes-groschene-racettes@etat.ge.ch;022 792 57 64
+Racettes;DIP Ecole publique;Canton;Onex;;;Chemin de la Pralée;14;1213;Onex;tattes-groschene-racettes@etat.ge.ch;022 792 57 64
+Tattes;DIP Ecole publique;Canton;Onex;;;Rue du Comte-Géraud;26;1213;Onex;tattes-groschene-racettes@etat.ge.ch;022 792 57 64
+Belle-Terre;DIP Ecole publique;Canton;Thônex Nord;;;Allée Belle-Terre;18;12226;Thonex;thonex-nord@etat.ge.ch;022 869 44 00
+Marcelly;DIP Ecole publique;Canton;Thônex Nord;;;Chemin de Marcelly;10;1226;Thonex;thonex-nord@etat.ge.ch;022 348 70 69
+Pont-Bochet;DIP Ecole publique;Canton;Thônex Nord;;;Route de Mon-Idée;69;1226;Thonex;thonex-nord@etat.ge.ch;022 348 84 22
+Pommier;DIP Ecole publique;Canton;Grand-Saconnex;;;Rue de Sonnex;2 à 4;1218;Grand-Saconnex;tour-pommier@etat.ge.ch;022 920 98 50
+Tour;DIP Ecole publique;Canton;Grand-Saconnex;;;Chemin du Pommier;15;1218;Grand-Saconnex;tour-pommier@etat.ge.ch;022 920 98 20
+Trembley CE;DIP Ecole publique;VDG;Trembley;;;Rue Pestalozzi;4;1202;Genève;trembley@etat.ge.ch;022 418 34 60
+Trembley CM;DIP Ecole publique;VDG;Trembley;;;Rue Pestalozzi;6;1202;Genève;trembley@etat.ge.ch;022 418 34 60
+Promenades;DIP Ecole publique;Canton;Carouge;;;Boulevard des Promenades;24;1227;Carouge;valdarve-promenades@etat.ge.ch;022 307 91 20
+Val-d'Arve;DIP Ecole publique;Canton;Carouge;;;Rue Daniel-Gevril;13;1227;Carouge;valdarve-promenades@etat.ge.ch;022 307 91 30
+Choulex;DIP Ecole publique;Canton;Choulex;;;Chemin des Briffods;11;1244;Choulex;vand-choul-colo-ppicot-pup@etat.ge.ch;022 750 22 17
+Cologny;DIP Ecole publique;Canton;Cologny;;;Route Martin-Bodmer;16;1223;Cologny;vand-choul-colo-ppicot-pup@etat.ge.ch;022 736 733 33
+Pré-Picot;DIP Ecole publique;Canton;Cologny;;;Chemin du Pré-Picot;1;1223;Cologny;vand-choul-colo-ppicot-pup@etat.ge.ch;022 850 94 60
+Puplinge;DIP Ecole publique;Canton;Puplinge;;;Rue de Graman;52;1241;Puplinge;vand-choul-colo-ppicot-pup@etat.ge.ch;022 349 75 69
+Vandoeuvres;DIP Ecole publique;Canton;Vandoeuvres;;;Route de Pressy;2;1253;Vandoeuvres;vand-choul-colo-ppicot-pup@etat.ge.ch;022 750 22 17
+Poussy;DIP Ecole publique;Canton;Vernier;;;Chemin de Poussy;46;1214;Vernier;vernier-village@etat.ge.ch;022 327 09 50
+Ranches CE;DIP Ecole publique;Canton;Vernier;;;Rue du Village ;6;1214;Vernier;vernier-village@etat.ge.ch;022 327 09 50
+Ranches CM;DIP Ecole publique;Canton;Vernier;;;Rue du Village ;6;1214;Vernier;vernier-village@etat.ge.ch;022 327 09 50
+Ranches-Village CE;DIP Ecole publique;Canton;Vernier;;;Rue du Village ;50;1214;Vernier;vernier-village@etat.ge.ch;022 327 09 50
+Vernier-Place;DIP Ecole publique;Canton;Vernier;;;Route de Vernier;200;1214;Vernier;vernier-village@etat.ge.ch;022 327 09 50
+Allières;DIP Ecole publique;VDG;Eaux-Vives;;;Avenue des Allières;14;1208;Genève;vollandes-allieres-montchoisy@etat.ge.ch;022 418 38 60
+Montchoisy;DIP Ecole publique;VDG;Eaux-Vives;;;Rue de Montchoisy;47;1208;Genève;vollandes-allieres-montchoisy@etat.ge.ch;022 418 38 70
+Vollandes;DIP Ecole publique;VDG;Eaux-Vives;;;Rue du Nant;35;1207;Genève;vollandes-allieres-montchoisy@etat.ge.ch;022 418 38 50
+De-Roches;DIP Ecole publique;VDG;Eaux-Vives;;;Chemin des Roches;21;1208;Genève;31decembre-deroches-eauxvives@etat.ge.ch;022 418 35 90
+Eaux-Vives;DIP Ecole publique;VDG;Eaux-Vives;;;Rue des Eaux-Vives;86;1207;Genève;31decembre-deroches-eauxvives@etat.ge.ch;022 418 35 70
+XXXI-Décembre;DIP Ecole publique;VDG;Eaux-Vives;;;Rue du 31-Décembre;63;1207;Genève;31decembre-deroches-eauxvives@etat.ge.ch;022 418 35 60

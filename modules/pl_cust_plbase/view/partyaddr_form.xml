@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<data>
+  <xpath expr="/form" position="replace">
+    <form col="6">
+      <label name="party"/>
+      <field name="party" colspan="5"/>
+      <!--<label name="party_name"/>
+  <field name="party_name"/>-->
+
+
+
+      <!--<label name="name"/>
+  <field name="name"/>
+  <label name="type"/>
+  <field name="type"/>-->
+
+
+      <group id="newaddr" colspan="4" col="4">
+        <label name="contact_title" xfill="0" xalign="0" />
+        <field name="contact_title" xalign="0" xfill="1" xexpand="1"/>
+        <label name="invoice" xalign="0" xfill="0"/>
+        <field name="invoice" xfill="1" xexpand="0"/>
+        <label name="contact_firstname" xalign="0" xfill="0" xexpand="0"/>
+        <field name="contact_firstname" xalign="0" xfill="1" xexpand="1"/>
+        <label name="contact_name" xalign="0" xfill="0" xexpand="0"/>
+        <field name="contact_name" xalign="0" xfill="1" xexpand="1"/>
+        <label name="contact_function" xalign="0" xfill="0" xexpand="0"/>
+        <field name="contact_function" xalign="0" xfill="1" xexpand="1"/>
+        <label name="contact_mail" xalign="0" xfill="0" xexpand="0"/>
+        <field name="contact_mail" xalign="0" xfill="1" xexpand="1"/>
+        <label name="contact_phone" xalign="0" xfill="0" xexpand="0"/>
+        <field name="contact_phone" xalign="0" xfill="1" xexpand="1"/>
+        <label name="contact_phone2" xalign="0" xfill="0" xexpand="0"/>
+        <field name="contact_phone2" xalign="0" xfill="1" xexpand="1"/>
+        <label name="addr_compl" xalign="0" xfill="0" xexpand="0"/>
+        <field name="addr_compl" colspan="3"/>
+        <label name="addr_street" xalign="0" xfill="0" xexpand="0"/>
+        <field name="addr_street" xalign="0" xfill="1" xexpand="1"/>
+        <label name="addr_street_num" xalign="0" xfill="0" xexpand="0"/>
+        <field name="addr_street_num" xalign="0" xfill="1" xexpand="1"/>
+        <label name="addr_compl2" xalign="0" xfill="0" xexpand="0"/>
+        <field name="addr_compl2" xalign="0" colspan="3"/>
+        <label name="postal_code" xalign="0" xfill="0" xexpand="0"/>
+        <field name="postal_code" xalign="0" xfill="1" xexpand="1"/>
+        <label name="city" xalign="0" xfill="0" xexpand="0"/>
+        <field name="city" xalign="0" xfill="1" xexpand="1"/>
+        <label name="country" xalign="0" xfill="0" xexpand="0"/>
+        <field name="country" xalign="0" xfill="1" xexpand="1"/>
+        <label name="type" xalign="0" xfill="0" xexpand="0"/>
+        <field name="type" xalign="0" xfill="1" xexpand="1"/>
+        <field name="full_address" colspan="4" readonly="1"/>
+        <!--<field name="active" xexpand="0" width="25" invisible="1"/>-->
+        
+        <!--<label name="subdivision" xalign="0" xfill="0" xexpand="0"/>
+        <field name="subdivision" xalign="0" xfill="1" xexpand="1"/>-->
+        <label name="sequence" xalign="0" xfill="0" xexpand="0"/>
+        <field name="sequence" xalign="0" xfill="1" xexpand="1"/>
+      </group>
+    </form>
+  </xpath>
+</data>

@@ -1,0 +1,4 @@
+<form col="1">
+  <label name="qr_file"/>
+  <field name="qr_file"/>
+</form>

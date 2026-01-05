@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+
+    <xpath expr="/form" position="replace">
+        <form>
+            <group id="altheader" colspan="2" col="2">
+                <group id="altname" colspan="2" col="6">
+                    <label name="name"/>
+                    <field name="name" readonly="1"/>
+                    <label name="description"/>
+                    <field name="description"/>
+                </group>
+                <label name="party_id"/>
+                <field name="party_id"/>
+                <label name="contact_name"/>
+                <field name="contact_name"/>
+                <label name="contact_address"/>
+                <field name="contact_address"/>
+                <label name="fact_to"/>
+                <field name="fact_to"/>
+            </group>
+            <group id="altheader2" colspan="2" col="2">
+                <field name="internal_com" colspan="2"/>
+                <field name="internal_notes" colspan="2"/>
+                <group id="altdate" colspan="2" col="6">
+                    <label name="date_start" />
+                    <field name="date_start" />
+                    <label name="date_end" />
+                    <field name="date_end" />
+                </group>
+            </group>
+            <notebook colspan="4">
+                <page string="Devis" col="6" id="altdevis">
+                    <link icon="tryton-shipment-in" name="pl_cust_devis.act_folders_devis" empty="show" colspan="6"/>
+                    <label name="price_tot"/>
+                    <field name="price_tot"/>
+                    <label name="price_devis"/>
+                    <field name="price_devis"/>
+                    <label name="price_manual"/>
+                    <field name="price_manual"/>
+                    <field name="devis_lines" colspan="6"/>
+                </page>
+                <page string="Invoices" id="altinv">
+                    <link icon="tryton-shipment-in" name="pl_cust_plfolders.act_folders_invoices" empty="show" colspan="2"/>
+                    <field name="invoice_ids" colspan="4"/>
+                    <field name="in_invoice_ids" colspan="4"/>
+                </page>
+                <page string="Notes" id="altnotes">
+                    <label name="notes" xalign="0.0" colspan="4"/>
+                    <field name="notes" colspan="4"/>
+                    <field name="active" colspan="4"/>
+
+                </page>
+                <page string="Timesheet" id="folderts">
+                    <field name="timesheet_ids" colspan="4" widget="one2many"/>
+                </page>
+
+            </notebook>
+            <field name="state" colspan="4"/>
+
+            <group id="actionbut" colspan="4" col="1">
+                <button name="devismake_invoice" string="Facturation du devis" icon="tryton-go-next"/>
+                <button name="open" string="Accepter" icon="tryton-go-next"/>
+                <button name="invoiced" string="Passer à l'état facturé" icon="tryton-go-next"/>
+                <button name="denied" string="Refuser" icon="tryton-go-next"/>
+                <button name="close" string="Archiver" icon="tryton-go-next"/>
+                <button name="reopen" string="re-Ouvrir" icon="tryton-go-next"/>
+            </group>
+        </form>
+    </xpath>
+</data>

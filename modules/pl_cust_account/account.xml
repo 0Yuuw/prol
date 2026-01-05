@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+
+    <record model="ir.ui.view" id="plbalance_sheet_context_view_form">
+        <field name="model">account.balance_sheet.context</field>
+        <field name="inherit" ref="account.balance_sheet_context_view_form"/>
+        <field name="name">pl_balance_sheet_context_form</field>
+        <field name="priority" eval="60"/>
+    </record>
+
+    <record model="ir.ui.view" id="plbalance_sheet_comp_context_view_form">
+        <field name="model">account.balance_sheet.comparison.context</field>
+        <field name="inherit" ref="account.balance_sheet_comparison_context_view_form"/>
+        <field name="name">pl_balance_sheet_comp_context_form</field>
+        <field name="priority" eval="60"/>
+    </record>
+
+    <record model="ir.ui.view" id="pl_account_conf">
+      <field name="model">account.configuration</field>
+      <field name="inherit" ref="account.configuration_view_form"/>
+      <field name="name">placcount_form</field>
+      <field name="priority" eval="60"/>
+    </record>
+
+    <record model="ir.ui.view" id="statement_import_start_view_form">
+      <field name="model">pl_cust_account.statement.import.start</field>
+      <field name="type">form</field>
+      <field name="name">statement_import_start_form</field>
+    </record>
+
+    <record model="ir.action.wizard" id="act_wizard_importstatement">
+      <field name="name">Importer fichier BVR</field>
+      <field name="wiz_name">pl_cust_account.statement.import</field>
+      <field name="model">account.statement</field>
+    </record>
+    <record model="ir.action.keyword" id="wizard_createinv_keyword1">
+      <field name="keyword">form_action</field>
+      <field name="model">account.statement,-1</field>
+      <field name="action" ref="act_wizard_importstatement"/>
+    </record>
+
+    <record model="ir.ui.view" id="isaline_import_start_view_form">
+      <field name="model">pl_cust_account.isaline.import.start</field>
+      <field name="type">form</field>
+      <field name="name">isaline_import_start_form</field>
+    </record>
+
+    <record model="ir.action.wizard" id="act_wizard_importisaline">
+      <field name="name">Importer fichier écriture</field>
+      <field name="wiz_name">pl_cust_account.isaline.import</field>
+      <field name="model">account.statement</field>
+    </record>
+    <record model="ir.action.keyword" id="wizard_isaline_keyword1">
+      <field name="keyword">form_action</field>
+      <field name="model">account.statement,-1</field>
+      <field name="action" ref="act_wizard_importisaline"/>
+    </record>
+
+    <!--<menuitem parent="menu_avo" action="act_wizard_createinv" id="menu_createinv" sequence="20"/>-->
+
+
+    <record model="account.statement.origin.information" id="camt_reference">
+      <field name="name">camt_reference</field>
+      <field name="string">Reference</field>
+      <field name="type_">char</field>
+    </record>
+    <record model="account.statement.origin.information" id="camt_ammount">
+      <field name="name">camt_ammount</field>
+      <field name="string">Ammount</field>
+      <field name="type_">float</field>
+    </record>
+    <record model="account.statement.origin.information" id="camt_date">
+      <field name="name">camt_date</field>
+      <field name="string">Date</field>
+      <field name="type_">date</field>
+    </record>
+    <record model="account.statement.origin.information" id="camt_full_line">
+      <field name="name">camt_full_line</field>
+      <field name="string">Info</field>
+      <field name="type_">char</field>
+    </record>
+  </data>
+</tryton>

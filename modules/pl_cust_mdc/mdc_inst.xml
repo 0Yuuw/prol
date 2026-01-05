@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <record model="ir.ui.view" id="mdc_dayinst_view_form">
+            <field name="model">pl_cust_mdc.day_inst</field>
+            <field name="type">form</field>
+            <field name="name">dayinst_form</field>
+            <field name="priority" eval="81"/>
+        </record>
+        <record model="ir.ui.view" id="mdc_dayinst_view_tree">
+            <field name="model">pl_cust_mdc.day_inst</field>
+            <field name="type">tree</field>
+            <field name="name">dayinst_tree</field>
+            <field name="priority" eval="81"/>
+        </record>
+
+        <record model="ir.action.act_window" id="act_mdc_dayinst_form">
+            <field name="name">Days Inst</field>
+            <field name="res_model">pl_cust_mdc.day_inst</field>
+        </record>
+
+        <record model="ir.action.act_window.domain" id="act_mdc_dayinst_form_view4">
+            <field name="name">A valider</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('booking_to_valid', '=', True)]" pyson="1"/>
+            <field name="count" eval="False"/>
+            <field name="act_window" ref="act_mdc_dayinst_form"/>
+        </record>
+
+        <record model="ir.action.act_window.domain" id="act_mdc_dayinst_form_view1">
+            <field name="name">Aujourd_hui</field>
+            <field name="sequence" eval="20"/>
+            <field name="domain" eval="[('date', '=', Date())]" pyson="1"/>
+            <field name="count" eval="False"/>
+            <field name="act_window" ref="act_mdc_dayinst_form"/>
+        </record>
+
+        <record model="ir.action.act_window.domain" id="act_mdc_dayinst_form_view2">
+            <field name="name">7 jours</field>
+            <field name="sequence" eval="30"/>
+            <field name="domain" eval="[('date', '>=', Date())]" pyson="1"/>
+            <field name="count" eval="False"/>
+            <field name="act_window" ref="act_mdc_dayinst_form"/>
+        </record>
+
+        <record model="ir.action.act_window.domain" id="act_mdc_dayinst_form_view3">
+            <field name="name">Tout</field>
+            <field name="sequence" eval="40"/>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="count" eval="False"/>
+            <field name="act_window" ref="act_mdc_dayinst_form"/>
+        </record>
+
+        <record model="ir.ui.view" id="mdc_bookinginst_view_form">
+            <field name="model">pl_cust_mdc.booking_inst</field>
+            <field name="type">form</field>
+            <field name="name">bookinginst_form</field>
+            <field name="priority" eval="81"/>
+        </record>
+        <record model="ir.ui.view" id="mdc_bookinginst_view_tree">
+            <field name="model">pl_cust_mdc.booking_inst</field>
+            <field name="type">tree</field>
+            <field name="name">bookinginst_tree</field>
+            <field name="priority" eval="81"/>
+        </record>
+
+        <record model="ir.action.act_window" id="act_bookinst_day">
+            <field name="name">Réservation du jour</field>
+            <field name="res_model">pl_cust_mdc.booking_inst</field>
+            <field name="domain" eval="[If(Eval('active_ids', []) == [Eval('active_id')], ('day', '=', Eval('active_id')), ('day', 'in', Eval('active_ids')))]" pyson="1"/>
+        </record>
+        <record model="ir.action.keyword" id="act_bookinst_day_keyword1">
+            <field name="keyword">form_relate</field>
+            <field name="model">pl_cust_mdc.booking_inst,-1</field>
+            <field name="action" ref="act_bookinst_day"/>
+        </record>
+
+        <record model="ir.action.act_window" id="act_mdc_bookinginst_form">
+            <field name="name">Booking Inst</field>
+            <field name="res_model">pl_cust_mdc.booking_inst</field>
+        </record>
+
+        <record model="ir.action.act_window.domain" id="act_mdc_bookinginst_form_view1">
+            <field name="name">A valider</field>
+            <field name="sequence" eval="50"/>
+            <field name="domain" eval="[('state', '=', 'draft')]" pyson="1"/>
+            <field name="count" eval="False"/>
+            <field name="act_window" ref="act_mdc_bookinginst_form"/>
+        </record>
+
+        <record model="ir.action.act_window.domain" id="act_mdc_bookinginst_form_view2">
+            <field name="name">Tout</field>
+            <field name="sequence" eval="50"/>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="count" eval="False"/>
+            <field name="act_window" ref="act_mdc_bookinginst_form"/>
+        </record>
+
+        <menuitem action="act_mdc_dayinst_form" parent="pl_cust_mdc.menu_mdc" sequence="20" id="menu_mdc_dayinst_form"/>
+        <menuitem action="act_mdc_bookinginst_form" parent="pl_cust_mdc.menu_mdc" sequence="10" id="menu_mdc_bookinginst_form"/>
+
+    </data>
+
+</tryton>

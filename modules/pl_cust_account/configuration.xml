@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <menuitem name="Compta" parent="pl_cust_plbase.menu_start" sequence="20" id="menu_compta" icon="tryton-party"/>
+
+        <record model="res.group" id="group_compta_admin">
+            <field name="name">Compta PL Administration</field>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="menu_compta_group_compta_admin">
+            <field name="menu" ref="menu_compta"/>
+            <field name="group" ref="group_compta_admin"/>
+        </record>
+
+        <record model="ir.action.act_window" id="act_plinvoice_out_form">
+            <field name="name">Factures clients</field>
+            <field name="res_model">account.invoice</field>
+            <field name="domain" eval="[('type', '=', 'out')]" pyson="1"/>
+            <field name="context" eval="{'type': 'out'}" pyson="1"/>
+            <field name="search_value"></field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_plinvoice_in_form">
+            <field name="name">Factures fournisseurs</field>
+            <field name="res_model">account.invoice</field>
+            <field name="domain" eval="[('type', '=', 'in')]" pyson="1"/>
+            <field name="context" eval="{'type': 'in'}" pyson="1"/>
+            <field name="search_value"></field>
+        </record>
+
+        <menuitem name="Factures clients" parent="menu_compta" action="act_plinvoice_out_form" sequence="10" id="menu_fc" icon="tryton-party"/>
+        <menuitem name="Factures fournisseurs" parent="menu_compta" action="act_plinvoice_in_form" sequence="11" id="menu_ff" icon="tryton-party"/>
+
+    </data>
+</tryton>

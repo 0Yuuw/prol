@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+
+    <record model="ir.ui.view" id="locationtmp_view_form">
+      <field name="model">pl_cust_materiel.location_tmp</field>
+      <field name="type">form</field>
+      <field name="name">location_tmp_form</field>
+    </record>
+    <record model="ir.ui.view" id="locationtmp_view_tree">
+      <field name="model">pl_cust_materiel.location_tmp</field>
+      <field name="type">tree</field>
+      <field name="name">location_tmp_tree</field>
+    </record>
+
+    <record model="ir.ui.view" id="addmanif_step2_view_form">
+      <field name="model">pl_cust_materiel.addmanif_step2</field>
+      <field name="type">form</field>
+      <field name="name">addmanif_step2_form</field>
+    </record>
+
+    <record model="ir.ui.view" id="addmanif_step3_view_form">
+      <field name="model">pl_cust_materiel.addmanif_step3</field>
+      <field name="type">form</field>
+      <field name="name">addmanif_step3_form</field>
+    </record>
+
+    <record model="ir.ui.view" id="addmanif_start_view_form">
+      <field name="model">pl_cust_materiel.addmanif_start</field>
+      <field name="type">form</field>
+      <field name="name">addmanif_start_form</field>
+    </record>
+
+    <record model="ir.action.wizard" id="act_wizard_addmanif">
+      <field name="name">Add Manif</field>
+      <field name="wiz_name">pl_cust_materiel.addmanif</field>
+    </record>
+
+    <menuitem parent="pl_cust_materiel.menu_materiel" action="act_wizard_addmanif" id="menu_addmanif" sequence="60"/>
+
+    <record model="ir.ui.menu-res.group" id="menu_addmanif_group_wizard">
+      <field name="menu" ref="menu_addmanif"/>
+      <field name="group" ref="group_mat_wizard"/>
+    </record>
+    
+  </data>
+</tryton>

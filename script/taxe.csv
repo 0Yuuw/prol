@@ -1,0 +1,4 @@
+"Nom";"Description";"Type";"Taux";"Compte de facture";"Compte de note de crédit"
+"TVA 7.7 s/ventes";"TVA 7.7 s/ventes";"percentage";0.077;2200;2200
+"TVA 7.7 s/achats B&S";"TVA 7.7 s/achats B&S";"percentage";0.077;1170;1170
+"TVA 7.7 s/inv. & FGX";"TVA 7.7 s/inv. & FGX";"percentage";0.077;1171;1171

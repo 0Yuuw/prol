@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<tryton>
+    <data>
+        <!-- Vues Dons -->
+        <record model="ir.ui.view" id="building_view_form">
+            <field name="model">pl_cust_building.building</field>
+            <field name="type">form</field>
+            <field name="name">building_form</field>
+        </record>
+        <record model="ir.ui.view" id="building_view_tree">
+            <field name="model">pl_cust_building.building</field>
+            <field name="type">tree</field>
+            <field name="name">building_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="buildingloc_view_form">
+            <field name="model">pl_cust_building.buildingloc</field>
+            <field name="type">form</field>
+            <field name="name">buildingloc_form</field>
+        </record>
+        <record model="ir.ui.view" id="buildingloc_view_tree">
+            <field name="model">pl_cust_building.buildingloc</field>
+            <field name="type">tree</field>
+            <field name="name">buildingloc_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_building_form">
+            <field name="name">Building</field>
+            <field name="res_model">pl_cust_building.building</field>
+        </record>
+
+        <menuitem parent="pl_cust_plbase.menu_start" action="act_building_form" id="menu_building" sequence="3" icon="tryton-list"/>
+
+        <record model="ir.ui.view" id="buildingfolder_view_form">
+            <field name="model">pl_cust_plfolders.folders</field>
+            <field name="inherit" ref="pl_cust_plfolders.folders_view_form"/>
+            <field name="name">buildingfolder_form</field>
+            <field name="priority" eval="70"/>
+        </record>
+        
+    </data>
+</tryton>

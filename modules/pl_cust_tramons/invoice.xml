@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <!--<record model="ir.action.report" id="qr_report_invoice">
+            <field name="name">QR Factures</field>
+            <field name="model">account.invoice</field>
+            <field name="report_name">pl_cust_account.invoice_report</field>
+            <field name="report">pl_cust_labster/labster_QR.fodt</field>
+            <field name="single">1</field>
+        </record>
+        <record model="ir.action.keyword" id="report_qrinvoice_keyword">
+            <field name="keyword">form_print</field>
+            <field name="model">account.invoice,-1</field>
+            <field name="action" ref="qr_report_invoice"/>
+        </record>-->
+        <record model="ir.action.report" id="qr_report_invoice4">
+            <field name="name">Tramons Factures (une page)</field>
+            <field name="model">account.invoice</field>
+            <field name="report_name">pl_cust_account.invoice_report</field>
+            <field name="report">pl_cust_tramons/tramons_invoice_onepage.fodt</field>
+            <field name="single">1</field>
+        </record>
+        <record model="ir.action.keyword" id="report_qrinvoice_keyword4">
+            <field name="keyword">form_print</field>
+            <field name="model">account.invoice,-1</field>
+            <field name="action" ref="qr_report_invoice4"/>
+        </record>
+
+        <record model="ir.action.report" id="qr_report_invoice5">
+            <field name="name">Tramons Factures</field>
+            <field name="model">account.invoice</field>
+            <field name="report_name">pl_cust_account.invoice_report</field>
+            <field name="report">pl_cust_tramons/tramons_invoice.fodt</field>
+            <field name="single">1</field>
+        </record>
+        <record model="ir.action.keyword" id="report_qrinvoice_keyword5">
+            <field name="keyword">form_print</field>
+            <field name="model">account.invoice,-1</field>
+            <field name="action" ref="qr_report_invoice5"/>
+        </record>
+    </data>
+</tryton>

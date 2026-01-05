@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <menuitem name="Menu principal" sequence="0" id="menu_start" icon="tryton-party"/>
+        
+        <record model="res.group" id="group_pl_party_admin">
+            <field name="name">PL Party Administration</field>
+        </record>
+
+        <record model="res.group" id="group_pl_party_conf">
+            <field name="name">PL Party Configuration</field>
+        </record>
+
+        <record model="res.group" id="group_pl_party_viewer">
+            <field name="name">PL Party Viewer</field>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="menu_start_group_admin">
+            <field name="menu" ref="menu_start"/>
+            <field name="group" ref="group_pl_party_admin"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="menu_start_group_viewer">
+            <field name="menu" ref="menu_start"/>
+            <field name="group" ref="group_pl_party_viewer"/>
+        </record>
+
+        <record model="ir.model.access" id="access_party_admin">
+            <field name="model">party.party</field>
+            <field name="group" ref="group_pl_party_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <record model="ir.model.access" id="access_party_viewer">
+            <field name="model">party.party</field>
+            <field name="group" ref="group_pl_party_viewer"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+
+
+    </data>
+
+    <data noupdate="1">
+
+        <record model="pl_cust_plbase.partytype" id="partytype_o">
+            <field name="name">Autre</field>
+            <field name="code">o</field>
+        </record>
+
+        <record model="pl_cust_plbase.partytype" id="partytype_cl">
+            <field name="name">Client</field>
+            <field name="code">c</field>
+        </record>
+
+        <record model="pl_cust_plbase.partytype" id="partytype_fo">
+            <field name="name">Fournisseur</field>
+            <field name="code">f</field>
+        </record>
+
+    </data>
+
+</tryton>

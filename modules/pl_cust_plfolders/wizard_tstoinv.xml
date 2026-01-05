@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+    <record model="ir.ui.view" id="wizard_tstoinv_view_form">
+      <field name="model">pl_cust_plfolders.tstoinv_start</field>
+      <field name="type">form</field>
+      <field name="name">tstoinv_start_form</field>
+    </record>
+
+    <record model="ir.action.wizard" id="act_wizard_new_tstoinv">
+      <field name="name">TS to invoice</field>
+      <field name="wiz_name">pl_cust_plfolders.tstoinv</field>
+      <!--<field name="model">pl_cust_srh.new_eval_start</field>
+      <field name="action">act_wizard_new_eval_form</field>-->
+    </record>
+
+    <!--<menuitem parent="menu_configuration" action="act_wizard_new_tstoinv" id="menu_wizard_new_tstoinv" sequence="20"/>-->
+
+
+  </data>
+</tryton>

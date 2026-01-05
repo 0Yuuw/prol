@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form col="6">
+  <label name="name" xalign="0"/>
+  <field name="name" />
+  <label name="code" xalign="0"/>
+  <field name="code" />
+  <label name="date_start" xalign="0"/>
+  <field name="date_start" />
+  <label name="publicname" xalign="0"/>
+  <field name="publicname" />
+  <group id="contract" colspan="2" col="4">
+    <label name="contract_done" xalign="0"/>
+    <field name="contract_done" />
+    <label name="date_valid_cf" xalign="0"/>
+    <field name="date_valid_cf" />
+  </group>
+  <label name="date_end" xalign="0"/>
+  <field name="date_end" />
+
+  <label name="description" colspan="6" xalign="0"/>
+  <field name="description" colspan="6" />
+
+  <label name="objectif" colspan="6" xalign="0"/>
+  <field name="objectif" colspan="6" />
+  <label name="project_type" xalign="0"/>
+  <field name="project_type" />
+  <label name="project_axe" xalign="0"/>
+  <field name="project_axe" />
+  <newline />
+  <label name="duree" xalign="0"/>
+  <field name="duree" />
+  <label name="amount_min" xalign="0"/>
+  <field name="amount_min" />
+  <label name="amount_max" xalign="0"/>
+  <field name="amount_max" />
+  <newline />
+  <label name="status" xalign="0"/>
+  <field name="status" colspan="5" />
+  <notebook colspan="6">
+    <page string="People" col="2" id="proj_book_people">
+      <field name="parties" colspan="2" />
+      <field name="employees" colspan="2" />
+    </page>
+    <page string="Stages" col="2" id="proj_book_stage" >
+      <field name="stages" colspan="2" height="400"/>
+    </page>
+    <!--<page string="Timesheet" col="2" id="proj_book_sheet">
+      <field name="sheets" colspan="2" />
+    </page>
+    <page string="Cat" col="2" id="proj_book_cat">
+      <field name="category" colspan="2" />
+    </page>-->
+    <page string="Logs" col="2" id="proj_book_logs">
+      <field name="logs" colspan="2" />
+    </page>
+  </notebook>
+
+  <field name="as_attachment" invisible="1"/>
+  <field name="active" invisible="1" />
+
+</form>

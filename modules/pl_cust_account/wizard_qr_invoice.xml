@@ -1,0 +1,28 @@
+<!-- wizard_qr_invoice.xml -->
+<tryton>
+  <data>
+    <!-- Étape 1 : upload PDF -->
+    <record model="ir.ui.view" id="qr_invoice_start_view_form">
+      <field name="model">pl_cust_account.qr_invoice_start</field>
+      <field name="type">form</field>
+      <field name="name">qr_invoice_start_form</field>
+    </record>
+
+    <!-- Étape 2 : page unique de validation -->
+    <record model="ir.ui.view" id="qr_invoice_confirm_view_form">
+      <field name="model">pl_cust_account.qr_invoice_confirm</field>
+      <field name="type">form</field>
+      <field name="name">qr_invoice_confirm_form</field>
+    </record>
+
+    <record model="ir.action.wizard" id="act_wizard_qr_invoice">
+      <field name="name">Importer Facture QR</field>
+      <field name="wiz_name">pl_cust_account.qr_invoice</field>
+    </record>
+
+    <menuitem parent="account.menu_account"
+              action="act_wizard_qr_invoice"
+              id="menu_qr_invoice"
+              sequence="30"/>
+  </data>
+</tryton>

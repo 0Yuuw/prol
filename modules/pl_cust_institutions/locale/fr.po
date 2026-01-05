@@ -1,0 +1,39 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:party.party,is_child:"
+msgid "Child"
+msgstr "Enfant"
+
+msgctxt "field:party.party,is_employee:"
+msgid "Employee"
+msgstr "Employée"
+
+msgctxt "field:pl_cust_plfolders.folders,resp_id:"
+msgid "Employee"
+msgstr "Employée"
+
+msgctxt "field:pl_cust_plfolders.foldersheet,child_id:"
+msgid "Child"
+msgstr "Enfant"
+
+msgctxt "model:ir.action,name:act_myfolders_form"
+msgid "Mes Dossiers"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_myfolders_form"
+msgid "Mes Dossiers"
+msgstr ""
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Employée"
+msgstr ""
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Notes"
+msgstr "Notes"
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Timesheet"
+msgstr "Timesheet"

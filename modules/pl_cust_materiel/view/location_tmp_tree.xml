@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree editable="1">
+    <field name="materiel" optional="0"/>
+    <field name="qty_disp" optional="0"/>
+    <field name="qty" optional="0"/>
+    <field name="check" tree_invisible="1"/>
+</tree>

@@ -1,0 +1,45 @@
+<form col="6">
+
+  <!-- Groupe Bénéficiaire -->
+  <group string="Bénéficiaire" col="4" colspan="6">
+    <label name="creditor_name"/>
+    <field name="creditor_name" colspan="3"/>
+
+    <label name="creditor_address"/>
+    <field name="creditor_address" colspan="3"/>
+
+    <label name="creditor_zip"/>
+    <field name="creditor_zip"/>
+
+    <label name="creditor_city"/>
+    <field name="creditor_city" colspan="3"/>
+
+    <label name="creditor_country"/>
+    <field name="creditor_country"/>
+  </group>
+
+  <!-- Groupe Montant & Référence -->
+  <group string="Montant &amp; Référence" col="4" colspan="6">
+    <label name="amount"/>
+    <field name="amount"/>
+
+    <label name="reference"/>
+    <field name="reference" colspan="3"/>
+  </group>
+
+  <!-- Groupe QR & Tiers détecté -->
+  <group string="QR &amp; Tiers détecté" col="6" colspan="6">
+    <label name="iban"/>
+    <field name="iban" colspan="5"/>
+
+    <label name="supplier_name"/>
+    <field name="supplier_name" colspan="5"/>
+
+    <label name="full_text"/>
+    <field name="full_text" colspan="5"/>
+  </group>
+
+  <!-- PDF source caché -->
+  <field name="pdf_data" invisible="1"/>
+
+</form>

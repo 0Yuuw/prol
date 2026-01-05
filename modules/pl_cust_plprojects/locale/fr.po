@@ -1,0 +1,455 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:party.address,projects:"
+msgid "Projects"
+msgstr "Projets"
+
+msgctxt "field:party.party,projects:"
+msgid "Projects"
+msgstr "Projets"
+
+msgctxt "field:pl_cust_plprojects.category,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_plprojects.category.relation,category:"
+msgid "Category"
+msgstr "Catégorie"
+
+msgctxt "field:pl_cust_plprojects.category.relation,project:"
+msgid "Project"
+msgstr "Projet"
+
+msgctxt "field:pl_cust_plprojects.logs,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:pl_cust_plprojects.logs,description:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:pl_cust_plprojects.logs,project:"
+msgid "Project"
+msgstr "Projet"
+
+msgctxt "field:pl_cust_plprojects.logs,resp_id:"
+msgid "Employee"
+msgstr "Employé-e Modus"
+
+msgctxt "field:pl_cust_plprojects.party.relation,employee:"
+msgid "Employee"
+msgstr "Employé-e Modus"
+
+msgctxt "field:pl_cust_plprojects.party.relation,project:"
+msgid "Project"
+msgstr "Projet"
+
+msgctxt "field:pl_cust_plprojects.party.relation,type_:"
+msgid "Rôle employé-e"
+msgstr "Rôle employé-e"
+
+msgctxt "field:pl_cust_plprojects.partyaddr.relation,party_addr:"
+msgid "PartyAddr"
+msgstr "Contact"
+
+msgctxt "field:pl_cust_plprojects.partyaddr.relation,project:"
+msgid "Project"
+msgstr "Projet"
+
+msgctxt "field:pl_cust_plprojects.partyaddr.relation,type_:"
+msgid "Rôle partenaire"
+msgstr "Rôle partenaire"
+
+msgctxt "field:pl_cust_plprojects.projects,amount_max:"
+msgid "Budget maximum"
+msgstr "Budget validé"
+
+msgctxt "field:pl_cust_plprojects.projects,amount_min:"
+msgid "Budget minimum"
+msgstr "Budget initial"
+
+msgctxt "field:pl_cust_plprojects.projects,as_attachment:"
+msgid "pj"
+msgstr "pj"
+
+msgctxt "field:pl_cust_plprojects.projects,category:"
+msgid "Category"
+msgstr "Catégorie"
+
+msgctxt "field:pl_cust_plprojects.projects,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:pl_cust_plprojects.projects,contract_done:"
+msgid "Contract done"
+msgstr "Contrat fait"
+
+msgctxt "field:pl_cust_plprojects.projects,date_end:"
+msgid "Date end"
+msgstr "Date de fin"
+
+msgctxt "field:pl_cust_plprojects.projects,date_start:"
+msgid "Date start"
+msgstr "Date de début"
+
+msgctxt "field:pl_cust_plprojects.projects,description:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:pl_cust_plprojects.projects,duree:"
+msgid "Duree"
+msgstr "Durée"
+
+msgctxt "field:pl_cust_plprojects.projects,employees:"
+msgid "Employees"
+msgstr "Employés Modus"
+
+msgctxt "field:pl_cust_plprojects.projects,logs:"
+msgid "Logs"
+msgstr "Journal de bord"
+
+msgctxt "field:pl_cust_plprojects.projects,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_plprojects.projects,notes:"
+msgid "Comment"
+msgstr "Commentaire"
+
+msgctxt "field:pl_cust_plprojects.projects,objectif:"
+msgid "Objectif"
+msgstr "Objectifs clés"
+
+msgctxt "field:pl_cust_plprojects.projects,parties:"
+msgid "Parties"
+msgstr "Contacts"
+
+msgctxt "field:pl_cust_plprojects.projects,project_type:"
+msgid "Project Type"
+msgstr "Type de projets"
+
+msgctxt "field:pl_cust_plprojects.projects,publicname:"
+msgid "Public Name"
+msgstr "Nom public"
+
+msgctxt "field:pl_cust_plprojects.projects,sheets:"
+msgid "Timesheet"
+msgstr "Timesheet"
+
+msgctxt "field:pl_cust_plprojects.projects,stages:"
+msgid "Stages"
+msgstr "Étapes"
+
+msgctxt "field:pl_cust_plprojects.projects,status:"
+msgid "Status"
+msgstr "Statut"
+
+msgctxt "field:pl_cust_plprojects.projectsheet,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:pl_cust_plprojects.projectsheet,duration:"
+msgid "Duration"
+msgstr "Durée"
+
+msgctxt "field:pl_cust_plprojects.projectsheet,name:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:pl_cust_plprojects.projectsheet,project:"
+msgid "Project"
+msgstr "Projet"
+
+msgctxt "field:pl_cust_plprojects.projectsheet,resp_id:"
+msgid "Employee"
+msgstr "Employé-e Modus"
+
+msgctxt "field:pl_cust_plprojects.projectsheet,task:"
+msgid "Task"
+msgstr "Tâche"
+
+msgctxt "field:pl_cust_plprojects.projectstype,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:pl_cust_plprojects.projectstype,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_plprojects.stage,delai:"
+msgid "Delai"
+msgstr "Échéance"
+
+msgctxt "field:pl_cust_plprojects.stage,is_done:"
+msgid "Done?"
+msgstr "Validé"
+
+msgctxt "field:pl_cust_plprojects.stage,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_plprojects.stage,project:"
+msgid "Project"
+msgstr "Projet"
+
+msgctxt "field:pl_cust_plprojects.stage,stage_type:"
+msgid "type"
+msgstr "Type"
+
+msgctxt "field:pl_cust_plprojects.tasks,duration:"
+msgid "Duration"
+msgstr "Durée"
+
+msgctxt "field:pl_cust_plprojects.tasks,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "help:pl_cust_plprojects.projects,date_end:"
+msgid "Date end"
+msgstr "Date de fin"
+
+msgctxt "help:pl_cust_plprojects.projects,date_start:"
+msgid "Date start"
+msgstr "Date de début"
+
+msgctxt "help:pl_cust_plprojects.projectsheet,date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "model:ir.action,name:act_partyaddrrel_form"
+msgid "PartyAddrRel"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_partyrel_form"
+msgid "PartyRel"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_projects_form"
+msgid "Tous les dossiers"
+msgstr "Tous les projets"
+
+msgctxt "model:ir.action,name:act_projectscategory_form"
+msgid "Project Category"
+msgstr "Catégories de projets"
+
+msgctxt "model:ir.action,name:act_projectstype_form"
+msgid "Project Types"
+msgstr "Types de projets"
+
+msgctxt "model:ir.action,name:act_projsheet_form"
+msgid "Timesheet"
+msgstr "Timesheet"
+
+msgctxt "model:ir.action,name:act_projtask_form"
+msgid "Tasks"
+msgstr "Tâches"
+
+msgctxt "model:ir.sequence,name:sequence_projects"
+msgid "projects"
+msgstr "Projets"
+
+msgctxt "model:ir.sequence.type,name:sequence_type_projects"
+msgid "projects"
+msgstr "Projets"
+
+msgctxt "model:ir.ui.menu,name:menu_configuration"
+msgid "Configuration"
+msgstr "Configuration"
+
+msgctxt "model:ir.ui.menu,name:menu_partyaddrrel_form"
+msgid "PartyAddrRel"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_partyrel_form"
+msgid "PartyRel"
+msgstr ""
+
+msgctxt "model:ir.ui.menu,name:menu_projects"
+msgid "Projects"
+msgstr "Projets"
+
+msgctxt "model:ir.ui.menu,name:menu_projects_form"
+msgid "Tous les dossiers"
+msgstr "Tous les projets"
+
+msgctxt "model:ir.ui.menu,name:menu_projsheet_form"
+msgid "Timesheet"
+msgstr "Timesheet"
+
+msgctxt "model:ir.ui.menu,name:menu_projtask_form"
+msgid "Tasks"
+msgstr "Tâches"
+
+msgctxt "model:ir.ui.menu,name:my_menu_projectscat_form"
+msgid "Project Category"
+msgstr "Catégories de projets"
+
+msgctxt "model:ir.ui.menu,name:my_menu_projectstype_form"
+msgid "Project Types"
+msgstr "Types de projets"
+
+msgctxt "model:pl_cust_plprojects.category,name:"
+msgid "Category"
+msgstr "Catégorie"
+
+msgctxt "model:pl_cust_plprojects.category.relation,name:"
+msgid "Project - Category"
+msgstr ""
+
+msgctxt "model:pl_cust_plprojects.logs,name:"
+msgid "Logs"
+msgstr "Journal de bord"
+
+msgctxt "model:pl_cust_plprojects.party.relation,name:"
+msgid "Project - Party Relation"
+msgstr ""
+
+msgctxt "model:pl_cust_plprojects.partyaddr.relation,name:"
+msgid "Project - Party Relation"
+msgstr ""
+
+msgctxt "model:pl_cust_plprojects.projects,name:"
+msgid "projects"
+msgstr "Projets"
+
+msgctxt "model:pl_cust_plprojects.projectsheet,name:"
+msgid "Folder timesheet"
+msgstr ""
+
+msgctxt "model:pl_cust_plprojects.projectstype,name:"
+msgid "Folder timesheet"
+msgstr ""
+
+msgctxt "model:pl_cust_plprojects.stage,name:"
+msgid "Project Stage"
+msgstr ""
+
+msgctxt "model:pl_cust_plprojects.tasks,name:"
+msgid "Project timesheet tasks"
+msgstr ""
+
+msgctxt "model:res.group,name:group_project_admin"
+msgid "project Administration"
+msgstr ""
+
+msgctxt "model:res.group,name:group_project_viewer"
+msgid "project Viewer"
+msgstr ""
+
+msgctxt "selection:pl_cust_plprojects.party.relation,type_:"
+msgid "Chef-e de projet"
+msgstr ""
+
+msgctxt "selection:pl_cust_plprojects.party.relation,type_:"
+msgid "Participant-e"
+msgstr ""
+
+msgctxt "selection:pl_cust_plprojects.partyaddr.relation,type_:"
+msgid "Autre partenaire"
+msgstr ""
+
+msgctxt "selection:pl_cust_plprojects.partyaddr.relation,type_:"
+msgid "Mandataire"
+msgstr ""
+
+msgctxt "selection:pl_cust_plprojects.partyaddr.relation,type_:"
+msgid "Pilote"
+msgstr ""
+
+msgctxt "selection:pl_cust_plprojects.partyaddr.relation,type_:"
+msgid "Sous-traitant"
+msgstr ""
+
+msgctxt "selection:pl_cust_plprojects.projects,duree:"
+msgid "12 to 24 month"
+msgstr "de 12 à 24 mois"
+
+msgctxt "selection:pl_cust_plprojects.projects,duree:"
+msgid "3 to 6 month"
+msgstr "de 3 à 6 mois"
+
+msgctxt "selection:pl_cust_plprojects.projects,duree:"
+msgid "6 to 12 month"
+msgstr "de 6 à 12 mois"
+
+msgctxt "selection:pl_cust_plprojects.projects,duree:"
+msgid "< 3 month"
+msgstr "moins de 3 mois"
+
+msgctxt "selection:pl_cust_plprojects.projects,duree:"
+msgid "> 24 month"
+msgstr "plus de 24 mois"
+
+msgctxt "selection:pl_cust_plprojects.projects,status:"
+msgid "Aband"
+msgstr "Abandonné"
+
+msgctxt "selection:pl_cust_plprojects.projects,status:"
+msgid "Inspi"
+msgstr "Inspiration"
+
+msgctxt "selection:pl_cust_plprojects.projects,status:"
+msgid "Itention"
+msgstr "Intention"
+
+msgctxt "selection:pl_cust_plprojects.projects,status:"
+msgid "Soum"
+msgstr "Soumis"
+
+msgctxt "selection:pl_cust_plprojects.projects,status:"
+msgid "Termi"
+msgstr "Terminé"
+
+msgctxt "selection:pl_cust_plprojects.projects,status:"
+msgid "en Cours"
+msgstr "En cours"
+
+msgctxt "selection:pl_cust_plprojects.projects,status:"
+msgid "eval"
+msgstr "En évaluation"
+
+msgctxt "selection:pl_cust_plprojects.projects,status:"
+msgid "valid"
+msgstr "Validé CF"
+
+msgctxt "selection:pl_cust_plprojects.stage,stage_type:"
+msgid "type 1"
+msgstr ""
+
+msgctxt "selection:pl_cust_plprojects.stage,stage_type:"
+msgid "type 2"
+msgstr ""
+
+msgctxt "selection:pl_cust_plprojects.stage,stage_type:"
+msgid "type 3"
+msgstr ""
+
+msgctxt "selection:pl_cust_plprojects.stage,stage_type:"
+msgid "type 4"
+msgstr ""
+
+msgctxt "view:party.party:"
+msgid "Project"
+msgstr "Projet"
+
+msgctxt "view:pl_cust_plprojects.projects:"
+msgid "Cat"
+msgstr "Catégories"
+
+msgctxt "view:pl_cust_plprojects.projects:"
+msgid "Logs"
+msgstr "Journal de bord"
+
+msgctxt "view:pl_cust_plprojects.projects:"
+msgid "People"
+msgstr "Relations"
+
+msgctxt "view:pl_cust_plprojects.projects:"
+msgid "Stages"
+msgstr "Étapes"
+
+msgctxt "view:pl_cust_plprojects.projects:"
+msgid "Timesheet"
+msgstr "Timesheet"

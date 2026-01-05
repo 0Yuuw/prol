@@ -1,0 +1,131 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <record model="ir.ui.view" id="salary_employee_view_form">
+            <field name="model">company.employee</field>
+            <field name="inherit" ref="company.employee_view_form"/>
+            <field name="name">salaryemployee_form</field>
+            <field name="priority" eval="60"/>
+        </record>
+
+
+        <record model="res.group" id="group_salary_admin">
+            <field name="name">Salary Administration</field>
+        </record>
+
+        <menuitem name="Salary" parent="pl_cust_plbase.menu_start" sequence="10" id="menu_salary" icon="tryton-party"/>
+
+        <record model="ir.ui.menu-res.group" id="menu_salary_group_admin">
+            <field name="menu" ref="menu_salary"/>
+            <field name="group" ref="group_salary_admin"/>
+        </record>
+
+        <record model="ir.ui.view" id="salary_cat_view_form">
+            <field name="model">pl_cust_salary.cat</field>
+            <field name="type">form</field>
+            <field name="name">salarycat_form</field>
+        </record>
+        <record model="ir.ui.view" id="salary_cat_view_tree">
+            <field name="model">pl_cust_salary.cat</field>
+            <field name="type">tree</field>
+            <field name="name">salarycat_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_salarycat_form">
+            <field name="name">Salary Cat</field>
+            <field name="res_model">pl_cust_salary.cat</field>
+        </record>
+        <menuitem action="act_salarycat_form" parent="menu_salary" sequence="10" id="menu_salarycat_form"/>
+
+        <record model="ir.ui.view" id="salary_confsoc_view_form">
+            <field name="model">pl_cust_salary.confsocialcharge</field>
+            <field name="type">form</field>
+            <field name="name">salaryconfsoc_form</field>
+        </record>
+        <record model="ir.ui.view" id="salary_confsoc_view_tree">
+            <field name="model">pl_cust_salary.confsocialcharge</field>
+            <field name="type">tree</field>
+            <field name="name">salaryconfsoc_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_salaryconfsoc_form">
+            <field name="name">Salary Conf Soc</field>
+            <field name="res_model">pl_cust_salary.confsocialcharge</field>
+        </record>
+        <!--<menuitem action="act_salaryconfsoc_form" parent="menu_salary" sequence="10" id="menu_salaryconfsoc_form"/>-->
+
+        <record model="ir.ui.view" id="salary_soccha_view_form">
+            <field name="model">pl_cust_salary.socialcharge</field>
+            <field name="type">form</field>
+            <field name="name">salarysoccha_form</field>
+        </record>
+        <record model="ir.ui.view" id="salary_soccha_view_tree">
+            <field name="model">pl_cust_salary.socialcharge</field>
+            <field name="type">tree</field>
+            <field name="name">salarysoccha_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_salarysoccha_form">
+            <field name="name">Salary Soc Charge</field>
+            <field name="res_model">pl_cust_salary.socialcharge</field>
+        </record>
+        <!--<menuitem action="act_salarysoccha_form" parent="menu_salary" sequence="10" id="menu_salarysoccha_form"/>-->
+
+
+        <record model="ir.ui.view" id="salary_contract_view_form">
+            <field name="model">pl_cust_salary.contract</field>
+            <field name="type">form</field>
+            <field name="name">salarycontract_form</field>
+        </record>
+        <record model="ir.ui.view" id="salary_contract_view_tree">
+            <field name="model">pl_cust_salary.contract</field>
+            <field name="type">tree</field>
+            <field name="name">salarycontract_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_salarycontract_form">
+            <field name="name">Salary Contract</field>
+            <field name="res_model">pl_cust_salary.contract</field>
+        </record>
+        <menuitem action="act_salarycontract_form" parent="menu_salary" sequence="10" id="menu_salarycontract_form"/>
+
+
+        <record model="ir.action.wizard" id="act_wizard_createsal">
+            <field name="name">Create Salary</field>
+            <field name="wiz_name">pl_cust_salary.createsalary</field>
+            <field name="model">pl_cust_salary.contract</field>
+        </record>
+
+        <record model="ir.ui.view" id="salary_salaryline_view_form">
+            <field name="model">pl_cust_salary.salaryline</field>
+            <field name="type">form</field>
+            <field name="name">salarysalaryline_form</field>
+        </record>
+        <record model="ir.ui.view" id="salary_salaryline_view_tree">
+            <field name="model">pl_cust_salary.salaryline</field>
+            <field name="type">tree</field>
+            <field name="name">salarysalaryline_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="salary_salary_view_form">
+            <field name="model">pl_cust_salary.salary</field>
+            <field name="type">form</field>
+            <field name="name">salarysalary_form</field>
+        </record>
+        <record model="ir.ui.view" id="salary_salary_view_tree">
+            <field name="model">pl_cust_salary.salary</field>
+            <field name="type">tree</field>
+            <field name="name">salarysalary_tree</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_salarysalary_form">
+            <field name="name">Salary</field>
+            <field name="res_model">pl_cust_salary.salary</field>
+        </record>
+        <menuitem action="act_salarysalary_form" parent="menu_salary" sequence="10" id="menu_salarysalary_form"/>
+
+    </data>
+</tryton>

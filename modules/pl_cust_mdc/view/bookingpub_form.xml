@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form>
+    <label name="day" />
+    <field name="day" />
+    <label name="name" />
+    <field name="name" />
+    <label name="name_asso" />
+    <field name="name_asso" />
+    <label name="email" />
+    <field name="email" widget="email"/>
+    <label name="npa" />
+    <field name="npa" />
+    <label name="nb_adult" />
+    <field name="nb_adult" />
+    <label name="nb_02" />
+    <field name="nb_02" />
+    <label name="nb_34" />
+    <field name="nb_34" />
+    <label name="nb_56" />
+    <field name="nb_56" />
+    <label name="nb_78" />
+    <field name="nb_78" />
+    <label name="nb_gift" />
+    <field name="nb_gift" />
+    <label name="nb_asso" />
+    <field name="nb_asso" />
+    <!-- <label name="support_ticket"/>
+    <field name="support_ticket"/> -->
+    <label name="sp4" />
+    <field name="sp4" readonly="1"/>
+    <label name="sp5" />
+    <field name="sp5" readonly="1"/>
+    <label name="sp6" />
+    <field name="sp6" readonly="1"/>
+    <label name="mad" />
+    <field name="mad" />
+    <label name="used" />
+    <field name="used" />
+    <label name="party" />
+    <field name="party" />
+    <label name="datatrans_id" />
+    <field name="datatrans_id" readonly="1"/>
+    <label name="refno" />
+    <field name="refno" readonly="1"/>
+    <label name="state" />
+    <field name="state" />
+</form>

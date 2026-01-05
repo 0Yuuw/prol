@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree>
+    <field name="name"/>
+    <field name="call_date"/>
+    <field name="call_time"/>
+    <field name="call_writer" widget="char" tree_invisible="1"/>
+    <field name="call_pseudo"/>
+    <field name="call_regular" widget="char"/>
+    <field name="call_length"/>
+    <field name="call_type"/>
+    <field name="call_user_gender"/>
+    <field name="call_user_age"/>
+    <field name="contenu"/>
+    <field name="contenu_2"/>
+    <field name="contenu_3"/>
+    <field name="call_resume"/>
+</tree>
+

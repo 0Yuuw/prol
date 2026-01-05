@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<data>
+    <xpath expr="/tree" position="replace">
+        <tree>
+            <field name="invoice"/>
+            <field name="party"/>
+            <field name="addr_compl" />
+            <field name="addr_street"/>
+            <field name="addr_street_num"/>
+            <field name="addr_compl2"/>
+            <field name="postal_code"/>
+            <field name="city"/>
+            <field name="country" />
+            <field name="type" />
+        </tree>
+    </xpath>
+</data>

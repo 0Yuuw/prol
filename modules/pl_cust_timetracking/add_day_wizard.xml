@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+
+    <record model="ir.ui.view" id="ttadddaywizard_start_view_form">
+      <field name="model">pl_cust_timetracking.ttadddaywizard_start</field>
+      <field name="type">form</field>
+      <field name="name">ttadddaywizard_start_form</field>
+    </record>
+
+    <record model="ir.action.wizard" id="act_wizard_ttadddaywizard">
+      <field name="name">Add Day</field>
+      <field name="wiz_name">pl_cust_timetracking.ttadddaywizard</field>
+    </record>
+
+    <record model="ir.action.keyword" id="wizard_ttadddaywizard_keyword1">
+      <field name="keyword">form_action</field>
+      <field name="model">pl_cust_timetracking.ttdays,-1</field>
+      <field name="action" ref="act_wizard_ttadddaywizard"/>
+    </record>
+
+    <record model="ir.action-res.group" id="wizard_ttadddaywizard_group_admin">
+      <field name="action" ref="act_wizard_ttadddaywizard"/>
+      <field name="group" ref="group_timetracking_admin"/>
+    </record>
+
+
+    <!--<menuitem parent="menu_timetracking" action="act_wizard_ttadddaywizard" id="menu_ttadddaywizard" sequence="20"/>-->
+
+  </data>
+</tryton>

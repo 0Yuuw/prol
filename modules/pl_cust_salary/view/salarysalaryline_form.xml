@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form>
+  <label name="salary"/>
+  <field name="salary"/>
+  <label name="name"/>
+  <field name="name"/>
+  <label name="account_charge"/>
+  <field name="account_charge"/>
+  <label name="account_cc"/>
+  <field name="account_cc"/>
+  <label name="tx_boss"/>
+  <field name="tx_boss"/>
+  <label name="tx_employee"/>
+  <field name="tx_employee"/>
+  <label name="amount_employee"/>
+  <field name="amount_employee"/>
+  <label name="amount_boss"/>
+  <field name="amount_boss"/>
+  <label name="max_gross_salary"/>
+  <field name="max_gross_salary"/>
+</form>

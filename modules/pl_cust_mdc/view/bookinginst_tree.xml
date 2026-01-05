@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree>
+    <field name="name"/>
+    <field name="booking_date" expand="1"/>
+    <field name="inst_name" expand="2"/>
+    <field name="day" expand="2"/>
+    <field name="nb_child"/>
+    <field name="tot_day"/>
+    <field name="nb_adult"/>
+    <field name="mad"/>
+    <field name="child_year"/>
+    <field name="sieste"/>
+    <field name="piqueNique"/>
+    <field name="state" tree_invisible="1"/>
+    <button name="make_valid" string="Valider" />
+    <button name="make_no" string="Pas de place" />
+    <button name="make_invoice" string="Facturer"/>
+</tree>

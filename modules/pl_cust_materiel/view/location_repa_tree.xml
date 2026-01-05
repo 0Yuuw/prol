@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree>
+    <field name="manifestation" optional="0"/>
+    <field name="date_start" optional="0"/>
+    <field name="date_end" optional="0"/>
+    <field name="materiel" optional="0"/>
+    <field name="qty" optional="0"/>
+    <field name="repa" optional="0"/>
+    <field name="repa_ok" optional="0"/>
+    <button name="return_repair" string="Réparé" groups="pl_cust_materiel.group_mat_wizard"/>
+</tree>

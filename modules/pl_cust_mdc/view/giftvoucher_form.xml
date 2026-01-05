@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form>
+    <label name="lastname" />
+    <field name="lastname" />
+    <label name="firstname" />
+    <field name="firstname" />
+    <label name="email" />
+    <field name="email" />
+    <label name="purchase_date" />
+    <field name="purchase_date" />
+    <label name="npa" />
+    <field name="npa" />
+    <label name="nb_2" />
+    <field name="nb_2" />
+    <label name="nb_4" />
+    <field name="nb_4" />
+    <label name="nb_10" />
+    <field name="nb_10" />
+    <label name="used" />
+    <field name="used" />
+    <label name="datatrans_id" />
+    <field name="datatrans_id" />
+    <label name="refno" />
+    <field name="refno" />
+    <label name="state" />
+    <field name="state" />
+</form>
+
+ 

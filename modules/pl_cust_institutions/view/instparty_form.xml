@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<data>
+  <xpath expr="//group[@id='checkbox']" position="after">
+    <group id="newcheckbox" colspan="2" col="6">
+      <label name="is_child"/>
+      <field name="is_child" xexpand="0" width="35"/>
+      <label name="is_employee"/>
+      <field name="is_employee" xexpand="0" width="35"/>
+    </group>
+  </xpath>
+</data>

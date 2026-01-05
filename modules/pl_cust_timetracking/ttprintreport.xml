@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+
+    <record model="ir.ui.view" id="ttprintreport_start_view_form">
+      <field name="model">pl_cust_timetracking.ttprintreport_start</field>
+      <field name="type">form</field>
+      <field name="name">ttprintreport_start_form</field>
+    </record>
+
+    <record model="ir.action.wizard" id="act_wizard_ttprintreport">
+      <field name="name">Print Report</field>
+      <field name="wiz_name">pl_cust_timetracking.ttprintreport</field>
+    </record>
+
+    <record model="ir.action.report" id="reporttt">
+            <field name="name">Report TT</field>
+            <field name="model">pl_cust_timetracking.ttdays</field>
+            <field name="report_name">pl_cust_timetracking.ttreport</field>
+            <field name="report">pl_cust_timetracking/ttreport.fodt</field>
+        </record>
+    
+    <menuitem parent="menu_timetracking" action="act_wizard_ttprintreport" id="menu_ttprintreport" sequence="20"/>
+
+  </data>
+</tryton>

@@ -1,0 +1,295 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:party.address,addr_compl2:"
+msgid "Address Compl2"
+msgstr "Compl. adr. (suite)"
+
+msgctxt "field:party.address,addr_compl:"
+msgid "Address Compl"
+msgstr "Compl. adr."
+
+msgctxt "field:party.address,addr_street:"
+msgid "Address Street"
+msgstr "Rue"
+
+msgctxt "field:party.address,addr_street_num:"
+msgid "Address Num"
+msgstr "Numéro"
+
+msgctxt "field:party.address,contact_firstname:"
+msgid "Contact FirstName"
+msgstr "Prénom"
+
+msgctxt "field:party.address,contact_function:"
+msgid "Contact Function"
+msgstr "Fonction"
+
+msgctxt "field:party.address,contact_mail:"
+msgid "Contact Mail"
+msgstr "E-mail"
+
+msgctxt "field:party.address,contact_name:"
+msgid "Contact Name"
+msgstr "Nom"
+
+msgctxt "field:party.address,contact_phone2:"
+msgid "Contact Phone 2"
+msgstr "Tel2"
+
+msgctxt "field:party.address,contact_phone:"
+msgid "Contact Phone"
+msgstr "Tel"
+
+msgctxt "field:party.address,contact_title:"
+msgid "Title"
+msgstr "Titre"
+
+msgctxt "field:party.address,format_:"
+msgid "Format"
+msgstr "Format"
+
+msgctxt "field:party.address,type:"
+msgid "Address Type"
+msgstr "Type d'adresse"
+
+msgctxt "field:party.party,birthdate:"
+msgid "Birthdate"
+msgstr "Date de naissance"
+
+msgctxt "field:party.party,firstname:"
+msgid "Firstname"
+msgstr "Prénom"
+
+msgctxt "field:party.party,is_person_moral:"
+msgid "Person Moral ?"
+msgstr "Personne morale?"
+
+msgctxt "field:party.party,lastname:"
+msgid "Lastname"
+msgstr "Nom"
+
+msgctxt "field:party.party,nickname:"
+msgid "Nickname"
+msgstr "abr"
+
+msgctxt "field:party.party,notes:"
+msgid "Comment"
+msgstr "Commentaire"
+
+msgctxt "field:party.party,organisation:"
+msgid "Organisation"
+msgstr "Organisation"
+
+msgctxt "field:party.party,party_title:"
+msgid "Title"
+msgstr "Titre"
+
+msgctxt "field:party.party,party_type:"
+msgid "Type"
+msgstr "Type"
+
+msgctxt "field:party.party,prof:"
+msgid "Profession"
+msgstr "Profession"
+
+msgctxt "field:pl_cust_plbase.partytitle,addr:"
+msgid "addr"
+msgstr "Titre pour adresse"
+
+msgctxt "field:pl_cust_plbase.partytitle,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:pl_cust_plbase.partytitle,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_plbase.partytitle,sal:"
+msgid "sal"
+msgstr "Salutations"
+
+msgctxt "field:pl_cust_plbase.partytype,code:"
+msgid "Code"
+msgstr "Code"
+
+msgctxt "field:pl_cust_plbase.partytype,name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "help:party.address,format_:"
+msgid ""
+"Available variables (also in upper case):\n"
+"- ${party_name}\n"
+"- ${name}\n"
+"- ${attn}\n"
+"- ${contact_firstname}\n"
+"- ${contact_name}\n"
+"- ${compl}\n"
+"- ${num_street}\n"
+"- ${street}\n"
+"- ${compl2}\n"
+"- ${zip}\n"
+"- ${city}\n"
+"- ${subdivision}\n"
+"- ${subdivision_code}\n"
+"- ${country}\n"
+"- ${country_code}"
+msgstr ""
+
+msgctxt "model:ir.action,name:act_myparty_form"
+msgid "Contacts"
+msgstr "Contacts"
+
+msgctxt "model:ir.action,name:act_partytitle_form"
+msgid "Party Title"
+msgstr "Gestion des civilités"
+
+msgctxt "model:ir.action,name:act_partytype_form"
+msgid "Party Type"
+msgstr "Type de contact"
+
+msgctxt "model:ir.ui.menu,name:menu_myparty"
+msgid "Contacts"
+msgstr "Contacts"
+
+msgctxt "model:ir.ui.menu,name:menu_myparty_form"
+msgid "Contacts"
+msgstr "Contacts"
+
+msgctxt "model:ir.ui.menu,name:menu_partytitle_form"
+msgid "Party Title"
+msgstr "Gestion des civilités"
+
+msgctxt "model:ir.ui.menu,name:menu_partytype_form"
+msgid "Party Type"
+msgstr "Type de contact"
+
+msgctxt "model:ir.ui.menu,name:menu_start"
+msgid "Menu principal"
+msgstr "Menu principal"
+
+msgctxt "model:party.party_lang,name:"
+msgid "En français par défaut"
+msgstr "En français par défaut"
+
+msgctxt "model:pl_cust_plbase.partytitle,addr:title1"
+msgid "Mr"
+msgstr "Monsieur"
+
+msgctxt "model:pl_cust_plbase.partytitle,addr:title2"
+msgid "Ms."
+msgstr "Madame"
+
+msgctxt "model:pl_cust_plbase.partytitle,addr:title3"
+msgid "Mr and Mrs"
+msgstr "Monsieur et Madame"
+
+msgctxt "model:pl_cust_plbase.partytitle,addr:title4"
+msgid "Dr"
+msgstr "Docteur"
+
+msgctxt "model:pl_cust_plbase.partytitle,addr:title5"
+msgid "Me"
+msgstr "Maître"
+
+msgctxt "model:pl_cust_plbase.partytitle,name:"
+msgid "Party_Title"
+msgstr "Nom de type de contact"
+
+msgctxt "model:pl_cust_plbase.partytitle,name:title1"
+msgid "Mr"
+msgstr "Monsieur"
+
+msgctxt "model:pl_cust_plbase.partytitle,name:title2"
+msgid "Ms."
+msgstr "Madame"
+
+msgctxt "model:pl_cust_plbase.partytitle,name:title3"
+msgid "Mr and Mrs"
+msgstr "Monsieur et Madame"
+
+msgctxt "model:pl_cust_plbase.partytitle,name:title4"
+msgid "Dr"
+msgstr "Docteur"
+
+msgctxt "model:pl_cust_plbase.partytitle,name:title5"
+msgid "Me"
+msgstr "Maître"
+
+msgctxt "model:pl_cust_plbase.partytitle,sal:title1"
+msgid "Dear Sir"
+msgstr "Monsieur"
+
+msgctxt "model:pl_cust_plbase.partytitle,sal:title2"
+msgid "Dear Madam"
+msgstr "Madame"
+
+msgctxt "model:pl_cust_plbase.partytitle,sal:title3"
+msgid "Dear Madam, dear Sir"
+msgstr "Monsieur et Madame"
+
+msgctxt "model:pl_cust_plbase.partytitle,sal:title4"
+msgid "Dear Doctor"
+msgstr ""
+
+msgctxt "model:pl_cust_plbase.partytitle,sal:title5"
+msgid "Dear Me"
+msgstr ""
+
+msgctxt "model:pl_cust_plbase.partytype,name:"
+msgid "Party_type"
+msgstr "Nom de type de contact"
+
+msgctxt "model:res.group,name:group_pl_party_admin"
+msgid "PL Party Administration"
+msgstr "Contact administration"
+
+msgctxt "model:res.group,name:group_pl_party_conf"
+msgid "PL Party Configuration"
+msgstr ""
+
+msgctxt "model:res.group,name:group_pl_party_viewer"
+msgid "PL Party Viewer"
+msgstr "Contact viewer"
+
+msgctxt "selection:party.party,party_title:"
+msgid "Dr"
+msgstr "Docteur"
+
+msgctxt "selection:party.party,party_title:"
+msgid "Me"
+msgstr "Maître"
+
+msgctxt "selection:party.party,party_title:"
+msgid "Mr"
+msgstr "Monsieur"
+
+msgctxt "selection:party.party,party_title:"
+msgid "Mr & Mrs"
+msgstr "Monsieur et Madame"
+
+msgctxt "selection:party.party,party_title:"
+msgid "Mrs"
+msgstr "Madame"
+
+msgctxt "view:party.party:"
+msgid "Account"
+msgstr "Compte"
+
+msgctxt "view:party.party:"
+msgid "Accounting"
+msgstr "Comptabilité"
+
+msgctxt "view:party.party:"
+msgid "Catégories"
+msgstr "Catégories"
+
+msgctxt "view:party.party:"
+msgid "General"
+msgstr "Général"
+
+msgctxt "view:party.party:"
+msgid "Taxes"
+msgstr "Taxes"

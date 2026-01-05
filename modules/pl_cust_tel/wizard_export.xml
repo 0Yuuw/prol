@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+
+    <record model="ir.ui.view" id="wizard_start_view_form">
+      <field name="model">pl_cust_tel.wizard_start</field>
+      <field name="type">form</field> 
+      <field name="name">wizard_start_form</field>
+    </record>
+
+    <record model="ir.ui.view" id="wizard_result_view_form">
+      <field name="model">pl_cust_tel.wizard_result</field>
+      <field name="type">form</field> 
+      <field name="name">wizard_result_form</field>
+    </record>
+
+    <record model="ir.action.wizard" id="wizard_export">
+      <field name="name">Stats</field> 
+      <field name="wiz_name">pl_cust_tel.wizard_export</field>
+    </record>
+
+    <menuitem parent="menu_grea" action="wizard_export" id="menu_wizard_export" sequence="20"/>
+                                                                                                                                                                                                                                                                                        
+  </data>
+</tryton>

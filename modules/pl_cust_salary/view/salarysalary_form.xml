@@ -1,0 +1,78 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form>
+  <label name="name"/>
+  <field name="name"/>
+  <label name="resp_id"/>
+  <field name="resp_id" readonly="1"/>
+  <label name="date"/>
+  <field name="date"/>
+
+  <label name="period"/>
+  <field name="period"/>
+  
+  <label name="contract"/>
+  <field name="contract"/>
+  <label name="gross_salary_contract"/>
+  <field name="gross_salary_contract" readonly="1"/>
+  <label name="gross_salary"/>
+  <field name="gross_salary"/>
+  <label name="net_salary"/>
+  <field name="net_salary"/>
+  <newline/>
+
+  <label name="prim_txt"/>
+  <field name="prim_txt"/>
+  <label name="prim"/>
+  <field name="prim"/>
+
+  <label name="prim2_txt"/>
+  <field name="prim2_txt"/>
+  <label name="prim2"/>
+  <field name="prim2"/>
+
+  <label name="prim3_txt"/>
+  <field name="prim3_txt"/>
+  <label name="prim3"/>
+  <field name="prim3"/>
+
+  <label name="prim4_txt_without_tax"/>
+  <field name="prim4_txt_without_tax"/>
+  <label name="prim4_without_tax"/>
+  <field name="prim4_without_tax"/>
+
+  <label name="car_charge_txt"/>
+  <field name="car_charge_txt"/>
+  <label name="car_charge"/>
+  <field name="car_charge" readonly="1"/>
+
+  <label name="alloc_charge_txt"/>
+  <field name="alloc_charge_txt"/>
+  <label name="alloc_charge"/>
+  <field name="alloc_charge" readonly="1"/>
+
+  <label name="is_charge_txt"/>
+  <field name="is_charge_txt"/>
+  <newline/>
+  <label name="is_charge"/>
+  <field name="is_charge" readonly="1"/>
+  <label name="is_charge_amount"/>
+  <field name="is_charge_amount" readonly="1"/>
+
+  <label name="lpp_charge_txt"/>
+  <field name="lpp_charge_txt"/>
+  <label name="lpp_charge"/>
+  <field name="lpp_charge" readonly="1"/>
+
+  <newline/>
+  <field name="line_ids" colspan="4" height="400"/>
+  <button name="valid_and_compta" string="COMPTABILISER" icon="tryton-forward" colspan="4"/>
+  <label name="compta"/>
+  <field name="compta"/>
+
+  <label name="compta_state"/>
+  <field name="compta_state"/>
+
+  <field name="notes" colspan="4"/>
+</form>

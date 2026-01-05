@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+
+
+    <xpath expr="/tree/field[@name='description']" position="replace" />
+       
+    <xpath expr="/tree/field[@name='reference']" position="replace">
+        <field name="description" expand="1" optional="0"/>
+        <field name="as_attachment"/>
+        <field name="employee_id" expand="1" optional="1"/>
+
+    </xpath>
+
+    <xpath expr="/tree/field[@name='state']" position="after">
+        <field name="date_pay"/>
+    </xpath>
+    
+    <xpath expr="/tree/field[@name='untaxed_amount']" position="replace">
+        <field name="untaxed_amount" optional="0" sum="1" />
+    </xpath>
+
+    <xpath expr="/tree/field[@name='total_amount']" position="replace">
+        <field name="total_amount" optional="0" sum="1" />
+    </xpath>
+    <xpath expr="/tree/field[@name='tax_amount']" position="replace">
+        <field name="tax_amount" optional="0" sum="1"/>
+    </xpath>
+
+    <xpath expr="/tree/field[@name='amount_to_pay_today']" position="replace">
+        <field name="amount_to_pay" sum="1" optional="1" expand="1"/>
+        <field name="date_due" optional="1" expand="1"/>
+    </xpath>
+   
+</data>

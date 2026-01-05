@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree sequence="sequence" editable="1">
+  <field name="name"/>
+  <field name="cat"/>
+  <field name="tx_boss"/>
+  <field name="tx_employee"/>
+  <field name="max_gross_salary"/>
+</tree>

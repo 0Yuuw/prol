@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<calendar dtstart="date_start" dtend="date_end" background_color="color">
+    <field name="materiel"/>
+    <field name="qty"/>
+</calendar>
+
+

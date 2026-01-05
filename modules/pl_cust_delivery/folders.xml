@@ -1,0 +1,112 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <record model="ir.ui.view" id="deliveryline_view_form">
+            <field name="model">pl_cust_delivery.deliveryline</field>
+            <field name="type">form</field>
+            <field name="name">deliveryline_form</field>
+        </record>
+        <record model="ir.ui.view" id="deliveryline_view_tree">
+            <field name="model">pl_cust_delivery.deliveryline</field>
+            <field name="type">tree</field>
+            <field name="name">deliveryline_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="devisdeliveryline_view_form">
+            <field name="model">pl_cust_delivery.devisdeliveryline</field>
+            <field name="type">form</field>
+            <field name="name">devisdeliveryline_form</field>
+        </record>
+        <record model="ir.ui.view" id="devisdeliveryline_view_tree">
+            <field name="model">pl_cust_delivery.devisdeliveryline</field>
+            <field name="type">tree</field>
+            <field name="name">devisdeliveryline_tree</field>
+        </record>
+
+        <record model="ir.ui.view" id="devisdeliveryfolder_view_form">
+            <field name="model">pl_cust_plfolders.folders</field>
+            <field name="inherit" ref="pl_cust_plfolders.folders_view_form"/>
+            <field name="name">devisdeliveryfolder_form</field>
+            <field name="priority" eval="60"/>
+        </record>
+
+        <record model="ir.ui.view" id="devisdeliveryfolder_view_tree">
+            <field name="model">pl_cust_plfolders.folders</field>
+            <field name="inherit" ref="pl_cust_plfolders.folders_view_tree"/>
+            <field name="name">devisdeliveryfolder_tree</field>
+            <field name="priority" eval="61"/>
+        </record>
+
+        <record model="ir.action.act_window" id="act_folders_devisdelivery">
+            <field name="name">Lignes de devisdelivery</field>
+            <field name="res_model">pl_cust_delivery.devisdeliveryline</field>
+            <field name="domain" eval="[If(Eval('active_ids', []) == [Eval('active_id')], ('folder_id', '=', Eval('active_id')), ('folder_id', 'in', Eval('active_ids')))]" pyson="1"/>
+        </record>
+        <record model="ir.action.keyword" id="act_folders_devisdelivery_keyword1">
+            <field name="keyword">form_relate</field>
+            <field name="model">pl_cust_plfolders.folders,-1</field>
+            <field name="action" ref="act_folders_devisdelivery"/>
+        </record>
+
+        <record model="ir.action.act_window" id="devisdeliveryact_devisdelivery_folders_form">
+            <field name="name">Dossiers devisdelivery</field>
+            <field name="res_model">pl_cust_plfolders.folders</field>
+            <field name="search_value" eval="[('state', '=', 'devis')]" pyson="1" />
+        </record>
+        <record model="ir.action.act_window" id="devisdeliveryact_open_folders_form">
+            <field name="name">Dossiers en cours</field>
+            <field name="res_model">pl_cust_plfolders.folders</field>
+            <field name="search_value" eval="[('state', '=', 'open')]" pyson="1" />
+        </record>
+
+        <record model="ir.action.act_window.domain" id="act_folders_form_domain_draft">
+            <field name="name">devisdelivery</field>
+            <field name="sequence" eval="10"/>
+            <field name="domain" eval="[('state', '=', 'devis')]" pyson="1"/>
+            <field name="count" eval="True"/>
+            <field name="act_window" ref="pl_cust_plfolders.act_folders_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_folders_form_domain_validated">
+            <field name="name">En cours</field>
+            <field name="sequence" eval="11"/>
+            <field name="domain" eval="[('state', '=', 'open')]" pyson="1"/>
+            <field name="count" eval="True"/>
+            <field name="act_window" ref="pl_cust_plfolders.act_folders_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_folders_form_domain_invoiced">
+            <field name="name">Facturé</field>
+            <field name="sequence" eval="12"/>
+            <field name="domain" eval="[('state', '=', 'invoiced')]" pyson="1"/>
+            <field name="count" eval="True"/>
+            <field name="act_window" ref="pl_cust_plfolders.act_folders_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_folders_form_domain_close">
+            <field name="name">Archivé</field>
+            <field name="sequence" eval="13"/>
+            <field name="domain" eval="[('state', '=', 'close')]" pyson="1"/>
+            <field name="count" eval="False"/>
+            <field name="act_window" ref="pl_cust_plfolders.act_folders_form"/>
+        </record>
+        <record model="ir.action.act_window.domain" id="act_folders_form_domain_all">
+            <field name="name">Tous</field>
+            <field name="sequence" eval="1"/>
+            <field name="domain" eval="[]" pyson="1"/>
+            <field name="count" eval="False"/>
+            <field name="act_window" ref="pl_cust_plfolders.act_folders_form"/>
+        </record>
+
+        <!--<menuitem action="devisact_devis_folders_form" parent="pl_cust_plfolders.menu_folders" sequence="10" id="menu_folderdevis_form"/>
+        <menuitem action="devisact_open_folders_form" parent="pl_cust_plfolders.menu_folders" sequence="10" id="menu_folderopen_form"/>-->
+
+        <!--<record model="ir.ui.view" id="devisfolder_view_tree">
+            <field name="model">pl_cust_plfolders.folders</field>
+            <field name="inherit" ref="pl_cust_plfolders.folders_view_tree"/>
+            <field name="name">devisfolder_tree</field>
+            <field name="priority" eval="60"/>
+        </record>-->
+
+    </data>
+</tryton>

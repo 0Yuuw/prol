@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<data>
+
+
+
+  <xpath expr="//group[@id='checkbox']" position="replace">
+    <group id="moduscheckbox" colspan="4" col="6">
+      <label name="is_person_moral" />
+      <field name="is_person_moral" xexpand="0" width="35"/>
+      <label name="contevents" />
+      <field name="contevents" xexpand="0" width="35"/>
+      <label name="pivprof" />
+      <field name="pivprof" />
+    </group>
+  </xpath>
+
+  <xpath expr="//page[@id='cat']" position="replace"/>
+  <xpath expr="//page[@id='accounting']" position="replace"/>
+
+  <xpath expr="//label[@name='birthdate']" position="replace"/>
+  <xpath expr="//label[@name='nickname']" position="replace"/>
+  <xpath expr="//label[@name='code']" position="replace"/>
+  <xpath expr="//field[@name='birthdate']" position="replace"/>
+  <xpath expr="//field[@name='nickname']" position="replace"/>
+  <xpath expr="//field[@name='code']" position="replace"/>
+
+  <xpath expr="//page[@id='general']" position="replace">
+    <page string="Collaborateurs" id="modusgen" col="6">
+      <field height="400" name="addresses" mode="form,tree" colspan="3" view_ids="pl_cust_plbase.pl_partyaddr_view_form,pl_cust_plbase.pl_partyaddr_view_tree"/>
+
+      <group id="partynotes" colspan="3" col="2" yfill="1" yalign="0">
+        <field name="contact_mechanisms" colspan="2" view_ids="party.contact_mechanism_view_tree_sequence" />
+        <field name="notes" colspan="2" yfill="1" yalign="0"/>
+        <field name="name" colspan="2" invisible="1"/>
+      </group>
+
+    </page>
+  </xpath>
+</data>

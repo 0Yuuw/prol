@@ -1,0 +1,366 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:pl_cust_delivery.createinv_start,deliverylines:"
+msgid "Delivery Lines"
+msgstr "Lignes de livraison"
+
+msgctxt "field:pl_cust_delivery.createinv_start,folder_id:"
+msgid "Folder"
+msgstr "Dossier"
+
+msgctxt "field:pl_cust_delivery.deliverycreate_start,delivery_date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:pl_cust_delivery.deliverycreate_start,deliverylines:"
+msgid "Delivery Lines"
+msgstr "Lignes de livraison"
+
+msgctxt "field:pl_cust_delivery.deliverycreate_start,devislines:"
+msgid "Devis Lines"
+msgstr "Lignes de devis"
+
+msgctxt "field:pl_cust_delivery.deliverycreate_start,folder_id:"
+msgid "Folder"
+msgstr "Dossier"
+
+msgctxt "field:pl_cust_delivery.deliveryline,bl_print:"
+msgid "BL print ?"
+msgstr "BL imprimé?"
+
+msgctxt "field:pl_cust_delivery.deliveryline,comment:"
+msgid "Comment"
+msgstr "Commentaire"
+
+msgctxt "field:pl_cust_delivery.deliveryline,delivery_date:"
+msgid "Date"
+msgstr "Date"
+
+msgctxt "field:pl_cust_delivery.deliveryline,devisline_id:"
+msgid "Devis Line"
+msgstr "Lignes de devis"
+
+msgctxt "field:pl_cust_delivery.deliveryline,folder_id:"
+msgid "Folder"
+msgstr "Dossier"
+
+msgctxt "field:pl_cust_delivery.deliveryline,force_invoice:"
+msgid "Force Invoice"
+msgstr "Forcer la facturation"
+
+msgctxt "field:pl_cust_delivery.deliveryline,invoice_id:"
+msgid "Invoice"
+msgstr "Facture"
+
+msgctxt "field:pl_cust_delivery.deliveryline,invoiced:"
+msgid "Invoiced"
+msgstr "Facturé"
+
+msgctxt "field:pl_cust_delivery.deliveryline,name:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:pl_cust_delivery.deliveryline,product:"
+msgid "Product"
+msgstr "Produit"
+
+msgctxt "field:pl_cust_delivery.deliveryline,quantity:"
+msgid "Qty"
+msgstr "Qté"
+
+msgctxt "field:pl_cust_delivery.deliverylinetmp,comment:"
+msgid "Comment"
+msgstr "Commentaire"
+
+msgctxt "field:pl_cust_delivery.deliverylinetmp,devisline_id:"
+msgid "Devis Line"
+msgstr "Ligne de devis"
+
+msgctxt "field:pl_cust_delivery.deliverylinetmp,name:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:pl_cust_delivery.deliverylinetmp,product:"
+msgid "Product"
+msgstr "Produit"
+
+msgctxt "field:pl_cust_delivery.deliverylinetmp,quantity:"
+msgid "Qty"
+msgstr "Qté"
+
+msgctxt "field:pl_cust_delivery.devisdeliveryline,comment:"
+msgid "Comment"
+msgstr "Commentaire"
+
+msgctxt "field:pl_cust_delivery.devisdeliveryline,delivery:"
+msgid "Qty Delivery"
+msgstr "Qté livré"
+
+msgctxt "field:pl_cust_delivery.devisdeliveryline,delivery_lines:"
+msgid "Delivery Line"
+msgstr "Lignes de livraison"
+
+msgctxt "field:pl_cust_delivery.devisdeliveryline,folder_id:"
+msgid "Folder"
+msgstr "Dossier"
+
+msgctxt "field:pl_cust_delivery.devisdeliveryline,name:"
+msgid "Description"
+msgstr "Description"
+
+msgctxt "field:pl_cust_delivery.devisdeliveryline,pct:"
+msgid "PCT"
+msgstr "PCT"
+
+msgctxt "field:pl_cust_delivery.devisdeliveryline,price:"
+msgid "Price"
+msgstr "Tot"
+
+msgctxt "field:pl_cust_delivery.devisdeliveryline,product:"
+msgid "Product"
+msgstr "Produit"
+
+msgctxt "field:pl_cust_delivery.devisdeliveryline,product_price:"
+msgid "Product Price"
+msgstr "Prix"
+
+msgctxt "field:pl_cust_delivery.devisdeliveryline,product_tva:"
+msgid "TVA"
+msgstr ""
+
+msgctxt "field:pl_cust_delivery.devisdeliveryline,quantity:"
+msgid "Qty"
+msgstr "Qté"
+
+msgctxt "field:pl_cust_plfolders.folders,contact_address:"
+msgid "Address"
+msgstr "Adresse"
+
+msgctxt "field:pl_cust_plfolders.folders,contact_name:"
+msgid "Contact name"
+msgstr "Nom"
+
+msgctxt "field:pl_cust_plfolders.folders,delai:"
+msgid "Delai"
+msgstr "Délai"
+
+msgctxt "field:pl_cust_plfolders.folders,delivery_lines:"
+msgid "Delivery Line"
+msgstr "Lignes de livraison"
+
+msgctxt "field:pl_cust_plfolders.folders,devis_lines:"
+msgid "Devis Line"
+msgstr "Lignes de devis"
+
+msgctxt "field:pl_cust_plfolders.folders,order_number:"
+msgid "N° de commande"
+msgstr "N° de commande"
+
+msgctxt "field:pl_cust_plfolders.folders,price_devis:"
+msgid "Price devis"
+msgstr "Tot devis"
+
+msgctxt "field:pl_cust_plfolders.folders,price_manual:"
+msgid "Price manual"
+msgstr "Forcer le prix"
+
+msgctxt "field:pl_cust_plfolders.folders,price_tot:"
+msgid "Price tot"
+msgstr "Tot"
+
+msgctxt "field:pl_cust_plfolders.folders,resp:"
+msgid "Resp"
+msgstr "Resp"
+
+msgctxt "field:pl_cust_plfolders.folders,state:"
+msgid "Devis State"
+msgstr "Etat"
+
+msgctxt "model:ir.action,name:act_folders_devisdelivery"
+msgid "Lignes de devisdelivery"
+msgstr "Lignes de devis"
+
+msgctxt "model:ir.action,name:act_wizard_createdelivery"
+msgid "Create Delivery"
+msgstr "Générer une livraison"
+
+msgctxt "model:ir.action,name:act_wizard_deliverycreateinv"
+msgid "Create Delivery invoice"
+msgstr "Facturer les livraisons"
+
+msgctxt "model:ir.action,name:devisdeliveryact_devisdelivery_folders_form"
+msgid "Dossiers devisdelivery"
+msgstr "Dossiers devis"
+
+msgctxt "model:ir.action,name:devisdeliveryact_open_folders_form"
+msgid "Dossiers en cours"
+msgstr ""
+
+msgctxt "model:ir.action.act_window.domain,name:act_folders_form_domain_all"
+msgid "Tous"
+msgstr ""
+
+msgctxt "model:ir.action.act_window.domain,name:act_folders_form_domain_close"
+msgid "Archivé"
+msgstr ""
+
+msgctxt "model:ir.action.act_window.domain,name:act_folders_form_domain_draft"
+msgid "devisdelivery"
+msgstr "Devis"
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_folders_form_domain_invoiced"
+msgid "Facturé"
+msgstr ""
+
+msgctxt ""
+"model:ir.action.act_window.domain,name:act_folders_form_domain_validated"
+msgid "En cours"
+msgstr ""
+
+msgctxt "model:pl_cust_delivery.createinv_start,string:"
+msgid "Pl Cust Delivery Createinv Start"
+msgstr "Facturation"
+
+msgctxt "model:pl_cust_delivery.deliverycreate_start,string:"
+msgid "Pl Cust Delivery Deliverycreate Start"
+msgstr "Livraison"
+
+msgctxt "model:pl_cust_delivery.deliveryline,string:"
+msgid "Pl Cust Delivery Deliveryline"
+msgstr ""
+
+msgctxt "model:pl_cust_delivery.deliverylinetmp,string:"
+msgid "Pl Cust Delivery Deliverylinetmp"
+msgstr ""
+
+msgctxt "model:pl_cust_delivery.devisdeliveryline,string:"
+msgid "Pl Cust Delivery Devisdeliveryline"
+msgstr ""
+
+msgctxt "selection:pl_cust_delivery.devisdeliveryline,pct:"
+msgid "0%"
+msgstr ""
+
+msgctxt "selection:pl_cust_delivery.devisdeliveryline,pct:"
+msgid "100%"
+msgstr ""
+
+msgctxt "selection:pl_cust_delivery.devisdeliveryline,pct:"
+msgid "150%"
+msgstr ""
+
+msgctxt "selection:pl_cust_delivery.devisdeliveryline,pct:"
+msgid "200%"
+msgstr ""
+
+msgctxt "selection:pl_cust_delivery.devisdeliveryline,pct:"
+msgid "50%"
+msgstr ""
+
+msgctxt "selection:pl_cust_plfolders.folders,state:"
+msgid "Close"
+msgstr "Archivé"
+
+msgctxt "selection:pl_cust_plfolders.folders,state:"
+msgid "Denied"
+msgstr "Refusé"
+
+msgctxt "selection:pl_cust_plfolders.folders,state:"
+msgid "Devis"
+msgstr "Devis"
+
+msgctxt "selection:pl_cust_plfolders.folders,state:"
+msgid "Invoiced"
+msgstr "Facturé"
+
+msgctxt "selection:pl_cust_plfolders.folders,state:"
+msgid "Open"
+msgstr "En cours"
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Delivery"
+msgstr "Livraison"
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Delivery"
+msgstr "Livraison"
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Devis"
+msgstr "Devis"
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Devis"
+msgstr "Devis"
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Devis"
+msgstr "Devis"
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Facturer"
+msgstr ""
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Facturer"
+msgstr ""
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Facturer les livraisons"
+msgstr ""
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Fermer"
+msgstr ""
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Fermer"
+msgstr ""
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Générer les livraisons"
+msgstr ""
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Mettre en cours"
+msgstr ""
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Mettre en cours"
+msgstr ""
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Ouvrir"
+msgstr ""
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Ouvrir"
+msgstr ""
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Refuser"
+msgstr ""
+
+msgctxt "view:pl_cust_plfolders.folders:"
+msgid "Refuser"
+msgstr ""
+
+msgctxt "wizard_button:pl_cust_delivery.createinv,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "wizard_button:pl_cust_delivery.createinv,start,generate_inv:"
+msgid "Facturation des livraisons"
+msgstr ""
+
+msgctxt "wizard_button:pl_cust_delivery.deliverycreate,start,end:"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt ""
+"wizard_button:pl_cust_delivery.deliverycreate,start,generate_delivery:"
+msgid "Génération du bulletin de livraison"
+msgstr ""

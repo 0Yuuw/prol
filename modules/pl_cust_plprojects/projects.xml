@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+
+    <record model="ir.ui.view" id="partyaddrrel_view_form">
+      <field name="model">pl_cust_plprojects.partyaddr.relation</field>
+      <field name="type">form</field>
+      <field name="name">partyaddrrel_form</field>
+    </record>
+    <record model="ir.ui.view" id="partyaddrrel_view_tree">
+      <field name="model">pl_cust_plprojects.partyaddr.relation</field>
+      <field name="type">tree</field>
+      <field name="name">partyaddrrel_tree</field>
+    </record>
+
+    <record model="ir.action.act_window" id="act_partyaddrrel_form">
+      <field name="name">PartyAddrRel</field>
+      <field name="res_model">pl_cust_plprojects.partyaddr.relation</field>
+    </record>
+
+    <!--<menuitem action="act_partyaddrrel_form" parent="menu_configuration" sequence="10" id="menu_partyaddrrel_form"/>-->
+
+    <record model="ir.ui.view" id="partyrel_view_form">
+      <field name="model">pl_cust_plprojects.party.relation</field>
+      <field name="type">form</field>
+      <field name="name">partyrel_form</field>
+    </record>
+    <record model="ir.ui.view" id="partyrel_view_tree">
+      <field name="model">pl_cust_plprojects.party.relation</field>
+      <field name="type">tree</field>
+      <field name="name">partyrel_tree</field>
+    </record>
+
+    <record model="ir.action.act_window" id="act_partyrel_form">
+      <field name="name">PartyRel</field>
+      <field name="res_model">pl_cust_plprojects.party.relation</field>
+    </record>
+
+    <!--<menuitem action="act_partyrel_form" parent="menu_configuration" sequence="10" id="menu_partyrel_form"/>-->
+
+    <record model="ir.ui.view" id="projlogs_view_form">
+      <field name="model">pl_cust_plprojects.logs</field>
+      <field name="type">form</field>
+      <field name="name">projlogs_form</field>
+    </record>
+    <record model="ir.ui.view" id="projlogs_view_tree">
+      <field name="model">pl_cust_plprojects.logs</field>
+      <field name="type">tree</field>
+      <field name="name">projlogs_tree</field>
+    </record>
+
+    <record model="ir.ui.view" id="projtaskview_form">
+      <field name="model">pl_cust_plprojects.tasks</field>
+      <field name="type">form</field>
+      <field name="name">projtask_form</field>
+    </record>
+    <record model="ir.ui.view" id="projtask_view_tree">
+      <field name="model">pl_cust_plprojects.tasks</field>
+      <field name="type">tree</field>
+      <field name="name">projtask_tree</field>
+    </record>
+
+    <record model="ir.action.act_window" id="act_projtask_form">
+      <field name="name">Tasks</field>
+      <field name="res_model">pl_cust_plprojects.tasks</field>
+    </record>
+
+    <menuitem action="act_projtask_form" parent="menu_configuration" sequence="10" id="menu_projtask_form"/>
+
+    <record model="ir.ui.view" id="projsheet_view_form">
+      <field name="model">pl_cust_plprojects.projectsheet</field>
+      <field name="type">form</field>
+      <field name="name">projsheet_form</field>
+    </record>
+    <record model="ir.ui.view" id="projsheet_view_tree">
+      <field name="model">pl_cust_plprojects.projectsheet</field>
+      <field name="type">tree</field>
+      <field name="name">projsheet_tree</field>
+    </record>
+
+     <record model="ir.action.act_window" id="act_projsheet_form">
+      <field name="name">Timesheet</field>
+      <field name="res_model">pl_cust_plprojects.projectsheet</field>
+    </record>
+
+    <menuitem action="act_projsheet_form" parent="menu_projects" sequence="10" id="menu_projsheet_form"/>
+
+    <record model="ir.ui.view" id="projstage_view_form">
+      <field name="model">pl_cust_plprojects.stage</field>
+      <field name="type">form</field>
+      <field name="name">projstage_form</field>
+    </record>
+    <record model="ir.ui.view" id="projstage_view_tree">
+      <field name="model">pl_cust_plprojects.stage</field>
+      <field name="type">tree</field>
+      <field name="name">projstage_tree</field>
+    </record>
+
+    <record model="ir.ui.view" id="projects_view_form">
+      <field name="model">pl_cust_plprojects.projects</field>
+      <field name="type">form</field>
+      <field name="name">projects_form</field>
+    </record>
+    <record model="ir.ui.view" id="projects_view_tree">
+      <field name="model">pl_cust_plprojects.projects</field>
+      <field name="type">tree</field>
+      <field name="name">projects_tree</field>
+    </record>
+
+    <record model="ir.action.act_window" id="act_projects_form">
+      <field name="name">Tous les dossiers</field>
+      <field name="res_model">pl_cust_plprojects.projects</field>
+    </record>
+
+    <menuitem action="act_projects_form" parent="menu_projects" sequence="10" id="menu_projects_form"/>
+
+    <record model="ir.ui.menu-res.group" id="menu_projects_group_admin">
+      <field name="menu" ref="menu_projects"/>
+      <field name="group" ref="group_project_admin"/>
+    </record>
+
+    <record model="ir.ui.menu-res.group" id="menu_projects_group_viewer">
+      <field name="menu" ref="menu_projects"/>
+      <field name="group" ref="group_project_viewer"/>
+    </record>
+
+  </data>
+</tryton>

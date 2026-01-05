@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+
+    <record model="ir.ui.view" id="wizard_deviscreateinv_view_form">
+      <field name="model">pl_cust_devis.devisinvcreate_start</field>
+      <field name="type">form</field>
+      <field name="name">wizcreateinv_start_form</field>
+    </record>
+
+    <record model="ir.action.wizard" id="act_wizard_deviscreateinv">
+      <field name="name">Create Devis invoice</field>
+      <field name="wiz_name">pl_cust_devis.devisinvcreate</field>
+      <field name="model">pl_cust_plfolders.folders</field>
+    </record>
+        
+  </data>
+</tryton>

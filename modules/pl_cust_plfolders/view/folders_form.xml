@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form>
+
+  <group id="folderheader" yalign="0" yexpand="1" colspan="2" col="2">
+    <group id="foldername" colspan="2" col="6">
+      <label name="name"/>
+      <field name="name" readonly="1"/>
+      <label name="description"/>
+      <field name="description"/>
+    </group>
+    <label name="party_id"/>
+    <field name="party_id"/>
+    <label name="fact_to"/>
+    <field name="fact_to"/>
+  </group>
+  <group id="folderheader2" yalign="0" yexpand="1" colspan="2" col="2">
+    <field name="internal_com" colspan="2"/>
+    <field name="internal_notes" colspan="2"/>
+    <group id="folderdate" colspan="2" col="4">
+      <label name="date_start" />
+      <field name="date_start" width="200"/>
+      <label name="date_end" />
+      <field name="date_end" width="200"/>
+    </group>
+    <label name="folder_type"/>
+    <field name="folder_type"/>
+    <label name="delai"/>
+    <field name="delai"/>
+    <label name="resp"/>
+    <field name="resp"/>
+  </group>
+
+  <notebook colspan="4">
+    <page string="TS to invoice" id="foldertstoinv">
+      <field name="timesheet_ids_not_inv" colspan="4" widget="one2many"/>
+    </page>
+    <page string="Timesheet" id="folderts">
+      <label name="newfolder_expected"/>
+      <field name="newfolder_expected"/>
+      <group id="folderheader3" colspan="4" col="10">
+        <label name="newfolder_expected_txt"/>
+        <field name="newfolder_expected_txt"/>
+        <label name="newfolder_tot_ts_withoutpct_txt"/>
+        <field name="newfolder_tot_ts_withoutpct_txt"/>
+        <label name="newfolder_tot_ts_txt"/>
+        <field name="newfolder_tot_ts_txt"/>
+        <label name="newfolder_tot_fact_ts_txt"/>
+        <field name="newfolder_tot_fact_ts_txt"/>
+        <label name="newfolder_tot_notfact_ts_txt"/>
+        <field name="newfolder_tot_notfact_ts_txt"/>
+      </group>
+      <field name="timesheet_ids" colspan="4" widget="one2many"/>
+    </page>
+    <page string="Invoices" id="folderinv">
+      <link icon="tryton-shipment-in" name="pl_cust_plfolders.act_folders_invoices" empty="show" colspan="2"/>
+      <field name="invoice_ids" colspan="4"/>
+      <field name="in_invoice_ids" colspan="4"/>
+    </page>
+    <page string="Notes" id="foldernotes">
+      <label name="notes" xalign="0.0" colspan="4"/>
+      <field name="notes" colspan="4"/>
+    </page>
+    <!--<page string="Délais" id="deadlines">
+      <field name="deadlines_ids" colspan="4"/>
+    </page>-->
+    <page string="Configuration" id="folderconf">
+      <label name="folder_charges" colspan="2"/>
+      <field name="folder_charges" colspan="2"/>
+      <label name="folder_tax_bool" xexpand="0" colspan="2"/>
+      <field name="folder_tax_bool" xexpand="0"/>
+      <newline/>
+      <label name="folder_forf_amount" colspan="2"/>
+      <field name="folder_forf_amount" colspan="2"/>
+      <label name="currency" colspan="2"/>
+      <field name="currency" colspan="2"/>
+      <label name="folder_price1" colspan="2"/>
+      <field name="folder_price1" colspan="2"/>
+      <label name="folder_price2" colspan="2"/>
+      <field name="folder_price2" colspan="2"/>
+      <label name="folder_price3" colspan="2"/>
+      <field name="folder_price3" colspan="2"/>
+      <label name="folder_price4" colspan="2"/>
+      <field name="folder_price4" colspan="2"/>
+      <label name="folder_price5" colspan="2"/>
+      <field name="folder_price5" colspan="2"/>
+    </page>
+  </notebook>
+  <field name="active" colspan="2"/>
+  <button name="make_invoice" colspan="4" string="Facturation du dossier" icon="tryton-go-next"/>
+  <button name="ts_to_inv" colspan="4" string="Lier du TS à une facture" icon="tryton-go-next"/>
+  <button name="update_infos" colspan="4" string="MAJ INFO" icon="tryton-go-next"/>
+  <button name="periodic_ts" colspan="4" string="TS Périodique" icon="tryton-go-next"/>
+</form>

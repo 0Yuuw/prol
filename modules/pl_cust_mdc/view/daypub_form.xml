@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+
+<form>
+    <label name="date" />
+    <field name="date" readonly="1"/>
+    <label name="dtype" />
+    <field name="dtype" />
+
+    <label name="nb_max" />
+    <field name="nb_max" />
+    <newline/>
+    <label name="tot_morning" />
+    <field name="tot_morning" />
+    <label name="tot_afternoon" />
+    <field name="tot_afternoon" />
+    <label name="tot_live_morning" />
+    <field name="tot_live_morning" />
+    <label name="tot_live_afternoon" />
+    <field name="tot_live_afternoon" />
+    <link icon="tryton-shipment-in" name="pl_cust_mdc.act_bookpub_day" empty="show" colspan="4"/>
+    <field name="bookings_pub" colspan="4"/>
+</form>

@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+
+    <record model="ir.ui.view" id="hlwizard_start_view_form">
+      <field name="model">pl_cust_timetracking.hlwizard_start</field>
+      <field name="type">form</field>
+      <field name="name">hlwizard_start_form</field>
+    </record>
+
+    <record model="ir.action.wizard" id="act_wizard_hlwizard">
+      <field name="name">Saisie des absences</field>
+      <field name="wiz_name">pl_cust_timetracking.hlwizard</field>
+    </record>
+    
+    <menuitem parent="menu_timetracking" action="act_wizard_hlwizard" id="menu_hlwizard" sequence="30"/>
+
+    <record model="ir.action-res.group" id="wizard_hlwizard_group_admin">
+      <field name="action" ref="act_wizard_hlwizard"/>
+      <field name="group" ref="group_timetracking_admin"/>
+    </record>
+
+    <record model="ir.ui.menu-res.group" id="menu_hlwizard_group_admin">
+      <field name="menu" ref="menu_hlwizard"/>
+      <field name="group" ref="group_timetracking_admin"/>
+    </record>
+
+  </data>
+</tryton>

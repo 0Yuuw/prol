@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree>
+    <field name="name" tree_invisible="0"/>
+    <field name="date" />
+    <field name="tot_morning" />
+    <field name="tot_afternoon" />
+    <field name="tot_live_morning" />
+    <field name="tot_live_afternoon" />
+    <field name="lim1" tree_invisible="1"/>
+    <field name="lim2" tree_invisible="1" />
+</tree>

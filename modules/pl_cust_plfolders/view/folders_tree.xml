@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree>
+    <field string="Numero" optional="0" name="name"/>
+    <field name="party_id" optional="0" expand="3"/>
+    <field name="fact_to" optional="1" expand="1" />
+    <field name="description" optional="0" expand="3"/>
+    <field name="folder_type" optional="1" />
+    <field name="check_ts" optional="1"/>
+    <field name="newfolder_expected_txt" optional="0" expand="1"/>
+    <field name="newfolder_tot_ts_withoutpct_txt" optional="0" expand="1"/>
+    <field name="newfolder_tot_ts_txt" optional="0" expand="1"/>
+    <field name="newfolder_tot_fact_ts_txt" optional="0" expand="1"/>
+    <field name="newfolder_tot_notfact_ts_txt" optional="0" expand="1"/>
+    <field name="date_start" optional="0" expand="1"/>
+    <field name="date_end" optional="1" expand="1" />
+    <field name="as_attachment" optional="0"/>
+    <field name="internal_com" optional="1" />
+    <field name="active" tree_invisible="1"/>
+</tree>

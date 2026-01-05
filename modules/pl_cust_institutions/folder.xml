@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <record model="ir.ui.view" id="inst_party_view_tree">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="pl_cust_plbase.pl_party_view_tree"/>
+            <field name="name">instparty_tree</field>
+            <field name="priority" eval="100"/>
+        </record>
+
+        <record model="ir.ui.view" id="inst_party_view_form">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="party.party_view_form"/>
+            <field name="name">instparty_form</field>
+            <field name="priority" eval="100"/>
+        </record>
+
+        <record model="ir.ui.view" id="instfolder_view_form">
+            <field name="model">pl_cust_plfolders.folders</field>
+            <field name="inherit" ref="pl_cust_plfolders.folders_view_form"/>
+            <field name="name">instfolder_form</field>
+            <field name="priority" eval="80"/>
+        </record>
+
+        <record model="ir.ui.view" id="instfolder_view_tree">
+            <field name="model">pl_cust_plfolders.folders</field>
+            <field name="inherit" ref="pl_cust_plfolders.folders_view_tree"/>
+            <field name="name">instfolder_tree</field>
+            <field name="priority" eval="80"/>
+        </record>
+
+        <record model="ir.ui.view" id="instsheet_view_form">
+            <field name="model">pl_cust_plfolders.foldersheet</field>
+            <field name="inherit" ref="pl_cust_plfolders.foldersheet_view_form"/>
+            <field name="name">instsheet_form</field>
+            <field name="priority" eval="80"/>
+        </record>
+
+        <record model="ir.ui.view" id="instsheet_view_tree">
+            <field name="model">pl_cust_plfolders.foldersheet</field>
+            <field name="inherit" ref="pl_cust_plfolders.foldersheet_view_tree"/>
+            <field name="name">instsheet_tree</field>
+            <field name="priority" eval="80"/>
+        </record>
+
+        <record model="ir.action.act_window" id="act_myfolders_form">
+            <field name="name">Mes Dossiers</field>
+            <field name="res_model">pl_cust_plfolders.folders</field>
+            <field name="domain" eval="[('resp_id', '=', Get(Eval('context', {}), 'employee' , 0))]" pyson="1" />
+        </record>
+
+        <menuitem action="act_myfolders_form" parent="pl_cust_plfolders.menu_folders" sequence="0" id="menu_myfolders_form"/>
+
+        <record model="ir.ui.menu" id="pl_cust_plfolders.menu_folders_form">
+            <field name="parent" ref="pl_cust_plfolders.menu_configuration"/>
+        </record>
+
+        <record model="ir.ui.menu" id="pl_cust_plfolders.menu_foldersheet_form">
+            <field name="parent" ref="pl_cust_plfolders.menu_configuration"/>
+        </record>
+
+    </data>
+
+</tryton>

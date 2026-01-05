@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/notebook" position="inside">
+        <page string="Devis" col="6" id="devis">
+            <link icon="tryton-shipment-in" name="pl_cust_devis.act_folders_devis" empty="show" colspan="6"/>
+            <newline/>
+            <label name="price_tot"/>
+            <field name="price_tot"/>
+            <label name="price_devis"/>
+            <field name="price_devis"/>
+            <label name="price_manual"/>
+            <field name="price_manual"/>
+            <field name="devis_lines" colspan="6"/>
+        </page>
+    </xpath>
+
+    <xpath expr="/form/group[@id='folderheader']/field[@name='party_id']" position="after">
+        <label name="contact_name"/>
+        <field name="contact_name"/>
+        <label name="contact_address"/>
+        <field name="contact_address"/>
+    </xpath>
+   
+    <xpath expr="/form/notebook" position="after">
+        <separator id="devis_button" colspan="4"/>
+        <field name="state" />
+        <button name="devismake_invoice" colspan="4" string="Facturation du devis" icon="tryton-go-next"/>
+        <button name="open" colspan="4" string="Mettre en cours" icon="tryton-go-next"/>
+        <button name="invoiced" colspan="4" string="Facturer" icon="tryton-go-next"/>
+        <button name="denied" colspan="4" string="Refuser" icon="tryton-go-next"/>
+        <button name="close" colspan="4" string="Fermer" icon="tryton-go-next"/>
+        <button name="reopen" colspan="4" string="Ouvrir" icon="tryton-go-next"/>
+    </xpath>
+
+
+</data>

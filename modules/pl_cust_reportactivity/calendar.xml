@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+
+    <!--<record model="ir.ui.view" id="dayoff_view_form">
+      <field name="model">pl_cust_feefolders.dayoff</field>
+      <field name="type">form</field>
+      <field name="name">dayoff_form</field>
+    </record>
+
+     <record model="ir.ui.view" id="dayoff_view_tree">
+      <field name="model">pl_cust_feefolders.dayoff</field>
+      <field name="type">tree</field>
+      <field name="name">dayoff_tree</field>
+    </record>
+
+    <record model="ir.action.act_window" id="act_dayoff_form">
+      <field name="name">DayOff</field>
+      <field name="res_model">pl_cust_feefolders.dayoff</field>
+    </record>-->
+
+    <!--<menuitem action="act_dayoff_form" parent="menu_configuration" id="menu_dayoff_form" sequence="3" />-->
+
+    <record model="ir.ui.view" id="calendar_view_form">
+      <field name="model">pl_cust_reportactivity.calendar</field>
+      <field name="type">form</field>
+      <field name="name">calendar_form</field>
+    </record>
+
+    <record model="ir.ui.view" id="calendar_view_tree">
+      <field name="model">pl_cust_reportactivity.calendar</field>
+      <field name="type">tree</field>
+      <field name="name">calendar_tree</field>
+    </record>
+
+    <record model="ir.action.act_window" id="act_calendar_form">
+      <field name="name">Calendar</field>
+      <field name="res_model">pl_cust_reportactivity.calendar</field>
+    </record>
+
+    <menuitem action="act_calendar_form" parent="pl_cust_timetracking.menu_timetracking" id="menu_calendar_form" sequence="3" />
+
+    <record model="ir.ui.view" id="generate_calendar_start_view_form">
+      <field name="model">pl_cust_reportactivity.generate_calendar_start</field>
+      <field name="type">form</field>
+      <field name="name">gen_cal_start_form</field>
+    </record>
+
+    <record model="ir.action.wizard" id="act_generate_cal">
+      <field name="name">Generate Cal</field>
+      <field name="wiz_name">pl_cust_reportactivity.generate_calendar</field>
+    </record>
+    
+    <menuitem parent="pl_cust_timetracking.menu_timetracking" action="act_generate_cal" id="menu_generate_cal" sequence="20"/>
+
+    <record model="ir.ui.menu-res.group" id="menu_generate_cal_group_admin">
+      <field name="menu" ref="menu_generate_cal"/>
+      <field name="group" ref="pl_cust_timetracking.group_timetracking_admin"/>
+    </record>
+
+    <record model="ir.ui.menu-res.group" id="menu_calendar_form_group_admin">
+      <field name="menu" ref="menu_calendar_form"/>
+      <field name="group" ref="pl_cust_timetracking.group_timetracking_admin"/>
+    </record>
+
+    <record model="ir.ui.menu-res.group" id="menu_ttprintreport_group_admin">
+      <field name="menu" ref="pl_cust_timetracking.menu_ttprintreport"/>
+      <field name="group" ref="pl_cust_timetracking.group_timetracking_admin"/>
+    </record>
+
+    <record model="ir.ui.menu-res.group" id="menu_foldprintreport_group_admin">
+      <field name="menu" ref="pl_cust_plfolders.menu_foldprintreport"/>
+      <field name="group" ref="pl_cust_plfolders.group_folder_admin"/>
+    </record>
+
+    <!--<record model="ir.ui.view" id="generate_dayoff_start_view_form">
+      <field name="model">pl_cust_feefolders.generate_dayoff_start_view_form</field>
+      <field name="type">form</field>
+      <field name="name">gen_dayoff_start_form</field>
+    </record>
+
+    <record model="ir.action.wizard" id="act_generate_dayoff">
+      <field name="name">Generate DayOff</field>
+      <field name="wiz_name">pl_cust_feefolders.generate_dayoff</field>
+    </record>
+    
+    <menuitem parent="menu_configuration" action="act_generate_dayoff" id="menu_generate_dayoff" sequence="20"/>-->
+
+  </data>
+</tryton>

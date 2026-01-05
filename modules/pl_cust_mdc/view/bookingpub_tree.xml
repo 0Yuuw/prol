@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree>
+    <field name="name" />
+    <field name="refno" />
+    <field name="name_asso" />
+    <field name="email" />
+    <field name="day" />
+    <field name="nb_adult"/>
+    <field name="nb_02"/>
+    <field name="nb_34"/>
+    <field name="nb_56"/>
+    <field name="nb_78"/>
+    <field name="nb_gift"/>
+    <field name="nb_asso"/>
+    <!-- <field name="support_ticket"/> -->
+    <field name="sp4" />
+    <field name="sp5" />
+    <field name="sp6" />
+    <field name="mad" />
+    <field name="used" />
+    <field name="state" />
+</tree>

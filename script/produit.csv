@@ -1,0 +1,84 @@
+A/V;Code;Nom;Type;UDM;Prix;Categorie
+A;AC;Cotisations paritaires AC;Service;Unité;0;AVS-AI-AC
+A;AF;CAFI, contribution AF GE;Service;Unité;0;CAFI
+A;AMAT;Cotisations paritaires AMAT;Service;Unité;0;AVS-AI-AC
+A;ASSIJM;Assurance IJ maladie;Service;Unité;0;IJM
+A;ASSLAA;Assurance accident;Service;Unité;0;LAA-LAAC
+A;ASSMOBI;Assurance entreprise MOBIPRO;Service;Unité;0;Assurance choses
+A;AVS;Cotisations paritaires AVS/AI/APG;Service;Unité;0;AVS-AI-AC
+A;COTI;Cotisation annuelle;Service;Unité;0;Cotisations
+A;DECCHA;Décompte chauffage / eau;Service;Unité;0;Loyer
+A;DOMAINE;Achat nom de domaine;Service;Unité;0;Achat noms domaines
+A;ELEC;Electricité;Service;Unité;0;Electricité & Eau
+A;FADM;Contribution aux frais d'administration;Service;Unité;0;Frais admin AVS
+A;FFPC;CAFI, cotisation FFPC;Service;Unité;0;CAFI
+A;HON;Honoraires;Service;Unité;0;Honoraires conseil juridique
+A;IFD;Impôt fédéral direct;Service;Unité;0;Impôts sur le bénéfice
+A;IMPCANT;Impôts cantonaux et communaux;Service;Unité;0;Impôts sur le bénéfice
+A;LOCAL;Inscription annuaire local.ch, taxe annuelle;Service;Unité;0;Publicité
+A;LOYER;Loyer arcade;Service;Unité;0;Loyer
+A;LPP;Contribution de prévoyance professionnelle;Service;Unité;0;LPP
+A;LSAPE;CAFI, contrib.pte enfance;Service;Unité;0;CAFI
+A;MATBUR;Matériel de bureau;Service;Unité;0;Matériel de bureau
+A;MATINFO;Matériel informatique;Service;Unité;0;Achats marchandises
+A;OVH-SYS-Y;Serveur SYS-16G ECC W3520 - 1 mois;Service;Unité;0;Achats hébergement
+A;OVH-SYS-Y2;Serveur SYS-E5-SAT-1-64 - 3 mois;Service;Unité;0;Achats hébergement
+A;PORT;Frais de port et emballage;Service;Unité;0;Frais de port
+A;RC;Assurance RC;Service;Unité;0;Assurance RC
+A;REDPHO;Redevance photocopies;Service;Unité;0;Droits
+A;REDRES;Redevance réseau numérique interne;Service;Unité;0;Droits
+A;REPAS;Frais de repas;Service;Unité;0;Frais représentation
+A;SPOTIFY;Spotify Premium;Service;Unité;0;Matériel de bureau
+A;TAXDEC;Taxe déchets;Service;Unité;0;Taxes
+A;TAXPRO;Taxe professionnelle;Service;Unité;0;Taxes
+A;TEL;Téléphone-Internet;Service;Unité;0;Téléphone, Internet
+A;TIMBRE;Timbres;Service;Unité;0;Frais de port
+A;TONER;Toner imprimante PL;Service;Unité;0;Matériel de bureau
+V;CBU10;Sauvegarde quotidienne des données sur serveur distant < 10Gb;Service;Unité;0;Ventes services
+V;CBU50;Sauvegarde quotidienne des données sur serveur distant < 50Gb;Service;Unité;0;Ventes services
+V;CEP;Contrat CEP;Service;Unité;0;Ventes services
+V;CMS;Contrat de maintenance et support informatique;Service;Unité;0;Ventes services
+V;CONSULTING;Journée de consulting;Service;Unité;0;Ventes services
+V;CS10-24;Contrat Support 10h dans les 24h;Service;Unité;0;Ventes services
+V;CS10-48;Contrat Support 10h dans les 48h;Service;Unité;0;Ventes services
+V;CS100-24;Contrat Support 100h dans les 24h;Service;Unité;0;Ventes services
+V;CS100-48;Contrat Support 100h dans les 48h;Service;Unité;0;Ventes services
+V;CS20-24;Contrat Support 20h dans les 24h;Service;Unité;0;Ventes services
+V;CS20-48;Contrat Support 20h dans les 48h;Service;Unité;0;Ventes services
+V;CS200-24;Contrat Support 200h dans les 24h;Service;Unité;0;Ventes services
+V;CS200-48;Contrat Support 200h dans les 48h;Service;Unité;0;Ventes services
+V;CS50-24;Contrat Support 50h dans les 24h;Service;Unité;0;Ventes services
+V;CS50-48;Contrat Support 50h dans les 48h;Service;Unité;0;Ventes services
+V;CSS;Contrat Surveillance Serveur;Service;Unité;0;Ventes services
+V;DOM;Nom de domaine;Service;Unité;0;Ventes marchandises
+V;FOURN;Fournitures diverses;Service;Unité;0;Ventes marchandises
+V;FW;Firewall ProLibre;Service;Unité;0;Ventes marchandises
+V;HEBIBLIO;Hébergement Application Bibliothèques;Service;Unité;0;Ventes hébergements
+V;HR;Heure de Travail;Service;Heure;0;Ventes services
+V;INSTALL;Installation et configuration;Service;Unité;0;Ventes services
+V;INSTALLCONF;Installation, configuration et câblage sur site;Service;Unité;0;Ventes services
+V;INSTALLSRV;Installation de base du serveur;Service;Unité;0;Ventes services
+V;INSTALLW;Forfait installation standard PC Windows;Service;Unité;0;Ventes services
+V;JOUR;Jour de travail;Service;Unité;0;Ventes services
+V;MAJ;Mises à jour et ajout de nouvelles fonctionnalités;Service;Unité;0;Ventes services
+V;MANDAT;Mandat mensuel;Service;Unité;0;Ventes services
+V;MIGR;Migration des données;Service;Unité;0;Ventes services
+V;MIGRINSTALL;Migration et installation sur site;Service;Unité;0;Ventes services
+V;NC10;Hébergement NextCloud - 10Gb;Service;Unité;0;Ventes hébergements
+V;NC20;Hébergement NextCloud - 20Gb;Service;Unité;0;Ventes hébergements
+V;NC50;Hébergement NextCloud - 50Gb;Service;Unité;0;Ventes hébergements
+V;NCMOIS;Hébergement NextCloud (par mois);Service;Unité;0;Ventes hébergements
+V;PROXY;Installation de proxy;Service;Unité;0;Ventes services
+V;RAB;Rabais spécial;Service;Unité;0;Ventes services
+V;SRVCLOUD;Serveur Cloud;Service;Unité;0;Ventes hébergements
+V;SRVCLPRIVE;Serveur cloud privé;Service;Unité;0;Ventes hébergements
+V;SRVSYS;Serveur So you Start - par mois;Service;Unité;0;Ventes hébergements
+V;SUPPORT;Support hors contrat;Service;Heure;0;Ventes services
+V;TRAVO;TRAVO Abonnement annuel;Service;Unité;0;Ventes services
+V;TRAVO-CL;TRAVO Abonnement annuel sans cloud;Service;Unité;0;Ventes services
+V;TRY-DEV;Développements spécifiques;Service;Unité;0;Ventes services
+V;TRY-ETUDE;Etude, analyse et documentation Tryton;Service;Unité;0;Ventes services
+V;TRY-HEB;Hébergement PL Tryton - par mois;Service;Unité;0;Ventes hébergements
+V;TRY-IMPORT;Importation des données;Service;Unité;0;Ventes services
+V;TRY-INSTALL;Installation de Tryton sur le serveur;Service;Unité;0;Ventes services
+V;WIFI;Borne WiFi Ubiquiti;Service;Unité;0;Ventes marchandises

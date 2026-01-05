@@ -1,0 +1,200 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+
+        <record model="ir.ui.view" id="pl_party_title_form">
+            <field name="model">pl_cust_plbase.partytitle</field>
+            <field name="type">tree</field>
+            <field name="name">party_title_tree</field>
+            <field name="priority" eval="60"/>
+        </record>
+
+        <record model="ir.ui.view" id="pl_party_title_tree">
+            <field name="model">pl_cust_plbase.partytitle</field>
+            <field name="type">tree</field>
+            <field name="name">party_title_tree</field>
+            <field name="priority" eval="60"/>
+        </record>
+
+        <record model="ir.ui.view" id="pl_party_view_tree">
+            <field name="model">party.party</field>
+            <field name="type">tree</field>
+            <field name="name">party_tree</field>
+            <field name="priority" eval="60"/>
+        </record>
+
+        <record model="ir.ui.view" id="pl_party_view_form">
+            <field name="model">party.party</field>
+            <field name="inherit" ref="party.party_view_form"/>
+            <!--<field name="type">form</field>-->
+            <field name="name">party_form</field>
+            <field name="priority" eval="60"/>
+        </record>
+
+        <record model="ir.ui.view" id="pl_partyaddr_view_tree">
+            <field name="model">party.address</field>
+            <field name="inherit" ref="party.address_view_tree"/>
+            <!--<field name="type">tree</field>-->
+            <field name="name">partyaddr_tree</field>
+            <field name="priority" eval="61"/>
+        </record>
+
+        <record model="ir.ui.view" id="pl_partyaddr_view_form">
+            <field name="model">party.address</field>
+            <field name="inherit" ref="party.address_view_form"/>
+            <!--<field name="type">form</field>-->
+            <field name="name">partyaddr_form</field>
+            <field name="priority" eval="61"/>
+        </record>
+
+        <record model="ir.action.act_window" id="pl_act_party_by_category">
+            <field name="name">Parties by Category</field>
+            <field name="res_model">party.party</field>
+            <field name="context" eval="{'categories': [Eval('active_id')]}" pyson="1"/>
+            <field name="domain" eval="[('categories', 'child_of', [Eval('active_id')], 'parent')]" pyson="1"/>
+        </record>
+        <record model="ir.action.keyword" id="pl_act_party_by_category_keyword1">
+            <field name="keyword">tree_open</field>
+            <field name="model">party.category,-1</field>
+            <field name="action" ref="pl_act_party_by_category"/>
+        </record>
+        <record model="ir.action.act_window.view" id="pl_act_party_by_category_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="pl_party_view_tree"/>
+            <field name="act_window" ref="pl_act_party_by_category"/>
+        </record>
+        <record model="ir.action.act_window.view" id="pl_act_party_by_category_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="pl_party_view_form"/>
+            <field name="act_window" ref="pl_act_party_by_category"/>
+        </record>
+
+        <menuitem parent="menu_start" action="party.act_category_tree" sequence="50" id="pl_menu_category_tree"/>
+        <menuitem parent="pl_menu_category_tree" sequence="10" action="party.act_category_list" id="pl_menu_category_list"/>
+
+        <record model="ir.model.access" id="pl_access_category_viewer">
+            <field name="model">party.category</field>
+            <field name="group" ref="group_pl_party_viewer"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="pl_access_party_category_admin">
+            <field name="model">party.category</field>
+            <field name="group" ref="group_pl_party_admin"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="False"/>
+            <field name="perm_create" eval="False"/>
+            <field name="perm_delete" eval="False"/>
+        </record>
+        <record model="ir.model.access" id="pl_access_party_category_conf">
+            <field name="model">party.category</field>
+            <field name="group" ref="group_pl_party_conf"/>
+            <field name="perm_read" eval="True"/>
+            <field name="perm_write" eval="True"/>
+            <field name="perm_create" eval="True"/>
+            <field name="perm_delete" eval="True"/>
+        </record>
+
+        <record model="ir.action.act_window" id="act_mynewparty_form">
+            <field name="name">Tous les Contacts</field>
+            <field name="res_model">party.party</field>
+        </record>
+
+        <record model="ir.action.act_window.view" id="act_mynewparty_form_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="pl_party_view_tree"/>
+            <field name="act_window" ref="act_mynewparty_form"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_mynewparty_form_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="pl_party_view_form"/>
+            <field name="act_window" ref="act_mynewparty_form"/>
+        </record>
+
+
+        <menuitem name="Contacts" parent="menu_start" sequence="0" id="menu_myparty" icon="tryton-party"/>
+
+        <menuitem action="act_mynewparty_form" parent="menu_myparty" sequence="0" id="menu_myallparty_form"/>
+
+        <record model="ir.action.act_window" id="act_partytype_form">
+            <field name="name">Party Type</field>
+            <field name="res_model">pl_cust_plbase.partytype</field>
+        </record>
+
+        <menuitem action="act_partytype_form" parent="menu_myparty" sequence="10" id="menu_partytype_form"/>
+
+        <record model="ir.action.act_window" id="act_partytitle_form">
+            <field name="name">Party Title</field>
+            <field name="res_model">pl_cust_plbase.partytitle</field>
+        </record>
+
+        <menuitem action="act_partytitle_form" parent="menu_myparty" sequence="10" id="menu_partytitle_form"/>
+
+        <record model="ir.ui.menu-res.group" id="menu_mypartytype_group_admin">
+            <field name="menu" ref="menu_partytype_form"/>
+            <field name="group" ref="group_pl_party_conf"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="menu_mypartytitle_group_admin">
+            <field name="menu" ref="menu_partytitle_form"/>
+            <field name="group" ref="group_pl_party_conf"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="menu_myparty_group_admin">
+            <field name="menu" ref="menu_myparty"/>
+            <field name="group" ref="group_pl_party_admin"/>
+        </record>
+
+        <record model="ir.ui.menu-res.group" id="menu_myparty_group_viewer">
+            <field name="menu" ref="menu_myparty"/>
+            <field name="group" ref="group_pl_party_viewer"/>
+        </record>
+
+
+    </data>
+
+
+    <data noupdate="1">
+
+    <record model="pl_cust_plbase.partytitle" id="title1">
+      <field name="name">Mr</field>
+      <field name="code">mr</field>
+      <field name="addr">Mr</field>
+      <field name="sal">Dear Sir</field>
+    </record>
+
+    <record model="pl_cust_plbase.partytitle" id="title2">
+      <field name="name">Ms.</field>
+      <field name="code">mrs</field>
+      <field name="addr">Ms.</field>
+      <field name="sal">Dear Madam</field>
+    </record>
+
+    <record model="pl_cust_plbase.partytitle" id="title3">
+      <field name="name">Mr and Mrs</field>
+      <field name="code">mr&amp;mrs</field>
+      <field name="addr">Mr and Mrs</field>
+      <field name="sal">Dear Madam, dear Sir</field>
+    </record>
+
+    <record model="pl_cust_plbase.partytitle" id="title4">
+      <field name="name">Dr</field>
+      <field name="code">dr</field>
+      <field name="addr">Dr</field>
+      <field name="sal">Dear Doctor</field>
+    </record>
+
+    <record model="pl_cust_plbase.partytitle" id="title5">
+      <field name="name">Me</field>
+      <field name="code">me</field>
+      <field name="addr">Me</field>
+      <field name="sal">Dear Me</field>
+    </record>
+
+  </data>
+
+</tryton>

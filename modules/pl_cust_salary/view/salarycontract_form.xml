@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<form col="6">
+  <label name="active"/>
+  <field name="active"/>
+  <newline/>
+  <label name="name"/>
+  <field name="name"/>
+  <label name="function"/>
+  <field name="function"/>
+  <label name="tx_activity"/>
+  <field name="tx_activity"/>
+  <label name="resp_id"/>
+  <field name="resp_id"/>
+  <label name="date_start"/>
+  <field name="date_start"/>
+  <label name="date_end"/>
+  <field name="date_end"/>
+  <label name="gross_salary"/>
+  <field name="gross_salary"/>
+  <newline/>
+  <group id="grp_charge" colspan="6" col="4">
+    <label name="car_charge_txt"/>
+    <field name="car_charge_txt"/>
+    <label name="car_charge"/>
+    <field name="car_charge"/>
+
+    <label name="alloc_charge_txt"/>
+    <field name="alloc_charge_txt"/>
+    <label name="alloc_charge"/>
+    <field name="alloc_charge"/>
+
+    <label name="is_charge_txt"/>
+    <field name="is_charge_txt"/>
+    <label name="is_charge"/>
+    <field name="is_charge"/>
+
+    <label name="lpp_charge_txt"/>
+    <field name="lpp_charge_txt"/>
+    <label name="lpp_charge"/>
+    <field name="lpp_charge"/>
+
+    <label name="prim_txt"/>
+    <field name="prim_txt"/>
+    <label name="prim"/>
+    <field name="prim"/>
+
+    <label name="prim2_txt"/>
+    <field name="prim2_txt"/>
+    <label name="prim2"/>
+    <field name="prim2"/>
+
+    <label name="prim3_txt"/>
+    <field name="prim3_txt"/>
+    <label name="prim3"/>
+    <field name="prim3"/>
+
+    <label name="prim4_txt_without_tax"/>
+    <field name="prim4_txt_without_tax"/>
+    <label name="prim4_without_tax"/>
+    <field name="prim4_without_tax"/>
+
+  </group>
+  <label name="sal_cat"/>
+  <field name="sal_cat"/>
+  <label name="lpp_charge_cat"/>
+  <field name="lpp_charge_cat"/>
+  <label name="is_charge_cat"/>
+  <field name="is_charge_cat"/>
+  <field name="socialcharge_ids" colspan="6" height="350"/>
+  <field name="notes" colspan="6"/>
+  <button name="create_salary" string="GENERER UNE FICHE DE SALAIRE" icon="tryton-forward" colspan="6"/>
+
+  <field name="salary_ids" colspan="6"/>
+</form>

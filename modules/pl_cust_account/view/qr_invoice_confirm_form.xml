@@ -1,0 +1,82 @@
+<form col="6">
+  <group id="res_qr" string="Résumé QR" col="6" colspan="6">
+    <label name="creditor_name"/>
+    <field name="creditor_name" colspan="3"/>
+
+    <label name="iban"/>
+    <field name="iban" colspan="2"/>
+
+    <label name="qr_amount"/>
+    <field name="qr_amount"/>
+
+    <label name="qr_reference"/>
+    <field name="qr_reference" colspan="2"/>
+
+    <label name="supplier_name"/>
+    <field name="supplier_name" colspan="5"/>
+  </group>
+
+  <group id="det_qr" string="Détails QR" col="6" colspan="6">
+    <label name="creditor_address"/>
+    <field name="creditor_address" colspan="3"/>
+
+    <label name="creditor_zip"/>
+    <field name="creditor_zip"/>
+
+    <label name="creditor_city"/>
+    <field name="creditor_city"/>
+
+    <label name="creditor_country"/>
+    <field name="creditor_country"/>
+  </group>
+
+  <group id="ff_qr" string="Facture fournisseur" col="6" colspan="6">
+    <label name="party"/>
+    <field name="party" colspan="3"/>
+
+    <label name="supplier_reference"/>
+    <field name="supplier_reference" colspan="3"/>
+
+    <label name="description"/>
+    <field name="description" colspan="5"/>
+
+    <label name="invoice_date"/>
+    <field name="invoice_date"/>
+
+    <label name="date_due"/>
+    <field name="date_due"/>
+
+    <label name="currency"/>
+    <field name="currency"/>
+
+    <label name="total_amount"/>
+    <field name="total_amount"/>
+
+    <label name="journal"/>
+    <field name="journal"/>
+  </group>
+
+  <group id="compta" string="Comptabilisation" col="6" colspan="6">
+    <label name="default_category_account_expense"/>
+    <field name="default_category_account_expense" colspan="2"/>
+
+    <label name="default_tax_expense"/>
+    <field name="default_tax_expense" colspan="2"/>
+
+    <label name="default_category_account_revenue"/>
+    <field name="default_category_account_revenue" colspan="2"/>
+
+    <label name="default_tax_revenue"/>
+    <field name="default_tax_revenue" colspan="2"/>
+
+    <label name="dispose_tva"/>
+    <field name="dispose_tva"/>
+  </group>
+
+  <group id="qr" string="QR brut (contenu complet)" col="6" colspan="6">
+    <label name="full_text"/>
+    <field name="full_text" colspan="5" height="6"/>
+  </group>
+
+  <field name="pdf_data" invisible="1"/>
+</form>

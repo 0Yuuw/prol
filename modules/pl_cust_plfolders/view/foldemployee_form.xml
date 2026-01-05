@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<data>
+  <xpath expr="/form/field[@name='party']" position="after">
+    <label name="code"/>
+    <field name="code"/>
+    <newline/>
+    <label name="employee_type"/>
+    <field name="employee_type"/>
+    <newline/>
+    <label name="active"/>
+    <field name="active"/>
+  </xpath>
+</data>

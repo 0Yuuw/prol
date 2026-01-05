@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tree>
+    <field name="name" optional="0" expand="4"/>
+    <field name="description" optional="0" expand="3"/>
+    <field name="party_type" optional="0" expand="1"/>
+    <field name="is_person_moral" optional="0"/> 
+    <field name="email" optional="1" expand="2"/> 
+    <field name="mobile" optional="1" expand="2"/> 
+    <field name="phone" optional="1" expand="2"/> 
+    <field name="categories" tree_invisible="1"/> 
+</tree>

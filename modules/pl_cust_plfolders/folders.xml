@@ -1,0 +1,173 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+  <data>
+
+    <record model="ir.ui.view" id="fold_invoice_view_form">
+      <field name="model">account.invoice</field>
+      <field name="inherit" ref="account_invoice.invoice_view_form"/>
+      <field name="name">foldinvoice_form</field>
+      <field name="priority" eval="60"/>
+    </record>
+
+    <record model="ir.ui.view" id="fold_invoice_view_tree">
+      <field name="model">account.invoice</field>
+      <field name="inherit" ref="account_invoice.invoice_view_tree"/>
+      <field name="name">foldinvoice_tree</field>
+      <field name="priority" eval="60"/>
+    </record>
+
+    <record model="ir.action.act_window" id="act_folders_invoices">
+      <field name="name">Factures du dossier</field>
+      <field name="res_model">account.invoice</field>
+      <field name="domain" eval="[If(Eval('active_ids', []) == [Eval('active_id')], ('folder_id', '=', Eval('active_id')), ('folder_id', 'in', Eval('active_ids')))]" pyson="1"/>
+    </record>
+    <record model="ir.action.keyword" id="act_folders_invoices_keyword1">
+      <field name="keyword">form_relate</field>
+      <field name="model">pl_cust_plfolders.folders,-1</field>
+      <field name="action" ref="act_folders_invoices"/>
+    </record>
+
+    <record model="ir.ui.view" id="fold_employee_view_tree">
+      <field name="model">company.employee</field>
+      <field name="inherit" ref="company.employee_view_tree"/>
+      <field name="name">foldemployee_tree</field>
+      <field name="priority" eval="60"/>
+    </record>
+    <record model="ir.ui.view" id="fold_employee_view_form">
+      <field name="model">company.employee</field>
+      <field name="inherit" ref="company.employee_view_form"/>
+      <field name="name">foldemployee_form</field>
+      <field name="priority" eval="60"/>
+    </record>
+
+    <record model="ir.ui.view" id="sheetact_view_form">
+      <field name="model">pl_cust_plfolders.sheetact</field>
+      <field name="type">form</field>
+      <field name="name">sheetact_form</field>
+    </record>
+    <record model="ir.ui.view" id="sheetact_view_tree">
+      <field name="model">pl_cust_plfolders.sheetact</field>
+      <field name="type">tree</field>
+      <field name="name">sheetact_tree</field>
+    </record>
+
+    <record model="ir.action.act_window" id="act_sheetact_form">
+      <field name="name">Gestion des Activités</field>
+      <field name="res_model">pl_cust_plfolders.sheetact</field>
+    </record>
+
+    <record model="ir.action.act_window.view" id="act_sheetact_form_view1">
+      <field name="sequence" eval="10"/>
+      <field name="view" ref="sheetact_view_tree"/>
+      <field name="act_window" ref="act_sheetact_form"/>
+    </record>
+    <record model="ir.action.act_window.view" id="act_sheetact_form_view2">
+      <field name="sequence" eval="20"/>
+      <field name="view" ref="sheetact_view_form"/>
+      <field name="act_window" ref="act_sheetact_form"/>
+    </record>
+
+    <menuitem action="act_sheetact_form" parent="menu_configuration" id="menu_sheetact_form" sequence="3" />
+
+    <record model="ir.ui.view" id="sheettasks_view_form">
+      <field name="model">pl_cust_plfolders.sheettasks</field>
+      <field name="type">form</field>
+      <field name="name">sheettasks_form</field>
+    </record>
+    <record model="ir.ui.view" id="sheettask_view_tree">
+      <field name="model">pl_cust_plfolders.sheettasks</field>
+      <field name="type">tree</field>
+      <field name="name">sheettasks_tree</field>
+    </record>
+    <record model="ir.action.act_window" id="act_sheettasks_form">
+      <field name="name">Gestion des Tâches</field>
+      <field name="res_model">pl_cust_plfolders.sheettasks</field>
+    </record>
+
+    <record model="ir.ui.view" id="foldersheet_view_form">
+      <field name="model">pl_cust_plfolders.foldersheet</field>
+      <field name="type">form</field>
+      <field name="name">foldersheet_form</field>
+    </record>
+    <record model="ir.ui.view" id="foldersheet_view_tree">
+      <field name="model">pl_cust_plfolders.foldersheet</field>
+      <field name="type">tree</field>
+      <field name="name">foldersheet_tree</field>
+    </record>
+
+    <record model="ir.ui.view" id="folders_view_form">
+      <field name="model">pl_cust_plfolders.folders</field>
+      <field name="type">form</field>
+      <field name="name">folders_form</field>
+    </record>
+    <record model="ir.ui.view" id="folders_view_tree">
+      <field name="model">pl_cust_plfolders.folders</field>
+      <field name="type">tree</field>
+      <field name="name">folders_tree</field>
+    </record>
+
+    <record model="ir.action.act_window" id="act_folders_form">
+      <field name="name">Tous les dossiers</field>
+      <field name="res_model">pl_cust_plfolders.folders</field>
+    </record>
+
+    <record model="ir.action.act_window" id="act_foldersheet_form">
+      <field name="name">Timesheet</field>
+      <field name="res_model">pl_cust_plfolders.foldersheet</field>
+    </record>
+
+    <record model="ir.action.act_window" id="my_act_foldersheet_form">
+      <field name="name">Mon Timesheet</field>
+      <field name="res_model">pl_cust_plfolders.foldersheet</field>
+      <field name="domain" eval="[('resp_id', '=', Get(Eval('context', {}), 'employee' , 0))]" pyson="1" />
+    </record>
+    <record model="ir.action.act_window.domain" id="my_act_foldersheet_form_today">
+      <field name="name">Aujourd'hui</field>
+      <field name="sequence" eval="11"/>
+      <field name="domain" eval="[('date', '=', Date())]" pyson="1"/>
+      <field name="count" eval="True"/>
+      <field name="act_window" ref="my_act_foldersheet_form"/>
+    </record>
+    <record model="ir.action.act_window.domain" id="my_act_foldersheet_form_yesterday">
+      <field name="name">Hier</field>
+      <field name="sequence" eval="12"/>
+      <field name="domain" eval="[('date', '=', Date(delta_days=-1))]" pyson="1"/>
+      <field name="count" eval="True"/>
+      <field name="act_window" ref="my_act_foldersheet_form"/>
+    </record>
+    <record model="ir.action.act_window.domain" id="my_act_foldersheet_form_all">
+      <field name="name">Tous</field>
+      <field name="sequence" eval="13"/>
+      <field name="domain" eval="[]" pyson="1"/>
+      <field name="count" eval="False"/>
+      <field name="act_window" ref="my_act_foldersheet_form"/>
+    </record>
+
+    <menuitem action="act_folders_form" parent="menu_folders" sequence="10" id="menu_folders_form"/>
+    <menuitem action="act_foldersheet_form" parent="menu_folders" sequence="12" id="menu_foldersheet_form"/>
+    <menuitem action="my_act_foldersheet_form" parent="menu_folders" sequence="11" id="menu_myfoldersheet_form"/>
+
+    <record model="ir.ui.menu-res.group" id="menu_folders_group_admin">
+      <field name="menu" ref="menu_folders"/>
+      <field name="group" ref="group_folder_admin"/>
+    </record>
+
+    <record model="ir.ui.menu-res.group" id="menu_folders_group_viewer">
+      <field name="menu" ref="menu_folders"/>
+      <field name="group" ref="group_folder_viewer"/>
+    </record>
+
+
+    <record model="ir.action.act_window" id="act_employeetype_form">
+      <field name="name">Employee Type</field>
+      <field name="res_model">pl_cust_plfolders.employeetype</field>
+    </record>
+
+    <menuitem action="act_employeetype_form" parent="menu_configuration" sequence="10" id="menu_employeetype_form"/>
+
+
+
+  </data>
+</tryton>

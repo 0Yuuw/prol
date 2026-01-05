@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<!-- This file is part of Tryton.  The COPYRIGHT file at the top level of
+this repository contains the full copyright notices and license terms. -->
+<tryton>
+    <data>
+        <record model="ir.ui.view" id="pl_payment_view_tree">
+            <field name="model">account.move.line</field>
+            <field name="inherit" ref="account_invoice.move_line_view_list_payment"/>
+            <field name="name">plpayment_tree</field>
+            <field name="priority" eval="60"/>
+        </record>
+
+        <record model="ir.ui.view" id="pl_invoice_view_form">
+            <field name="model">account.invoice</field>
+            <field name="inherit" ref="account_invoice.invoice_view_form"/>
+            <field name="name">plinvoice_form</field>
+            <field name="priority" eval="60"/>
+        </record>
+
+        <record model="ir.ui.view" id="pl_invoice_view_tree">
+            <field name="model">account.invoice</field>
+            <field name="inherit" ref="account_invoice.invoice_view_tree"/>
+            <field name="name">plinvoice_tree</field>
+            <field name="priority" eval="60"/>
+        </record>
+        
+        <!--<record model="ir.ui.view" id="pl_invoice_view_graph">
+            <field name="model">account.invoice</field>
+            <field name="type">graph</field>
+            <field name="name">plinvoiceview_graph</field>
+        </record>
+
+        <record model="ir.action.act_window" id="act_pl_invoice_view_graph">
+            <field name="name">Test Graph</field>
+            <field name="res_model">account.invoice</field>
+        </record>
+        <record model="ir.action.act_window.view" id="act_pl_invoice_view_graph_view1">
+            <field name="sequence" eval="10"/>
+            <field name="view" ref="account_invoice.invoice_view_tree"/>
+            <field name="act_window" ref="act_pl_invoice_view_graph"/>
+        </record>
+        <record model="ir.action.act_window.view" id="act_pl_invoice_view_graph_view2">
+            <field name="sequence" eval="20"/>
+            <field name="view" ref="pl_invoice_view_graph"/>
+            <field name="act_window" ref="act_pl_invoice_view_graph"/>
+        </record>
+        
+        <menuitem action="act_pl_invoice_view_graph" sequence="0" id="menu_test_graph"/>-->
+
+        <record model="ir.ui.view" id="pl_invoice_line_view_form">
+            <field name="model">account.invoice.line</field>
+            <field name="inherit" ref="account_invoice.invoice_line_view_form"/>
+            <field name="name">plinvoiceline_form</field>
+            <field name="priority" eval="60"/>
+        </record>
+
+        <record model="ir.ui.view" id="pl_statement_line_tree_form">
+            <field name="model">account.statement.line</field>
+            <field name="inherit" ref="account_statement.statement_line_view_tree_editable"/>
+            <field name="name">plstatementline_tree</field>
+            <field name="priority" eval="60"/>
+        </record>
+
+    </data>
+</tryton>
